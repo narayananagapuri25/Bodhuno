@@ -672,38 +672,6 @@
       }
     },
     {
-      "id": "pc2-gs-rbc-016",
-      "subject": "General Science",
-      "topic": "Biology — Human body",
-      "difficulty": "easy",
-      "status": "preview",
-      "sourceType": "original_practice",
-      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
-      "correctOptionIndex": 1,
-      "languages": {
-        "en": {
-          "question": "Which substance in red blood cells carries oxygen?",
-          "options": [
-            "Insulin",
-            "Haemoglobin",
-            "Keratin",
-            "Pepsin"
-          ],
-          "explanation": "Haemoglobin in red blood cells binds and transports oxygen."
-        },
-        "te": {
-          "question": "ఎర్ర రక్త కణాల్లో ఆక్సిజన్‌ను మోసుకెళ్లే పదార్థం ఏది?",
-          "options": [
-            "ఇన్సులిన్",
-            "హీమోగ్లోబిన్",
-            "కెరాటిన్",
-            "పెప్సిన్"
-          ],
-          "explanation": "ఎర్ర రక్త కణాల్లోని హీమోగ్లోబిన్ ఆక్సిజన్‌తో కలసి దానిని రవాణా చేస్తుంది."
-        }
-      }
-    },
-    {
       "id": "pc2-telangana-godavari-006",
       "subject": "Telangana Awareness",
       "topic": "Telangana geography — Rivers",
