@@ -534,5 +534,32 @@ test("Study streak uses consecutive local dates and retains the longest run", as
   await page.goto("/");
   await expect(page.locator('#progressDashboard [data-metric="current-streak"] strong')).toHaveText("2 days");
   await expect(page.locator('#progressDashboard [data-metric="longest-streak"] strong')).toHaveText("3 days");
-  await expect(page.locator('#studyWeekCalendar .study-day[data-active="true"]')).toHaveCount(5);
+  await expect(page.locator("#studyWeekCalendar .study-day")).toHaveCount(7);
+});
+
+
+test("Multiple practice attempts on the same date count as one active streak day", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  await page.getByRole("button", { name: "C ₹120" }).click();
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await page.getByRole("button", { name: "Back to home" }).click();
+
+  await openExam(page, "Police SI");
+  await page.getByRole("button", { name: "C ₹120" }).click();
+  await page.locator("#palette button").nth(1).click();
+  await page.getByRole("button", { name: "B 24", exact: true }).click();
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await page.getByRole("button", { name: "Back to home" }).click();
+
+  await expect(page.locator('#progressDashboard [data-metric="current-streak"] strong')).toHaveText("1 day");
+  await expect(page.locator('#progressDashboard [data-metric="active-days-week"] strong')).toHaveText("1 / 7");
+  await expect(page.locator("#studyWeekSummary")).toContainText("3 questions answered");
+  await expect(page.locator('#studyWeekCalendar .study-day[data-active="true"]')).toHaveCount(1);
+  const activity = await page.evaluate(() => JSON.parse(localStorage.getItem("bodhuno_study_activity") || "[]"));
+  expect(activity).toHaveLength(1);
+  expect(activity[0].attempts).toBe(2);
+  expect(activity[0].answered).toBe(3);
 });
