@@ -432,7 +432,7 @@ function renderStudyActivity(root,metrics){
     tile.dataset.date=day.date;tile.dataset.active=day.record?"true":"false";
     const weekday=document.createElement("small");weekday.textContent=labels[index];
     const date=document.createElement("strong");date.textContent=String(Number(day.date.slice(-2)));
-    const count=document.createElement("span");count.textContent=day.record?String(day.record.answered)+" "+(language==="en"?"Q":"ప్ర");
+    const count=document.createElement("span");count.textContent=day.record?String(day.record.answered)+" "+(language==="en"?"Q":"ప్ర"):"";
     const accessible=labels[index]+" "+date.textContent+": "+(day.record?day.record.answered+" "+t("questions answered","ప్రశ్నలకు సమాధానమిచ్చారు"):t("no practice yet","ఇంకా సాధన లేదు"));
     tile.setAttribute("aria-label",accessible);tile.append(weekday,date,count);calendar.append(tile);
   });
