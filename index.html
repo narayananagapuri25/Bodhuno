@@ -194,6 +194,168 @@ try{
   localStorage.setItem("bodhuno_guest_attempts",JSON.stringify(history.slice(-30)));
 }catch(e){}
 renderProgressDashboard();show("resultView")}
+
+const topicBankCache=new Map();
+function t(en,te){return language==="en"?en:te}
+function addOption(select,value,label){
+  const option=document.createElement("option");option.value=value;option.textContent=label;select.append(option);
+}
+async function loadTrackTopicBank(track){
+  if(topicBankCache.has(track))return topicBankCache.get(track);
+  const entries=[...questionSetCatalog.values()].filter(entry=>entry.examName===track||entry.examName.startsWith(track+" ·"));
+  if(!entries.length)throw new Error("No question sets found for this exam.");
+  const loadedSets=await Promise.all(entries.map(entry=>loadQuestionSet("/"+entry.file)));
+  const seen=new Set(),questions=[];
+  for(const loaded of loadedSets){
+    for(const question of loaded.questions){
+      const key=(question.en||"").trim().toLocaleLowerCase().replace(/\s+/g," ");
+      if(!key||seen.has(key))continue;
+      seen.add(key);questions.push(question);
+    }
+  }
+  const bank={questions,scoring:loadedSets.find(x=>x.set.scoring)?.set.scoring||null};
+  topicBankCache.set(track,bank);
+  return bank;
+}
+async function onTopicTrackChange(){
+  const track=document.getElementById("topicTrack").value;
+  const subjectSelect=document.getElementById("topicSubject");
+  const topicSelect=document.getElementById("topicName");
+  const button=document.getElementById("startTopicBtn");
+  subjectSelect.replaceChildren();addOption(subjectSelect,"",t("Choose a subject","సబ్జెక్టును ఎంచుకోండి"));
+  topicSelect.replaceChildren();addOption(topicSelect,"",t("Choose a topic","అంశాన్ని ఎంచుకోండి"));
+  subjectSelect.disabled=true;topicSelect.disabled=true;button.disabled=true;
+  if(!track){setTopicStatus(t("Choose an exam to load its subjects and topics.","సబ్జెక్టులు మరియు అంశాలను చూడటానికి పరీక్షను ఎంచుకోండి."));return}
+  setTopicStatus(t("Loading question topics…","ప్రశ్నల అంశాలను లోడ్ చేస్తోంది…"));
+  try{
+    const bank=await loadTrackTopicBank(track);
+    const subjects=[...new Set(bank.questions.map(q=>q.s).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+    for(const subject of subjects)addOption(subjectSelect,subject,subject);
+    subjectSelect.disabled=subjects.length===0;
+    setTopicStatus(t(bank.questions.length+" questions across "+subjects.length+" subjects. Choose a subject.","మొత్తం "+subjects.length+" సబ్జెక్టుల్లో "+bank.questions.length+" ప్రశ్నలు ఉన్నాయి. సబ్జెక్టును ఎంచుకోండి."));
+  }catch(error){
+    setTopicStatus(t("Topics could not be loaded. Please refresh and try again.","అంశాలను లోడ్ చేయలేకపోయాం. దయచేసి రిఫ్రెష్ చేసి మళ్లీ ప్రయత్నించండి."));
+    console.error("Bodhuno topic bank:",error);
+  }
+}
+function updateTopicOptions(){
+  const track=document.getElementById("topicTrack").value;
+  const subject=document.getElementById("topicSubject").value;
+  const topicSelect=document.getElementById("topicName");
+  const button=document.getElementById("startTopicBtn");
+  topicSelect.replaceChildren();addOption(topicSelect,"",t("Choose a topic","అంశాన్ని ఎంచుకోండి"));
+  topicSelect.disabled=true;button.disabled=true;
+  const bank=topicBankCache.get(track);
+  if(!bank||!subject){setTopicStatus(t("Choose a subject to see its topics.","అంశాలను చూడటానికి సబ్జెక్టును ఎంచుకోండి."));return}
+  const matched=bank.questions.filter(q=>q.s===subject);
+  const topics=[...new Set(matched.map(q=>q.topic).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  for(const topic of topics)addOption(topicSelect,topic,topic);
+  topicSelect.disabled=topics.length===0;
+  setTopicStatus(t(topics.length+" topics and "+matched.length+" questions available.","మొత్తం "+topics.length+" అంశాలు, "+matched.length+" ప్రశ్నలు అందుబాటులో ఉన్నాయి."));
+}
+function onTopicSelectionChange(){
+  const track=document.getElementById("topicTrack").value;
+  const subject=document.getElementById("topicSubject").value;
+  const topic=document.getElementById("topicName").value;
+  const bank=topicBankCache.get(track);
+  const count=bank?bank.questions.filter(q=>q.s===subject&&q.topic===topic).length:0;
+  document.getElementById("startTopicBtn").disabled=count===0;
+  if(topic&&count)setTopicStatus(t(count+" questions ready for this topic.","ఈ అంశానికి "+count+" ప్రశ్నలు సిద్ధంగా ఉన్నాయి."));
+}
+function setTopicStatus(message){document.getElementById("topicStatus").textContent=message}
+async function startSelectedTopic(){
+  const track=document.getElementById("topicTrack").value;
+  const subject=document.getElementById("topicSubject").value;
+  const topic=document.getElementById("topicName").value;
+  const bank=topicBankCache.get(track);
+  const selected=bank?bank.questions.filter(q=>q.s===subject&&q.topic===topic):[];
+  if(!track||!subject||!topic||!selected.length)return;
+  const slug=(track+"-"+subject+"-"+topic).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+  const displayName=track+" · "+subject+" · "+topic;
+  const syntheticSet={setId:"topic-practice-"+slug,kind:"topic",topic,scoring:bank.scoring};
+  try{await beginPractice(displayName,syntheticSet,selected)}
+  catch(error){alert(t("The topic practice could not be started. Please try again.","అంశ సాధన ప్రారంభం కాలేదు. మళ్లీ ప్రయత్నించండి."));console.error(error)}
+}
+function readAttemptHistory(){
+  try{
+    const history=JSON.parse(localStorage.getItem("bodhuno_guest_attempts")||"[]");
+    return Array.isArray(history)?history.filter(item=>item&&typeof item==="object").slice(-30):[];
+  }catch(error){return []}
+}
+function appendMetric(container,label,value,note){
+  const card=document.createElement("div");card.className="metric-card";
+  const title=document.createElement("small");title.textContent=label;
+  const number=document.createElement("strong");number.textContent=value;
+  const detail=document.createElement("span");detail.textContent=note;
+  card.append(title,number,detail);container.append(card);
+}
+function appendAccuracyRow(container,label,correct,attempted){
+  const percent=attempted?Math.round(correct/attempted*100):0;
+  const row=document.createElement("div");row.className="subject-progress";
+  const name=document.createElement("strong");name.textContent=label;
+  const track=document.createElement("div");track.className="accuracy-track";
+  const fill=document.createElement("div");fill.className="accuracy-fill";fill.style.width=percent+"%";track.append(fill);
+  const value=document.createElement("span");value.className="accuracy-value";value.textContent=percent+"%";
+  row.append(name,track,value);container.append(row);
+}
+function renderProgressDashboard(){
+  const root=document.getElementById("progressDashboard");
+  if(!root)return;
+  root.replaceChildren();
+  const history=readAttemptHistory();
+  const answered=history.reduce((sum,item)=>sum+(Number(item.answered)||0),0);
+  const correct=history.reduce((sum,item)=>sum+(Number(item.correct)||0),0);
+  const accuracy=answered?Math.round(correct/answered*100):0;
+  const metrics=document.createElement("div");metrics.className="progress-metrics";
+  appendMetric(metrics,t("Completed attempts","పూర్తి చేసిన పరీక్షలు"),history.length,t("Last 30 attempts on this device","ఈ పరికరంలోని చివరి 30 పరీక్షలు"));
+  appendMetric(metrics,t("Questions answered","సమాధానమిచ్చిన ప్రశ్నలు"),answered,t("Across your saved practice history","సేవ్ చేసిన అభ్యాస చరిత్రలో"));
+  appendMetric(metrics,t("Overall accuracy","మొత్తం ఖచ్చితత్వం"),history.length?accuracy+"%":"—",t("Correct answers out of attempted questions","సమాధానమిచ్చిన ప్రశ్నల్లో సరైన సమాధానాలు"));
+  root.append(metrics);
+  if(!history.length){
+    const empty=document.createElement("div");empty.className="progress-panel";
+    const message=document.createElement("p");message.className="progress-empty";message.textContent=t("Your dashboard will fill in after your first completed practice. Attempts are saved only in this browser; no account or database is used.","మీ మొదటి సాధన పూర్తయిన తర్వాత ఈ డాష్‌బోర్డ్‌లో వివరాలు కనిపిస్తాయి. పరీక్షల చరిత్ర ఈ బ్రౌజర్‌లోనే ఉంటుంది; ఖాతా లేదా డేటాబేస్ అవసరం లేదు.");
+    empty.append(message);root.append(empty);return;
+  }
+  const subjectTotals=new Map(),topicTotals=new Map();
+  for(const attempt of history){
+    for(const detail of Array.isArray(attempt.byTopic)?attempt.byTopic:[]){
+      const subject=detail.subject||t("Other","ఇతర");
+      const topic=detail.topic||subject;
+      const tries=Number(detail.attempted)||0,rights=Number(detail.correct)||0;
+      if(!tries)continue;
+      const subjectRow=subjectTotals.get(subject)||{attempted:0,correct:0};
+      subjectRow.attempted+=tries;subjectRow.correct+=rights;subjectTotals.set(subject,subjectRow);
+      const key=subject+"::"+topic;
+      const topicRow=topicTotals.get(key)||{subject,topic,attempted:0,correct:0};
+      topicRow.attempted+=tries;topicRow.correct+=rights;topicTotals.set(key,topicRow);
+    }
+  }
+  const columns=document.createElement("div");columns.className="progress-columns";
+  const subjectPanel=document.createElement("div");subjectPanel.className="progress-panel";
+  const subjectHeading=document.createElement("h3");subjectHeading.textContent=t("Subject accuracy","సబ్జెక్టుల వారీ ఖచ్చితత్వం");subjectPanel.append(subjectHeading);
+  if(subjectTotals.size){
+    [...subjectTotals.entries()].sort((a,b)=>b[1].attempted-a[1].attempted).forEach(([name,data])=>appendAccuracyRow(subjectPanel,name,data.correct,data.attempted));
+  }else{
+    const message=document.createElement("p");message.className="progress-empty";message.textContent=t("Subject insights will appear after your next completed attempt.","తదుపరి పరీక్ష పూర్తయిన తర్వాత సబ్జెక్టు వివరాలు కనిపిస్తాయి.");subjectPanel.append(message);
+  }
+  const focusPanel=document.createElement("div");focusPanel.className="progress-panel";
+  const focusHeading=document.createElement("h3");focusHeading.textContent=t("Topics to revisit","మళ్లీ సాధన చేయాల్సిన అంశాలు");focusPanel.append(focusHeading);
+  const weakTopics=[...topicTotals.values()].filter(item=>item.attempted>=3&&item.correct/item.attempted<0.6).sort((a,b)=>a.correct/a.attempted-b.correct/b.attempted||b.attempted-a.attempted).slice(0,5);
+  if(weakTopics.length){
+    const list=document.createElement("div");list.className="focus-list";
+    for(const item of weakTopics){
+      const card=document.createElement("div");card.className="focus-item";
+      const title=document.createElement("strong");title.textContent=item.subject+" · "+item.topic;
+      const note=document.createElement("small");note.textContent=item.correct+"/"+item.attempted+" "+t("correct · "+Math.round(item.correct/item.attempted*100)+"% accuracy","సరైనవి · "+Math.round(item.correct/item.attempted*100)+"% ఖచ్చితత్వం");
+      card.append(title,note);list.append(card);
+    }
+    focusPanel.append(list);
+  }else{
+    const message=document.createElement("p");message.className="progress-empty";message.textContent=t("No weak topic is flagged yet. We show a focus area after at least 3 answers in a topic with accuracy below 60%.","ఇప్పటివరకు బలహీన అంశం గుర్తించబడలేదు. ఒక అంశంలో కనీసం 3 సమాధానాలు ఇచ్చి, ఖచ్చితత్వం 60% కంటే తక్కువగా ఉన్నప్పుడు దాన్ని చూపిస్తాము.");focusPanel.append(message);
+  }
+  columns.append(subjectPanel,focusPanel);root.append(columns);
+}
+
 document.getElementById("year").textContent=new Date().getFullYear();
 document.getElementById("topicTrack").addEventListener("change",onTopicTrackChange);
 document.getElementById("topicSubject").addEventListener("change",updateTopicOptions);
