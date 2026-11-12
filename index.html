@@ -408,8 +408,8 @@ function calculateStudyStreaks(days){
 }
 function renderStudyActivity(root,metrics){
   const days=readStudyActivity(),streaks=calculateStudyStreaks(days),lookup=new Map(days.map(item=>[item.date,item]));
-  appendMetric(metrics,t("Current streak","ప్రస్తుత వరుస రోజుల సాధన"),streaks.current+" "+t("days","రోజులు"),t("Consecutive active days · one or more answers per day","ప్రతి రోజు కనీసం ఒక సమాధానం ఇచ్చిన వరుస రోజులు"),"current-streak");
-  appendMetric(metrics,t("Longest streak","అత్యధిక వరుస రోజులు"),streaks.longest+" "+t("days","రోజులు"),t("Your best run on this device","ఈ పరికరంలో మీ అత్యుత్తమ వరుస"),"longest-streak");
+  appendMetric(metrics,t("Current streak","ప్రస్తుత వరుస రోజుల సాధన"),streaks.current+" "+(streaks.current===1?t("day","రోజు"):t("days","రోజులు")),t("Consecutive active days · one or more answers per day","ప్రతి రోజు కనీసం ఒక సమాధానం ఇచ్చిన వరుస రోజులు"),"current-streak");
+  appendMetric(metrics,t("Longest streak","అత్యధిక వరుస రోజులు"),streaks.longest+" "+(streaks.longest===1?t("day","రోజు"):t("days","రోజులు")),t("Your best run on this device","ఈ పరికరంలో మీ అత్యుత్తమ వరుస"),"longest-streak");
   const offset=(new Date().getDay()+6)%7;
   const monday=shiftStudyDateKey(streaks.today,-offset);
   const week=[];
