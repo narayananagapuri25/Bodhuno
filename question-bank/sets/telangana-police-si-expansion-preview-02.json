@@ -1,0 +1,803 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-si-expansion-preview-02",
+  "title": "Telangana Police SI — Syllabus Expansion Preview Set 02",
+  "version": 1,
+  "workflowStatus": "preview",
+  "sourceType": "original_practice",
+  "sourceReference": "TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Official notification is cited for syllabus alignment only. This is a new original bilingual preview set of 24 questions; it is not an official previous-year paper, a complete syllabus pack or a full-length mock examination.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-si",
+    "telangana-police-2026",
+    "preliminary-written-test",
+    "syllabus-expansion-preview"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB SI 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40)"
+    ],
+    "practiceNote": "24 additional original practice questions broaden static-topic coverage. Preview only: not independently reviewed by a subject expert or Telugu editor, not a full-length mock, and current affairs are not included."
+  },
+  "questions": [
+    {
+      "id": "si2-arith-work-007",
+      "subject": "Arithmetic",
+      "topic": "Time and work",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "A can complete a job in 10 days and B in 15 days. How many days will they take working together?",
+          "options": [
+            "5 days",
+            "6 days",
+            "7 days",
+            "8 days"
+          ],
+          "explanation": "Their combined daily rate is 1/10 + 1/15 = 1/6 of the job. They need 6 days."
+        },
+        "te": {
+          "question": "A ఒక పనిని 10 రోజుల్లో, B అదే పనిని 15 రోజుల్లో పూర్తి చేయగలరు. ఇద్దరూ కలిసి చేస్తే ఎన్ని రోజులు పడుతుంది?",
+          "options": [
+            "5 రోజులు",
+            "6 రోజులు",
+            "7 రోజులు",
+            "8 రోజులు"
+          ],
+          "explanation": "వారి రోజువారీ సంయుక్త పని రేటు 1/10 + 1/15 = 1/6 పని. కాబట్టి 6 రోజులు పడుతుంది."
+        }
+      }
+    },
+    {
+      "id": "si2-arith-ci-008",
+      "subject": "Arithmetic",
+      "topic": "Compound interest",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What amount will ₹1,000 become after 2 years at 10% compound interest per year?",
+          "options": [
+            "₹1,100",
+            "₹1,200",
+            "₹1,210",
+            "₹1,220"
+          ],
+          "explanation": "Amount = 1,000 × 1.10 × 1.10 = ₹1,210."
+        },
+        "te": {
+          "question": "సంవత్సరానికి 10% చక్రవడ్డీతో ₹1,000 రెండు సంవత్సరాల తర్వాత ఎంత అవుతుంది?",
+          "options": [
+            "₹1,100",
+            "₹1,200",
+            "₹1,210",
+            "₹1,220"
+          ],
+          "explanation": "మొత్తం = 1,000 × 1.10 × 1.10 = ₹1,210."
+        }
+      }
+    },
+    {
+      "id": "si2-arith-hcf-009",
+      "subject": "Arithmetic",
+      "topic": "HCF",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What is the highest common factor of 36 and 60?",
+          "options": [
+            "6",
+            "10",
+            "12",
+            "18"
+          ],
+          "explanation": "The common factors include 1, 2, 3, 4, 6 and 12. The greatest is 12."
+        },
+        "te": {
+          "question": "36 మరియు 60ల గరిష్ఠ సామాన్య గుణకారం ఎంత?",
+          "options": [
+            "6",
+            "10",
+            "12",
+            "18"
+          ],
+          "explanation": "సామాన్య గుణకారాల్లో 1, 2, 3, 4, 6, 12 ఉన్నాయి. వాటిలో గరిష్ఠం 12."
+        }
+      }
+    },
+    {
+      "id": "si2-arith-train-010",
+      "subject": "Arithmetic",
+      "topic": "Time, speed and distance",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "A 180-metre train moves at 54 km/h. How long does it take to pass a pole?",
+          "options": [
+            "10 seconds",
+            "12 seconds",
+            "15 seconds",
+            "18 seconds"
+          ],
+          "explanation": "54 km/h = 15 m/s. Time = 180 ÷ 15 = 12 seconds."
+        },
+        "te": {
+          "question": "180 మీటర్ల రైలు గంటకు 54 కి.మీ. వేగంతో వెళ్తోంది. ఒక స్తంభాన్ని దాటడానికి ఎంత సమయం పడుతుంది?",
+          "options": [
+            "10 సెకన్లు",
+            "12 సెకన్లు",
+            "15 సెకన్లు",
+            "18 సెకన్లు"
+          ],
+          "explanation": "54 కి.మీ./గంట = 15 మీ./సెకను. సమయం = 180 ÷ 15 = 12 సెకన్లు."
+        }
+      }
+    },
+    {
+      "id": "si2-arith-rectangle-011",
+      "subject": "Arithmetic",
+      "topic": "Mensuration",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What is the area of a rectangle with length 18 cm and breadth 12 cm?",
+          "options": [
+            "180 cm²",
+            "196 cm²",
+            "216 cm²",
+            "240 cm²"
+          ],
+          "explanation": "Area = length × breadth = 18 × 12 = 216 cm²."
+        },
+        "te": {
+          "question": "పొడవు 18 సెం.మీ., వెడల్పు 12 సెం.మీ. ఉన్న దీర్ఘచతురస్ర వైశాల్యం ఎంత?",
+          "options": [
+            "180 చ.సెం.మీ.",
+            "196 చ.సెం.మీ.",
+            "216 చ.సెం.మీ.",
+            "240 చ.సెం.మీ."
+          ],
+          "explanation": "వైశాల్యం = పొడవు × వెడల్పు = 18 × 12 = 216 చ.సెం.మీ."
+        }
+      }
+    },
+    {
+      "id": "si2-arith-average-012",
+      "subject": "Arithmetic",
+      "topic": "Average",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What is the average of the first five positive multiples of 7?",
+          "options": [
+            "14",
+            "18",
+            "21",
+            "28"
+          ],
+          "explanation": "The numbers are 7, 14, 21, 28 and 35. Their average is 105 ÷ 5 = 21."
+        },
+        "te": {
+          "question": "7 యొక్క మొదటి ఐదు ధన గుణిజాల సగటు ఎంత?",
+          "options": [
+            "14",
+            "18",
+            "21",
+            "28"
+          ],
+          "explanation": "సంఖ్యలు 7, 14, 21, 28, 35. సగటు = 105 ÷ 5 = 21."
+        }
+      }
+    },
+    {
+      "id": "si2-reason-letter-007",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Letter series",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which letter comes next? C, F, J, O, U, __",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "explanation": "The forward gaps are 3, 4, 5 and 6. The next gap is 7; U + 7 wraps to B."
+        },
+        "te": {
+          "question": "తదుపరి అక్షరం ఏది? C, F, J, O, U, __",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "explanation": "ముందుకు వెళ్లే అక్షరాల మధ్య తేడాలు 3, 4, 5, 6. తదుపరి తేడా 7; U తర్వాత 7 స్థానాలు వెళ్తే B వస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "si2-reason-direction-008",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Direction sense",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Ravi faces north. He turns right, then right again, and then left. Which direction is he facing?",
+          "options": [
+            "North",
+            "South",
+            "East",
+            "West"
+          ],
+          "explanation": "North → East → South → East? Re-check: first right is east, second right is south, then left from south is east."
+        },
+        "te": {
+          "question": "రవి ఉత్తరం వైపు చూస్తున్నాడు. కుడివైపు, మళ్లీ కుడివైపు, ఆపై ఎడమవైపు తిరిగాడు. ఇప్పుడు ఏ దిశను చూస్తున్నాడు?",
+          "options": [
+            "ఉత్తరం",
+            "దక్షిణం",
+            "తూర్పు",
+            "పడమర"
+          ],
+          "explanation": "ఉత్తరం నుంచి కుడివైపు తూర్పు, మళ్లీ కుడివైపు దక్షిణం, అక్కడి నుంచి ఎడమవైపు తూర్పు. కాబట్టి తూర్పు."
+        }
+      }
+    },
+    {
+      "id": "si2-reason-ranking-009",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Ranking",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "In a row of 30 people, Meena is 8th from the left. What is her position from the right?",
+          "options": [
+            "21st",
+            "22nd",
+            "23rd",
+            "24th"
+          ],
+          "explanation": "Position from the right = 30 − 8 + 1 = 23."
+        },
+        "te": {
+          "question": "30 మంది వరుసలో మీనా ఎడమవైపు నుంచి 8వ స్థానంలో ఉంది. కుడివైపు నుంచి ఆమె స్థానం ఎంత?",
+          "options": [
+            "21వ",
+            "22వ",
+            "23వ",
+            "24వ"
+          ],
+          "explanation": "కుడివైపు నుంచి స్థానం = 30 − 8 + 1 = 23."
+        }
+      }
+    },
+    {
+      "id": "si2-reason-clock-010",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Clock reasoning",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What is the smaller angle between the hands of a clock at 3:30?",
+          "options": [
+            "60°",
+            "75°",
+            "90°",
+            "105°"
+          ],
+          "explanation": "At 3:30 the minute hand is at 180°. The hour hand is at 105°. Difference = 75°."
+        },
+        "te": {
+          "question": "గడియారంలో 3:30 సమయానికి ముల్లుల మధ్య చిన్న కోణం ఎంత?",
+          "options": [
+            "60°",
+            "75°",
+            "90°",
+            "105°"
+          ],
+          "explanation": "3:30కు నిమిషాల ముల్లు 180° వద్ద, గంటల ముల్లు 105° వద్ద ఉంటాయి. తేడా 75°."
+        }
+      }
+    },
+    {
+      "id": "si2-reason-syllogism-011",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Logical deduction",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Statements: All roses are flowers. Some flowers are red. Which conclusion definitely follows?",
+          "options": [
+            "All roses are red",
+            "Some roses are red",
+            "All roses are flowers",
+            "No flowers are roses"
+          ],
+          "explanation": "The first statement directly establishes that every rose is a flower. The second statement does not tell us whether any rose is red."
+        },
+        "te": {
+          "question": "ప్రకటనలు: అన్ని గులాబీలు పూలే. కొన్ని పూలు ఎరుపు రంగులో ఉంటాయి. తప్పనిసరిగా సరైన నిర్ధారణ ఏది?",
+          "options": [
+            "అన్ని గులాబీలు ఎరుపు రంగులో ఉంటాయి",
+            "కొన్ని గులాబీలు ఎరుపు రంగులో ఉంటాయి",
+            "అన్ని గులాబీలు పూలే",
+            "ఏ పువ్వూ గులాబీ కాదు"
+          ],
+          "explanation": "మొదటి ప్రకటన ప్రకారం ప్రతి గులాబీ ఒక పువ్వు. రెండో ప్రకటనలో ఎరుపు పూలలో గులాబీలు ఉన్నాయా లేదా అనేది తెలియదు."
+        }
+      }
+    },
+    {
+      "id": "si2-reason-code-012",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Coding and decoding",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "If each letter is replaced by the next letter in the alphabet, how is LAMP coded?",
+          "options": [
+            "MBNQ",
+            "KZLO",
+            "MBOQ",
+            "NBNQ"
+          ],
+          "explanation": "L→M, A→B, M→N and P→Q. Therefore LAMP becomes MBNQ."
+        },
+        "te": {
+          "question": "ప్రతి అక్షరాన్ని ఆంగ్ల వర్ణమాలలో వెంటనే వచ్చే అక్షరంతో మార్చితే LAMP కోడ్ ఏమిటి?",
+          "options": [
+            "MBNQ",
+            "KZLO",
+            "MBOQ",
+            "NBNQ"
+          ],
+          "explanation": "L→M, A→B, M→N, P→Q. కాబట్టి LAMP కోడ్ MBNQ."
+        }
+      }
+    },
+    {
+      "id": "si2-gs-article21-008",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 21",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which right is protected by Article 21 of the Constitution of India?",
+          "options": [
+            "Right to equality",
+            "Protection of life and personal liberty",
+            "Freedom of religion only",
+            "Right to property as a fundamental right"
+          ],
+          "explanation": "Article 21 protects life and personal liberty, subject to procedure established by law."
+        },
+        "te": {
+          "question": "భారత రాజ్యాంగంలోని ఆర్టికల్ 21 ఏ హక్కును పరిరక్షిస్తుంది?",
+          "options": [
+            "సమానత్వ హక్కు",
+            "జీవించే హక్కు మరియు వ్యక్తిగత స్వేచ్ఛ రక్షణ",
+            "మత స్వేచ్ఛ మాత్రమే",
+            "ఆస్తి హక్కు ప్రాథమిక హక్కుగా"
+          ],
+          "explanation": "చట్టం నిర్దేశించిన విధానానికి లోబడి ఆర్టికల్ 21 జీవించే హక్కు మరియు వ్యక్తిగత స్వేచ్ఛను పరిరక్షిస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "si2-gs-moneybill-009",
+      "subject": "General Studies",
+      "topic": "Indian polity — Money Bill",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "A Money Bill can be introduced in which House of the Indian Parliament?",
+          "options": [
+            "Rajya Sabha only",
+            "Either House",
+            "Lok Sabha only",
+            "A joint sitting only"
+          ],
+          "explanation": "A Money Bill can be introduced only in the Lok Sabha, on the President's recommendation."
+        },
+        "te": {
+          "question": "భారత పార్లమెంటులో ద్రవ్య బిల్లును ఏ సభలో ప్రవేశపెట్టవచ్చు?",
+          "options": [
+            "రాజ్యసభలో మాత్రమే",
+            "ఏ సభలోనైనా",
+            "లోక్‌సభలో మాత్రమే",
+            "సంయుక్త సమావేశంలో మాత్రమే"
+          ],
+          "explanation": "రాష్ట్రపతి సిఫారసుతో ద్రవ్య బిల్లును లోక్‌సభలో మాత్రమే ప్రవేశపెట్టవచ్చు."
+        }
+      }
+    },
+    {
+      "id": "si2-gs-quitindia-010",
+      "subject": "General Studies",
+      "topic": "Indian history — National Movement",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "In which year was the Quit India Movement launched?",
+          "options": [
+            "1930",
+            "1935",
+            "1942",
+            "1947"
+          ],
+          "explanation": "The Quit India Movement was launched in August 1942."
+        },
+        "te": {
+          "question": "క్విట్ ఇండియా ఉద్యమం ఏ సంవత్సరంలో ప్రారంభమైంది?",
+          "options": [
+            "1930",
+            "1935",
+            "1942",
+            "1947"
+          ],
+          "explanation": "క్విట్ ఇండియా ఉద్యమం ఆగస్టు 1942లో ప్రారంభమైంది."
+        }
+      }
+    },
+    {
+      "id": "si2-gs-kalinga-011",
+      "subject": "General Studies",
+      "topic": "Indian history — Mauryan period",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which war is closely associated with Emperor Ashoka's turn towards the policy of Dhamma?",
+          "options": [
+            "Battle of Panipat",
+            "Kalinga War",
+            "Battle of Plassey",
+            "Battle of Talikota"
+          ],
+          "explanation": "The suffering caused by the Kalinga War is associated with Ashoka's subsequent emphasis on Dhamma."
+        },
+        "te": {
+          "question": "అశోక చక్రవర్తి ధమ్మ విధానం వైపు మళ్లడానికి సంబంధం ఉన్న యుద్ధం ఏది?",
+          "options": [
+            "పానిపట్ యుద్ధం",
+            "కళింగ యుద్ధం",
+            "ప్లాసీ యుద్ధం",
+            "తాళికోట యుద్ధం"
+          ],
+          "explanation": "కళింగ యుద్ధం వల్ల కలిగిన బాధల తర్వాత అశోకుడు ధమ్మకు ప్రాధాన్యత ఇచ్చినట్లు చరిత్రలో పేర్కొంటారు."
+        }
+      }
+    },
+    {
+      "id": "si2-gs-tropic-012",
+      "subject": "General Studies",
+      "topic": "Indian geography — Latitude",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "How many Indian states does the Tropic of Cancer pass through?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "explanation": "The Tropic of Cancer passes through eight Indian states."
+        },
+        "te": {
+          "question": "కర్కాటక రేఖ భారతదేశంలోని ఎన్ని రాష్ట్రాల గుండా వెళ్తుంది?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "explanation": "కర్కాటక రేఖ భారతదేశంలోని ఎనిమిది రాష్ట్రాల గుండా వెళ్తుంది."
+        }
+      }
+    },
+    {
+      "id": "si2-gs-blacksoil-013",
+      "subject": "General Studies",
+      "topic": "Indian geography — Soils",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Black soil is especially suitable for growing which crop?",
+          "options": [
+            "Tea",
+            "Cotton",
+            "Jute",
+            "Coffee"
+          ],
+          "explanation": "Black soil retains moisture and is traditionally well suited to cotton cultivation."
+        },
+        "te": {
+          "question": "నల్లరేగడి నేల ఏ పంట సాగుకు ప్రత్యేకంగా అనుకూలం?",
+          "options": [
+            "టీ",
+            "పత్తి",
+            "జనపనార",
+            "కాఫీ"
+          ],
+          "explanation": "నల్లరేగడి నేల తేమను నిల్వ ఉంచుతుంది. ఇది పత్తి సాగుకు అనుకూలమైన నేలగా ప్రసిద్ధి."
+        }
+      }
+    },
+    {
+      "id": "si2-gs-rbc-014",
+      "subject": "General Studies",
+      "topic": "General science — Human body",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which substance in red blood cells carries oxygen?",
+          "options": [
+            "Insulin",
+            "Haemoglobin",
+            "Keratin",
+            "Pepsin"
+          ],
+          "explanation": "Haemoglobin in red blood cells binds and transports oxygen."
+        },
+        "te": {
+          "question": "ఎర్ర రక్త కణాల్లో ఆక్సిజన్‌ను మోసుకెళ్లే పదార్థం ఏది?",
+          "options": [
+            "ఇన్సులిన్",
+            "హీమోగ్లోబిన్",
+            "కెరాటిన్",
+            "పెప్సిన్"
+          ],
+          "explanation": "ఎర్ర రక్త కణాల్లోని హీమోగ్లోబిన్ ఆక్సిజన్‌తో కలసి దానిని రవాణా చేస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "si2-gs-rbi-015",
+      "subject": "General Studies",
+      "topic": "Indian economy — RBI",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "In which year did the Reserve Bank of India begin operations?",
+          "options": [
+            "1925",
+            "1935",
+            "1947",
+            "1950"
+          ],
+          "explanation": "The Reserve Bank of India began operations on 1 April 1935."
+        },
+        "te": {
+          "question": "భారత రిజర్వ్ బ్యాంక్ ఏ సంవత్సరంలో కార్యకలాపాలు ప్రారంభించింది?",
+          "options": [
+            "1925",
+            "1935",
+            "1947",
+            "1950"
+          ],
+          "explanation": "భారత రిజర్వ్ బ్యాంక్ 1 ఏప్రిల్ 1935న కార్యకలాపాలు ప్రారంభించింది."
+        }
+      }
+    },
+    {
+      "id": "si2-telangana-godavari-006",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana geography — Rivers",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which major river flows through northern Telangana and is associated with the Kaleshwaram region?",
+          "options": [
+            "Krishna",
+            "Godavari",
+            "Pennar",
+            "Musi"
+          ],
+          "explanation": "The Godavari is a major river flowing through northern Telangana and the Kaleshwaram region."
+        },
+        "te": {
+          "question": "ఉత్తర తెలంగాణ గుండా ప్రవహిస్తూ కాళేశ్వరం ప్రాంతంతో సంబంధం ఉన్న ప్రధాన నది ఏది?",
+          "options": [
+            "కృష్ణా",
+            "గోదావరి",
+            "పెన్నా",
+            "మూసీ"
+          ],
+          "explanation": "గోదావరి ఉత్తర తెలంగాణలో, కాళేశ్వరం ప్రాంతం గుండా ప్రవహించే ప్రధాన నది."
+        }
+      }
+    },
+    {
+      "id": "si2-telangana-kakatiya-007",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana history — Kakatiyas",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which city is especially associated with the Kakatiya dynasty's capital?",
+          "options": [
+            "Warangal",
+            "Adilabad",
+            "Nizamabad",
+            "Khammam"
+          ],
+          "explanation": "Warangal, historically known as Orugallu, is closely associated with the Kakatiya kingdom."
+        },
+        "te": {
+          "question": "కాకతీయుల రాజధానిగా ప్రత్యేకంగా ప్రసిద్ధి చెందిన నగరం ఏది?",
+          "options": [
+            "వరంగల్",
+            "ఆదిలాబాద్",
+            "నిజామాబాద్",
+            "ఖమ్మం"
+          ],
+          "explanation": "ఓరుగల్లు అని చారిత్రకంగా పిలువబడిన వరంగల్ కాకతీయ రాజ్యంతో, వారి రాజధానితో సంబంధం కలిగి ఉంది."
+        }
+      }
+    },
+    {
+      "id": "si2-telangana-bathukamma-008",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana culture — Festivals",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Bathukamma is a festival especially associated with which Indian state?",
+          "options": [
+            "Kerala",
+            "Telangana",
+            "Punjab",
+            "Assam"
+          ],
+          "explanation": "Bathukamma is a floral festival widely celebrated in Telangana."
+        },
+        "te": {
+          "question": "బతుకమ్మ పండుగ ప్రత్యేకంగా ఏ భారత రాష్ట్రంతో సంబంధం కలిగి ఉంది?",
+          "options": [
+            "కేరళ",
+            "తెలంగాణ",
+            "పంజాబ్",
+            "అస్సాం"
+          ],
+          "explanation": "బతుకమ్మ తెలంగాణలో విస్తృతంగా జరుపుకునే పూల పండుగ."
+        }
+      }
+    },
+    {
+      "id": "si2-telangana-struggle-009",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana history — Peasant struggle",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Independently reasoned calculation or stable general-knowledge fact; syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "The Telangana armed peasant struggle that began in the 1940s is generally dated from which year?",
+          "options": [
+            "1936",
+            "1940",
+            "1946",
+            "1952"
+          ],
+          "explanation": "The Telangana armed peasant struggle is generally dated from 1946 and was directed against feudal oppression in the Hyderabad State."
+        },
+        "te": {
+          "question": "1940లలో ప్రారంభమైన తెలంగాణ సాయుధ రైతాంగ పోరాటం సాధారణంగా ఏ సంవత్సరం నుంచి ప్రారంభమైనదిగా పరిగణిస్తారు?",
+          "options": [
+            "1936",
+            "1940",
+            "1946",
+            "1952"
+          ],
+          "explanation": "తెలంగాణ సాయుధ రైతాంగ పోరాటం సాధారణంగా 1946 నుంచి ప్రారంభమైనదిగా పేర్కొంటారు. ఇది హైదరాబాద్ సంస్థానంలోని భూస్వామ్య అణచివేతకు వ్యతిరేకంగా సాగింది."
+        }
+      }
+    }
+  ]
+}
