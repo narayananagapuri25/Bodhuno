@@ -70,7 +70,7 @@
             "32",
             "40"
           ],
-          "explanation": "మొత్తం భాగాలు 3 + 5 = 8. ఒక్క భాగం 64 ÷ 8 = 8. చిన్న భాగం 3 × 8 = 24."
+          "explanation": "Total parts = 3 + 5 = 8. One part = 64 ÷ 8 = 8. The smaller part = 3 × 8 = 24."
         },
         "te": {
           "question": "64ను 3:5 నిష్పత్తిలో విభజిస్తే చిన్న భాగం ఎంత?",
@@ -102,7 +102,7 @@
             "₹800",
             "₹900"
           ],
-          "explanation": "సాధారణ వడ్డీ = (మూలధనం × రేటు × కాలం) ÷ 100 = (5,000 × 8 × 2) ÷ 100 = ₹800."
+          "explanation": "Simple interest = (Principal × Rate × Time) ÷ 100 = (5,000 × 8 × 2) ÷ 100 = ₹800."
         },
         "te": {
           "question": "₹5,000పై సంవత్సరానికి 8% వడ్డీ రేటుతో 2 సంవత్సరాలకు సాధారణ వడ్డీ ఎంత?",
@@ -112,7 +112,7 @@
             "₹800",
             "₹900"
           ],
-          "explanation": "Simple interest = (Principal × Rate × Time) ÷ 100 = (5,000 × 8 × 2) ÷ 100 = ₹800."
+          "explanation": "సాధారణ వడ్డీ = (మూలధనం × రేటు × కాలం) ÷ 100 = (5,000 × 8 × 2) ÷ 100 = ₹800."
         }
       }
     },
@@ -134,7 +134,7 @@
             "21",
             "22"
           ],
-          "explanation": "సగటు = (12 + 18 + 24 + 30) ÷ 4 = 84 ÷ 4 = 21."
+          "explanation": "Average = (12 + 18 + 24 + 30) ÷ 4 = 84 ÷ 4 = 21."
         },
         "te": {
           "question": "12, 18, 24, 30 సంఖ్యల సగటు ఎంత?",
@@ -144,7 +144,7 @@
             "21",
             "22"
           ],
-          "explanation": "Average = (12 + 18 + 24 + 30) ÷ 4 = 84 ÷ 4 = 21."
+          "explanation": "సగటు = (12 + 18 + 24 + 30) ÷ 4 = 84 ÷ 4 = 21."
         }
       }
     },
@@ -166,7 +166,7 @@
             "150 km",
             "160 km"
           ],
-          "explanation": "దూరం = వేగం × సమయం = 60 × 2.5 = 150 కి.మీ."
+          "explanation": "Distance = Speed × Time = 60 × 2.5 = 150 km."
         },
         "te": {
           "question": "ఒక వాహనం గంటకు 60 కి.మీ. వేగంతో 2.5 గంటలు ప్రయాణిస్తే ఎంత దూరం వెళ్తుంది?",
@@ -176,7 +176,7 @@
             "150 కి.మీ.",
             "160 కి.మీ."
           ],
-          "explanation": "Distance = Speed × Time = 60 × 2.5 = 150 km."
+          "explanation": "దూరం = వేగం × సమయం = 60 × 2.5 = 150 కి.మీ."
         }
       }
     },
@@ -198,7 +198,7 @@
             "15%",
             "20%"
           ],
-          "explanation": "లాభం = 575 − 500 = ₹75. లాభ శాతం = (75 ÷ 500) × 100 = 15%."
+          "explanation": "Profit = 575 − 500 = ₹75. Profit percentage = (75 ÷ 500) × 100 = 15%."
         },
         "te": {
           "question": "ఒక వస్తువు కొనుగోలు ధర ₹500, అమ్మకపు ధర ₹575. లాభ శాతం ఎంత?",
@@ -208,7 +208,7 @@
             "15%",
             "20%"
           ],
-          "explanation": "Profit = 575 − 500 = ₹75. Profit percentage = (75 ÷ 500) × 100 = 15%."
+          "explanation": "లాభం = 575 − 500 = ₹75. లాభ శాతం = (75 ÷ 500) × 100 = 15%."
         }
       }
     },
@@ -230,7 +230,7 @@
             "30",
             "32"
           ],
-          "explanation": "తేడాలు వరుసగా 4, 6, 8. తదుపరి తేడా 10. కాబట్టి 20 + 10 = 30."
+          "explanation": "The differences are 4, 6 and 8. The next difference is 10, so 20 + 10 = 30."
         },
         "te": {
           "question": "శ్రేణిలో తదుపరి సంఖ్య ఏది? 2, 6, 12, 20, __",
@@ -240,7 +240,7 @@
             "30",
             "32"
           ],
-          "explanation": "The differences are 4, 6 and 8. The next difference is 10, so 20 + 10 = 30."
+          "explanation": "తేడాలు వరుసగా 4, 6, 8. తదుపరి తేడా 10. కాబట్టి 20 + 10 = 30."
         }
       }
     },
@@ -257,22 +257,22 @@
         "en": {
           "question": "A glove is worn on a hand. What is worn on a foot?",
           "options": [
-            "టోపీ",
-            "సాక్స్",
-            "బెల్ట్",
-            "కళ్లజోడు"
-          ],
-          "explanation": "గ్లౌవ్ చేతికి ధరించే వస్త్రం; సాక్స్ పాదానికి ధరించే వస్త్రం."
-        },
-        "te": {
-          "question": "చేతికి గ్లౌవ్ ఎలా సరిపోతుందో, పాదానికి ఏది సరిపోతుంది?",
-          "options": [
             "Hat",
             "Sock",
             "Belt",
             "Glasses"
           ],
           "explanation": "A glove is worn on a hand; a sock is worn on a foot."
+        },
+        "te": {
+          "question": "చేతికి గ్లౌవ్ ఎలా సరిపోతుందో, పాదానికి ఏది సరిపోతుంది?",
+          "options": [
+            "టోపీ",
+            "సాక్స్",
+            "బెల్ట్",
+            "కళ్లజోడు"
+          ],
+          "explanation": "గ్లౌవ్ చేతికి ధరించే వస్త్రం; సాక్స్ పాదానికి ధరించే వస్త్రం."
         }
       }
     },
@@ -294,7 +294,7 @@
             "FPH",
             "CNE"
           ],
-          "explanation": "ప్రతి అక్షరాన్ని ఆంగ్ల వర్ణమాలలో ఒక స్థానం ముందుకు మార్చారు: D→E, O→P, G→H. కాబట్టి DOG = EPH."
+          "explanation": "Each letter is shifted one position forward in the alphabet: D→E, O→P, G→H. Therefore DOG = EPH."
         },
         "te": {
           "question": "ఒక కోడ్‌లో CAT ను DBUగా రాస్తారు. అదే పద్ధతిలో DOG ను ఎలా రాస్తారు?",
@@ -304,7 +304,7 @@
             "FPH",
             "CNE"
           ],
-          "explanation": "Each letter is shifted one position forward in the alphabet: D→E, O→P, G→H. Therefore DOG = EPH."
+          "explanation": "ప్రతి అక్షరాన్ని ఆంగ్ల వర్ణమాలలో ఒక స్థానం ముందుకు మార్చారు: D→E, O→P, G→H. కాబట్టి DOG = EPH."
         }
       }
     },
@@ -321,22 +321,22 @@
         "en": {
           "question": "A person walks 5 km north, then 3 km east, then 5 km south. Where is the person relative to the starting point?",
           "options": [
-            "3 కి.మీ. పశ్చిమం",
-            "3 కి.మీ. తూర్పు",
-            "5 కి.మీ. ఉత్తరం",
-            "5 కి.మీ. దక్షిణం"
-          ],
-          "explanation": "ఉత్తరంగా 5 కి.మీ. వెళ్లి దక్షిణంగా 5 కి.మీ. తిరిగి రావడంతో నిలువు మార్పు రద్దవుతుంది. తూర్పు వైపు 3 కి.మీ. మిగులుతుంది."
-        },
-        "te": {
-          "question": "ఒక వ్యక్తి ఉత్తర దిశగా 5 కి.మీ. వెళ్లి, తూర్పు దిశగా 3 కి.మీ. వెళ్లి, దక్షిణ దిశగా 5 కి.మీ. వెళ్తాడు. ప్రారంభ స్థానంతో పోలిస్తే ఇప్పుడు ఎక్కడ ఉన్నాడు?",
-          "options": [
             "3 km west",
             "3 km east",
             "5 km north",
             "5 km south"
           ],
           "explanation": "The 5 km north and 5 km south movements cancel out. The person remains 3 km east of the starting point."
+        },
+        "te": {
+          "question": "ఒక వ్యక్తి ఉత్తర దిశగా 5 కి.మీ. వెళ్లి, తూర్పు దిశగా 3 కి.మీ. వెళ్లి, దక్షిణ దిశగా 5 కి.మీ. వెళ్తాడు. ప్రారంభ స్థానంతో పోలిస్తే ఇప్పుడు ఎక్కడ ఉన్నాడు?",
+          "options": [
+            "3 కి.మీ. పశ్చిమం",
+            "3 కి.మీ. తూర్పు",
+            "5 కి.మీ. ఉత్తరం",
+            "5 కి.మీ. దక్షిణం"
+          ],
+          "explanation": "ఉత్తరంగా 5 కి.మీ. వెళ్లి దక్షిణంగా 5 కి.మీ. తిరిగి రావడంతో నిలువు మార్పు రద్దవుతుంది. తూర్పు వైపు 3 కి.మీ. మిగులుతుంది."
         }
       }
     },
@@ -358,7 +358,7 @@
             "5",
             "9"
           ],
-          "explanation": "2, 3, 5 ప్రధాన సంఖ్యలు. 9 = 3 × 3 కావున ప్రధాన సంఖ్య కాదు."
+          "explanation": "2, 3 and 5 are prime numbers. 9 = 3 × 3, so it is not prime."
         },
         "te": {
           "question": "ఇతర సంఖ్యలతో పోలిస్తే భిన్నమైనదాన్ని గుర్తించండి: 2, 3, 5, 9",
@@ -368,7 +368,7 @@
             "5",
             "9"
           ],
-          "explanation": "2, 3 and 5 are prime numbers. 9 = 3 × 3, so it is not prime."
+          "explanation": "2, 3, 5 ప్రధాన సంఖ్యలు. 9 = 3 × 3 కావున ప్రధాన సంఖ్య కాదు."
         }
       }
     },
@@ -385,22 +385,22 @@
         "en": {
           "question": "Ravi is Sita's brother. Sita is Arun's mother. How is Ravi related to Arun?",
           "options": [
-            "తండ్రి",
-            "మామయ్య (తల్లి సోదరుడు)",
-            "సోదరుడు",
-            "తాత"
-          ],
-          "explanation": "సీత అరుణ్ తల్లి; సీత సోదరుడు రవి కాబట్టి రవి అరుణ్‌కు మేనమామ."
-        },
-        "te": {
-          "question": "రవి సీతకు సోదరుడు. సీత అరుణ్‌కు తల్లి. రవికి అరుణ్‌తో ఉన్న సంబంధం ఏమిటి?",
-          "options": [
             "Father",
             "Maternal uncle",
             "Brother",
             "Grandfather"
           ],
           "explanation": "Sita is Arun's mother, and Ravi is Sita's brother. Therefore Ravi is Arun's maternal uncle."
+        },
+        "te": {
+          "question": "రవి సీతకు సోదరుడు. సీత అరుణ్‌కు తల్లి. రవికి అరుణ్‌తో ఉన్న సంబంధం ఏమిటి?",
+          "options": [
+            "తండ్రి",
+            "మామయ్య (తల్లి సోదరుడు)",
+            "సోదరుడు",
+            "తాత"
+          ],
+          "explanation": "సీత అరుణ్ తల్లి; సీత సోదరుడు రవి కాబట్టి రవి అరుణ్‌కు మేనమామ."
         }
       }
     },
@@ -417,22 +417,22 @@
         "en": {
           "question": "Which Part of the Constitution of India contains Fundamental Rights?",
           "options": [
-            "భాగం II",
-            "భాగం III",
-            "భాగం IV",
-            "భాగం V"
-          ],
-          "explanation": "ప్రాథమిక హక్కులు భారత రాజ్యాంగంలోని భాగం IIIలో ఉన్నాయి."
-        },
-        "te": {
-          "question": "భారత రాజ్యాంగంలో ప్రాథమిక హక్కులు ఏ భాగంలో ఉన్నాయి?",
-          "options": [
             "Part II",
             "Part III",
             "Part IV",
             "Part V"
           ],
           "explanation": "Fundamental Rights are contained in Part III of the Constitution of India."
+        },
+        "te": {
+          "question": "భారత రాజ్యాంగంలో ప్రాథమిక హక్కులు ఏ భాగంలో ఉన్నాయి?",
+          "options": [
+            "భాగం II",
+            "భాగం III",
+            "భాగం IV",
+            "భాగం V"
+          ],
+          "explanation": "ప్రాథమిక హక్కులు భారత రాజ్యాంగంలోని భాగం IIIలో ఉన్నాయి."
         }
       }
     },
@@ -449,22 +449,22 @@
         "en": {
           "question": "In which Part of the Constitution of India are the Directive Principles of State Policy placed?",
           "options": [
-            "భాగం II",
-            "భాగం III",
-            "భాగం IV",
-            "భాగం VI"
-          ],
-          "explanation": "రాజ్య విధాన ఆదేశిక సూత్రాలు రాజ్యాంగంలోని భాగం IVలో ఉన్నాయి."
-        },
-        "te": {
-          "question": "ఆదేశిక సూత్రాలు (Directive Principles of State Policy) భారత రాజ్యాంగంలోని ఏ భాగంలో ఉన్నాయి?",
-          "options": [
             "Part II",
             "Part III",
             "Part IV",
             "Part VI"
           ],
           "explanation": "The Directive Principles of State Policy are contained in Part IV of the Constitution."
+        },
+        "te": {
+          "question": "ఆదేశిక సూత్రాలు (Directive Principles of State Policy) భారత రాజ్యాంగంలోని ఏ భాగంలో ఉన్నాయి?",
+          "options": [
+            "భాగం II",
+            "భాగం III",
+            "భాగం IV",
+            "భాగం VI"
+          ],
+          "explanation": "రాజ్య విధాన ఆదేశిక సూత్రాలు రాజ్యాంగంలోని భాగం IVలో ఉన్నాయి."
         }
       }
     },
@@ -481,22 +481,22 @@
         "en": {
           "question": "On which date did the Constitution of India come into force?",
           "options": [
-            "15 ఆగస్టు 1947",
-            "26 నవంబర్ 1949",
-            "26 జనవరి 1950",
-            "2 అక్టోబర్ 1950"
-          ],
-          "explanation": "భారత రాజ్యాంగం 26 నవంబర్ 1949న ఆమోదించబడింది; 26 జనవరి 1950న అమల్లోకి వచ్చింది."
-        },
-        "te": {
-          "question": "భారత రాజ్యాంగం అమల్లోకి వచ్చిన తేదీ ఏది?",
-          "options": [
             "15 August 1947",
             "26 November 1949",
             "26 January 1950",
             "2 October 1950"
           ],
           "explanation": "The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950."
+        },
+        "te": {
+          "question": "భారత రాజ్యాంగం అమల్లోకి వచ్చిన తేదీ ఏది?",
+          "options": [
+            "15 ఆగస్టు 1947",
+            "26 నవంబర్ 1949",
+            "26 జనవరి 1950",
+            "2 అక్టోబర్ 1950"
+          ],
+          "explanation": "భారత రాజ్యాంగం 26 నవంబర్ 1949న ఆమోదించబడింది; 26 జనవరి 1950న అమల్లోకి వచ్చింది."
         }
       }
     },
@@ -513,20 +513,20 @@
         "en": {
           "question": "What is the SI unit of force?",
           "options": [
-            "జౌల్",
-            "న్యూటన్",
-            "వాట్",
-            "పాస్కల్"
+            "Joule",
+            "Newton",
+            "Watt",
+            "Pascal"
           ],
           "explanation": "బలానికి SI ప్రమాణం న్యూటన్ (N)."
         },
         "te": {
           "question": "బలానికి SI ప్రమాణం ఏది?",
           "options": [
-            "Joule",
-            "Newton",
-            "Watt",
-            "Pascal"
+            "జౌల్",
+            "న్యూటన్",
+            "వాట్",
+            "పాస్కల్"
           ],
           "explanation": "The SI unit of force is the newton (N)."
         }
@@ -545,22 +545,22 @@
         "en": {
           "question": "Which gas do plants take in from the atmosphere for photosynthesis?",
           "options": [
-            "ఆక్సిజన్",
-            "నైట్రోజన్",
-            "కార్బన్ డయాక్సైడ్",
-            "హైడ్రోజన్"
-          ],
-          "explanation": "కిరణజన్య సంయోగక్రియలో ఆకులు వాతావరణం నుంచి కార్బన్ డయాక్సైడ్‌ను గ్రహించి కార్బోహైడ్రేట్ల తయారీలో ఉపయోగిస్తాయి."
-        },
-        "te": {
-          "question": "కిరణజన్య సంయోగక్రియలో మొక్కలు వాతావరణం నుంచి ప్రధానంగా ఏ వాయువును గ్రహిస్తాయి?",
-          "options": [
             "Oxygen",
             "Nitrogen",
             "Carbon dioxide",
             "Hydrogen"
           ],
           "explanation": "During photosynthesis, leaves take in carbon dioxide from the atmosphere and use it to make carbohydrates."
+        },
+        "te": {
+          "question": "కిరణజన్య సంయోగక్రియలో మొక్కలు వాతావరణం నుంచి ప్రధానంగా ఏ వాయువును గ్రహిస్తాయి?",
+          "options": [
+            "ఆక్సిజన్",
+            "నైట్రోజన్",
+            "కార్బన్ డయాక్సైడ్",
+            "హైడ్రోజన్"
+          ],
+          "explanation": "కిరణజన్య సంయోగక్రియలో ఆకులు వాతావరణం నుంచి కార్బన్ డయాక్సైడ్‌ను గ్రహించి కార్బోహైడ్రేట్ల తయారీలో ఉపయోగిస్తాయి."
         }
       }
     },
@@ -577,22 +577,22 @@
         "en": {
           "question": "Which disease in children is commonly caused by vitamin D deficiency?",
           "options": [
-            "స్కర్వీ",
-            "రికెట్స్",
-            "బెరిబెరి",
-            "రాత్రి అంధత్వం"
-          ],
-          "explanation": "విటమిన్ D లోపం పిల్లల్లో ఎముకల అభివృద్ధిని ప్రభావితం చేసి రికెట్స్‌కు దారితీయవచ్చు."
-        },
-        "te": {
-          "question": "విటమిన్ D లోపం వల్ల పిల్లల్లో సాధారణంగా వచ్చే వ్యాధి ఏది?",
-          "options": [
             "Scurvy",
             "Rickets",
             "Beri-beri",
             "Night blindness"
           ],
           "explanation": "Vitamin D deficiency can impair bone development in children and cause rickets."
+        },
+        "te": {
+          "question": "విటమిన్ D లోపం వల్ల పిల్లల్లో సాధారణంగా వచ్చే వ్యాధి ఏది?",
+          "options": [
+            "స్కర్వీ",
+            "రికెట్స్",
+            "బెరిబెరి",
+            "రాత్రి అంధత్వం"
+          ],
+          "explanation": "విటమిన్ D లోపం పిల్లల్లో ఎముకల అభివృద్ధిని ప్రభావితం చేసి రికెట్స్‌కు దారితీయవచ్చు."
         }
       }
     },
@@ -614,7 +614,7 @@
             "1930",
             "1942"
           ],
-          "explanation": "ఉప్పు సత్యాగ్రహంలో భాగంగా దండి యాత్ర 1930లో ప్రారంభమైంది."
+          "explanation": "The Dandi March began in 1930 as part of the Salt Satyagraha."
         },
         "te": {
           "question": "దండి యాత్రను మహాత్మా గాంధీ ఏ సంవత్సరంలో ప్రారంభించారు?",
@@ -624,7 +624,7 @@
             "1930",
             "1942"
           ],
-          "explanation": "The Dandi March began in 1930 as part of the Salt Satyagraha."
+          "explanation": "ఉప్పు సత్యాగ్రహంలో భాగంగా దండి యాత్ర 1930లో ప్రారంభమైంది."
         }
       }
     },
@@ -641,22 +641,22 @@
         "en": {
           "question": "On which date was the State of Telangana formed?",
           "options": [
-            "1 నవంబర్ 1956",
-            "2 జూన్ 2014",
-            "1 జనవరి 2015",
-            "15 ఆగస్టు 2014"
-          ],
-          "explanation": "ఆంధ్రప్రదేశ్ పునర్వ్యవస్థీకరణ చట్టం, 2014 ప్రకారం తెలంగాణ 2 జూన్ 2014న రాష్ట్రంగా ఏర్పడింది."
-        },
-        "te": {
-          "question": "తెలంగాణ రాష్ట్రం ఏ తేదీన ఏర్పడింది?",
-          "options": [
             "1 November 1956",
             "2 June 2014",
             "1 January 2015",
             "15 August 2014"
           ],
           "explanation": "Under the Andhra Pradesh Reorganisation Act, 2014, Telangana came into existence as a state on 2 June 2014."
+        },
+        "te": {
+          "question": "తెలంగాణ రాష్ట్రం ఏ తేదీన ఏర్పడింది?",
+          "options": [
+            "1 నవంబర్ 1956",
+            "2 జూన్ 2014",
+            "1 జనవరి 2015",
+            "15 ఆగస్టు 2014"
+          ],
+          "explanation": "ఆంధ్రప్రదేశ్ పునర్వ్యవస్థీకరణ చట్టం, 2014 ప్రకారం తెలంగాణ 2 జూన్ 2014న రాష్ట్రంగా ఏర్పడింది."
         }
       }
     },
@@ -673,22 +673,22 @@
         "en": {
           "question": "Which Act provided for the formation of the State of Telangana?",
           "options": [
-            "రాష్ట్రాల పునర్వ్యవస్థీకరణ చట్టం, 1956",
-            "ఆంధ్రప్రదేశ్ పునర్వ్యవస్థీకరణ చట్టం, 2014",
-            "భారత ప్రభుత్వ చట్టం, 1935",
-            "పంచాయతీరాజ్ చట్టం, 1994"
-          ],
-          "explanation": "ఆంధ్రప్రదేశ్ పునర్వ్యవస్థీకరణ చట్టం, 2014 తెలంగాణ రాష్ట్ర ఏర్పాటుకు చట్టపరమైన ఆధారం."
-        },
-        "te": {
-          "question": "తెలంగాణ రాష్ట్ర ఏర్పాటుకు సంబంధించిన చట్టం ఏది?",
-          "options": [
             "States Reorganisation Act, 1956",
             "Andhra Pradesh Reorganisation Act, 2014",
             "Government of India Act, 1935",
             "Panchayati Raj Act, 1994"
           ],
           "explanation": "The Andhra Pradesh Reorganisation Act, 2014 provided the legal basis for the formation of Telangana."
+        },
+        "te": {
+          "question": "తెలంగాణ రాష్ట్ర ఏర్పాటుకు సంబంధించిన చట్టం ఏది?",
+          "options": [
+            "రాష్ట్రాల పునర్వ్యవస్థీకరణ చట్టం, 1956",
+            "ఆంధ్రప్రదేశ్ పునర్వ్యవస్థీకరణ చట్టం, 2014",
+            "భారత ప్రభుత్వ చట్టం, 1935",
+            "పంచాయతీరాజ్ చట్టం, 1994"
+          ],
+          "explanation": "ఆంధ్రప్రదేశ్ పునర్వ్యవస్థీకరణ చట్టం, 2014 తెలంగాణ రాష్ట్ర ఏర్పాటుకు చట్టపరమైన ఆధారం."
         }
       }
     },
@@ -710,7 +710,7 @@
             "Narmada and Tapti",
             "Kaveri and Periyar"
           ],
-          "explanation": "గోదావరి, కృష్ణా నదులు తెలంగాణలో ప్రవహించే ప్రధాన నదులు."
+          "explanation": "The Godavari and Krishna are the two major rivers flowing through Telangana."
         },
         "te": {
           "question": "తెలంగాణ గుండా ప్రవహించే రెండు ప్రధాన నదులు ఏవి?",
@@ -720,7 +720,7 @@
             "నర్మదా, తపతి",
             "కావేరి, పెరియార్"
           ],
-          "explanation": "The Godavari and Krishna are the two major rivers flowing through Telangana."
+          "explanation": "గోదావరి, కృష్ణా నదులు తెలంగాణలో ప్రవహించే ప్రధాన నదులు."
         }
       }
     },
@@ -737,22 +737,22 @@
         "en": {
           "question": "Telangana is located mainly on which physiographic plateau?",
           "options": [
-            "మాల్వా పీఠభూమి",
-            "దక్కన్ పీఠభూమి",
-            "చోటానాగ్‌పూర్ పీఠభూమి",
-            "మేఘాలయ పీఠభూమి"
-          ],
-          "explanation": "తెలంగాణ రాష్ట్రం దక్కన్ పీఠభూమిపై ఉంది."
-        },
-        "te": {
-          "question": "తెలంగాణ రాష్ట్రం ప్రధానంగా ఏ భౌగోళిక పీఠభూమిలో ఉంది?",
-          "options": [
             "Malwa Plateau",
             "Deccan Plateau",
             "Chota Nagpur Plateau",
             "Meghalaya Plateau"
           ],
           "explanation": "Telangana is located on the Deccan Plateau."
+        },
+        "te": {
+          "question": "తెలంగాణ రాష్ట్రం ప్రధానంగా ఏ భౌగోళిక పీఠభూమిలో ఉంది?",
+          "options": [
+            "మాల్వా పీఠభూమి",
+            "దక్కన్ పీఠభూమి",
+            "చోటానాగ్‌పూర్ పీఠభూమి",
+            "మేఘాలయ పీఠభూమి"
+          ],
+          "explanation": "తెలంగాణ రాష్ట్రం దక్కన్ పీఠభూమిపై ఉంది."
         }
       }
     },
@@ -774,7 +774,7 @@
             "1991–2014",
             "2014–2020"
           ],
-          "explanation": "TGPRB SI 2026 ప్రిలిమినరీ సిలబస్ తెలంగాణ ఉద్యమాన్ని 1948–1970 ఆలోచన దశ, 1971–1990 సమీకరణ దశ, 1991–2014 రాష్ట్ర ఏర్పాటు దిశగా దశగా విభజిస్తుంది."
+          "explanation": "The TGPRB SI 2026 preliminary syllabus divides the movement into the idea phase (1948–1970), mobilisation phase (1971–1990), and the phase towards state formation (1991–2014)."
         },
         "te": {
           "question": "TGPRB SI 2026 ప్రిలిమినరీ సిలబస్‌లో తెలంగాణ ఉద్యమం యొక్క 'మొబిలైజేషన్ దశ'కు ఏ కాలాన్ని పేర్కొన్నారు?",
@@ -784,7 +784,7 @@
             "1991–2014",
             "2014–2020"
           ],
-          "explanation": "The TGPRB SI 2026 preliminary syllabus divides the movement into the idea phase (1948–1970), mobilisation phase (1971–1990), and the phase towards state formation (1991–2014)."
+          "explanation": "TGPRB SI 2026 ప్రిలిమినరీ సిలబస్ తెలంగాణ ఉద్యమాన్ని 1948–1970 ఆలోచన దశ, 1971–1990 సమీకరణ దశ, 1991–2014 రాష్ట్ర ఏర్పాటు దిశగా దశగా విభజిస్తుంది."
         }
       }
     }
