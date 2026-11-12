@@ -1,0 +1,183 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-foundation-demo",
+  "title": "Telangana Foundation — Demonstration Practice",
+  "version": 1,
+  "workflowStatus": "preview",
+  "sourceType": "original_demo",
+  "sourceReference": null,
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-si",
+    "police-constable",
+    "tgpsc-groups",
+    "general-practice"
+  ],
+  "questions": [
+    {
+      "id": "reasoning-rose-flower-001",
+      "subject": "Logical reasoning",
+      "topic": "Statements and conclusions",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_demo",
+      "sourceReference": null,
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "If all roses are flowers and some flowers fade quickly, which statement must be true?",
+          "options": [
+            "All flowers are roses",
+            "All roses are flowers",
+            "No rose fades",
+            "All roses fade quickly"
+          ],
+          "explanation": "Every rose is a flower, as stated directly. The information does not say every flower is a rose."
+        },
+        "te": {
+          "question": "అన్ని గులాబీలు పూలే మరియు కొన్ని పూలు త్వరగా వాడిపోతాయి. తప్పనిసరిగా నిజమైన వాక్యం ఏది?",
+          "options": [
+            "అన్ని పూలు గులాబీలే",
+            "అన్ని గులాబీలు పూలే",
+            "ఏ గులాబీ వాడిపోదు",
+            "అన్ని గులాబీలు త్వరగా వాడిపోతాయి"
+          ],
+          "explanation": "ప్రతి గులాబీ ఒక పువ్వు అని ప్రశ్నలోనే ఇచ్చారు. అయితే ప్రతి పువ్వు గులాబీ అని సమాచారం చెప్పడం లేదు."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-percentage-increase-001",
+      "subject": "Quantitative aptitude",
+      "topic": "Percentage",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_demo",
+      "sourceReference": null,
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "A value increases from 80 to 100. What is the percentage increase?",
+          "options": [
+            "20%",
+            "22.5%",
+            "25%",
+            "30%"
+          ],
+          "explanation": "Increase = 100 − 80 = 20. Percentage increase = (20 ÷ 80) × 100 = 25%."
+        },
+        "te": {
+          "question": "ఒక విలువ 80 నుంచి 100కి పెరిగింది. శాతం పెరుగుదల ఎంత?",
+          "options": [
+            "20%",
+            "22.5%",
+            "25%",
+            "30%"
+          ],
+          "explanation": "పెరుగుదల = 100 − 80 = 20. శాతం పెరుగుదల = (20 ÷ 80) × 100 = 25%."
+        }
+      }
+    },
+    {
+      "id": "polity-fundamental-rights-part-001",
+      "subject": "Indian polity",
+      "topic": "Constitution — Fundamental Rights",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_demo",
+      "sourceReference": null,
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which part of the Indian Constitution contains Fundamental Rights?",
+          "options": [
+            "Part II",
+            "Part III",
+            "Part IV",
+            "Part IVA"
+          ],
+          "explanation": "Fundamental Rights are contained in Part III of the Constitution, Articles 12–35."
+        },
+        "te": {
+          "question": "భారత రాజ్యాంగంలోని ఏ భాగంలో ప్రాథమిక హక్కులు ఉన్నాయి?",
+          "options": [
+            "భాగం II",
+            "భాగం III",
+            "భాగం IV",
+            "భాగం IVA"
+          ],
+          "explanation": "భారత రాజ్యాంగంలోని ప్రాథమిక హక్కులు భాగం IIIలో, ఆర్టికల్స్ 12–35లో ఉన్నాయి."
+        }
+      }
+    },
+    {
+      "id": "english-abundant-synonym-001",
+      "subject": "English language",
+      "topic": "Vocabulary — Synonyms",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_demo",
+      "sourceReference": null,
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Choose the word closest in meaning to “abundant”.",
+          "options": [
+            "Scarce",
+            "Plentiful",
+            "Fragile",
+            "Brief"
+          ],
+          "explanation": "Abundant means existing in large quantities; plentiful is the closest synonym."
+        },
+        "te": {
+          "question": "“Abundant” అనే ఆంగ్ల పదానికి దగ్గర అర్థం ఉన్న పదాన్ని ఎంచుకోండి.",
+          "options": [
+            "అరుదైన",
+            "సమృద్ధిగా ఉన్న",
+            "పెళుసైన",
+            "సంక్షిప్తమైన"
+          ],
+          "explanation": "Abundant అంటే పెద్ద మొత్తంలో లేదా సమృద్ధిగా ఉండటం. Plentiful అనే పదం దగ్గర అర్థాన్ని ఇస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "telangana-bhadrachalam-river-001",
+      "subject": "Telangana awareness",
+      "topic": "Geography — Rivers",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_demo",
+      "sourceReference": null,
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which river flows through the historic town of Bhadrachalam?",
+          "options": [
+            "Krishna",
+            "Godavari",
+            "Musi",
+            "Manjira"
+          ],
+          "explanation": "Bhadrachalam is situated on the banks of the Godavari River."
+        },
+        "te": {
+          "question": "చారిత్రక భద్రాచలం పట్టణం గుండా ప్రవహించే నది ఏది?",
+          "options": [
+            "కృష్ణా",
+            "గోదావరి",
+            "మూసీ",
+            "మంజీరా"
+          ],
+          "explanation": "భద్రాచలం పట్టణం గోదావరి నది ఒడ్డున ఉంది."
+        }
+      }
+    }
+  ]
+}
