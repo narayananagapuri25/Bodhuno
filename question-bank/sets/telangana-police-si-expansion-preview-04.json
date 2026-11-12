@@ -1,0 +1,803 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-si-expansion-preview-04",
+  "title": "Telangana Police SI — Syllabus Expansion Preview Set 04",
+  "version": 1,
+  "workflowStatus": "preview",
+  "sourceType": "original_practice",
+  "sourceReference": "Original bilingual preview collection of 24 questions. Official notification cited for syllabus alignment only; not official previous-year material or a complete examination mock.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-si",
+    "telangana-police-2026",
+    "preliminary-written-test",
+    "syllabus-expansion-preview"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB SI 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40)"
+    ],
+    "practiceNote": "24 original static-topic practice questions. Preview pending independent subject-expert and Telugu-language review; current affairs are not included."
+  },
+  "questions": [
+    {
+      "id": "si4-arith-ages-019",
+      "subject": "Arithmetic",
+      "topic": "Problems on ages",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "A father is 40 years old and his son is 10. What is the ratio of their present ages?",
+          "options": [
+            "2:1",
+            "3:1",
+            "4:1",
+            "5:1"
+          ],
+          "explanation": "40:10 simplifies to 4:1."
+        },
+        "te": {
+          "question": "తండ్రి వయస్సు 40 సంవత్సరాలు, కుమారుడి వయస్సు 10 సంవత్సరాలు. వారి ప్రస్తుత వయస్సుల నిష్పత్తి ఎంత?",
+          "options": [
+            "2:1",
+            "3:1",
+            "4:1",
+            "5:1"
+          ],
+          "explanation": "40:10ను సరళీకరిస్తే 4:1."
+        }
+      }
+    },
+    {
+      "id": "si4-arith-discount-020",
+      "subject": "Arithmetic",
+      "topic": "Discount",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "An item costs ₹1,000. Two successive discounts of 10% each are given. What is the final price?",
+          "options": [
+            "₹800",
+            "₹810",
+            "₹820",
+            "₹900"
+          ],
+          "explanation": "After the first discount the price is ₹900. A further 10% discount gives ₹810."
+        },
+        "te": {
+          "question": "₹1,000 ధరగల వస్తువుపై వరుసగా రెండు సార్లు 10% తగ్గింపు ఇస్తే చివరి ధర ఎంత?",
+          "options": [
+            "₹800",
+            "₹810",
+            "₹820",
+            "₹900"
+          ],
+          "explanation": "మొదటి తగ్గింపు తర్వాత ధర ₹900. దానిపై మరో 10% తగ్గింపు ఇస్తే ₹810 అవుతుంది."
+        }
+      }
+    },
+    {
+      "id": "si4-arith-pipes-021",
+      "subject": "Arithmetic",
+      "topic": "Pipes and cisterns",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Pipe A fills a tank in 12 hours and Pipe B in 6 hours. How long do they take together?",
+          "options": [
+            "3 hours",
+            "4 hours",
+            "5 hours",
+            "6 hours"
+          ],
+          "explanation": "Combined rate = 1/12 + 1/6 = 1/4 tank per hour. Time = 4 hours."
+        },
+        "te": {
+          "question": "పైపు A ఒక ట్యాంకును 12 గంటల్లో, పైపు B 6 గంటల్లో నింపుతుంది. రెండూ కలిపి ఎంత సమయంలో నింపుతాయి?",
+          "options": [
+            "3 గంటలు",
+            "4 గంటలు",
+            "5 గంటలు",
+            "6 గంటలు"
+          ],
+          "explanation": "సంయుక్త రేటు = 1/12 + 1/6 = గంటకు 1/4 ట్యాంకు. సమయం 4 గంటలు."
+        }
+      }
+    },
+    {
+      "id": "si4-arith-increase-022",
+      "subject": "Arithmetic",
+      "topic": "Percentage change",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "A value of 240 is increased by 25%. What is the new value?",
+          "options": [
+            "270",
+            "280",
+            "300",
+            "320"
+          ],
+          "explanation": "25% of 240 is 60. New value = 240 + 60 = 300."
+        },
+        "te": {
+          "question": "240 విలువను 25% పెంచితే కొత్త విలువ ఎంత?",
+          "options": [
+            "270",
+            "280",
+            "300",
+            "320"
+          ],
+          "explanation": "240లో 25% = 60. కొత్త విలువ = 240 + 60 = 300."
+        }
+      }
+    },
+    {
+      "id": "si4-arith-average-023",
+      "subject": "Arithmetic",
+      "topic": "Average",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "The average of five numbers is 14. What is their total?",
+          "options": [
+            "60",
+            "65",
+            "70",
+            "75"
+          ],
+          "explanation": "Total = average × number of values = 14 × 5 = 70."
+        },
+        "te": {
+          "question": "ఐదు సంఖ్యల సగటు 14 అయితే వాటి మొత్తం ఎంత?",
+          "options": [
+            "60",
+            "65",
+            "70",
+            "75"
+          ],
+          "explanation": "మొత్తం = సగటు × సంఖ్యల సంఖ్య = 14 × 5 = 70."
+        }
+      }
+    },
+    {
+      "id": "si4-arith-rectangle-024",
+      "subject": "Arithmetic",
+      "topic": "Mensuration — rectangle",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "A rectangle has a perimeter of 50 cm and a length of 15 cm. What is its breadth?",
+          "options": [
+            "5 cm",
+            "10 cm",
+            "15 cm",
+            "20 cm"
+          ],
+          "explanation": "2(L + B) = 50, so L + B = 25. Breadth = 25 − 15 = 10 cm."
+        },
+        "te": {
+          "question": "ఒక దీర్ఘచతురస్రం చుట్టుకొలత 50 సెం.మీ., పొడవు 15 సెం.మీ. అయితే వెడల్పు ఎంత?",
+          "options": [
+            "5 సెం.మీ.",
+            "10 సెం.మీ.",
+            "15 సెం.మీ.",
+            "20 సెం.మీ."
+          ],
+          "explanation": "2(L + B) = 50 కాబట్టి L + B = 25. వెడల్పు = 25 − 15 = 10 సెం.మీ."
+        }
+      }
+    },
+    {
+      "id": "si4-reason-letter-019",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Alphabet series",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Which letter is five places after K in the English alphabet?",
+          "options": [
+            "N",
+            "O",
+            "P",
+            "Q"
+          ],
+          "explanation": "Counting forward gives L, M, N, O, P. The answer is P."
+        },
+        "te": {
+          "question": "ఆంగ్ల వర్ణమాలలో K తర్వాత ఐదవ స్థానంలో వచ్చే అక్షరం ఏది?",
+          "options": [
+            "N",
+            "O",
+            "P",
+            "Q"
+          ],
+          "explanation": "ముందుకు లెక్కిస్తే L, M, N, O, P. సమాధానం P."
+        }
+      }
+    },
+    {
+      "id": "si4-reason-series-020",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Number series",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Find the next number: 3, 8, 15, 24, 35, __.",
+          "options": [
+            "44",
+            "46",
+            "48",
+            "50"
+          ],
+          "explanation": "The differences are 5, 7, 9 and 11. The next difference is 13; 35 + 13 = 48."
+        },
+        "te": {
+          "question": "తదుపరి సంఖ్యను కనుగొనండి: 3, 8, 15, 24, 35, __.",
+          "options": [
+            "44",
+            "46",
+            "48",
+            "50"
+          ],
+          "explanation": "తేడాలు 5, 7, 9, 11. తదుపరి తేడా 13; 35 + 13 = 48."
+        }
+      }
+    },
+    {
+      "id": "si4-reason-relation-021",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Blood relations",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "A is the mother of B. B is the brother of C. How is A related to C?",
+          "options": [
+            "Aunt",
+            "Mother",
+            "Sister",
+            "Grandmother"
+          ],
+          "explanation": "B and C are siblings, so their mother A is also C's mother."
+        },
+        "te": {
+          "question": "A, Bకు తల్లి. B, Cకు సోదరుడు. అయితే Aకు Cతో ఉన్న సంబంధం ఏమిటి?",
+          "options": [
+            "అత్త",
+            "తల్లి",
+            "సోదరి",
+            "అమ్మమ్మ"
+          ],
+          "explanation": "B, Cలు తోబుట్టువులు. కాబట్టి వారి తల్లి A, Cకు కూడా తల్లే."
+        }
+      }
+    },
+    {
+      "id": "si4-reason-direction-022",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Direction sense",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "A person walks 5 km east, then 3 km north, then 5 km west. Where is the person relative to the starting point?",
+          "options": [
+            "3 km north",
+            "3 km south",
+            "5 km east",
+            "5 km west"
+          ],
+          "explanation": "The east and west distances cancel. The person is 3 km north of the starting point."
+        },
+        "te": {
+          "question": "ఒక వ్యక్తి 5 కి.మీ. తూర్పు, తర్వాత 3 కి.మీ. ఉత్తరం, ఆపై 5 కి.మీ. పడమర నడిచాడు. ప్రారంభ స్థానంతో పోలిస్తే ఇప్పుడు ఎక్కడ ఉన్నాడు?",
+          "options": [
+            "3 కి.మీ. ఉత్తరం",
+            "3 కి.మీ. దక్షిణం",
+            "5 కి.మీ. తూర్పు",
+            "5 కి.మీ. పడమర"
+          ],
+          "explanation": "తూర్పు, పడమర దూరాలు రద్దవుతాయి. ప్రారంభ స్థానం నుంచి 3 కి.మీ. ఉత్తరంగా ఉంటాడు."
+        }
+      }
+    },
+    {
+      "id": "si4-reason-arrangement-023",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Ordering",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "P is taller than Q. Q is taller than R. Who is the shortest?",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "Cannot be determined"
+          ],
+          "explanation": "The order is P > Q > R. Therefore R is the shortest."
+        },
+        "te": {
+          "question": "P, Q కంటే పొడవు. Q, R కంటే పొడవు. వీరిలో పొట్టివారు ఎవరు?",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "నిర్ణయించలేము"
+          ],
+          "explanation": "పొడవు క్రమం P > Q > R. కాబట్టి R పొట్టివాడు."
+        }
+      }
+    },
+    {
+      "id": "si4-reason-squares-024",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Number pattern",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "Which number does not belong to the group?",
+          "options": [
+            "16",
+            "25",
+            "36",
+            "45"
+          ],
+          "explanation": "16, 25 and 36 are perfect squares. 45 is not a perfect square."
+        },
+        "te": {
+          "question": "ఈ సమూహంలో సరిపోని సంఖ్య ఏది?",
+          "options": [
+            "16",
+            "25",
+            "36",
+            "45"
+          ],
+          "explanation": "16, 25, 36లు సంపూర్ణ వర్గాలు. 45 సంపూర్ణ వర్గం కాదు."
+        }
+      }
+    },
+    {
+      "id": "si4-gs-article32-019",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 32",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which constitutional right is directly associated with Article 32?",
+          "options": [
+            "Right to constitutional remedies",
+            "Right to property",
+            "Right to vote",
+            "Right to work"
+          ],
+          "explanation": "Article 32 allows individuals to approach the Supreme Court for enforcement of Fundamental Rights."
+        },
+        "te": {
+          "question": "ఆర్టికల్ 32 ఏ రాజ్యాంగ హక్కుతో నేరుగా సంబంధం కలిగి ఉంది?",
+          "options": [
+            "రాజ్యాంగ పరిహారాల హక్కు",
+            "ఆస్తి హక్కు",
+            "ఓటు హక్కు",
+            "పని హక్కు"
+          ],
+          "explanation": "ప్రాథమిక హక్కుల అమలు కోసం ఆర్టికల్ 32 ప్రకారం వ్యక్తులు సుప్రీంకోర్టును ఆశ్రయించవచ్చు."
+        }
+      }
+    },
+    {
+      "id": "si4-gs-duties-020",
+      "subject": "General Studies",
+      "topic": "Indian polity — Fundamental Duties",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Fundamental Duties are listed in which Part of the Constitution of India?",
+          "options": [
+            "Part II",
+            "Part III",
+            "Part IVA",
+            "Part V"
+          ],
+          "explanation": "Fundamental Duties are listed in Part IVA, Article 51A."
+        },
+        "te": {
+          "question": "భారత రాజ్యాంగంలో ప్రాథమిక విధులు ఏ భాగంలో ఉన్నాయి?",
+          "options": [
+            "భాగం II",
+            "భాగం III",
+            "భాగం IVA",
+            "భాగం V"
+          ],
+          "explanation": "ప్రాథమిక విధులు భాగం IVAలోని ఆర్టికల్ 51Aలో పేర్కొనబడ్డాయి."
+        }
+      }
+    },
+    {
+      "id": "si4-gs-rajyasabha-021",
+      "subject": "General Studies",
+      "topic": "Indian polity — Parliament",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "What is the maximum constitutional strength of the Rajya Sabha?",
+          "options": [
+            "200",
+            "238",
+            "245",
+            "250"
+          ],
+          "explanation": "Article 80 provides for a maximum strength of 250 members."
+        },
+        "te": {
+          "question": "రాజ్యసభ గరిష్ఠ రాజ్యాంగబద్ధ సభ్యుల సంఖ్య ఎంత?",
+          "options": [
+            "200",
+            "238",
+            "245",
+            "250"
+          ],
+          "explanation": "ఆర్టికల్ 80 ప్రకారం రాజ్యసభ గరిష్ఠ సభ్యుల సంఖ్య 250."
+        }
+      }
+    },
+    {
+      "id": "si4-gs-emergency-022",
+      "subject": "General Studies",
+      "topic": "Indian polity — Emergency",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "A National Emergency is proclaimed under which Article of the Constitution?",
+          "options": [
+            "Article 123",
+            "Article 280",
+            "Article 352",
+            "Article 368"
+          ],
+          "explanation": "A National Emergency is provided for under Article 352."
+        },
+        "te": {
+          "question": "జాతీయ అత్యవసర పరిస్థితిని రాజ్యాంగంలోని ఏ ఆర్టికల్ ప్రకారం ప్రకటిస్తారు?",
+          "options": [
+            "ఆర్టికల్ 123",
+            "ఆర్టికల్ 280",
+            "ఆర్టికల్ 352",
+            "ఆర్టికల్ 368"
+          ],
+          "explanation": "జాతీయ అత్యవసర పరిస్థితికి ఆర్టికల్ 352లో నిబంధన ఉంది."
+        }
+      }
+    },
+    {
+      "id": "si4-gs-cag-023",
+      "subject": "General Studies",
+      "topic": "Indian polity — CAG",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Who appoints the Comptroller and Auditor General of India?",
+          "options": [
+            "Prime Minister",
+            "President of India",
+            "Chief Justice of India",
+            "Finance Minister"
+          ],
+          "explanation": "The President of India appoints the CAG under Article 148."
+        },
+        "te": {
+          "question": "భారత కంప్ట్రోలర్ అండ్ ఆడిటర్ జనరల్‌ను ఎవరు నియమిస్తారు?",
+          "options": [
+            "ప్రధానమంత్రి",
+            "భారత రాష్ట్రపతి",
+            "భారత ప్రధాన న్యాయమూర్తి",
+            "ఆర్థిక మంత్రి"
+          ],
+          "explanation": "ఆర్టికల్ 148 ప్రకారం భారత రాష్ట్రపతి CAGను నియమిస్తారు."
+        }
+      }
+    },
+    {
+      "id": "si4-gs-independence-024",
+      "subject": "General Studies",
+      "topic": "Indian history — Independence",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "On which date did India become independent?",
+          "options": [
+            "26 January 1950",
+            "15 August 1947",
+            "2 October 1947",
+            "26 November 1949"
+          ],
+          "explanation": "India became independent on 15 August 1947."
+        },
+        "te": {
+          "question": "భారతదేశం ఏ తేదీన స్వాతంత్ర్యం పొందింది?",
+          "options": [
+            "26 జనవరి 1950",
+            "15 ఆగస్టు 1947",
+            "2 అక్టోబర్ 1947",
+            "26 నవంబర్ 1949"
+          ],
+          "explanation": "భారతదేశం 15 ఆగస్టు 1947న స్వాతంత్ర్యం పొందింది."
+        }
+      }
+    },
+    {
+      "id": "si4-gs-troposphere-025",
+      "subject": "General Studies",
+      "topic": "General science — Atmosphere",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Which layer of Earth's atmosphere is closest to the surface and contains most weather phenomena?",
+          "options": [
+            "Stratosphere",
+            "Mesosphere",
+            "Troposphere",
+            "Thermosphere"
+          ],
+          "explanation": "Most clouds and weather phenomena occur in the troposphere, the lowest atmospheric layer."
+        },
+        "te": {
+          "question": "భూమి ఉపరితలానికి అత్యంత దగ్గరగా ఉండి, ఎక్కువ వాతావరణ మార్పులు జరిగే పొర ఏది?",
+          "options": [
+            "స్ట్రాటోస్ఫియర్",
+            "మీసోస్ఫియర్",
+            "ట్రోపోస్ఫియర్",
+            "థర్మోస్ఫియర్"
+          ],
+          "explanation": "మేఘాలు, వాతావరణ మార్పులు ఎక్కువగా ట్రోపోస్ఫియర్‌లో జరుగుతాయి. ఇది వాతావరణంలోని అత్యల్ప పొర."
+        }
+      }
+    },
+    {
+      "id": "si4-gs-saturn-026",
+      "subject": "General Studies",
+      "topic": "General science — Solar system",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Which planet is especially known for its prominent ring system?",
+          "options": [
+            "Mars",
+            "Venus",
+            "Saturn",
+            "Mercury"
+          ],
+          "explanation": "Saturn is especially known for its extensive and prominent ring system."
+        },
+        "te": {
+          "question": "స్పష్టంగా కనిపించే వలయాల వ్యవస్థకు ప్రసిద్ధి చెందిన గ్రహం ఏది?",
+          "options": [
+            "అంగారకుడు",
+            "శుక్రుడు",
+            "శని",
+            "బుధుడు"
+          ],
+          "explanation": "శని గ్రహం తన విస్తృతమైన, స్పష్టమైన వలయాల వ్యవస్థకు ప్రసిద్ధి."
+        }
+      }
+    },
+    {
+      "id": "si4-telangana-medaram-014",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana culture — Jatara",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "The Sammakka-Saralamma Jatara is held at which place in Telangana?",
+          "options": [
+            "Medaram",
+            "Bhadrachalam",
+            "Basara",
+            "Alampur"
+          ],
+          "explanation": "The Sammakka-Saralamma Jatara is held at Medaram in Mulugu district."
+        },
+        "te": {
+          "question": "సమ్మక్క-సారలమ్మ జాతర తెలంగాణలోని ఏ ప్రాంతంలో జరుగుతుంది?",
+          "options": [
+            "మేడారం",
+            "భద్రాచలం",
+            "బాసర",
+            "ఆలంపూర్"
+          ],
+          "explanation": "సమ్మక్క-సారలమ్మ జాతర ములుగు జిల్లాలోని మేడారంలో జరుగుతుంది."
+        }
+      }
+    },
+    {
+      "id": "si4-telangana-pochampally-015",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana economy — Handlooms",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Pochampally is especially known for which textile tradition?",
+          "options": [
+            "Kashida embroidery",
+            "Ikat weaving",
+            "Kullu shawls",
+            "Kanchipuram silk"
+          ],
+          "explanation": "Pochampally is widely known for its Ikat handloom weaving tradition."
+        },
+        "te": {
+          "question": "పోచంపల్లి ఏ వస్త్ర కళకు ప్రత్యేకంగా ప్రసిద్ధి?",
+          "options": [
+            "కాశీదా ఎంబ్రాయిడరీ",
+            "ఇకత్ నేత",
+            "కులు షాల్స్",
+            "కాంచీపురం పట్టు"
+          ],
+          "explanation": "పోచంపల్లి ఇకత్ చేనేత సంప్రదాయానికి ప్రసిద్ధి."
+        }
+      }
+    },
+    {
+      "id": "si4-telangana-komaram-016",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana history — Tribal leaders",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Komaram Bheem is especially associated with the slogan “Jal, Jangal, Zameen”. What did it stand for?",
+          "options": [
+            "Water, forest and land rights",
+            "Education and employment",
+            "Language and literature",
+            "Roads and irrigation"
+          ],
+          "explanation": "The slogan expressed Adivasi demands for rights over water, forests and land."
+        },
+        "te": {
+          "question": "“జల్, జంగల్, జమీన్” నినాదంతో కొమరం భీమ్ ఏ హక్కులను ప్రధానంగా ప్రస్తావించారు?",
+          "options": [
+            "నీరు, అడవి, భూమిపై హక్కులు",
+            "విద్య మరియు ఉపాధి",
+            "భాష మరియు సాహిత్యం",
+            "రోడ్లు మరియు సాగునీరు"
+          ],
+          "explanation": "ఈ నినాదం నీరు, అడవి, భూమిపై ఆదివాసీల హక్కుల డిమాండ్‌ను వ్యక్తం చేసింది."
+        }
+      }
+    },
+    {
+      "id": "si4-telangana-bird-017",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana symbols — State bird",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB SI Notification Rc. No. 225/Rect./Rect-1/2026, Annexure I (page 40). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which bird is the state bird of Telangana?",
+          "options": [
+            "Peacock",
+            "Indian Roller (Palapitta)",
+            "Parrot",
+            "Sarus Crane"
+          ],
+          "explanation": "The Indian Roller, locally known as Palapitta, is Telangana's state bird."
+        },
+        "te": {
+          "question": "తెలంగాణ రాష్ట్ర పక్షి ఏది?",
+          "options": [
+            "నెమలి",
+            "పాలపిట్ట (ఇండియన్ రోలర్)",
+            "చిలుక",
+            "సారస్ క్రేన్"
+          ],
+          "explanation": "ఇండియన్ రోలర్‌ను పాలపిట్ట అని పిలుస్తారు. ఇది తెలంగాణ రాష్ట్ర పక్షి."
+        }
+      }
+    }
+  ]
+}
