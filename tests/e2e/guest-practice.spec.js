@@ -413,3 +413,70 @@ test("Wrong-answer revision keeps Telugu questions, options and explanations", a
   await expect(page.locator("#review")).toContainText("సరైన సమాధానం");
   await expect(page.locator("#review")).toContainText("మొత్తం భాగాలు 3 + 5 = 8");
 });
+
+
+test("Learners can save questions and practise their saved list in English and Telugu", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  await expect(page.locator("#q")).toHaveText("What is 15% of 800?");
+
+  await expect(page.locator("#bookmarkQuestion")).toHaveText("Save question");
+  await page.locator("#bookmarkQuestion").click();
+  await expect(page.locator("#bookmarkQuestion")).toHaveText("Saved · Remove");
+  await expect(page.locator("#bookmarkQuestion")).toHaveAttribute("aria-pressed", "true");
+
+  await page.getByRole("button", { name: "← Exit practice" }).click();
+  await page.reload();
+  await expect(page.locator("#bookmarkedCount")).toHaveText("1 saved question");
+  await expect(page.locator("#bookmarkedQuestionsList")).toContainText("What is 15% of 800?");
+  await expect(page.locator("#practiceBookmarksBtn")).toBeVisible();
+
+  // The unfinished source attempt is intentionally discarded when entering the saved-question session.
+  page.once("dialog", dialog => dialog.accept());
+  await page.locator("#practiceBookmarksBtn").click();
+  await expect(page.locator("#mockTitle")).toHaveText("Saved questions · Quick practice");
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 1");
+  await expect(page.locator("#q")).toHaveText("What is 15% of 800?");
+
+  await page.locator("#lang").click();
+  await expect(page.locator("#q")).toHaveText("అసలు విలువ ₹800. దానిలో 15% ఎంత?");
+  await expect(page.locator("#options")).toContainText("₹120");
+  await page.getByRole("button", { name: "C ₹120" }).click();
+
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await expect(page.locator("#score")).toHaveText("1.00 / 1");
+  await expect(page.locator("#review")).toContainText("800లో 15%");
+});
+
+test("Saved questions can be removed and the empty state hides saved practice", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police Constable");
+  await page.locator("#bookmarkQuestion").click();
+  await page.getByRole("button", { name: "← Exit practice" }).click();
+
+  await expect(page.locator("#bookmarkedCount")).toHaveText("1 saved question");
+  await page.getByRole("button", { name: "Remove saved question" }).click();
+  await expect(page.locator("#bookmarkedCount")).toHaveText("0 saved questions");
+  await expect(page.locator("#practiceBookmarksBtn")).toBeHidden();
+  await expect(page.locator("#bookmarkedQuestionsList")).toContainText("No saved questions yet");
+  const bookmarks = await page.evaluate(() => JSON.parse(localStorage.getItem("bodhuno_bookmarked_questions") || "[]"));
+  expect(bookmarks).toHaveLength(0);
+});
+
+test("Questions can be bookmarked directly from the result explanation review", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+
+  const firstBookmark = page.locator("#review .review-bookmark").first();
+  await expect(firstBookmark).toHaveText("Save question");
+  await firstBookmark.click();
+  await expect(page.locator("#review .review-bookmark").first()).toHaveText("Saved · Remove");
+  await expect(page.locator("#review .review-bookmark").first()).toHaveAttribute("aria-pressed", "true");
+
+  await page.getByRole("button", { name: "Back to home" }).click();
+  await expect(page.locator("#bookmarkedCount")).toHaveText("1 saved question");
+  await expect(page.locator("#bookmarkedQuestionsList")).toContainText("What is 15% of 800?");
+});
