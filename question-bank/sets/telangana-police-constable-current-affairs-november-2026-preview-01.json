@@ -1,0 +1,548 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-constable-current-affairs-november-2026-preview-01",
+  "title": "Telangana Police Constable — Current Affairs Preview (November 2026)",
+  "version": 1,
+  "workflowStatus": "preview",
+  "sourceType": "original_practice",
+  "sourceReference": "Original bilingual current-affairs practice questions based on official PIB releases published during 2026, with coverage through 12 November 2026. Not an official previous-year paper or a complete current-affairs digest.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-constable",
+    "telangana-police-2026",
+    "current-affairs",
+    "november-2026",
+    "preview"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB PC 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44)"
+    ],
+    "practiceNote": "16 original bilingual current-affairs questions based on Government of India releases available through 12 November 2026. Preview pending independent subject-expert and Telugu-language review. Current affairs change frequently; check newer updates before the examination. Not a full-length mock."
+  },
+  "questions": [
+    {
+      "id": "constable-ca26-01",
+      "subject": "General Studies",
+      "topic": "Stand-Up India scheme",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334979&lang=1&reg=1. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which groups are specifically targeted by the Stand-Up India Scheme?",
+          "options": [
+            "Women, SC and ST entrepreneurs",
+            "Only large industrial companies",
+            "Only government employees",
+            "Only farmers above 60 years"
+          ],
+          "explanation": "The scheme promotes entrepreneurship among women and Scheduled Caste and Scheduled Tribe communities."
+        },
+        "te": {
+          "question": "స్టాండ్-అప్ ఇండియా పథకం ప్రధానంగా ఏ వర్గాల వ్యాపారవేత్తలను లక్ష్యంగా పెట్టుకుంది?",
+          "options": [
+            "మహిళలు, ఎస్సీ మరియు ఎస్టీ వ్యాపారవేత్తలు",
+            "పెద్ద పారిశ్రామిక సంస్థలు మాత్రమే",
+            "ప్రభుత్వ ఉద్యోగులు మాత్రమే",
+            "60 ఏళ్లు పైబడిన రైతులు మాత్రమే"
+          ],
+          "explanation": "ఈ పథకం మహిళలు, షెడ్యూల్డ్ కులాలు మరియు షెడ్యూల్డ్ తెగలలో వ్యాపార సృష్టిని ప్రోత్సహిస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-02",
+      "subject": "General Studies",
+      "topic": "Scheme continuation",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334979&lang=1&reg=1. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "Until which date was the continuation of the Stand-Up India Scheme approved in November 2026?",
+          "options": [
+            "31 March 2028",
+            "31 March 2029",
+            "31 March 2030",
+            "31 March 2031"
+          ],
+          "explanation": "The Union Cabinet approved continuation for five years, up to 31 March 2031."
+        },
+        "te": {
+          "question": "నవంబర్ 2026లో స్టాండ్-అప్ ఇండియా పథకం కొనసాగింపును ఏ తేదీ వరకు ఆమోదించారు?",
+          "options": [
+            "31 మార్చి 2028",
+            "31 మార్చి 2029",
+            "31 మార్చి 2030",
+            "31 మార్చి 2031"
+          ],
+          "explanation": "కేంద్ర మంత్రివర్గం ఐదు సంవత్సరాలు, అంటే 31 మార్చి 2031 వరకు కొనసాగింపుకు ఆమోదం తెలిపింది."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-03",
+      "subject": "General Studies",
+      "topic": "Credit support",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334979&lang=1&reg=1. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What is the maximum loan amount stated for eligible Stand-Up India borrowers?",
+          "options": [
+            "₹10 lakh",
+            "₹25 lakh",
+            "₹1 crore",
+            "₹5 crore"
+          ],
+          "explanation": "The scheme supports loans above ₹10 lakh and up to ₹1 crore for eligible greenfield enterprises."
+        },
+        "te": {
+          "question": "అర్హులైన స్టాండ్-అప్ ఇండియా రుణగ్రహీతలకు పేర్కొన్న గరిష్ఠ రుణ మొత్తం ఎంత?",
+          "options": [
+            "₹10 లక్షలు",
+            "₹25 లక్షలు",
+            "₹1 కోటి",
+            "₹5 కోట్లు"
+          ],
+          "explanation": "అర్హమైన కొత్త వ్యాపారాల కోసం ₹10 లక్షల కంటే ఎక్కువ, ₹1 కోటి వరకు రుణాలకు ఈ పథకం మద్దతు ఇస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-04",
+      "subject": "General Studies",
+      "topic": "Entrepreneurship target",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334979&lang=1&reg=1. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "How many additional entrepreneurs is the continued Stand-Up India Scheme intended to support over five years?",
+          "options": [
+            "50,000",
+            "1 lakh",
+            "2.5 lakh",
+            "10 lakh"
+          ],
+          "explanation": "The announced target is financial assistance to an additional 2.5 lakh entrepreneurs over five years."
+        },
+        "te": {
+          "question": "కొనసాగించిన స్టాండ్-అప్ ఇండియా పథకం ఐదు సంవత్సరాల్లో అదనంగా ఎంతమంది వ్యాపారవేత్తలకు మద్దతు ఇవ్వాలని లక్ష్యంగా పెట్టుకుంది?",
+          "options": [
+            "50,000",
+            "1 లక్ష",
+            "2.5 లక్షలు",
+            "10 లక్షలు"
+          ],
+          "explanation": "ఐదు సంవత్సరాల్లో అదనంగా 2.5 లక్షల మంది వ్యాపారవేత్తలకు ఆర్థిక సహాయం అందించడం ప్రకటించిన లక్ష్యం."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-05",
+      "subject": "General Studies",
+      "topic": "PM Mudra Yojana",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334976&lang=1&reg=1. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "The Credit Guarantee Fund for Micro Units (CGFMU) provides guarantee cover for loans under which scheme?",
+          "options": [
+            "PM Jan Dhan Yojana",
+            "Pradhan Mantri Mudra Yojana",
+            "PM-KISAN",
+            "Atal Pension Yojana"
+          ],
+          "explanation": "The PIB release says CGFMU provides credit guarantees for loans extended under Pradhan Mantri Mudra Yojana."
+        },
+        "te": {
+          "question": "సూక్ష్మ యూనిట్ల క్రెడిట్ గ్యారంటీ ఫండ్ (CGFMU) ఏ పథకం కింద ఇచ్చే రుణాలకు హామీ కవరేజ్ అందిస్తుంది?",
+          "options": [
+            "ప్రధానమంత్రి జన్ ధన్ యోజన",
+            "ప్రధానమంత్రి ముద్రా యోజన",
+            "పీఎం-కిసాన్",
+            "అటల్ పెన్షన్ యోజన"
+          ],
+          "explanation": "ప్రధానమంత్రి ముద్రా యోజన కింద ఇచ్చే రుణాలకు CGFMU క్రెడిట్ హామీ అందిస్తుందని PIB ప్రకటన తెలిపింది."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-06",
+      "subject": "General Studies",
+      "topic": "Fund continuation",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334976&lang=1&reg=1. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "For how long was the Credit Guarantee Fund for Micro Units approved for continuation in November 2026?",
+          "options": [
+            "One year",
+            "Three years",
+            "Five years, up to 31 March 2031",
+            "Ten years, up to 31 March 2036"
+          ],
+          "explanation": "The Union Cabinet approved continuation of CGFMU for five years up to 31 March 2031."
+        },
+        "te": {
+          "question": "నవంబర్ 2026లో సూక్ష్మ యూనిట్ల క్రెడిట్ గ్యారంటీ ఫండ్ కొనసాగింపును ఎంతకాలం ఆమోదించారు?",
+          "options": [
+            "ఒక సంవత్సరం",
+            "మూడు సంవత్సరాలు",
+            "ఐదు సంవత్సరాలు, 31 మార్చి 2031 వరకు",
+            "పది సంవత్సరాలు, 31 మార్చి 2036 వరకు"
+          ],
+          "explanation": "కేంద్ర మంత్రివర్గం CGFMUను ఐదు సంవత్సరాలు, 31 మార్చి 2031 వరకు కొనసాగించేందుకు ఆమోదం తెలిపింది."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-07",
+      "subject": "General Studies",
+      "topic": "Credit guarantee corpus",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334976&lang=1&reg=1. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What corpus was approved for continuation of the Credit Guarantee Fund for Micro Units?",
+          "options": [
+            "₹1,000 crore",
+            "₹2,500 crore",
+            "₹5,000 crore",
+            "₹10,000 crore"
+          ],
+          "explanation": "The 11 November 2026 PIB release announced a corpus of ₹5,000 crore for CGFMU."
+        },
+        "te": {
+          "question": "సూక్ష్మ యూనిట్ల క్రెడిట్ గ్యారంటీ ఫండ్ కొనసాగింపుకు ఎంత నిధిని ఆమోదించారు?",
+          "options": [
+            "₹1,000 కోట్లు",
+            "₹2,500 కోట్లు",
+            "₹5,000 కోట్లు",
+            "₹10,000 కోట్లు"
+          ],
+          "explanation": "11 నవంబర్ 2026 PIB ప్రకటన ప్రకారం CGFMU కోసం ₹5,000 కోట్ల నిధిని ప్రకటించారు."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-08",
+      "subject": "General Studies",
+      "topic": "VISTAR scheme",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2332480&lang=1&reg=3. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What does the acronym VISTAR stand for in the scheme approved in November 2026?",
+          "options": [
+            "Village Infrastructure and Skills Training for Agriculture",
+            "Viksit Bharat Initiative for Statistical Transformation, Analytics & Research",
+            "Vision for Integrated Science, Technology and Ruralisation",
+            "Verified Information System for Tax and Revenue"
+          ],
+          "explanation": "VISTAR expands to Viksit Bharat Initiative for Statistical Transformation, Analytics & Research."
+        },
+        "te": {
+          "question": "నవంబర్ 2026లో ఆమోదించిన పథకంలో VISTAR అనే సంక్షిప్త పదం దేనిని సూచిస్తుంది?",
+          "options": [
+            "గ्रामీణ మౌలిక సదుపాయాలు మరియు వ్యవసాయ నైపుణ్య శిక్షణ",
+            "వికసిత్ భారత్ ఇనిషియేటివ్ ఫర్ స్టాటిస్టికల్ ట్రాన్స్‌ఫర్మేషన్, అనలిటిక్స్ & రీసెర్చ్",
+            "సైన్స్, టెక్నాలజీ మరియు గ్రామీణ అభివృద్ధి కోసం దృష్టి",
+            "పన్ను మరియు ఆదాయం కోసం ధృవీకరించిన సమాచార వ్యవస్థ"
+          ],
+          "explanation": "VISTAR అంటే Viksit Bharat Initiative for Statistical Transformation, Analytics & Research."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-09",
+      "subject": "General Studies",
+      "topic": "VISTAR period",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2332480&lang=1&reg=3. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "For which period was the VISTAR scheme approved?",
+          "options": [
+            "FY 2024–25 to FY 2028–29",
+            "FY 2025–26 to FY 2029–30",
+            "FY 2026–27 to FY 2030–31",
+            "FY 2027–28 to FY 2031–32"
+          ],
+          "explanation": "The Cabinet approved VISTAR for FY 2026–27 through FY 2030–31."
+        },
+        "te": {
+          "question": "VISTAR పథకాన్ని ఏ కాలానికి ఆమోదించారు?",
+          "options": [
+            "ఆర్థిక సంవత్సరం 2024–25 నుంచి 2028–29 వరకు",
+            "ఆర్థిక సంవత్సరం 2025–26 నుంచి 2029–30 వరకు",
+            "ఆర్థిక సంవత్సరం 2026–27 నుంచి 2030–31 వరకు",
+            "ఆర్థిక సంవత్సరం 2027–28 నుంచి 2031–32 వరకు"
+          ],
+          "explanation": "మంత్రివర్గం VISTARను ఆర్థిక సంవత్సరం 2026–27 నుంచి 2030–31 వరకు ఆమోదించింది."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-10",
+      "subject": "General Studies",
+      "topic": "VISTAR outlay",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2332480&lang=1&reg=3. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What is the approved financial outlay for the VISTAR scheme?",
+          "options": [
+            "₹1,250 crore",
+            "₹2,814 crore",
+            "₹4,371.10 crore",
+            "₹14,500 crore"
+          ],
+          "explanation": "The PIB announcement gives the VISTAR outlay as ₹4,371.10 crore."
+        },
+        "te": {
+          "question": "VISTAR పథకానికి ఆమోదించిన ఆర్థిక వ్యయం ఎంత?",
+          "options": [
+            "₹1,250 కోట్లు",
+            "₹2,814 కోట్లు",
+            "₹4,371.10 కోట్లు",
+            "₹14,500 కోట్లు"
+          ],
+          "explanation": "PIB ప్రకటనలో VISTAR పథక వ్యయం ₹4,371.10 కోట్లుగా పేర్కొన్నారు."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-11",
+      "subject": "General Studies",
+      "topic": "Energy storage",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2332486&lang=1&reg=48. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What total grid-scale energy storage capacity is targeted under the VGF scheme approved in November 2026?",
+          "options": [
+            "30 GWh",
+            "60 GWh",
+            "92 GWh",
+            "120 GWh"
+          ],
+          "explanation": "The scheme supports 92 GWh of yet-to-be-commissioned grid-scale storage capacity."
+        },
+        "te": {
+          "question": "నవంబర్ 2026లో ఆమోదించిన VGF పథకం కింద మొత్తం ఎంత గ్రిడ్-స్థాయి విద్యుత్ నిల్వ సామర్థ్యాన్ని లక్ష్యంగా పెట్టుకున్నారు?",
+          "options": [
+            "30 GWh",
+            "60 GWh",
+            "92 GWh",
+            "120 GWh"
+          ],
+          "explanation": "ఈ పథకం ఇంకా ప్రారంభం కాని 92 GWh గ్రిడ్-స్థాయి నిల్వ సామర్థ్యానికి మద్దతు ఇస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-12",
+      "subject": "General Studies",
+      "topic": "Energy storage funding",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2332486&lang=1&reg=48. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "What total financial support was approved for the grid-scale energy storage VGF scheme?",
+          "options": [
+            "₹5,000 crore",
+            "₹7,500 crore",
+            "₹10,000 crore",
+            "₹14,500 crore"
+          ],
+          "explanation": "The Cabinet approved financial support of ₹14,500 crore for the scheme."
+        },
+        "te": {
+          "question": "గ్రిడ్-స్థాయి విద్యుత్ నిల్వ VGF పథకానికి ఎంత మొత్తం ఆర్థిక మద్దతు ఆమోదించారు?",
+          "options": [
+            "₹5,000 కోట్లు",
+            "₹7,500 కోట్లు",
+            "₹10,000 కోట్లు",
+            "₹14,500 కోట్లు"
+          ],
+          "explanation": "ఈ పథకానికి ₹14,500 కోట్ల ఆర్థిక మద్దతును మంత్రివర్గం ఆమోదించింది."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-13",
+      "subject": "General Studies",
+      "topic": "Storage components",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2332486&lang=1&reg=48. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which combination matches the 92 GWh capacity components announced for the grid-scale storage scheme?",
+          "options": [
+            "30 GWh batteries, 60 GWh pumped storage, 2 GWh emerging technologies",
+            "60 GWh batteries, 30 GWh pumped storage, 2 GWh solar",
+            "30 GWh pumped storage, 30 GWh batteries, 32 GWh thermal",
+            "92 GWh batteries only"
+          ],
+          "explanation": "The announced mix is 30 GWh battery storage, 60 GWh pumped storage and 2 GWh emerging storage technologies."
+        },
+        "te": {
+          "question": "గ్రిడ్-స్థాయి నిల్వ పథకానికి ప్రకటించిన 92 GWh సామర్థ్య విభజనకు సరిపోయేది ఏది?",
+          "options": [
+            "30 GWh బ్యాటరీలు, 60 GWh పంప్డ్ స్టోరేజ్, 2 GWh అభివృద్ధి చెందుతున్న సాంకేతికతలు",
+            "60 GWh బ్యాటరీలు, 30 GWh పంప్డ్ స్టోరేజ్, 2 GWh సౌర విద్యుత్",
+            "30 GWh పంప్డ్ స్టోరేజ్, 30 GWh బ్యాటరీలు, 32 GWh థర్మల్",
+            "92 GWh బ్యాటరీలు మాత్రమే"
+          ],
+          "explanation": "ప్రకటించిన విభజన: 30 GWh బ్యాటరీ నిల్వ, 60 GWh పంప్డ్ స్టోరేజ్, 2 GWh అభివృద్ధి చెందుతున్న నిల్వ సాంకేతికతలు."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-14",
+      "subject": "General Studies",
+      "topic": "Union Budget",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221455&lang=3&reg=3. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Who presented the Union Budget 2026–27 on 1 February 2026?",
+          "options": [
+            "Amit Shah",
+            "Nirmala Sitharaman",
+            "Piyush Goyal",
+            "Rajnath Singh"
+          ],
+          "explanation": "Finance Minister Nirmala Sitharaman presented the Union Budget 2026–27 on 1 February 2026."
+        },
+        "te": {
+          "question": "1 ఫిబ్రవరి 2026న కేంద్ర బడ్జెట్ 2026–27ను ఎవరు ప్రవేశపెట్టారు?",
+          "options": [
+            "అమిత్ షా",
+            "నిర్మలా సీతారామన్",
+            "పీయూష్ గోయల్",
+            "రాజ్‌నాథ్ సింగ్"
+          ],
+          "explanation": "2026 ఫిబ్రవరి 1న ఆర్థిక మంత్రి నిర్మలా సీతారామన్ కేంద్ర బడ్జెట్ 2026–27ను ప్రవేశపెట్టారు."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-15",
+      "subject": "General Studies",
+      "topic": "Budget framework",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221455&lang=3&reg=3. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "The Union Budget 2026–27 was described as being inspired by how many Kartavyas?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "explanation": "The Budget highlights three Kartavyas: sustaining growth, building people's capacity and inclusive access to opportunities."
+        },
+        "te": {
+          "question": "కేంద్ర బడ్జెట్ 2026–27 ఎన్ని కర్తవ్యాల ఆధారంగా రూపొందించబడిందని పేర్కొన్నారు?",
+          "options": [
+            "రెండు",
+            "మూడు",
+            "నాలుగు",
+            "ఐదు"
+          ],
+          "explanation": "బడ్జెట్ మూడు కర్తవ్యాలను ప్రస్తావించింది: వృద్ధిని కొనసాగించడం, ప్రజల సామర్థ్యాన్ని పెంపొందించడం, అవకాశాలకు సమగ్ర ప్రాప్యత కల్పించడం."
+        }
+      }
+    },
+    {
+      "id": "constable-ca26-16",
+      "subject": "General Studies",
+      "topic": "Agriculture technology",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual current-affairs practice item. Verified against Government of India Press Information Bureau release: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc202621776101.pdf. Information current through 12 November 2026; not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Bharat-VISTAAR, announced in the Union Budget 2026–27, is described as what?",
+          "options": [
+            "A multilingual AI tool for agricultural advisory",
+            "A new railway ticketing platform",
+            "A digital court case system",
+            "A defence satellite programme"
+          ],
+          "explanation": "Bharat-VISTAAR is a multilingual AI tool intended to enhance farm productivity and support farmer decisions by integrating AgriStack and ICAR agricultural-practice resources with AI systems."
+        },
+        "te": {
+          "question": "కేంద్ర బడ్జెట్ 2026–27లో ప్రకటించిన భారత్-విస్తార్‌ను దేనిగా వివరించారు?",
+          "options": [
+            "వ్యవసాయ సలహాల కోసం బహుభాషా AI సాధనం",
+            "కొత్త రైల్వే టికెటింగ్ వేదిక",
+            "డిజిటల్ కోర్టు కేసుల వ్యవస్థ",
+            "రక్షణ ఉపగ్రహ కార్యక్రమం"
+          ],
+          "explanation": "AgriStack మరియు ICAR వ్యవసాయ పద్ధతుల సమాచారాన్ని AI వ్యవస్థలతో అనుసంధానించి రైతుల ఉత్పాదకత, నిర్ణయాలకు తోడ్పడే బహుభాషా AI సాధనం భారత్-విస్తార్."
+        }
+      }
+    }
+  ]
+}
