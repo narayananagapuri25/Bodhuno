@@ -116,14 +116,14 @@
           "explanation": "The common factors include 1, 2, 3, 4, 6 and 12. The greatest is 12."
         },
         "te": {
-          "question": "36 మరియు 60ల గరిష్ఠ సామాన్య గుణకారం ఎంత?",
+          "question": "36 మరియు 60ల గరిష్ఠ సామాన్య భాజకం ఎంత?",
           "options": [
             "6",
             "10",
             "12",
             "18"
           ],
-          "explanation": "సామాన్య గుణకారాల్లో 1, 2, 3, 4, 6, 12 ఉన్నాయి. వాటిలో గరిష్ఠం 12."
+          "explanation": "సామాన్య భాజకాల్లో 1, 2, 3, 4, 6, 12 ఉన్నాయి. వాటిలో గరిష్ఠం 12."
         }
       }
     },
@@ -273,7 +273,7 @@
             "East",
             "West"
           ],
-          "explanation": "North → East → South → East? Re-check: first right is east, second right is south, then left from south is east."
+          "explanation": "North → East after the first right turn → South after the second right turn → East after turning left. Therefore he faces east."
         },
         "te": {
           "question": "రవి ఉత్తరం వైపు చూస్తున్నాడు. కుడివైపు, మళ్లీ కుడివైపు, ఆపై ఎడమవైపు తిరిగాడు. ఇప్పుడు ఏ దిశను చూస్తున్నాడు?",
@@ -283,7 +283,7 @@
             "తూర్పు",
             "పడమర"
           ],
-          "explanation": "ఉత్తరం నుంచి కుడివైపు తూర్పు, మళ్లీ కుడివైపు దక్షిణం, అక్కడి నుంచి ఎడమవైపు తూర్పు. కాబట్టి తూర్పు."
+          "explanation": "మొదట కుడివైపు తిరిగితే తూర్పు, మళ్లీ కుడివైపు తిరిగితే దక్షిణం, అక్కడి నుంచి ఎడమవైపు తిరిగితే తూర్పు అవుతుంది. కాబట్టి అతను తూర్పు వైపు చూస్తున్నాడు."
         }
       }
     },
