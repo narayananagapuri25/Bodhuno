@@ -4,13 +4,14 @@ Bodhuno is a mobile-first, bilingual (English/Telugu), guest-first exam-practice
 
 ## Current pilot
 
-- Police SI has 112 questions across five practice collections (24 foundation, three 24-question static-topic previews, and a 16-question November 2026 current-affairs preview). Police Constable has 113 questions across five collections (24 foundation, two 24-question static-topic previews, a 25-question Set 03 preview, a 24-question Set 04 preview, and a 16-question November 2026 current-affairs preview).
+- Police SI has 127 questions across six short practice collections, plus a separate 200-question full mock preview. Police Constable has 128 questions across six short practice collections, plus a separate 200-question full mock preview. The short collections include foundation, syllabus expansion and two dated November 2026 current-affairs batches.
 - Set 01 is the owner-approved pilot publication. Sets 02, 03 and 04 remain `preview` pending independent subject-expert and Telugu-language review. All are original bilingual practice questions, not official previous-year papers or full-length mocks.
 - The available question collections do not constitute complete syllabus coverage. Both Police tracks now have a separate 200-question / 180-minute full-length practice mock preview, with +1 / −0.20 / 0 scoring. The mocks are original practice simulations, not official TGPRB papers, and remain pending independent subject-expert and Telugu-language review. Current-affairs coverage is limited to a dated November 2026 preview and is not comprehensive or automatically updated.
 - Both sets follow the TGPRB 2026 PWT marking rule: +1 for correct, −0.20 for incorrect, 0 for unanswered.
 - The official SI and PC PWT notifications specify 200 questions, 200 marks and three hours. Each Bodhuno Police module is a shorter practice set of 24 or 25 questions, with a one-minute-per-question practice timer. The sets remain separate and are not a 200-question simulation.
 - TGPSC, TET/DSC, aptitude and placement cards still use the five-question demonstration set, not complete exam collections.
-- Guest attempt history is stored only in the current browser's local storage (last 30 attempts). Clearing browser data clears that history.
+- Guest attempt history is stored only in the current browser's local storage (last 30 attempts), including subject/topic answer breakdowns for completed attempts. The progress dashboard shows overall accuracy, subject accuracy and focus areas; it flags a subject after at least five answers below 60% accuracy and a topic after at least three answers below 60%. Clearing browser data clears this history.
+- Topic-wise practice combines available questions from the selected Police track, removes identical English question stems, and lets learners practise one subject/topic at a time. Topic practice and the dashboard work without sign-in, a server-side profile or a database.
 - No registration, payment, database or live advertising integration is required for this phase.
 
 ## Question updates
