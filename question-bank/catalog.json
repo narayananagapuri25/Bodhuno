@@ -156,6 +156,32 @@
       "workflowStatus": "preview",
       "questionCount": 200,
       "file": "question-bank/sets/telangana-police-constable-full-mock-01-preview.json"
+    },
+    {
+      "order": 130,
+      "examName": "Police SI · Current Affairs Set 02",
+      "title": "Police SI · Current Affairs Set 02",
+      "description": "15 bilingual questions from official updates dated 10–12 November 2026, including defence, economy and national awards.",
+      "icon": "🗞️",
+      "tag": "CURRENT AFFAIRS · NOV 2026 · SET 02",
+      "footer": "Preview · guest practice",
+      "actionLabel": "Try now →",
+      "workflowStatus": "preview",
+      "questionCount": 15,
+      "file": "question-bank/sets/telangana-police-si-current-affairs-november-2026-preview-02.json"
+    },
+    {
+      "order": 140,
+      "examName": "Police Constable · Current Affairs Set 02",
+      "title": "Police Constable · Current Affairs Set 02",
+      "description": "15 bilingual questions from official updates dated 10–12 November 2026, including defence, economy and national awards.",
+      "icon": "🗞️",
+      "tag": "CURRENT AFFAIRS · NOV 2026 · SET 02",
+      "footer": "Preview · guest practice",
+      "actionLabel": "Try now →",
+      "workflowStatus": "preview",
+      "questionCount": 15,
+      "file": "question-bank/sets/telangana-police-constable-current-affairs-november-2026-preview-02.json"
     }
   ]
 }
