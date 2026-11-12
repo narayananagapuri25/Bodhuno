@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bodhuno.pages.dev/question-bank/schema.json",
+  "title": "Bodhuno Question Set",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "setId",
+    "title",
+    "version",
+    "workflowStatus",
+    "sourceType",
+    "languages",
+    "examTags",
+    "questions"
+  ],
+  "properties": {
+    "format": {
+      "const": "bodhuno-question-set/v1"
+    },
+    "setId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "workflowStatus": {
+      "enum": [
+        "draft",
+        "review",
+        "preview",
+        "published"
+      ]
+    },
+    "sourceType": {
+      "enum": [
+        "original_practice",
+        "original_demo",
+        "official_previous_year",
+        "syllabus_inspired"
+      ]
+    },
+    "sourceReference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewedBy": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "languages": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "en",
+          "te"
+        ]
+      },
+      "minItems": 1
+    },
+    "examTags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "subject",
+          "topic",
+          "difficulty",
+          "status",
+          "sourceType",
+          "languages",
+          "correctOptionIndex"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "subject": {
+            "type": "string",
+            "minLength": 1
+          },
+          "topic": {
+            "type": "string",
+            "minLength": 1
+          },
+          "difficulty": {
+            "enum": [
+              "easy",
+              "medium",
+              "hard"
+            ]
+          },
+          "status": {
+            "enum": [
+              "draft",
+              "review",
+              "preview",
+              "published",
+              "retired"
+            ]
+          },
+          "sourceType": {
+            "enum": [
+              "original_practice",
+              "original_demo",
+              "official_previous_year",
+              "syllabus_inspired"
+            ]
+          },
+          "sourceReference": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "languages": {
+            "type": "object",
+            "required": [
+              "en",
+              "te"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "en": {
+                "$ref": "#/$defs/localizedQuestion"
+              },
+              "te": {
+                "$ref": "#/$defs/localizedQuestion"
+              }
+            }
+          },
+          "correctOptionIndex": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "localizedQuestion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "question",
+        "options",
+        "explanation"
+      ],
+      "properties": {
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "options": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
