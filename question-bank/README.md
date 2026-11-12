@@ -11,6 +11,8 @@ The question bank is the source of truth for static content during the database-
 - `sets/telangana-police-constable-expansion-preview-02.json`: 24 additional Constable preview questions across arithmetic, reasoning, science, history, geography, polity, economy, Telangana and English.
 - `sets/telangana-police-si-expansion-preview-03.json`: 24 additional SI preview questions across arithmetic, reasoning, polity, economy, history, geography and Telangana heritage.
 - `sets/telangana-police-constable-expansion-preview-03.json`: 25 additional Constable preview questions across arithmetic, reasoning, science, history, geography, polity, Telangana and English.
+- `sets/telangana-police-si-expansion-preview-04.json`: 24 additional SI preview questions covering arithmetic, reasoning, polity, science and Telangana culture.
+- `sets/telangana-police-constable-expansion-preview-04.json`: 24 additional Constable preview questions covering arithmetic, reasoning, science, history, geography, polity, Telangana and English.
 - `schema.json`: question-set data contract.
 - `scripts/validate-question-bank.mjs`: Node.js structural and publishing-rule validator.
 
@@ -49,3 +51,7 @@ Two additional 24-question bilingual collections are available as preview sets o
 ## Syllabus expansion preview — Set 03
 
 Set 03 adds 24 SI questions and 25 Constable questions. They remain separate, bilingual preview collections and continue to use +1 / −0.20 / 0 scoring with a one-minute-per-question practice timer. The new batch adds more arithmetic, reasoning, Indian polity/economy/history/geography, science, Telangana heritage and a small amount of English in the Constable collection. The batch is not a full mock and contains no dedicated current-affairs section. Keep the sets in `preview` status until a qualified subject reviewer and Telugu-language reviewer have checked each item and answer key.
+
+## Syllabus expansion preview — Set 04
+
+Set 04 adds 24 additional bilingual questions to each Police track. Both continue using the TGPRB marking metadata (+1 / −0.20 / 0) and a short one-minute-per-question practice timer. The SI set adds arithmetic, reasoning, polity, general science and Telangana culture. The Constable set adds arithmetic, reasoning, science, history, geography, polity, Telangana awareness and English. These remain preview-only until independent subject-expert and Telugu-language review is recorded. They are not full-length examinations and do not provide current-affairs coverage.
