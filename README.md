@@ -4,8 +4,8 @@ Bodhuno is a mobile-first, bilingual (English/Telugu), guest-first exam-practice
 
 ## Current pilot
 
-- Police SI has 72 questions across three separate sets (24 foundation, 24 Set 02 preview, 24 Set 03 preview). Police Constable has 73 questions (24 foundation, 24 Set 02 preview, 25 Set 03 preview).
-- Set 01 is the owner-approved pilot publication. Sets 02 and 03 remain `preview` pending independent subject-expert and Telugu-language review. All are original bilingual practice questions, not official previous-year papers or full-length mocks.
+- Police SI has 96 questions across four separate sets (24 foundation plus three 24-question expansion previews). Police Constable has 97 questions across four sets (24 foundation, two 24-question previews, a 25-question Set 03 preview, and a 24-question Set 04 preview).
+- Set 01 is the owner-approved pilot publication. Sets 02, 03 and 04 remain `preview` pending independent subject-expert and Telugu-language review. All are original bilingual practice questions, not official previous-year papers or full-length mocks.
 - The available questions do not constitute complete syllabus coverage or the official 200-question examination; current affairs coverage remains outstanding.
 - Both sets follow the TGPRB 2026 PWT marking rule: +1 for correct, −0.20 for incorrect, 0 for unanswered.
 - The official SI and PC PWT notifications specify 200 questions, 200 marks and three hours. Each Bodhuno Police module is a shorter practice set of 24 or 25 questions, with a one-minute-per-question practice timer. The sets remain separate and are not a 200-question simulation.
