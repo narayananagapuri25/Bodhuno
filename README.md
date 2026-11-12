@@ -12,6 +12,7 @@ Bodhuno is a mobile-first, bilingual (English/Telugu), guest-first exam-practice
 - TGPSC, TET/DSC, aptitude and placement cards still use the five-question demonstration set, not complete exam collections.
 - Guest attempt history is stored only in the current browser's local storage (last 30 attempts), including subject/topic answer breakdowns for completed attempts. The progress dashboard shows overall accuracy, subject accuracy and focus areas; it flags a subject after at least five answers below 60% accuracy and a topic after at least three answers below 60%. Clearing browser data clears this history.
 - Topic-wise practice combines available questions from the selected Police track, removes identical English question stems, and lets learners practise one subject/topic at a time. Topic practice and the dashboard work without sign-in, a server-side profile or a database.
+- After a completed attempt, learners can launch a wrong-answer revision containing only questions they answered incorrectly (unanswered questions are excluded). Revision sessions retain the original English/Telugu content, options, explanations and scoring, and are saved as separate attempts in the same on-device progress history.
 - No registration, payment, database or live advertising integration is required for this phase.
 
 ## Question updates
