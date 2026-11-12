@@ -2,10 +2,10 @@
   "format": "bodhuno-question-set/v1",
   "setId": "telangana-police-foundation-01",
   "title": "Telangana Police SI & Constable — Foundation Practice Set 01",
-  "version": 2,
+  "version": 3,
   "workflowStatus": "published",
   "sourceType": "original_practice",
-  "sourceReference": "TGPRB SI Notification Rc No. 225/Rect./Rect-1/2026, Annexure II (official portal: https://www.tgprb.in/). The SI syllabus specifies arithmetic, reasoning/mental ability, and general studies including Indian history, geography, polity/economy, science, current events and Telangana Movement/state formation. This original practice set covers selected foundational areas only. The Telangana state geography items are supplementary general-awareness practice, not claimed as exact syllabus subheadings. The questions are not an official previous-year paper and the set is not a full-length mock. The PC notification is separately listed by TGPRB under Rc No. 189/Rect./Rect-2/2026; check the relevant post-specific notification for exact coverage.",
+  "sourceReference": "TGPRB SI Notification Rc No. 225/Rect./Rect-1/2026, Annexure II (official portal: https://www.tgprb.in/). The SI syllabus specifies arithmetic, reasoning/mental ability, and general studies including Indian history, geography, polity/economy, science, current events and Telangana Movement/state formation. This original practice set covers selected foundational areas only. The Telangana state geography items are supplementary general-awareness practice, not claimed as exact syllabus subheadings. The questions are not an official previous-year paper and the set is not a full-length mock. The PC notification is separately listed by TGPRB under Rc No. 189/Rect./Rect-2/2026; check the relevant post-specific notification for exact coverage. Official SI PWT scheme: 200 questions, 200 marks, 3 hours and a 20% penalty for an incorrect response (pages 19–20; Annexure I page 40). Official PC PWT scheme: 200 questions, 200 marks, 3 hours and a 20% penalty for an incorrect response (pages 25–26; Annexure II page 44). Official PDFs are linked in the set scoring metadata.",
   "reviewedBy": "Bodhuno owner-approved pilot publication; AI-assisted checks; independent subject-expert certification not claimed",
   "reviewedAt": "2026-11-12T18:53:54+05:30",
   "languages": [
@@ -255,24 +255,24 @@
       "correctOptionIndex": 1,
       "languages": {
         "en": {
-          "question": "A glove is worn on a hand. What is worn on a foot?",
+          "question": "A glove is worn on a hand. Which item is commonly worn on a foot inside a shoe?",
           "options": [
             "Hat",
             "Sock",
             "Belt",
             "Glasses"
           ],
-          "explanation": "A glove is worn on a hand; a sock is worn on a foot."
+          "explanation": "A glove is worn on a hand; a sock is commonly worn on a foot inside a shoe."
         },
         "te": {
-          "question": "చేతికి గ్లౌవ్ ఎలా సరిపోతుందో, పాదానికి ఏది సరిపోతుంది?",
+          "question": "చేతికి గ్లౌవ్ ధరిస్తారు. సాధారణంగా షూ లోపల పాదానికి ఏది ధరిస్తారు?",
           "options": [
             "టోపీ",
             "సాక్స్",
             "బెల్ట్",
             "కళ్లజోడు"
           ],
-          "explanation": "గ్లౌవ్ చేతికి ధరించే వస్త్రం; సాక్స్ పాదానికి ధరించే వస్త్రం."
+          "explanation": "చేతికి గ్లౌవ్ ధరిస్తారు; సాధారణంగా షూ లోపల పాదానికి సాక్స్ ధరిస్తారు."
         }
       }
     },
@@ -788,5 +788,18 @@
         }
       }
     }
-  ]
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "SI Notification Rc. No. 225/Rect./Rect-1/2026, PWT pages 19–20 and Annexure I page 40: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+      "PC Notification Rc. No. 189/Rect./Rect-2/2026, PWT pages 25–26 and Annexure II page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf"
+    ],
+    "practiceNote": "This 24-question set covers selected foundation topics only. It is not the 200-question, three-hour official examination."
+  }
 }
