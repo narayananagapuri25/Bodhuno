@@ -480,3 +480,86 @@ test("Questions can be bookmarked directly from the result explanation review", 
   await expect(page.locator("#bookmarkedCount")).toHaveText("1 saved question");
   await expect(page.locator("#bookmarkedQuestionsList")).toContainText("What is 15% of 800?");
 });
+
+
+test("Answered practice updates the current streak and weekly activity calendar", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  await page.getByRole("button", { name: "C ₹120" }).click();
+  await page.locator("#palette button").nth(1).click();
+  await page.getByRole("button", { name: "B 24", exact: true }).click();
+
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await page.getByRole("button", { name: "Back to home" }).click();
+
+  await expect(page.locator('#progressDashboard [data-metric="current-streak"] strong')).toHaveText("1 day");
+  await expect(page.locator('#progressDashboard [data-metric="longest-streak"] strong')).toHaveText("1 day");
+  await expect(page.locator('#progressDashboard [data-metric="active-days-week"] strong')).toHaveText("1 / 7");
+  await expect(page.locator("#studyWeekCalendar .study-day")).toHaveCount(7);
+  await expect(page.locator('#studyWeekCalendar .study-day[data-active="true"]')).toHaveCount(1);
+  await expect(page.locator("#studyWeekSummary")).toContainText("2 questions answered");
+
+  const activity = await page.evaluate(() => JSON.parse(localStorage.getItem("bodhuno_study_activity") || "[]"));
+  expect(activity).toHaveLength(1);
+  expect(activity[0].answered).toBe(2);
+  expect(activity[0].attempts).toBe(1);
+});
+
+test("Blank submissions do not count toward study streaks or weekly activity", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await page.getByRole("button", { name: "Back to home" }).click();
+
+  await expect(page.locator('#progressDashboard [data-metric="current-streak"] strong')).toHaveText("0 days");
+  await expect(page.locator('#progressDashboard [data-metric="active-days-week"] strong')).toHaveText("0 / 7");
+  await expect(page.locator('#studyWeekCalendar .study-day[data-active="true"]')).toHaveCount(0);
+  const activity = await page.evaluate(() => JSON.parse(localStorage.getItem("bodhuno_study_activity") || "[]"));
+  expect(activity).toHaveLength(0);
+});
+
+test("Study streak uses consecutive local dates and retains the longest run", async ({ page }) => {
+  await page.addInitScript(() => {
+    const key = date => date.getFullYear()+"-"+String(date.getMonth()+1).padStart(2,"0")+"-"+String(date.getDate()).padStart(2,"0");
+    const offset = amount => { const date=new Date();date.setDate(date.getDate()+amount);return key(date); };
+    const records = [-5,-4,-3,-1,0].map((days,index) => ({
+      date: offset(days),
+      attempts: 1,
+      answered: index+1
+    }));
+    localStorage.setItem("bodhuno_study_activity",JSON.stringify(records));
+  });
+  await page.goto("/");
+  await expect(page.locator('#progressDashboard [data-metric="current-streak"] strong')).toHaveText("2 days");
+  await expect(page.locator('#progressDashboard [data-metric="longest-streak"] strong')).toHaveText("3 days");
+  await expect(page.locator("#studyWeekCalendar .study-day")).toHaveCount(7);
+});
+
+
+test("Multiple practice attempts on the same date count as one active streak day", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  await page.getByRole("button", { name: "C ₹120" }).click();
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await page.getByRole("button", { name: "Back to home" }).click();
+
+  await openExam(page, "Police SI");
+  await page.getByRole("button", { name: "C ₹120" }).click();
+  await page.locator("#palette button").nth(1).click();
+  await page.getByRole("button", { name: "B 24", exact: true }).click();
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await page.getByRole("button", { name: "Back to home" }).click();
+
+  await expect(page.locator('#progressDashboard [data-metric="current-streak"] strong')).toHaveText("1 day");
+  await expect(page.locator('#progressDashboard [data-metric="active-days-week"] strong')).toHaveText("1 / 7");
+  await expect(page.locator("#studyWeekSummary")).toContainText("3 questions answered");
+  await expect(page.locator('#studyWeekCalendar .study-day[data-active="true"]')).toHaveCount(1);
+  const activity = await page.evaluate(() => JSON.parse(localStorage.getItem("bodhuno_study_activity") || "[]"));
+  expect(activity).toHaveLength(1);
+  expect(activity[0].attempts).toBe(2);
+  expect(activity[0].answered).toBe(3);
+});

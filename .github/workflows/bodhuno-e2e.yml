@@ -51,6 +51,7 @@ jobs:
             branch_name="${GITHUB_HEAD_REF:-$GITHUB_REF_NAME}"
             slug="${branch_name//\//-}"
             slug="${slug:0:28}"
+            while [[ "$slug" == *- ]]; do slug="${slug%-}"; done
             base_url="https://${slug}.bodhuno.pages.dev"
           fi
           echo "BODHUNO_BASE_URL=$base_url" >> "$GITHUB_ENV"

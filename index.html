@@ -33,7 +33,7 @@
 .topic-actions{display:flex;align-items:center;gap:13px;flex-wrap:wrap}
 .topic-actions p{margin:0;color:var(--muted);font-size:11px;line-height:1.6}
 .topic-actions button:disabled{opacity:.45;cursor:not-allowed}
-.question-actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.review-bookmark{margin-top:8px}.saved-question-list{display:grid;gap:10px;margin-top:14px}.saved-question-card{display:grid;gap:7px}.saved-question-card p{margin:0;font-size:12px;line-height:1.65}.saved-question-meta{color:var(--muted)}.saved-question-stem{font-weight:700;color:var(--ink)}.saved-question-answer{color:var(--teal);font-weight:800}.saved-question-explanation{color:var(--muted)}.saved-question-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:3px}@media(max-width:760px){.navlinks{display:none}.progress-columns{grid-template-columns:1fr}.topic-controls{grid-template-columns:1fr 1fr}.herogrid{grid-template-columns:1fr;gap:28px}.hero{padding:49px 0}.hero h1{letter-spacing:-1.6px}.stripgrid{grid-template-columns:1fr 1fr}.stripitem:nth-child(2){border-right:0}.stripitem:nth-child(3),.stripitem:nth-child(4){border-top:1px solid var(--line)}.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.head{display:block}.head p{margin-top:10px}.mockgrid{grid-template-columns:1fr}.promise,.footrow{display:block}.promise button{margin-top:12px}.copy{display:block}.copy span{display:block;margin-top:6px}}@media(max-width:480px){.grid{grid-template-columns:1fr}.progress-metrics{gap:6px}.metric-card{padding:10px}.metric-card strong{font-size:21px}.metric-card small,.metric-card span{font-size:9px}.topic-controls{grid-template-columns:1fr}.subject-progress{grid-template-columns:minmax(78px,105px) 1fr 37px;gap:7px}.top .wrap span:last-child{display:none}.hero h1{font-size:42px}.mockhead{align-items:start}.panel{padding:15px}}
+.study-activity-panel{background:#fff;border:1px solid var(--line);border-radius:15px;padding:17px;margin:14px 0 19px}.study-week-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}.study-week-heading h3{font-size:13px;margin:0}.study-week-heading span{font-size:10px;color:var(--muted);text-align:right}.study-week-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}.study-day{min-width:0;display:grid;justify-items:center;gap:5px;padding:9px 3px;border:1px solid var(--line);border-radius:10px;background:#f8faf9;color:var(--muted)}.study-day.active{background:var(--mint);border-color:#b7ddce;color:var(--teal)}.study-day.today{outline:2px solid var(--teal);outline-offset:1px}.study-day small{font-size:9px;font-weight:800}.study-day strong{font-size:17px;color:var(--ink)}.study-day span{font-size:9px;font-weight:800;white-space:nowrap}.study-streak-note{margin:12px 0 0;color:var(--muted);font-size:10px;line-height:1.6}.question-actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.review-bookmark{margin-top:8px}.saved-question-list{display:grid;gap:10px;margin-top:14px}.saved-question-card{display:grid;gap:7px}.saved-question-card p{margin:0;font-size:12px;line-height:1.65}.saved-question-meta{color:var(--muted)}.saved-question-stem{font-weight:700;color:var(--ink)}.saved-question-answer{color:var(--teal);font-weight:800}.saved-question-explanation{color:var(--muted)}.saved-question-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:3px}@media(max-width:760px){.navlinks{display:none}.progress-columns{grid-template-columns:1fr}.topic-controls{grid-template-columns:1fr 1fr}.herogrid{grid-template-columns:1fr;gap:28px}.hero{padding:49px 0}.hero h1{letter-spacing:-1.6px}.stripgrid{grid-template-columns:1fr 1fr}.stripitem:nth-child(2){border-right:0}.stripitem:nth-child(3),.stripitem:nth-child(4){border-top:1px solid var(--line)}.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.head{display:block}.head p{margin-top:10px}.mockgrid{grid-template-columns:1fr}.promise,.footrow{display:block}.promise button{margin-top:12px}.copy{display:block}.copy span{display:block;margin-top:6px}}@media(max-width:480px){.grid{grid-template-columns:1fr}.progress-metrics{gap:6px}.metric-card{padding:10px}.metric-card strong{font-size:21px}.metric-card small,.metric-card span{font-size:9px}.topic-controls{grid-template-columns:1fr}.subject-progress{grid-template-columns:minmax(78px,105px) 1fr 37px;gap:7px}.top .wrap span:last-child{display:none}.hero h1{font-size:42px}.mockhead{align-items:start}.panel{padding:15px}}
 </style>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.webmanifest">\n</head>
@@ -255,6 +255,7 @@ try{
   history.push({exam,setId:activeSet.setId,correct,wrong,unanswered,net,answered,byTopic:[...topicBreakdown.values()],at:new Date().toISOString()});
   localStorage.setItem("bodhuno_guest_attempts",JSON.stringify(history.slice(-30)));
 }catch(e){}
+recordStudyActivity(answered);
 renderProgressDashboard();show("resultView")}
 function startWrongAnswerRevision(){
   const incorrect=qs.filter((question,index)=>answers[index]!==undefined&&answers[index]!==question.a);
@@ -352,8 +353,95 @@ function readAttemptHistory(){
     return Array.isArray(history)?history.filter(item=>item&&typeof item==="object").slice(-30):[];
   }catch(error){return []}
 }
-function appendMetric(container,label,value,note){
-  const card=document.createElement("div");card.className="metric-card";
+function localStudyDateKey(date=new Date()){
+  const year=date.getFullYear(),month=String(date.getMonth()+1).padStart(2,"0"),day=String(date.getDate()).padStart(2,"0");
+  return year+"-"+month+"-"+day;
+}
+function shiftStudyDateKey(key,offset){
+  const [year,month,day]=key.split("-").map(Number);
+  const date=new Date(year,month-1,day+offset,12,0,0,0);
+  return localStudyDateKey(date);
+}
+function readStudyActivity(){
+  try{
+    const raw=JSON.parse(localStorage.getItem("bodhuno_study_activity")||"[]");
+    if(!Array.isArray(raw))return [];
+    const days=new Map();
+    for(const item of raw){
+      if(!item||typeof item.date!=="string"||!/^\d{4}-\d{2}-\d{2}$/.test(item.date))continue;
+      const date=new Date(item.date+"T12:00:00");
+      if(Number.isNaN(date.getTime())||localStudyDateKey(date)!==item.date)continue;
+      const attempts=Math.max(0,Math.min(10000,Math.floor(Number(item.attempts)||0)));
+      const answered=Math.max(0,Math.min(100000,Math.floor(Number(item.answered)||0)));
+      if(!attempts||!answered)continue;
+      const row=days.get(item.date)||{date:item.date,attempts:0,answered:0};
+      row.attempts+=attempts;row.answered+=answered;days.set(item.date,row);
+    }
+    return [...days.values()].sort((a,b)=>a.date.localeCompare(b.date)).slice(-400);
+  }catch(error){return []}
+}
+function recordStudyActivity(answeredCount){
+  const answered=Math.floor(Number(answeredCount)||0);
+  if(answered<1)return;
+  const date=localStudyDateKey();
+  const days=readStudyActivity();
+  const existing=days.find(item=>item.date===date);
+  if(existing){existing.attempts++;existing.answered+=answered;}
+  else days.push({date,attempts:1,answered});
+  try{localStorage.setItem("bodhuno_study_activity",JSON.stringify(days.sort((a,b)=>a.date.localeCompare(b.date)).slice(-400)))}catch(error){}
+}
+function calculateStudyStreaks(days){
+  const lookup=new Map(days.map(item=>[item.date,item]));
+  const today=localStudyDateKey(),yesterday=shiftStudyDateKey(today,-1);
+  let current=0;
+  let cursor=lookup.has(today)?today:(lookup.has(yesterday)?yesterday:null);
+  while(cursor&&lookup.has(cursor)){current++;cursor=shiftStudyDateKey(cursor,-1);}
+  const dates=[...lookup.keys()].sort();
+  let longest=0,run=0,previous=null;
+  for(const date of dates){
+    const consecutive=previous&&shiftStudyDateKey(previous,1)===date;
+    run=consecutive?run+1:1;
+    longest=Math.max(longest,run);
+    previous=date;
+  }
+  return {current,longest,today,yesterday};
+}
+function renderStudyActivity(root,metrics){
+  const days=readStudyActivity(),streaks=calculateStudyStreaks(days),lookup=new Map(days.map(item=>[item.date,item]));
+  appendMetric(metrics,t("Current streak","ప్రస్తుత వరుస రోజుల సాధన"),streaks.current+" "+(streaks.current===1?t("day","రోజు"):t("days","రోజులు")),t("Consecutive active days · one or more answers per day","ప్రతి రోజు కనీసం ఒక సమాధానం ఇచ్చిన వరుస రోజులు"),"current-streak");
+  appendMetric(metrics,t("Longest streak","అత్యధిక వరుస రోజులు"),streaks.longest+" "+(streaks.longest===1?t("day","రోజు"):t("days","రోజులు")),t("Your best run on this device","ఈ పరికరంలో మీ అత్యుత్తమ వరుస"),"longest-streak");
+  const offset=(new Date().getDay()+6)%7;
+  const monday=shiftStudyDateKey(streaks.today,-offset);
+  const week=[];
+  for(let i=0;i<7;i++){
+    const date=shiftStudyDateKey(monday,i),record=lookup.get(date);
+    week.push({date,record,today:date===streaks.today});
+  }
+  const weekAnswered=week.reduce((sum,day)=>sum+(day.record?.answered||0),0);
+  const activeDays=week.filter(day=>day.record).length;
+  appendMetric(metrics,t("Active days this week","ఈ వారం సాధన చేసిన రోజులు"),activeDays+" / 7",weekAnswered+" "+t("questions answered this week","ఈ వారం సమాధానమిచ్చిన ప్రశ్నలు"),"active-days-week");
+  const panel=document.createElement("section");panel.className="study-activity-panel";panel.setAttribute("aria-label",t("Weekly study activity","వారపు అభ్యాస వివరాలు"));
+  const heading=document.createElement("div");heading.className="study-week-heading";
+  const title=document.createElement("h3");title.textContent=t("This week","ఈ వారం");
+  const summary=document.createElement("span");summary.id="studyWeekSummary";summary.textContent=weekAnswered+" "+t("questions answered","ప్రశ్నలకు సమాధానమిచ్చారు")+" · "+activeDays+" "+t("active days","సాధన రోజులు");
+  heading.append(title,summary);
+  const calendar=document.createElement("div");calendar.className="study-week-grid";calendar.id="studyWeekCalendar";
+  const labels=language==="en"?["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]:["సోమ","మంగళ","బుధ","గురు","శుక్ర","శని","ఆది"];
+  week.forEach((day,index)=>{
+    const tile=document.createElement("div");tile.className="study-day"+(day.record?" active":"")+(day.today?" today":"");
+    tile.dataset.date=day.date;tile.dataset.active=day.record?"true":"false";
+    const weekday=document.createElement("small");weekday.textContent=labels[index];
+    const date=document.createElement("strong");date.textContent=String(Number(day.date.slice(-2)));
+    const count=document.createElement("span");count.textContent=day.record?String(day.record.answered)+" "+(language==="en"?"Q":"ప్ర"):"";
+    const accessible=labels[index]+" "+date.textContent+": "+(day.record?day.record.answered+" "+t("questions answered","ప్రశ్నలకు సమాధానమిచ్చారు"):t("no practice yet","ఇంకా సాధన లేదు"));
+    tile.setAttribute("aria-label",accessible);tile.append(weekday,date,count);calendar.append(tile);
+  });
+  const note=document.createElement("p");note.className="study-streak-note";
+  note.textContent=lookup.has(streaks.today)?t("Great work — you have practised today. Come back tomorrow to continue your streak.","బాగా సాధించారు — ఈ రోజు సాధన పూర్తయింది. మీ వరుసను కొనసాగించడానికి రేపు మళ్లీ రండి."):lookup.has(streaks.yesterday)?t("Your streak is alive. Answer at least one question today to keep it going.","మీ వరుస కొనసాగుతోంది. దాన్ని కొనసాగించడానికి ఈ రోజు కనీసం ఒక ప్రశ్నకు సమాధానం ఇవ్వండి."):t("Complete a practice with at least one answer to start your study streak.","మీ అభ్యాస వరుసను ప్రారంభించడానికి కనీసం ఒక ప్రశ్నకు సమాధానమిస్తూ సాధనను పూర్తి చేయండి.");
+  panel.append(heading,calendar,note);root.append(panel);
+}
+function appendMetric(container,label,value,note,key){
+  const card=document.createElement("div");card.className="metric-card";if(key)card.dataset.metric=key;
   const title=document.createElement("small");title.textContent=label;
   const number=document.createElement("strong");number.textContent=value;
   const detail=document.createElement("span");detail.textContent=note;
@@ -407,6 +495,7 @@ function renderProgressDashboard(){
   appendMetric(metrics,t("Completed attempts","పూర్తి చేసిన పరీక్షలు"),history.length,t("Last 30 attempts on this device","ఈ పరికరంలోని చివరి 30 పరీక్షలు"));
   appendMetric(metrics,t("Questions answered","సమాధానమిచ్చిన ప్రశ్నలు"),answered,t("Across your saved practice history","సేవ్ చేసిన అభ్యాస చరిత్రలో"));
   appendMetric(metrics,t("Overall accuracy","మొత్తం ఖచ్చితత్వం"),history.length?accuracy+"%":"—",t("Correct answers out of attempted questions","సమాధానమిచ్చిన ప్రశ్నల్లో సరైన సమాధానాలు"));
+  renderStudyActivity(root,metrics);
   root.append(metrics);
   if(!history.length){
     const empty=document.createElement("div");empty.className="progress-panel";
