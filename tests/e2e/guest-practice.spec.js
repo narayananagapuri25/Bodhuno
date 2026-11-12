@@ -289,6 +289,9 @@ test("SI and Constable November 2026 current-affairs Set 02 loads the new biling
   await expect(page.locator("#options")).toContainText("విశాఖపట్నం");
 
   await page.getByRole("button", { name: "← Exit practice" }).click();
+  if ((await page.locator("#lang").innerText()).trim() !== "English") {
+    await page.locator("#lang").click();
+  }
   page.once("dialog", dialog => dialog.accept());
   await openExam(page, "Police Constable · Current Affairs Set 02");
   await expect(page.locator("#mockTitle")).toHaveText("Police Constable · Current Affairs Set 02 · Quick practice");
@@ -299,6 +302,6 @@ test("SI and Constable November 2026 current-affairs Set 02 loads the new biling
   await expect(page.locator("#q")).toContainText("భారతదేశం–మయన్మార్ నౌకాదళ విన్యాసం");
   await page.locator("#palette button").last().click();
   await expect(page.locator("#counter")).toHaveText("Question 15 of 15");
-  await expect(page.locator("#q")).toContainText("Nutrient Based Subsidy");
+  await expect(page.locator("#q")).toContainText("పోషక ఆధారిత సబ్సిడీ");
 });
 
