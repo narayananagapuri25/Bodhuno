@@ -126,3 +126,29 @@ test("SI and Constable syllabus expansion preview sets load separately", async (
   await page.locator("#palette button").last().click();
   await expect(page.locator("#q")).toContainText("ancient");
 });
+
+
+test("SI and Constable syllabus expansion Set 03 loads bilingual question banks", async ({ page }) => {
+  await page.goto("/");
+
+  await openExam(page, "Police SI · Set 03");
+  await expect(page.getByRole("heading", { name: "Police SI · Set 03 · Quick practice" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 24");
+  await expect(page.locator("#palette button")).toHaveCount(24);
+  await expect(page.locator("#q")).toHaveText("What is the least common multiple of 12 and 15?");
+  await page.locator("#palette button").last().click();
+  await expect(page.locator("#q")).toContainText("Charminar");
+
+  await page.getByRole("button", { name: "← Exit practice" }).click();
+  page.once("dialog", dialog => dialog.accept());
+  await openExam(page, "Police Constable · Set 03");
+  await expect(page.getByRole("heading", { name: "Police Constable · Set 03 · Quick practice" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 25");
+  await expect(page.locator("#palette button")).toHaveCount(25);
+  await expect(page.locator("#q")).toHaveText("What is the least common multiple of 12 and 15?");
+  await page.locator("#palette button").nth(19).click();
+  await expect(page.locator("#q")).toContainText("Directive Principles");
+  await expect(page.locator("#options")).toContainText("Part IV");
+  await page.locator("#lang").click();
+  await expect(page.locator("#q")).toContainText("రాజ్య విధాన ఆదేశిక సూత్రాలు");
+});
