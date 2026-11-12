@@ -211,3 +211,45 @@ test("SI and Constable November 2026 current-affairs previews load bilingual que
   await page.locator("#lang").click();
   await expect(page.locator("#q")).toContainText("భారత్-విస్తార్");
 });
+
+
+test("SI and Constable full-length mock previews load 200 questions with a 180-minute timer", async ({ page }) => {
+  await page.goto("/");
+  if ((await page.locator("#lang").innerText()).trim() === "English") {
+    await page.locator("#lang").click();
+  }
+
+  await openExam(page, "Police SI · Full Mock 01");
+  await expect(page.getByRole("heading", { name: "Police SI · Full Mock 01 · Full-length mock" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 200");
+  await expect(page.locator("#palette button")).toHaveCount(200);
+  await expect(page.locator("#clock")).toHaveText("03:00:00");
+  await expect(page.locator("#mockDescription")).toContainText("180-minute full-length simulation");
+  await page.locator("#palette button").last().click();
+  await expect(page.locator("#counter")).toHaveText("Question 200 of 200");
+  await expect(page.locator("#q")).toContainText("tank contains 180 litres");
+  await page.locator("#lang").click();
+  await expect(page.locator("#q")).toContainText("180 లీటర్ల");
+  await page.locator("#palette button").first().click();
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await expect(page.locator("#score")).toHaveText("0.00 / 200");
+  await expect(page.locator("#summary")).toContainText("0 correct · 0 wrong · 200 unanswered");
+
+  await page.getByRole("button", { name: "Back to home" }).click();
+  if ((await page.locator("#lang").innerText()).trim() === "English") {
+    await page.locator("#lang").click();
+  }
+  await openExam(page, "Police Constable · Full Mock 01");
+  await expect(page.getByRole("heading", { name: "Police Constable · Full Mock 01 · Full-length mock" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 200");
+  await expect(page.locator("#palette button")).toHaveCount(200);
+  await expect(page.locator("#clock")).toHaveText("03:00:00");
+  await page.locator("#palette button").last().click();
+  await expect(page.locator("#counter")).toHaveText("Question 200 of 200");
+  await page.locator("#lang").click();
+  await expect(page.locator("#q")).toContainText("The officer insisted");
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await expect(page.locator("#score")).toHaveText("0.00 / 200");
+});
