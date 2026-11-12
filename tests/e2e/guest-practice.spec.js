@@ -309,7 +309,7 @@ test("Completed attempts build a local subject progress dashboard", async ({ pag
   await page.goto("/");
   await openExam(page, "Police SI");
   await expect(page.locator("#q")).toHaveText("What is 15% of 800?");
-  await page.getByRole("button", { name: "A ₹80" }).click();
+  await page.getByRole("button", { name: "A ₹100" }).click();
   page.once("dialog", dialog => dialog.accept());
   await page.getByRole("button", { name: "Submit practice" }).click();
   await page.getByRole("button", { name: "Back to home" }).click();
