@@ -1,0 +1,803 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-constable-expansion-preview-04",
+  "title": "Telangana Police Constable — Syllabus Expansion Preview Set 04",
+  "version": 1,
+  "workflowStatus": "preview",
+  "sourceType": "original_practice",
+  "sourceReference": "Original bilingual preview collection of 24 questions. Official notification cited for syllabus alignment only; not official previous-year material or a complete examination mock.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-constable",
+    "telangana-police-2026",
+    "preliminary-written-test",
+    "syllabus-expansion-preview"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB PC 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44)"
+    ],
+    "practiceNote": "24 original static-topic practice questions. Preview pending independent subject-expert and Telugu-language review; current affairs are not included."
+  },
+  "questions": [
+    {
+      "id": "pc4-arith-ages-019",
+      "subject": "Arithmetic",
+      "topic": "Problems on ages",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "A father is 40 years old and his son is 10. What is the ratio of their present ages?",
+          "options": [
+            "2:1",
+            "3:1",
+            "4:1",
+            "5:1"
+          ],
+          "explanation": "40:10 simplifies to 4:1."
+        },
+        "te": {
+          "question": "తండ్రి వయస్సు 40, కుమారుడి వయస్సు 10. వారి ప్రస్తుత వయస్సుల నిష్పత్తి ఎంత?",
+          "options": [
+            "2:1",
+            "3:1",
+            "4:1",
+            "5:1"
+          ],
+          "explanation": "40:10ను సరళీకరిస్తే 4:1."
+        }
+      }
+    },
+    {
+      "id": "pc4-arith-discount-020",
+      "subject": "Arithmetic",
+      "topic": "Discount",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "An item costs ₹1,000. Two successive discounts of 10% each are given. What is the final price?",
+          "options": [
+            "₹800",
+            "₹810",
+            "₹820",
+            "₹900"
+          ],
+          "explanation": "After the first discount the price is ₹900. Another 10% discount gives ₹810."
+        },
+        "te": {
+          "question": "₹1,000 వస్తువుపై వరుసగా రెండు 10% తగ్గింపులు ఇస్తే చివరి ధర ఎంత?",
+          "options": [
+            "₹800",
+            "₹810",
+            "₹820",
+            "₹900"
+          ],
+          "explanation": "మొదటి తగ్గింపు తర్వాత ధర ₹900. మరో 10% తగ్గింపు ఇస్తే ₹810."
+        }
+      }
+    },
+    {
+      "id": "pc4-arith-pipes-021",
+      "subject": "Arithmetic",
+      "topic": "Pipes and cisterns",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Pipe A fills a tank in 12 hours and Pipe B in 6 hours. How long do they take together?",
+          "options": [
+            "3 hours",
+            "4 hours",
+            "5 hours",
+            "6 hours"
+          ],
+          "explanation": "Combined rate = 1/12 + 1/6 = 1/4 tank per hour. Time = 4 hours."
+        },
+        "te": {
+          "question": "పైపు A ట్యాంకును 12 గంటల్లో, B 6 గంటల్లో నింపుతుంది. కలిపి ఎంత సమయంలో నింపుతాయి?",
+          "options": [
+            "3 గంటలు",
+            "4 గంటలు",
+            "5 గంటలు",
+            "6 గంటలు"
+          ],
+          "explanation": "సంయుక్త రేటు గంటకు 1/4 ట్యాంకు. కాబట్టి 4 గంటలు."
+        }
+      }
+    },
+    {
+      "id": "pc4-arith-increase-022",
+      "subject": "Arithmetic",
+      "topic": "Percentage change",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "A value of 240 is increased by 25%. What is the new value?",
+          "options": [
+            "270",
+            "280",
+            "300",
+            "320"
+          ],
+          "explanation": "25% of 240 is 60. New value = 300."
+        },
+        "te": {
+          "question": "240 విలువను 25% పెంచితే కొత్త విలువ ఎంత?",
+          "options": [
+            "270",
+            "280",
+            "300",
+            "320"
+          ],
+          "explanation": "240లో 25% = 60. కొత్త విలువ 300."
+        }
+      }
+    },
+    {
+      "id": "pc4-arith-average-023",
+      "subject": "Arithmetic",
+      "topic": "Average",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "The average of five numbers is 14. What is their total?",
+          "options": [
+            "60",
+            "65",
+            "70",
+            "75"
+          ],
+          "explanation": "Total = 14 × 5 = 70."
+        },
+        "te": {
+          "question": "ఐదు సంఖ్యల సగటు 14 అయితే వాటి మొత్తం ఎంత?",
+          "options": [
+            "60",
+            "65",
+            "70",
+            "75"
+          ],
+          "explanation": "మొత్తం = 14 × 5 = 70."
+        }
+      }
+    },
+    {
+      "id": "pc4-arith-rectangle-024",
+      "subject": "Arithmetic",
+      "topic": "Mensuration — rectangle",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "A rectangle has a perimeter of 50 cm and a length of 15 cm. What is its breadth?",
+          "options": [
+            "5 cm",
+            "10 cm",
+            "15 cm",
+            "20 cm"
+          ],
+          "explanation": "2(L + B) = 50; breadth = 25 − 15 = 10 cm."
+        },
+        "te": {
+          "question": "దీర్ఘచతురస్రం చుట్టుకొలత 50 సెం.మీ., పొడవు 15 సెం.మీ. అయితే వెడల్పు ఎంత?",
+          "options": [
+            "5 సెం.మీ.",
+            "10 సెం.మీ.",
+            "15 సెం.మీ.",
+            "20 సెం.మీ."
+          ],
+          "explanation": "2(L + B) = 50; వెడల్పు = 25 − 15 = 10 సెం.మీ."
+        }
+      }
+    },
+    {
+      "id": "pc4-reason-letter-019",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Alphabet series",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Which letter is five places after K in the English alphabet?",
+          "options": [
+            "N",
+            "O",
+            "P",
+            "Q"
+          ],
+          "explanation": "L, M, N, O, P. The answer is P."
+        },
+        "te": {
+          "question": "ఆంగ్ల వర్ణమాలలో K తర్వాత ఐదవ స్థానంలో వచ్చే అక్షరం ఏది?",
+          "options": [
+            "N",
+            "O",
+            "P",
+            "Q"
+          ],
+          "explanation": "L, M, N, O, P. సమాధానం P."
+        }
+      }
+    },
+    {
+      "id": "pc4-reason-series-020",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Number series",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Find the next number: 3, 8, 15, 24, 35, __.",
+          "options": [
+            "44",
+            "46",
+            "48",
+            "50"
+          ],
+          "explanation": "Differences are 5, 7, 9 and 11; next is 13. Answer = 48."
+        },
+        "te": {
+          "question": "తదుపరి సంఖ్య: 3, 8, 15, 24, 35, __.",
+          "options": [
+            "44",
+            "46",
+            "48",
+            "50"
+          ],
+          "explanation": "తేడాలు 5, 7, 9, 11; తదుపరి 13. సమాధానం 48."
+        }
+      }
+    },
+    {
+      "id": "pc4-reason-relation-021",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Blood relations",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "A is the mother of B. B is the brother of C. How is A related to C?",
+          "options": [
+            "Aunt",
+            "Mother",
+            "Sister",
+            "Grandmother"
+          ],
+          "explanation": "B and C are siblings, so A is also C's mother."
+        },
+        "te": {
+          "question": "A, Bకు తల్లి. B, Cకు సోదరుడు. Aకు Cతో సంబంధం ఏమిటి?",
+          "options": [
+            "అత్త",
+            "తల్లి",
+            "సోదరి",
+            "అమ్మమ్మ"
+          ],
+          "explanation": "B, Cలు తోబుట్టువులు. కాబట్టి A, Cకు కూడా తల్లే."
+        }
+      }
+    },
+    {
+      "id": "pc4-reason-direction-022",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Direction sense",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "A person walks 5 km east, 3 km north, then 5 km west. Where are they relative to the start?",
+          "options": [
+            "3 km north",
+            "3 km south",
+            "5 km east",
+            "5 km west"
+          ],
+          "explanation": "East and west distances cancel; the person is 3 km north."
+        },
+        "te": {
+          "question": "ఒక వ్యక్తి 5 కి.మీ. తూర్పు, 3 కి.మీ. ఉత్తరం, 5 కి.మీ. పడమర నడిచాడు. ప్రారంభ స్థానంతో పోలిస్తే ఎక్కడ ఉన్నాడు?",
+          "options": [
+            "3 కి.మీ. ఉత్తరం",
+            "3 కి.మీ. దక్షిణం",
+            "5 కి.మీ. తూర్పు",
+            "5 కి.మీ. పడమర"
+          ],
+          "explanation": "తూర్పు, పడమర దూరాలు రద్దవుతాయి. 3 కి.మీ. ఉత్తరంగా ఉంటాడు."
+        }
+      }
+    },
+    {
+      "id": "pc4-reason-arrangement-023",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Ordering",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "P is taller than Q. Q is taller than R. Who is the shortest?",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "Cannot be determined"
+          ],
+          "explanation": "P > Q > R, so R is the shortest."
+        },
+        "te": {
+          "question": "P, Q కంటే పొడవు. Q, R కంటే పొడవు. పొట్టివారు ఎవరు?",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "నిర్ణయించలేము"
+          ],
+          "explanation": "P > Q > R కాబట్టి R పొట్టివాడు."
+        }
+      }
+    },
+    {
+      "id": "pc4-reason-squares-024",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Number pattern",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "Which number does not belong to the group?",
+          "options": [
+            "16",
+            "25",
+            "36",
+            "45"
+          ],
+          "explanation": "16, 25 and 36 are perfect squares; 45 is not."
+        },
+        "te": {
+          "question": "ఈ సమూహంలో సరిపోని సంఖ్య ఏది?",
+          "options": [
+            "16",
+            "25",
+            "36",
+            "45"
+          ],
+          "explanation": "16, 25, 36 సంపూర్ణ వర్గాలు; 45 కాదు."
+        }
+      }
+    },
+    {
+      "id": "pc4-science-power-019",
+      "subject": "General Science",
+      "topic": "Physics — Power",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What is the SI unit of power?",
+          "options": [
+            "Joule",
+            "Watt",
+            "Newton",
+            "Pascal"
+          ],
+          "explanation": "The SI unit of power is the watt (W)."
+        },
+        "te": {
+          "question": "పవర్‌కు SI ప్రమాణ యూనిట్ ఏది?",
+          "options": [
+            "జౌల్",
+            "వాట్",
+            "న్యూటన్",
+            "పాస్కల్"
+          ],
+          "explanation": "పవర్‌కు SI ప్రమాణ యూనిట్ వాట్ (W)."
+        }
+      }
+    },
+    {
+      "id": "pc4-science-ph-020",
+      "subject": "General Science",
+      "topic": "Chemistry — Acids and bases",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "At 25°C, what is the pH of pure neutral water?",
+          "options": [
+            "0",
+            "5",
+            "7",
+            "14"
+          ],
+          "explanation": "Pure neutral water has a pH of 7 at 25°C."
+        },
+        "te": {
+          "question": "25°C వద్ద స్వచ్ఛమైన తటస్థ నీటి pH విలువ ఎంత?",
+          "options": [
+            "0",
+            "5",
+            "7",
+            "14"
+          ],
+          "explanation": "25°C వద్ద స్వచ్ఛమైన తటస్థ నీటి pH విలువ 7."
+        }
+      }
+    },
+    {
+      "id": "pc4-science-chloro-021",
+      "subject": "General Science",
+      "topic": "Biology — Plant physiology",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which green pigment helps plants absorb light for photosynthesis?",
+          "options": [
+            "Haemoglobin",
+            "Chlorophyll",
+            "Melanin",
+            "Keratin"
+          ],
+          "explanation": "Chlorophyll is the green pigment that absorbs light energy for photosynthesis."
+        },
+        "te": {
+          "question": "కిరణజన్య సంయోగక్రియ కోసం మొక్కలు కాంతిని గ్రహించడానికి సహాయపడే ఆకుపచ్చ వర్ణద్రవ్యం ఏది?",
+          "options": [
+            "హీమోగ్లోబిన్",
+            "క్లోరోఫిల్",
+            "మెలనిన్",
+            "కెరాటిన్"
+          ],
+          "explanation": "క్లోరోఫిల్ కాంతి శక్తిని గ్రహించే ఆకుపచ్చ వర్ణద్రవ్యం."
+        }
+      }
+    },
+    {
+      "id": "pc4-science-vacuum-022",
+      "subject": "General Science",
+      "topic": "Physics — Light",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "In which medium does light travel fastest?",
+          "options": [
+            "Water",
+            "Glass",
+            "Vacuum",
+            "Air"
+          ],
+          "explanation": "Light travels fastest in a vacuum."
+        },
+        "te": {
+          "question": "కాంతి ఏ మాధ్యమంలో అత్యధిక వేగంతో ప్రయాణిస్తుంది?",
+          "options": [
+            "నీరు",
+            "గాజు",
+            "శూన్యం",
+            "గాలి"
+          ],
+          "explanation": "కాంతి శూన్యంలో అత్యధిక వేగంతో ప్రయాణిస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "pc4-science-iris-023",
+      "subject": "General Science",
+      "topic": "Biology — Human eye",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which part of the human eye controls the amount of light entering it?",
+          "options": [
+            "Retina",
+            "Iris",
+            "Cornea",
+            "Optic nerve"
+          ],
+          "explanation": "The iris adjusts pupil size and controls how much light enters the eye."
+        },
+        "te": {
+          "question": "కంటిలోకి ప్రవేశించే కాంతి పరిమాణాన్ని నియంత్రించే భాగం ఏది?",
+          "options": [
+            "రెటీనా",
+            "ఐరిస్",
+            "కార్నియా",
+            "ఆప్టిక్ నర్వ్"
+          ],
+          "explanation": "ఐరిస్ కనుపాప పరిమాణాన్ని మార్చి కంటిలోకి వచ్చే కాంతిని నియంత్రిస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "pc4-history-noncoop-019",
+      "subject": "Indian History / Culture / National Movement",
+      "topic": "National Movement — Non-Cooperation",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "In which year did the Non-Cooperation Movement begin?",
+          "options": [
+            "1915",
+            "1919",
+            "1920",
+            "1930"
+          ],
+          "explanation": "The Non-Cooperation Movement was launched in 1920."
+        },
+        "te": {
+          "question": "సహాయ నిరాకరణ ఉద్యమం ఏ సంవత్సరంలో ప్రారంభమైంది?",
+          "options": [
+            "1915",
+            "1919",
+            "1920",
+            "1930"
+          ],
+          "explanation": "సహాయ నిరాకరణ ఉద్యమం 1920లో ప్రారంభమైంది."
+        }
+      }
+    },
+    {
+      "id": "pc4-history-independence-020",
+      "subject": "Indian History / Culture / National Movement",
+      "topic": "Indian Independence",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "On which date did India become independent?",
+          "options": [
+            "26 January 1950",
+            "15 August 1947",
+            "2 October 1947",
+            "26 November 1949"
+          ],
+          "explanation": "India became independent on 15 August 1947."
+        },
+        "te": {
+          "question": "భారతదేశం ఏ తేదీన స్వాతంత్ర్యం పొందింది?",
+          "options": [
+            "26 జనవరి 1950",
+            "15 ఆగస్టు 1947",
+            "2 అక్టోబర్ 1947",
+            "26 నవంబర్ 1949"
+          ],
+          "explanation": "భారతదేశం 15 ఆగస్టు 1947న స్వాతంత్ర్యం పొందింది."
+        }
+      }
+    },
+    {
+      "id": "pc4-geog-pacific-019",
+      "subject": "Geography",
+      "topic": "World geography — Oceans",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "Which is the largest ocean on Earth?",
+          "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean",
+            "Pacific Ocean"
+          ],
+          "explanation": "The Pacific Ocean is the largest ocean by area."
+        },
+        "te": {
+          "question": "భూమిపై అతిపెద్ద మహాసముద్రం ఏది?",
+          "options": [
+            "అట్లాంటిక్ మహాసముద్రం",
+            "హిందూ మహాసముద్రం",
+            "ఆర్కిటిక్ మహాసముద్రం",
+            "పసిఫిక్ మహాసముద్రం"
+          ],
+          "explanation": "విస్తీర్ణం ప్రకారం పసిఫిక్ మహాసముద్రం అతిపెద్దది."
+        }
+      }
+    },
+    {
+      "id": "pc4-polity-rajya-019",
+      "subject": "General Studies",
+      "topic": "Indian polity — Parliament",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which statement about the Rajya Sabha is correct?",
+          "options": [
+            "It can be dissolved every five years",
+            "It is a permanent House",
+            "All members are directly elected by citizens",
+            "It has no nominated members"
+          ],
+          "explanation": "The Rajya Sabha is a permanent House; one-third of its members retire every two years."
+        },
+        "te": {
+          "question": "రాజ్యసభ గురించి సరైన ప్రకటన ఏది?",
+          "options": [
+            "ప్రతి ఐదు సంవత్సరాలకు రద్దు చేయవచ్చు",
+            "ఇది శాశ్వత సభ",
+            "సభ్యులందరూ ప్రజలచే నేరుగా ఎన్నికవుతారు",
+            "నామినేటెడ్ సభ్యులు ఉండరు"
+          ],
+          "explanation": "రాజ్యసభ శాశ్వత సభ. ప్రతి రెండు సంవత్సరాలకు మూడో వంతు సభ్యులు పదవీ విరమణ చేస్తారు."
+        }
+      }
+    },
+    {
+      "id": "pc4-telangana-polo-014",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana history — Integration",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "In which year did Hyderabad State join the Indian Union after Operation Polo?",
+          "options": [
+            "1947",
+            "1948",
+            "1950",
+            "1956"
+          ],
+          "explanation": "Operation Polo took place in September 1948; Hyderabad State then joined the Indian Union."
+        },
+        "te": {
+          "question": "ఆపరేషన్ పోలో తర్వాత హైదరాబాద్ సంస్థానం భారత యూనియన్‌లో ఏ సంవత్సరంలో చేరింది?",
+          "options": [
+            "1947",
+            "1948",
+            "1950",
+            "1956"
+          ],
+          "explanation": "ఆపరేషన్ పోలో సెప్టెంబర్ 1948లో జరిగింది. అనంతరం హైదరాబాద్ సంస్థానం భారత యూనియన్‌లో చేరింది."
+        }
+      }
+    },
+    {
+      "id": "pc4-telangana-bird-015",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana symbols — State bird",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which bird is the state bird of Telangana?",
+          "options": [
+            "Peacock",
+            "Indian Roller (Palapitta)",
+            "Parrot",
+            "Sarus Crane"
+          ],
+          "explanation": "The Indian Roller, known locally as Palapitta, is Telangana's state bird."
+        },
+        "te": {
+          "question": "తెలంగాణ రాష్ట్ర పక్షి ఏది?",
+          "options": [
+            "నెమలి",
+            "పాలపిట్ట (ఇండియన్ రోలర్)",
+            "చిలుక",
+            "సారస్ క్రేన్"
+          ],
+          "explanation": "ఇండియన్ రోలర్‌ను పాలపిట్ట అని పిలుస్తారు. ఇది తెలంగాణ రాష్ట్ర పక్షి."
+        }
+      }
+    },
+    {
+      "id": "pc4-english-grammar-019",
+      "subject": "English",
+      "topic": "Grammar — Subject-verb agreement",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Choose the correct word: Neither of the boys ___ present.",
+          "options": [
+            "are",
+            "were",
+            "is",
+            "have"
+          ],
+          "explanation": "“Neither” is treated as singular here, so the verb is “is”."
+        },
+        "te": {
+          "question": "సరైన పదాన్ని ఎంచుకోండి: Neither of the boys ___ present.",
+          "options": [
+            "are",
+            "were",
+            "is",
+            "have"
+          ],
+          "explanation": "ఇక్కడ “Neither” ఏకవచన భావంలో వాడారు. కాబట్టి “is” సరైన క్రియ."
+        }
+      }
+    }
+  ]
+}
