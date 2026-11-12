@@ -2,6 +2,7 @@ name: Bodhuno live guest E2E
 
 on:
   push:
+    branches: ["main"]
     paths:
       - "index.html"
       - "tests/e2e/**"
@@ -24,6 +25,8 @@ jobs:
   live-guest-e2e:
     name: Live guest practice flows
     runs-on: ubuntu-24.04
+    env:
+      BODHUNO_BASE_URL: ${{ github.ref_name != 'main' && 'https://feature-dynamic-question-cat.bodhuno.pages.dev' || 'https://bodhuno.pages.dev' }}
     timeout-minutes: 12
     steps:
       - name: Check out repository
@@ -55,5 +58,4 @@ jobs:
       - name: Run live guest E2E tests
         env:
           CI: "true"
-          BODHUNO_BASE_URL: ${{ github.ref_name != 'main' && 'https://feature-dynamic-question-cat.bodhuno.pages.dev' || 'https://bodhuno.pages.dev' }}
         run: npm run test:e2e
