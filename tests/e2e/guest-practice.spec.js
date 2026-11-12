@@ -115,7 +115,7 @@ test("SI and Constable syllabus expansion preview sets load separately", async (
   await expect(page.locator("#palette button")).toHaveCount(24);
   await expect(page.locator("#q")).toHaveText("A can complete a job in 10 days and B in 15 days. How many days will they take working together?");
   await page.locator("#palette button").nth(20).click();
-  await expect(page.locator("#q")).toContainText("Godavari");
+  await expect(page.locator("#options")).toContainText("Godavari");
   await page.getByRole("button", { name: "← Exit practice" }).click();
 
   page.once("dialog", dialog => dialog.accept());
