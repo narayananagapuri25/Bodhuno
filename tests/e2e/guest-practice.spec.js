@@ -61,6 +61,7 @@ test("Police Constable uses the published 24-question set; TGPSC retains its dem
   await expect(page.locator("#q")).toHaveText("What is 15% of 800?");
 
   await page.getByRole("button", { name: "← Exit practice" }).click();
+  page.once("dialog", dialog => dialog.accept());
   await openExam(page, "TGPSC Groups");
   await expect(page.locator("#counter")).toHaveText("Question 1 of 5");
   await expect(page.locator("#palette button")).toHaveCount(5);
