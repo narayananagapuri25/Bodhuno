@@ -13,6 +13,8 @@ The question bank is the source of truth for static content during the database-
 - `sets/telangana-police-constable-expansion-preview-03.json`: 25 additional Constable preview questions across arithmetic, reasoning, science, history, geography, polity, Telangana and English.
 - `sets/telangana-police-si-expansion-preview-04.json`: 24 additional SI preview questions covering arithmetic, reasoning, polity, science and Telangana culture.
 - `sets/telangana-police-constable-expansion-preview-04.json`: 24 additional Constable preview questions covering arithmetic, reasoning, science, history, geography, polity, Telangana and English.
+- `sets/telangana-police-si-current-affairs-november-2026-preview-01.json`: 16 bilingual SI current-affairs questions based on official PIB releases through 12 November 2026.
+- `sets/telangana-police-constable-current-affairs-november-2026-preview-01.json`: 16 bilingual Constable current-affairs questions based on official PIB releases through 12 November 2026.
 - `schema.json`: question-set data contract.
 - `scripts/validate-question-bank.mjs`: Node.js structural and publishing-rule validator.
 
@@ -55,3 +57,10 @@ Set 03 adds 24 SI questions and 25 Constable questions. They remain separate, bi
 ## Syllabus expansion preview — Set 04
 
 Set 04 adds 24 additional bilingual questions to each Police track. Both continue using the TGPRB marking metadata (+1 / −0.20 / 0) and a short one-minute-per-question practice timer. The SI set adds arithmetic, reasoning, polity, general science and Telangana culture. The Constable set adds arithmetic, reasoning, science, history, geography, polity, Telangana awareness and English. These remain preview-only until independent subject-expert and Telugu-language review is recorded. They are not full-length examinations and do not provide current-affairs coverage.
+
+
+## Current-affairs preview — November 2026
+
+The SI and Constable tracks now include separate 16-question bilingual current-affairs previews, based on official Government of India Press Information Bureau releases published in 2026 and available through 12 November 2026. Topics include the continuation of Stand-Up India and the Credit Guarantee Fund for Micro Units, the VISTAR statistical transformation scheme, grid-scale energy storage support, the Union Budget 2026–27 and Bharat-VISTAAR. Each question records its source URL. These are dated snapshots, not comprehensive current-affairs digests, and they can become stale; refresh the content against authoritative updates before an examination. Both sets remain in `preview` pending independent subject-expert and Telugu-language review.
+
+Key official sources include [Stand-Up India continuation](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334979&lang=1&reg=1), [Credit Guarantee Fund for Micro Units](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334976&lang=1&reg=1), [VISTAR](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2332480&lang=1&reg=3), [grid-scale energy storage](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2332486&lang=1&reg=48), [Union Budget 2026–27 highlights](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221455&lang=3&reg=3), and [Bharat-VISTAAR budget document](https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc202621776101.pdf).
