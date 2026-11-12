@@ -22,6 +22,10 @@ test("Police SI guest attempt: 24 questions, navigation, scoring and bilingual r
   await expect(page.locator("#answered")).toHaveText("1 answered");
   await expect(page.locator("#palette button").nth(0)).toHaveClass(/answered/);
 
+  await page.locator("#palette button").nth(1).click();
+  await page.getByRole("button", { name: "A 20", exact: true }).click();
+  await expect(page.locator("#answered")).toHaveText("2 answered");
+
   await page.locator("#palette button").last().click();
   await expect(page.locator("#counter")).toHaveText("Question 24 of 24");
   await expect(page.locator("#q")).toContainText("mobilisation phase");
@@ -32,14 +36,18 @@ test("Police SI guest attempt: 24 questions, navigation, scoring and bilingual r
 
   page.once("dialog", dialog => dialog.accept());
   await page.getByRole("button", { name: "Submit practice" }).click();
-  await expect(page.locator("#score")).toHaveText("1 / 24");
-  await expect(page.locator("#summary")).toContainText("1 answered");
+  await expect(page.locator("#score")).toHaveText("0.80 / 24");
+  await expect(page.locator("#summary")).toContainText("1 correct · 1 wrong · 22 unanswered");
+  await expect(page.locator("#summary")).toContainText("50%");
   await expect(page.locator("#review")).toContainText("15% of 800 =");
-  await expect(page.locator("#review")).toContainText("Correct answer: ₹120");
+  await expect(page.locator("#review")).toContainText("Correct · Your answer: ₹120 · Correct answer: ₹120");
+  await expect(page.locator("#review")).toContainText("Incorrect · Your answer: 20 · Correct answer: 24");
+  await expect(page.locator("#review")).toContainText("Not attempted");
 
   await page.locator("#lang").click();
   await expect(page.locator("#review")).toContainText("అసలు విలువ ₹800");
   await expect(page.locator("#review")).toContainText("800లో 15%");
+  await expect(page.locator("#review")).toContainText("తప్పు సమాధానం");
 });
 
 test("Police Constable uses the published 24-question set; TGPSC retains its demo set", async ({ page }) => {
