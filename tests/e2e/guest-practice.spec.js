@@ -152,3 +152,25 @@ test("SI and Constable syllabus expansion Set 03 loads bilingual question banks"
   await page.locator("#lang").click();
   await expect(page.locator("#q")).toContainText("విస్తీర్ణం ప్రకారం భారతదేశంలో అతిపెద్ద రాష్ట్రం");
 });
+
+
+test("SI and Constable Set 04 preview collections load and retain bilingual rendering", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI · Set 04");
+  await expect(page.getByRole("heading", { name: "Police SI · Set 04 · Quick practice" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 24");
+  await expect(page.locator("#q")).toContainText("father is 40 years old");
+  await page.locator("#palette button").nth(22).click();
+  await expect(page.locator("#q")).toContainText("Pochampally");
+  await page.getByRole("button", { name: "← Exit practice" }).click();
+
+  page.once("dialog", dialog => dialog.accept());
+  await openExam(page, "Police Constable · Set 04");
+  await expect(page.getByRole("heading", { name: "Police Constable · Set 04 · Quick practice" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 24");
+  await expect(page.locator("#palette button")).toHaveCount(24);
+  await page.locator("#palette button").last().click();
+  await expect(page.locator("#q")).toContainText("Neither of the boys");
+  await page.locator("#lang").click();
+  await expect(page.locator("#q")).toContainText("Neither of the boys");
+});
