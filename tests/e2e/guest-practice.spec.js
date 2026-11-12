@@ -147,8 +147,8 @@ test("SI and Constable syllabus expansion Set 03 loads bilingual question banks"
   await expect(page.locator("#palette button")).toHaveCount(25);
   await expect(page.locator("#q")).toHaveText("What is the least common multiple of 12 and 15?");
   await page.locator("#palette button").nth(19).click();
-  await expect(page.locator("#q")).toContainText("Directive Principles");
-  await expect(page.locator("#options")).toContainText("Part IV");
+  await expect(page.locator("#q")).toContainText("largest Indian state");
+  await expect(page.locator("#options")).toContainText("Rajasthan");
   await page.locator("#lang").click();
-  await expect(page.locator("#q")).toContainText("రాజ్య విధాన ఆదేశిక సూత్రాలు");
+  await expect(page.locator("#q")).toContainText("విస్తీర్ణం ప్రకారం భారతదేశంలో అతిపెద్ద రాష్ట్రం");
 });
