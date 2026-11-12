@@ -39,5 +39,5 @@ jobs:
       - name: Run live guest E2E tests
         env:
           CI: "true"
-          BODHUNO_BASE_URL: https://bodhuno.pages.dev
+          BODHUNO_BASE_URL: ${{ github.event_name == 'pull_request' && 'https://feature-dynamic-question-cat.bodhuno.pages.dev' || 'https://bodhuno.pages.dev' }}
         run: npm run test:e2e
