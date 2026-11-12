@@ -1,55 +1,51 @@
 # Bodhuno — Learn. Practice. Rise.
 
-A mobile-first, bilingual (English/Telugu), guest-first static preview for a free exam-preparation and career-readiness platform.
+Bodhuno is a mobile-first, bilingual (English/Telugu), guest-first exam-practice preview hosted on Cloudflare Pages.
 
-## Current preview
-- Responsive landing page and Telangana exam-category discovery.
-- English/Telugu interface and question switching.
-- Guest practice flow loads its five demonstration questions from a version-controlled JSON question set.
-- Question selection, navigation, countdown timer, scoring and bilingual answer explanations.
-- Guest attempt history stored locally in the browser.
-- Clearly marked advertisement placeholders outside active tests.
-- No registration, payment, database or live advertising integration required for this phase.
+## Current pilot
+
+- Police SI and Police Constable cards load the published 24-question Telangana Police foundation set.
+- The set is original bilingual practice content. It is not an official previous-year paper or a full-length mock.
+- The set follows the TGPRB 2026 PWT marking rule: +1 for correct, −0.20 for incorrect, 0 for unanswered.
+- The official SI and PC PWT notifications specify 200 questions, 200 marks and three hours. This is a shorter 24-question practice module with a one-minute-per-question practice timer.
+- TGPSC, TET/DSC, aptitude and placement cards still use the five-question demonstration set, not complete exam collections.
+- Guest attempt history is stored only in the current browser's local storage (last 30 attempts). Clearing browser data clears that history.
+- No registration, payment, database or live advertising integration is required for this phase.
 
 ## Question updates
 
-Question content is stored under `question-bank/sets/`; the website does not require its HTML to be edited when a question set is updated. See [the question-bank workflow](question-bank/README.md) for the draft, review, validation and publishing steps.
+Question content lives in `question-bank/sets/`. Ordinary question additions do not require editing the website HTML. Read [the question-bank workflow](question-bank/README.md).
 
-Validate a question set locally with Node.js (no npm install):
+Validate the question sets locally with Node.js:
 
 ```bash
-node scripts/validate-question-bank.mjs question-bank/sets/telangana-foundation-demo.json
+find question-bank/sets -type f -name '*.json' -print0 | xargs -0 -n 1 node scripts/validate-question-bank.mjs
 ```
 
-The current five questions are original demonstrations marked `preview`. They are not official previous-year questions or a verified full-length exam mock. Only human-reviewed, explicitly approved content should be marked `published`.
+GitHub Actions runs the question-bank validator and the live guest Playwright test suite on relevant commits.
 
 ## Run locally
 
-Open `index.html` through a local static server (the question set is fetched as a JSON asset):
-
 ```bash
+npm install
+npm run test:e2e
 python -m http.server 8080
 ```
 
-Then visit http://localhost:8080.
+Visit http://localhost:8080. Playwright defaults to https://bodhuno.pages.dev; set `BODHUNO_BASE_URL` to test a different environment.
 
-## Deploy to Cloudflare Pages
+## Cloudflare Pages
 
-Connect this GitHub repository to Cloudflare Pages:
-- Production branch: `main`
-- Framework preset: None
-- Build command: leave blank
-- Build output directory: `/`
-- Root directory: leave blank
-
-A commit to the connected production branch should trigger the Pages deployment. Verify the deployment in Cloudflare before announcing a live update.
+Connect the repository's `main` branch with no framework preset, no build command and `/` as the output directory. Confirm the Pages deployment itself before announcing a live change.
 
 ## Product principles
+
 1. Core learning, practice tests, explanations and performance insights remain free.
 2. Guest users can begin immediately without mandatory registration.
-3. The optional Ad-Free Pass, if introduced, only removes ads; it does not unlock educational advantages.
+3. An optional Ad-Free Pass, if introduced, only removes ads; it does not unlock educational advantages.
 4. Never show ads during an active examination.
-5. Clearly distinguish official previous-year material from original or syllabus-inspired practice.
-6. Human review is required before publishing factual exam questions.
+5. Clearly distinguish official previous-year material from original practice and check reuse rights before republishing.
+6. AI drafting does not replace subject-matter and Telugu-language review.
+7. Guest attempt history stays in local browser storage during this phase.
 
 Bodhuno is a working brand name. Formal trademark clearance is pending.
