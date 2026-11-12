@@ -518,7 +518,7 @@
             "Watt",
             "Pascal"
           ],
-          "explanation": "బలానికి SI ప్రమాణం న్యూటన్ (N)."
+          "explanation": "The SI unit of force is the newton (N)."
         },
         "te": {
           "question": "బలానికి SI ప్రమాణం ఏది?",
@@ -528,7 +528,7 @@
             "వాట్",
             "పాస్కల్"
           ],
-          "explanation": "The SI unit of force is the newton (N)."
+          "explanation": "బలానికి SI ప్రమాణం న్యూటన్ (N)."
         }
       }
     },
