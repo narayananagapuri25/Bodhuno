@@ -118,6 +118,7 @@ test("SI and Constable syllabus expansion preview sets load separately", async (
   await expect(page.locator("#q")).toContainText("Godavari");
   await page.getByRole("button", { name: "← Exit practice" }).click();
 
+  page.once("dialog", dialog => dialog.accept());
   await openExam(page, "Police Constable · Set 02");
   await expect(page.getByRole("heading", { name: "Police Constable · Set 02 · Quick practice" })).toBeVisible();
   await expect(page.locator("#counter")).toHaveText("Question 1 of 24");
