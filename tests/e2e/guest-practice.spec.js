@@ -5,7 +5,7 @@ async function openExam(page, examName) {
     has: page.getByRole("heading", { name: examName, exact: true })
   });
   await expect(card).toHaveCount(1);
-  await card.getByRole("button", { name: "Try now →" }).click();
+  await card.locator("button").click();
 }
 
 test("Police SI guest attempt: 24 questions, navigation, scoring and bilingual review", async ({ page }) => {
@@ -287,4 +287,22 @@ test("SI and Constable full-length mock previews load 200 questions with a 180-m
   page.once("dialog", dialog => dialog.accept());
   await page.getByRole("button", { name: "Submit practice" }).click();
   await expect(page.locator("#score")).toHaveText("0.00 / 200");
+});
+
+
+test("Police question cards are generated from the question catalogue", async ({ page }) => {
+  await page.goto("/");
+  const response = await page.request.get("/question-bank/catalog.json");
+  expect(response.ok()).toBeTruthy();
+  const catalog = await response.json();
+  expect(catalog.format).toBe("bodhuno-question-catalog/v1");
+  expect(catalog.sets.length).toBeGreaterThan(0);
+
+  for (const entry of catalog.sets) {
+    const card = page.locator("article.card").filter({
+      has: page.getByRole("heading", { name: entry.title, exact: true })
+    });
+    await expect(card).toHaveCount(1);
+    await expect(card.locator("button")).toBeVisible();
+  }
 });
