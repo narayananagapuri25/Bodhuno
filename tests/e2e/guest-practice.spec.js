@@ -563,3 +563,41 @@ test("Multiple practice attempts on the same date count as one active streak day
   expect(activity[0].attempts).toBe(2);
   expect(activity[0].answered).toBe(3);
 });
+
+
+test("Daily study plan explains how it starts when no practice history exists", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator("#dailyStudyPlan")).toContainText("Complete your first Police SI or Constable practice");
+  await page.locator("#lang").click();
+  await expect(page.locator("#dailyStudyPlan")).toContainText("మీ మొదటి పోలీస్ SI");
+});
+
+test("Daily study plan prioritises weak topics and starts a bilingual 10-question session", async ({ page }) => {
+  await page.addInitScript(() => {
+    localStorage.setItem("bodhuno_guest_attempts", JSON.stringify([{
+      exam: "Police SI",
+      setId: "seeded-plan-history",
+      answered: 5,
+      correct: 1,
+      wrong: 4,
+      unanswered: 0,
+      net: 0.2,
+      at: new Date().toISOString(),
+      byTopic: [{ subject: "Arithmetic", topic: "Percentage", attempted: 5, correct: 1, wrong: 4 }]
+    }]));
+  });
+  await page.goto("/");
+  await expect(page.locator("#topicTrack")).toBeEnabled();
+  await expect(page.locator("#dailyStudyPlan")).toContainText("Arithmetic · Percentage");
+  await expect(page.locator("#dailyStudyPlan")).toContainText("20% accuracy");
+
+  await page.locator("#lang").click();
+  const startButton=page.getByRole("button", { name: "ఈ రోజు అభ్యాసాన్ని ప్రారంభించండి →" });
+  await expect(startButton).toBeVisible();
+  await startButton.click();
+
+  await expect(page.getByRole("heading", { name: "Daily Study Plan · Police SI · Quick practice" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 10");
+  await expect(page.locator("#subject")).toHaveText("ARITHMETIC");
+  await expect(page.locator("#q")).toContainText("అసలు విలువ ₹800");
+});
