@@ -1,0 +1,835 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-constable-expansion-preview-03",
+  "title": "Telangana Police Constable — Syllabus Expansion Preview Set 03",
+  "version": 1,
+  "workflowStatus": "preview",
+  "sourceType": "original_practice",
+  "sourceReference": "Original bilingual preview set containing 25 questions. Official notification used only for syllabus alignment. Not an official previous-year paper or full-length mock.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-constable",
+    "telangana-police-2026",
+    "preliminary-written-test",
+    "syllabus-expansion-preview"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB PC 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44)"
+    ],
+    "practiceNote": "25 additional original static-topic practice questions. Preview pending independent subject-expert and Telugu-language review; current affairs are not included."
+  },
+  "questions": [
+    {
+      "id": "pc3-arith-lcm",
+      "subject": "Arithmetic",
+      "topic": "LCM",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What is the least common multiple of 12 and 15?",
+          "options": [
+            "30",
+            "45",
+            "60",
+            "90"
+          ],
+          "explanation": "12 = 2² × 3 and 15 = 3 × 5. LCM = 60."
+        },
+        "te": {
+          "question": "12 మరియు 15ల కనిష్ఠ సామాన్య గుణిజం ఎంత?",
+          "options": [
+            "30",
+            "45",
+            "60",
+            "90"
+          ],
+          "explanation": "12 = 2² × 3; 15 = 3 × 5. కనిష్ఠ సామాన్య గుణిజం 60."
+        }
+      }
+    },
+    {
+      "id": "pc3-arith-discount",
+      "subject": "Arithmetic",
+      "topic": "Discount",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "An item marked at ₹500 is sold at a 20% discount. What is its selling price?",
+          "options": [
+            "₹350",
+            "₹375",
+            "₹400",
+            "₹425"
+          ],
+          "explanation": "20% of ₹500 is ₹100. Selling price = ₹400."
+        },
+        "te": {
+          "question": "₹500గా గుర్తించిన వస్తువుపై 20% తగ్గింపు ఇస్తే అమ్మకపు ధర ఎంత?",
+          "options": [
+            "₹350",
+            "₹375",
+            "₹400",
+            "₹425"
+          ],
+          "explanation": "₹500లో 20% = ₹100. అమ్మకపు ధర ₹400."
+        }
+      }
+    },
+    {
+      "id": "pc3-arith-fraction",
+      "subject": "Arithmetic",
+      "topic": "Fractions",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What is three-fourths of 120?",
+          "options": [
+            "80",
+            "85",
+            "90",
+            "96"
+          ],
+          "explanation": "(3/4) × 120 = 90."
+        },
+        "te": {
+          "question": "120లో 3/4 ఎంత?",
+          "options": [
+            "80",
+            "85",
+            "90",
+            "96"
+          ],
+          "explanation": "(3/4) × 120 = 90."
+        }
+      }
+    },
+    {
+      "id": "pc3-arith-equation",
+      "subject": "Arithmetic",
+      "topic": "Linear equations",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "If 3x + 5 = 20, what is x?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "explanation": "3x = 15, so x = 5."
+        },
+        "te": {
+          "question": "3x + 5 = 20 అయితే x విలువ ఎంత?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "explanation": "3x = 15. కాబట్టి x = 5."
+        }
+      }
+    },
+    {
+      "id": "pc3-arith-square",
+      "subject": "Arithmetic",
+      "topic": "Mensuration — perimeter",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "A square has a side of 9 cm. What is its perimeter?",
+          "options": [
+            "18 cm",
+            "27 cm",
+            "36 cm",
+            "81 cm"
+          ],
+          "explanation": "Perimeter = 4 × 9 = 36 cm."
+        },
+        "te": {
+          "question": "ఒక చతురస్రం భుజం 9 సెం.మీ. అయితే చుట్టుకొలత ఎంత?",
+          "options": [
+            "18 సెం.మీ.",
+            "27 సెం.మీ.",
+            "36 సెం.మీ.",
+            "81 సెం.మీ."
+          ],
+          "explanation": "చుట్టుకొలత = 4 × 9 = 36 సెం.మీ."
+        }
+      }
+    },
+    {
+      "id": "pc3-arith-mixture",
+      "subject": "Arithmetic",
+      "topic": "Ratio and mixture",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Milk and water are mixed in the ratio 5:1. If the mixture is 36 litres, how much water is present?",
+          "options": [
+            "5 litres",
+            "6 litres",
+            "7 litres",
+            "30 litres"
+          ],
+          "explanation": "Total parts = 6; each part = 36 ÷ 6 = 6 litres."
+        },
+        "te": {
+          "question": "పాలు, నీరు 5:1 నిష్పత్తిలో కలిపిన మిశ్రమం 36 లీటర్లు అయితే నీరు ఎంత?",
+          "options": [
+            "5 లీటర్లు",
+            "6 లీటర్లు",
+            "7 లీటర్లు",
+            "30 లీటర్లు"
+          ],
+          "explanation": "మొత్తం భాగాలు 6; ఒక్క భాగం 36 ÷ 6 = 6 లీటర్లు."
+        }
+      }
+    },
+    {
+      "id": "pc3-reason-square",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Number series",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Find the next number: 1, 4, 9, 16, 25, __.",
+          "options": [
+            "30",
+            "32",
+            "36",
+            "40"
+          ],
+          "explanation": "These are squares of 1 to 5; the next is 6² = 36."
+        },
+        "te": {
+          "question": "తదుపరి సంఖ్య: 1, 4, 9, 16, 25, __.",
+          "options": [
+            "30",
+            "32",
+            "36",
+            "40"
+          ],
+          "explanation": "ఇవి 1 నుంచి 5 వరకు వర్గాలు. తదుపరి 6² = 36."
+        }
+      }
+    },
+    {
+      "id": "pc3-reason-odd",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Classification",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "Choose the odd one out.",
+          "options": [
+            "Dog",
+            "Cat",
+            "Cow",
+            "Sparrow"
+          ],
+          "explanation": "Sparrow is a bird; the other three are mammals."
+        },
+        "te": {
+          "question": "విభిన్నమైనదాన్ని ఎంచుకోండి.",
+          "options": [
+            "కుక్క",
+            "పిల్లి",
+            "ఆవు",
+            "పిచ్చుక"
+          ],
+          "explanation": "పిచ్చుక ఒక పక్షి; మిగతా మూడు క్షీరదాలు."
+        }
+      }
+    },
+    {
+      "id": "pc3-reason-analogy",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Number analogy",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Complete: 4 : 16 :: 7 : __.",
+          "options": [
+            "28",
+            "42",
+            "49",
+            "56"
+          ],
+          "explanation": "The relationship is squaring: 7² = 49."
+        },
+        "te": {
+          "question": "పూర్తి చేయండి: 4 : 16 :: 7 : __.",
+          "options": [
+            "28",
+            "42",
+            "49",
+            "56"
+          ],
+          "explanation": "ఇక్కడ సంఖ్యను వర్గం చేస్తున్నారు: 7² = 49."
+        }
+      }
+    },
+    {
+      "id": "pc3-reason-rank",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Ranking",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Arun is 12th from the top and 18th from the bottom. How many students are there?",
+          "options": [
+            "28",
+            "29",
+            "30",
+            "31"
+          ],
+          "explanation": "Total = 12 + 18 − 1 = 29."
+        },
+        "te": {
+          "question": "అరుణ్ పై నుంచి 12వ, కింది నుంచి 18వ స్థానంలో ఉన్నాడు. మొత్తం విద్యార్థులు ఎంతమంది?",
+          "options": [
+            "28",
+            "29",
+            "30",
+            "31"
+          ],
+          "explanation": "మొత్తం = 12 + 18 − 1 = 29."
+        }
+      }
+    },
+    {
+      "id": "pc3-reason-calendar",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Calendar",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "If today is Wednesday, what day will it be after 10 days?",
+          "options": [
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Monday"
+          ],
+          "explanation": "10 days is 7 + 3. Wednesday plus 3 days is Saturday."
+        },
+        "te": {
+          "question": "ఈ రోజు బుధవారం అయితే 10 రోజుల తర్వాత ఏ రోజు?",
+          "options": [
+            "శుక్రవారం",
+            "శనివారం",
+            "ఆదివారం",
+            "సోమవారం"
+          ],
+          "explanation": "10 రోజులు = 7 + 3. బుధవారం తర్వాత మూడు రోజులకు శనివారం."
+        }
+      }
+    },
+    {
+      "id": "pc3-reason-syllogism",
+      "subject": "Reasoning / Mental Ability",
+      "topic": "Logical deduction",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "All judges are graduates. Ravi is a judge. Which conclusion follows?",
+          "options": [
+            "Ravi is a graduate",
+            "All graduates are judges",
+            "Ravi is not a graduate",
+            "No conclusion follows"
+          ],
+          "explanation": "If all judges are graduates and Ravi is a judge, Ravi is a graduate."
+        },
+        "te": {
+          "question": "న్యాయమూర్తులందరూ పట్టభద్రులు. రవి న్యాయమూర్తి. సరైన నిర్ధారణ ఏది?",
+          "options": [
+            "రవి పట్టభద్రుడు",
+            "పట్టభద్రులందరూ న్యాయమూర్తులు",
+            "రవి పట్టభద్రుడు కాదు",
+            "ఏ నిర్ధారణా లేదు"
+          ],
+          "explanation": "న్యాయమూర్తులందరూ పట్టభద్రులు. రవి న్యాయమూర్తి కాబట్టి రవి పట్టభద్రుడు."
+        }
+      }
+    },
+    {
+      "id": "pc3-gs-force-013",
+      "subject": "General Science",
+      "topic": "Physics — Force",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What is the SI unit of force?",
+          "options": [
+            "Joule",
+            "Newton",
+            "Pascal",
+            "Watt"
+          ],
+          "explanation": "The SI unit of force is the newton (N)."
+        },
+        "te": {
+          "question": "బలానికి SI ప్రమాణ యూనిట్ ఏది?",
+          "options": [
+            "జౌల్",
+            "న్యూటన్",
+            "పాస్కల్",
+            "వాట్"
+          ],
+          "explanation": "బలానికి SI ప్రమాణ యూనిట్ న్యూటన్ (N)."
+        }
+      }
+    },
+    {
+      "id": "pc3-gs-water-014",
+      "subject": "General Science",
+      "topic": "Chemistry — Water",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What is the chemical formula of water?",
+          "options": [
+            "CO₂",
+            "H₂O",
+            "O₂",
+            "NaCl"
+          ],
+          "explanation": "A water molecule contains two hydrogen atoms and one oxygen atom: H₂O."
+        },
+        "te": {
+          "question": "నీటి రసాయన ఫార్ములా ఏది?",
+          "options": [
+            "CO₂",
+            "H₂O",
+            "O₂",
+            "NaCl"
+          ],
+          "explanation": "ఒక నీటి అణువులో రెండు హైడ్రోజన్ పరమాణువులు, ఒక ఆక్సిజన్ పరమాణువు ఉంటాయి: H₂O."
+        }
+      }
+    },
+    {
+      "id": "pc3-gs-sodium-015",
+      "subject": "General Science",
+      "topic": "Chemistry — Elements",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What is the chemical symbol for sodium?",
+          "options": [
+            "So",
+            "S",
+            "Na",
+            "N"
+          ],
+          "explanation": "The chemical symbol for sodium is Na, from the Latin name natrium."
+        },
+        "te": {
+          "question": "సోడియం మూలకం రసాయన సంకేతం ఏది?",
+          "options": [
+            "So",
+            "S",
+            "Na",
+            "N"
+          ],
+          "explanation": "సోడియం రసాయన సంకేతం Na. ఇది లాటిన్ పేరు Natrium నుంచి వచ్చింది."
+        }
+      }
+    },
+    {
+      "id": "pc3-gs-dna-016",
+      "subject": "General Science",
+      "topic": "Biology — Genetics",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "What does DNA stand for?",
+          "options": [
+            "Deoxyribonucleic acid",
+            "Dinitrogen acid",
+            "Dynamic nuclear atom",
+            "Deoxygenated ribose acid"
+          ],
+          "explanation": "DNA stands for deoxyribonucleic acid."
+        },
+        "te": {
+          "question": "DNA పూర్తి రూపం ఏమిటి?",
+          "options": [
+            "డియోక్సిరైబో న్యూక్లియిక్ ఆమ్లం",
+            "డైనైట్రోజన్ ఆమ్లం",
+            "డైనమిక్ న్యూక్లియర్ అణువు",
+            "డీఆక్సిజనేటెడ్ రైబోస్ ఆమ్లం"
+          ],
+          "explanation": "DNA అంటే డియాక్సిరైబో న్యూక్లియిక్ ఆమ్లం."
+        }
+      }
+    },
+    {
+      "id": "pc3-gs-plan",
+      "subject": "Indian History / Culture / National Movement",
+      "topic": "National Movement — INC",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "In which year did India's First Five-Year Plan begin?",
+          "options": [
+            "1947",
+            "1950",
+            "1951",
+            "1956"
+          ],
+          "explanation": "The First Five-Year Plan covered 1951–1956."
+        },
+        "te": {
+          "question": "భారతదేశపు మొదటి పంచవర్ష ప్రణాళిక ఏ సంవత్సరంలో ప్రారంభమైంది?",
+          "options": [
+            "1947",
+            "1950",
+            "1951",
+            "1956"
+          ],
+          "explanation": "మొదటి పంచవర్ష ప్రణాళిక 1951–1956 కాలాన్ని కవర్ చేసింది."
+        }
+      }
+    },
+    {
+      "id": "pc3-gs-inc",
+      "subject": "Indian History / Culture / National Movement",
+      "topic": "National Movement — Jallianwala Bagh",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "In which year was the Indian National Congress founded?",
+          "options": [
+            "1875",
+            "1885",
+            "1905",
+            "1919"
+          ],
+          "explanation": "The Indian National Congress was founded in 1885; its first session was held in Bombay."
+        },
+        "te": {
+          "question": "భారత జాతీయ కాంగ్రెస్ ఏ సంవత్సరంలో స్థాపించబడింది?",
+          "options": [
+            "1875",
+            "1885",
+            "1905",
+            "1919"
+          ],
+          "explanation": "భారత జాతీయ కాంగ్రెస్ 1885లో స్థాపించబడింది. తొలి సమావేశం బొంబాయిలో జరిగింది."
+        }
+      }
+    },
+    {
+      "id": "pc3-gs-jallianwala",
+      "subject": "Geography",
+      "topic": "Indian geography — States",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "The Jallianwala Bagh massacre took place in which year?",
+          "options": [
+            "1905",
+            "1911",
+            "1919",
+            "1922"
+          ],
+          "explanation": "The massacre took place at Amritsar on 13 April 1919."
+        },
+        "te": {
+          "question": "జలియన్‌వాలా బాగ్ హత్యాకాండ ఏ సంవత్సరంలో జరిగింది?",
+          "options": [
+            "1905",
+            "1911",
+            "1919",
+            "1922"
+          ],
+          "explanation": "ఈ హత్యాకాండ 13 ఏప్రిల్ 1919న అమృత్‌సర్‌లో జరిగింది."
+        }
+      }
+    },
+    {
+      "id": "pc3-polity-part4-020",
+      "subject": "General Studies",
+      "topic": "Indian polity — Directive Principles",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "The Directive Principles of State Policy are contained in which Part of the Indian Constitution?",
+          "options": [
+            "Part III",
+            "Part IV",
+            "Part IVA",
+            "Part V"
+          ],
+          "explanation": "The Directive Principles are contained in Part IV (Articles 36–51)."
+        },
+        "te": {
+          "question": "రాజ్య విధాన ఆదేశిక సూత్రాలు భారత రాజ్యాంగంలోని ఏ భాగంలో ఉన్నాయి?",
+          "options": [
+            "భాగం III",
+            "భాగం IV",
+            "భాగం IVA",
+            "భాగం V"
+          ],
+          "explanation": "రాజ్య విధాన ఆదేశిక సూత్రాలు భాగం IV (ఆర్టికల్స్ 36–51)లో ఉన్నాయి."
+        }
+      }
+    },
+    {
+      "id": "pc3-telangana-musi",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana geography — Rivers",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which river flows through Hyderabad?",
+          "options": [
+            "Godavari",
+            "Musi",
+            "Manjira",
+            "Pranahita"
+          ],
+          "explanation": "The Musi River flows through Hyderabad and is a tributary of the Krishna."
+        },
+        "te": {
+          "question": "హైదరాబాద్ నగరం గుండా ప్రవహించే నది ఏది?",
+          "options": [
+            "గోదావరి",
+            "మూసీ",
+            "మంజీరా",
+            "ప్రాణహిత"
+          ],
+          "explanation": "మూసీ నది హైదరాబాద్ గుండా ప్రవహించి కృష్ణా నదికి ఉపనదిగా కలుస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "pc3-telangana-ramappa",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana heritage — UNESCO",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Ramappa Temple, a UNESCO World Heritage Site, is located in which district of Telangana?",
+          "options": [
+            "Warangal",
+            "Mulugu",
+            "Nalgonda",
+            "Karimnagar"
+          ],
+          "explanation": "Ramappa Temple is located near Palampet in Mulugu district."
+        },
+        "te": {
+          "question": "యునెస్కో ప్రపంచ వారసత్వ ప్రదేశమైన రామప్ప దేవాలయం తెలంగాణలోని ఏ జిల్లాలో ఉంది?",
+          "options": [
+            "వరంగల్",
+            "ములుగు",
+            "నల్గొండ",
+            "కరీంనగర్"
+          ],
+          "explanation": "రామప్ప దేవాలయం ములుగు జిల్లాలోని పాలంపేట సమీపంలో ఉంది."
+        }
+      }
+    },
+    {
+      "id": "pc3-telangana-hyderabad",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana heritage — Monuments",
+      "difficulty": "medium",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Who founded the city of Hyderabad in 1591?",
+          "options": [
+            "Ibrahim Quli Qutb Shah",
+            "Muhammad Quli Qutb Shah",
+            "Abdullah Qutb Shah",
+            "Mir Osman Ali Khan"
+          ],
+          "explanation": "Muhammad Quli Qutb Shah founded Hyderabad in 1591."
+        },
+        "te": {
+          "question": "1591లో హైదరాబాద్ నగరాన్ని స్థాపించినవారు ఎవరు?",
+          "options": [
+            "ఇబ్రహీం కులీ కుతుబ్ షా",
+            "ముహమ్మద్ కులీ కుతుబ్ షా",
+            "అబ్దుల్లా కుతుబ్ షా",
+            "మీర్ ఉస్మాన్ అలీ ఖాన్"
+          ],
+          "explanation": "ముహమ్మద్ కులీ కుతుబ్ షా 1591లో హైదరాబాద్ నగరాన్ని స్థాపించారు."
+        }
+      }
+    },
+    {
+      "id": "pc3-english-synonym-001",
+      "subject": "English",
+      "topic": "Vocabulary — Synonyms",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Choose the word closest in meaning to “rapid”.",
+          "options": [
+            "Slow",
+            "Quick",
+            "Weak",
+            "Late"
+          ],
+          "explanation": "“Rapid” means fast or quick."
+        },
+        "te": {
+          "question": "“Rapid” అనే పదానికి దగ్గర అర్థం వచ్చే పదాన్ని ఎంచుకోండి.",
+          "options": [
+            "Slow",
+            "Quick",
+            "Weak",
+            "Late"
+          ],
+          "explanation": "“Rapid” అంటే వేగమైన లేదా త్వరితమైన అని అర్థం."
+        }
+      }
+    },
+    {
+      "id": "pc3-gs-heart-025",
+      "subject": "General Science",
+      "topic": "Biology — Human body",
+      "difficulty": "easy",
+      "status": "preview",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno bilingual practice item. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Which organ pumps blood through the human body?",
+          "options": [
+            "Lungs",
+            "Liver",
+            "Heart",
+            "Kidneys"
+          ],
+          "explanation": "The heart pumps blood through the circulatory system."
+        },
+        "te": {
+          "question": "మానవ శరీరమంతటా రక్తాన్ని పంప్ చేసే అవయవం ఏది?",
+          "options": [
+            "ఊపిరితిత్తులు",
+            "కాలేయం",
+            "గుండె",
+            "మూత్రపిండాలు"
+          ],
+          "explanation": "రక్త ప్రసరణ వ్యవస్థ ద్వారా గుండె రక్తాన్ని శరీరమంతటా పంపుతుంది."
+        }
+      }
+    }
+  ]
+}
