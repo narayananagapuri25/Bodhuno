@@ -59,6 +59,9 @@ test("Police Constable uses the published 24-question set; TGPSC retains its dem
   await expect(page.locator("#counter")).toHaveText("Question 1 of 24");
   await expect(page.locator("#palette button")).toHaveCount(24);
   await expect(page.locator("#q")).toHaveText("What is 15% of 800?");
+  await page.locator("#palette button").last().click();
+  await expect(page.locator("#counter")).toHaveText("Question 24 of 24");
+  await expect(page.locator("#q")).toHaveText("Choose the grammatically correct sentence.");
 
   await page.getByRole("button", { name: "← Exit practice" }).click();
   page.once("dialog", dialog => dialog.accept());
