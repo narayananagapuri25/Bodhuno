@@ -289,7 +289,7 @@ test("SI and Constable November 2026 current-affairs Set 02 loads the new biling
   await expect(page.locator("#options")).toContainText("విశాఖపట్నం");
 
   await page.getByRole("button", { name: "← Exit practice" }).click();
-  if ((await page.locator("#lang").innerText()).trim() !== "English") {
+  if ((await page.locator("#lang").innerText()).trim() === "English") {
     await page.locator("#lang").click();
   }
   page.once("dialog", dialog => dialog.accept());
