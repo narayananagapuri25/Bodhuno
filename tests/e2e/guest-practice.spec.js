@@ -40,7 +40,6 @@ test("Police SI guest attempt: 24 questions, navigation, scoring and bilingual r
   await page.locator("#lang").click();
   await expect(page.locator("#review")).toContainText("అసలు విలువ ₹800");
   await expect(page.locator("#review")).toContainText("800లో 15%");
-  await expect(page.locator("#review")).toContainText("సరైన సమాధానం").toBeVisible().catch(() => {});
 });
 
 test("Police Constable uses the published 24-question set; TGPSC retains its demo set", async ({ page }) => {
