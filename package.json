@@ -1,0 +1,12 @@
+{
+  "name": "bodhuno",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Free-first bilingual exam preparation platform",
+  "scripts": {
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  }
+}
