@@ -4,10 +4,11 @@ Bodhuno is a mobile-first, bilingual (English/Telugu), guest-first exam-practice
 
 ## Current pilot
 
-- Police SI and Police Constable each have a separate 24-question foundation set plus a second 24-question syllabus-expansion preview set. The additional sets are marked `preview` pending independent subject-expert and Telugu-language review.
-- All four Police sets contain original bilingual practice content, not official previous-year papers. Even the 48 questions available per exam across the two sets do not constitute a full-length mock or complete syllabus coverage; current affairs remain outstanding.
+- Police SI has 72 questions across three separate sets (24 foundation, 24 Set 02 preview, 24 Set 03 preview). Police Constable has 73 questions (24 foundation, 24 Set 02 preview, 25 Set 03 preview).
+- Set 01 is the owner-approved pilot publication. Sets 02 and 03 remain `preview` pending independent subject-expert and Telugu-language review. All are original bilingual practice questions, not official previous-year papers or full-length mocks.
+- The available questions do not constitute complete syllabus coverage or the official 200-question examination; current affairs coverage remains outstanding.
 - Both sets follow the TGPRB 2026 PWT marking rule: +1 for correct, −0.20 for incorrect, 0 for unanswered.
-- The official SI and PC PWT notifications specify 200 questions, 200 marks and three hours. Each Bodhuno Police module is a shorter 24-question practice set with a one-minute-per-question practice timer. The two modules per exam are separate practice sets, not a 200-question simulation.
+- The official SI and PC PWT notifications specify 200 questions, 200 marks and three hours. Each Bodhuno Police module is a shorter practice set of 24 or 25 questions, with a one-minute-per-question practice timer. The sets remain separate and are not a 200-question simulation.
 - TGPSC, TET/DSC, aptitude and placement cards still use the five-question demonstration set, not complete exam collections.
 - Guest attempt history is stored only in the current browser's local storage (last 30 attempts). Clearing browser data clears that history.
 - No registration, payment, database or live advertising integration is required for this phase.
