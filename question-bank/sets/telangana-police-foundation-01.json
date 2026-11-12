@@ -705,10 +705,10 @@
         "en": {
           "question": "Which two major rivers flow through Telangana?",
           "options": [
-            "గోదావరి, కృష్ణా",
-            "గంగా, యమునా",
-            "నర్మదా, తాపీ",
-            "కావేరి, પેરિયാർ"
+            "Godavari and Krishna",
+            "Ganga and Yamuna",
+            "Narmada and Tapti",
+            "Kaveri and Periyar"
           ],
           "explanation": "గోదావరి, కృష్ణా నదులు తెలంగాణలో ప్రవహించే ప్రధాన నదులు."
         },
