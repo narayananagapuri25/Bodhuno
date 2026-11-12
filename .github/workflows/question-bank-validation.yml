@@ -1,0 +1,36 @@
+name: Question bank validation
+
+on:
+  push:
+    paths:
+      - "question-bank/sets/**/*.json"
+      - "question-bank/schema.json"
+      - "scripts/validate-question-bank.mjs"
+      - ".github/workflows/question-bank-validation.yml"
+  pull_request:
+    paths:
+      - "question-bank/sets/**/*.json"
+      - "question-bank/schema.json"
+      - "scripts/validate-question-bank.mjs"
+      - ".github/workflows/question-bank-validation.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-question-bank:
+    name: Validate question sets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate every question set
+        shell: bash
+        run: |
+          set -euo pipefail
+          find question-bank/sets -type f -name '*.json' -print0 |
+            xargs -0 -r -n 1 node scripts/validate-question-bank.mjs
