@@ -603,7 +603,7 @@
       "difficulty": "medium",
       "status": "review",
       "sourceType": "original_practice",
-      "sourceReference": "Original practice item based on standard Indian National Movement chronology; check the candidate's prescribed history text for expanded study.",
+      "sourceReference": "Original practice item; event date verified against Gandhi Heritage Portal chronology: https://www.gandhiheritageportal.org/dandi-march-details and Nehru Portal, Ministry of Culture, Government of India: https://nehruportal.nic.in/node/793.",
       "correctOptionIndex": 2,
       "languages": {
         "en": {
@@ -718,7 +718,7 @@
             "Godavari and Krishna",
             "Ganga and Yamuna",
             "Narmada and Tapti",
-            "Kaveri and Periyar"
+            "పెరియార్"
           ],
           "explanation": "The Godavari and Krishna are the two major rivers flowing through Telangana."
         }
