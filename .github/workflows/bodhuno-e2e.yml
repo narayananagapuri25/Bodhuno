@@ -9,6 +9,8 @@ on:
       - "playwright.config.mjs"
       - "package.json"
       - ".github/workflows/bodhuno-e2e.yml"
+      - "question-bank/catalog.json"
+      - "question-bank/sets/**/*.json"
   pull_request:
     paths:
       - "index.html"
@@ -16,6 +18,8 @@ on:
       - "playwright.config.mjs"
       - "package.json"
       - ".github/workflows/bodhuno-e2e.yml"
+      - "question-bank/catalog.json"
+      - "question-bank/sets/**/*.json"
   workflow_dispatch:
 
 permissions:
@@ -25,8 +29,6 @@ jobs:
   live-guest-e2e:
     name: Live guest practice flows
     runs-on: ubuntu-24.04
-    env:
-      BODHUNO_BASE_URL: ${{ github.ref_name != 'main' && 'https://feature-dynamic-question-cat.bodhuno.pages.dev' || 'https://bodhuno.pages.dev' }}
     timeout-minutes: 12
     steps:
       - name: Check out repository
@@ -39,6 +41,20 @@ jobs:
         run: npm install
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
+      - name: Resolve the correct deployment URL
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_REF_NAME" == "main" && -z "${GITHUB_HEAD_REF:-}" ]]; then
+            base_url="https://bodhuno.pages.dev"
+          else
+            branch_name="${GITHUB_HEAD_REF:-$GITHUB_REF_NAME}"
+            slug="${branch_name//\//-}"
+            slug="${slug:0:28}"
+            base_url="https://${slug}.bodhuno.pages.dev"
+          fi
+          echo "BODHUNO_BASE_URL=$base_url" >> "$GITHUB_ENV"
+          echo "Testing deployment: $base_url"
       - name: Wait for the target deployment question catalogue
         shell: bash
         run: |
