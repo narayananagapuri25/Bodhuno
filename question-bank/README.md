@@ -9,6 +9,8 @@ The question bank is the source of truth for static content during the database-
 - `sets/telangana-police-constable-foundation-01.json`: 24 original English/Telugu Constable foundation questions, including English practice.
 - `sets/telangana-police-si-expansion-preview-02.json`: 24 additional SI preview questions across arithmetic, reasoning, polity, history, geography, science, economy and Telangana history.
 - `sets/telangana-police-constable-expansion-preview-02.json`: 24 additional Constable preview questions across arithmetic, reasoning, science, history, geography, polity, economy, Telangana and English.
+- `sets/telangana-police-si-expansion-preview-03.json`: 24 additional SI preview questions across arithmetic, reasoning, polity, economy, history, geography and Telangana heritage.
+- `sets/telangana-police-constable-expansion-preview-03.json`: 25 additional Constable preview questions across arithmetic, reasoning, science, history, geography, polity, Telangana and English.
 - `schema.json`: question-set data contract.
 - `scripts/validate-question-bank.mjs`: Node.js structural and publishing-rule validator.
 
@@ -43,3 +45,7 @@ The 24-question Police set is marked `published` and loaded by the Police SI and
 ## Syllabus expansion preview — Set 02
 
 Two additional 24-question bilingual collections are available as preview sets on the Police SI and Police Constable cards. They are separate from Foundation Set 01, use the same +1 / −0.20 / 0 scoring metadata, and retain a one-minute-per-question practice timer. The new material broadens static-topic coverage; it is not a 200-question mock and it does not yet cover current affairs. The collections remain in `preview` status because independent subject-expert and Telugu-language review has not been completed. Do not relabel them as published or official previous-year papers until that review is recorded.
+
+## Syllabus expansion preview — Set 03
+
+Set 03 adds 24 SI questions and 25 Constable questions. They remain separate, bilingual preview collections and continue to use +1 / −0.20 / 0 scoring with a one-minute-per-question practice timer. The new batch adds more arithmetic, reasoning, Indian polity/economy/history/geography, science, Telangana heritage and a small amount of English in the Constable collection. The batch is not a full mock and contains no dedicated current-affairs section. Keep the sets in `preview` status until a qualified subject reviewer and Telugu-language reviewer have checked each item and answer key.
