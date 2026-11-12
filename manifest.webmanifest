@@ -1,0 +1,10 @@
+{
+  "name": "Bodhuno — Learn. Practice. Rise.",
+  "short_name": "Bodhuno",
+  "description": "Free Telugu and English exam preparation and practice.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f8f6",
+  "theme_color": "#102c3a",
+  "lang": "en"
+}
