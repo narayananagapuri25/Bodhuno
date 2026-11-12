@@ -2,6 +2,7 @@ name: Bodhuno live guest E2E
 
 on:
   push:
+    branches: ["main"]
     paths:
       - "index.html"
       - "tests/e2e/**"
@@ -24,6 +25,8 @@ jobs:
   live-guest-e2e:
     name: Live guest practice flows
     runs-on: ubuntu-24.04
+    env:
+      BODHUNO_BASE_URL: ${{ github.ref_name != 'main' && 'https://feature-dynamic-question-cat.bodhuno.pages.dev' || 'https://bodhuno.pages.dev' }}
     timeout-minutes: 12
     steps:
       - name: Check out repository
@@ -36,8 +39,23 @@ jobs:
         run: npm install
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
+      - name: Wait for the target deployment question catalogue
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent --show-error "$BODHUNO_BASE_URL/question-bank/catalog.json" -o /tmp/bodhuno-catalog.json; then
+              if node -e 'const fs = require("node:fs"); const c = JSON.parse(fs.readFileSync(process.argv[1], "utf8")); if (c.format !== "bodhuno-question-catalog/v1" || !Array.isArray(c.sets) || c.sets.length === 0) process.exit(1);' /tmp/bodhuno-catalog.json; then
+                echo "Question catalogue is live at $BODHUNO_BASE_URL"
+                exit 0
+              fi
+            fi
+            echo "Waiting for the latest Cloudflare Pages catalogue deployment (attempt $attempt/30)..."
+            sleep 2
+          done
+          echo "The target deployment did not serve a valid question catalogue."
+          exit 1
       - name: Run live guest E2E tests
         env:
           CI: "true"
-          BODHUNO_BASE_URL: https://bodhuno.pages.dev
         run: npm run test:e2e

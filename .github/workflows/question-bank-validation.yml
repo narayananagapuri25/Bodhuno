@@ -4,12 +4,16 @@ on:
   push:
     paths:
       - "question-bank/sets/**/*.json"
+      - "question-bank/catalog.json"
+      - "scripts/validate-question-catalog.mjs"
       - "question-bank/schema.json"
       - "scripts/validate-question-bank.mjs"
       - ".github/workflows/question-bank-validation.yml"
   pull_request:
     paths:
       - "question-bank/sets/**/*.json"
+      - "question-bank/catalog.json"
+      - "scripts/validate-question-catalog.mjs"
       - "question-bank/schema.json"
       - "scripts/validate-question-bank.mjs"
       - ".github/workflows/question-bank-validation.yml"
@@ -34,3 +38,5 @@ jobs:
           set -euo pipefail
           find question-bank/sets -type f -name '*.json' -print0 |
             xargs -0 -r -n 1 node scripts/validate-question-bank.mjs
+      - name: Validate home-screen question catalogue
+        run: node scripts/validate-question-catalog.mjs
