@@ -272,3 +272,36 @@ test("Police question cards are generated from the question catalogue", async ({
     await expect(card.locator("button")).toBeVisible();
   }
 });
+
+test("SI and Constable November 2026 current-affairs Set 02 loads the new bilingual batch", async ({ page }) => {
+  await page.goto("/");
+  if ((await page.locator("#lang").innerText()).trim() === "English") {
+    await page.locator("#lang").click();
+  }
+
+  await openExam(page, "Police SI · Current Affairs Set 02");
+  await expect(page.locator("#mockTitle")).toHaveText("Police SI · Current Affairs Set 02 · Quick practice");
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 15");
+  await expect(page.locator("#palette button")).toHaveCount(15);
+  await expect(page.locator("#q")).toContainText("Which city hosted the 8th edition");
+  await page.locator("#lang").click();
+  await expect(page.locator("#q")).toContainText("భారతదేశం–మయన్మార్ నౌకాదళ విన్యాసం");
+  await expect(page.locator("#options")).toContainText("విశాఖపట్నం");
+
+  await page.getByRole("button", { name: "← Exit practice" }).click();
+  if ((await page.locator("#lang").innerText()).trim() === "English") {
+    await page.locator("#lang").click();
+  }
+  page.once("dialog", dialog => dialog.accept());
+  await openExam(page, "Police Constable · Current Affairs Set 02");
+  await expect(page.locator("#mockTitle")).toHaveText("Police Constable · Current Affairs Set 02 · Quick practice");
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 15");
+  await expect(page.locator("#palette button")).toHaveCount(15);
+  await expect(page.locator("#q")).toContainText("Which city hosted the 8th edition");
+  await page.locator("#lang").click();
+  await expect(page.locator("#q")).toContainText("భారతదేశం–మయన్మార్ నౌకాదళ విన్యాసం");
+  await page.locator("#palette button").last().click();
+  await expect(page.locator("#counter")).toHaveText("Question 15 of 15");
+  await expect(page.locator("#q")).toContainText("పోషక ఆధారిత సబ్సిడీ");
+});
+
