@@ -544,41 +544,41 @@
       }
     },
     {
-      "id": "pc3-gs-plan",
+      "id": "pc3-history-plassey-017",
       "subject": "Indian History / Culture / National Movement",
-      "topic": "National Movement — INC",
-      "difficulty": "easy",
+      "topic": "Modern Indian history — Battle of Plassey",
+      "difficulty": "medium",
       "status": "preview",
       "sourceType": "original_practice",
-      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
-      "correctOptionIndex": 2,
+      "sourceReference": "Original Bodhuno bilingual practice item; historical date checked against standard Indian history references. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 1,
       "languages": {
         "en": {
-          "question": "In which year did India's First Five-Year Plan begin?",
+          "question": "In which year was the Battle of Plassey fought?",
           "options": [
-            "1947",
-            "1950",
-            "1951",
-            "1956"
+            "1750",
+            "1757",
+            "1764",
+            "1772"
           ],
-          "explanation": "The First Five-Year Plan covered 1951–1956."
+          "explanation": "The Battle of Plassey was fought on 23 June 1757."
         },
         "te": {
-          "question": "భారతదేశపు మొదటి పంచవర్ష ప్రణాళిక ఏ సంవత్సరంలో ప్రారంభమైంది?",
+          "question": "ప్లాసీ యుద్ధం ఏ సంవత్సరంలో జరిగింది?",
           "options": [
-            "1947",
-            "1950",
-            "1951",
-            "1956"
+            "1750",
+            "1757",
+            "1764",
+            "1772"
           ],
-          "explanation": "మొదటి పంచవర్ష ప్రణాళిక 1951–1956 కాలాన్ని కవర్ చేసింది."
+          "explanation": "ప్లాసీ యుద్ధం 23 జూన్ 1757న జరిగింది."
         }
       }
     },
     {
       "id": "pc3-gs-inc",
       "subject": "Indian History / Culture / National Movement",
-      "topic": "National Movement — Jallianwala Bagh",
+      "topic": "National Movement — Indian National Congress",
       "difficulty": "easy",
       "status": "preview",
       "sourceType": "original_practice",
@@ -609,8 +609,8 @@
     },
     {
       "id": "pc3-gs-jallianwala",
-      "subject": "Geography",
-      "topic": "Indian geography — States",
+      "subject": "Indian History / Culture / National Movement",
+      "topic": "National Movement — Jallianwala Bagh",
       "difficulty": "easy",
       "status": "preview",
       "sourceType": "original_practice",
@@ -640,34 +640,34 @@
       }
     },
     {
-      "id": "pc3-polity-part4-020",
-      "subject": "General Studies",
-      "topic": "Indian polity — Directive Principles",
+      "id": "pc3-geog-rajasthan-020",
+      "subject": "Geography",
+      "topic": "Indian geography — States",
       "difficulty": "easy",
       "status": "preview",
       "sourceType": "original_practice",
-      "sourceReference": "Original Bodhuno bilingual practice item; calculation or stable fact independently checked. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
-      "correctOptionIndex": 1,
+      "sourceReference": "Original Bodhuno bilingual practice item; stable geographic fact. Syllabus alignment: TGPRB PC Notification Rc. No. 189/Rect./Rect-2/2026, Annexure II (page 44). Not an official previous-year question.",
+      "correctOptionIndex": 2,
       "languages": {
         "en": {
-          "question": "The Directive Principles of State Policy are contained in which Part of the Indian Constitution?",
+          "question": "Which is the largest Indian state by area?",
           "options": [
-            "Part III",
-            "Part IV",
-            "Part IVA",
-            "Part V"
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Rajasthan",
+            "Uttar Pradesh"
           ],
-          "explanation": "The Directive Principles are contained in Part IV (Articles 36–51)."
+          "explanation": "Rajasthan is the largest Indian state by area."
         },
         "te": {
-          "question": "రాజ్య విధాన ఆదేశిక సూత్రాలు భారత రాజ్యాంగంలోని ఏ భాగంలో ఉన్నాయి?",
+          "question": "విస్తీర్ణం ప్రకారం భారతదేశంలో అతిపెద్ద రాష్ట్రం ఏది?",
           "options": [
-            "భాగం III",
-            "భాగం IV",
-            "భాగం IVA",
-            "భాగం V"
+            "మధ్యప్రదేశ్",
+            "మహారాష్ట్ర",
+            "రాజస్థాన్",
+            "ఉత్తరప్రదేశ్"
           ],
-          "explanation": "రాజ్య విధాన ఆదేశిక సూత్రాలు భాగం IV (ఆర్టికల్స్ 36–51)లో ఉన్నాయి."
+          "explanation": "విస్తీర్ణం ప్రకారం రాజస్థాన్ భారతదేశంలో అతిపెద్ద రాష్ట్రం."
         }
       }
     },
@@ -738,7 +738,7 @@
     {
       "id": "pc3-telangana-hyderabad",
       "subject": "Telangana Awareness",
-      "topic": "Telangana heritage — Monuments",
+      "topic": "Telangana history — Hyderabad",
       "difficulty": "medium",
       "status": "preview",
       "sourceType": "original_practice",
