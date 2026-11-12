@@ -4,9 +4,9 @@ Bodhuno is a mobile-first, bilingual (English/Telugu), guest-first exam-practice
 
 ## Current pilot
 
-- Police SI has 96 questions across four separate sets (24 foundation plus three 24-question expansion previews). Police Constable has 97 questions across four sets (24 foundation, two 24-question previews, a 25-question Set 03 preview, and a 24-question Set 04 preview).
+- Police SI has 112 questions across five practice collections (24 foundation, three 24-question static-topic previews, and a 16-question November 2026 current-affairs preview). Police Constable has 113 questions across five collections (24 foundation, two 24-question static-topic previews, a 25-question Set 03 preview, a 24-question Set 04 preview, and a 16-question November 2026 current-affairs preview).
 - Set 01 is the owner-approved pilot publication. Sets 02, 03 and 04 remain `preview` pending independent subject-expert and Telugu-language review. All are original bilingual practice questions, not official previous-year papers or full-length mocks.
-- The available questions do not constitute complete syllabus coverage or the official 200-question examination; current affairs coverage remains outstanding.
+- The available questions do not constitute complete syllabus coverage or the official 200-question examination. Current-affairs coverage is limited to a dated 16-question November 2026 preview based on Government of India releases available through 12 November 2026; it is not comprehensive or automatically updated.
 - Both sets follow the TGPRB 2026 PWT marking rule: +1 for correct, −0.20 for incorrect, 0 for unanswered.
 - The official SI and PC PWT notifications specify 200 questions, 200 marks and three hours. Each Bodhuno Police module is a shorter practice set of 24 or 25 questions, with a one-minute-per-question practice timer. The sets remain separate and are not a 200-question simulation.
 - TGPSC, TET/DSC, aptitude and placement cards still use the five-question demonstration set, not complete exam collections.
