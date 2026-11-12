@@ -7,6 +7,8 @@ The question bank is the source of truth for static content during the database-
 - `sets/telangana-foundation-demo.json`: five original demonstration questions used by the non-Police preview cards.
 - `sets/telangana-police-foundation-01.json`: 24 original English/Telugu SI foundation questions covering selected SI PWT subjects.
 - `sets/telangana-police-constable-foundation-01.json`: 24 original English/Telugu Constable foundation questions, including English practice.
+- `sets/telangana-police-si-expansion-preview-02.json`: 24 additional SI preview questions across arithmetic, reasoning, polity, history, geography, science, economy and Telangana history.
+- `sets/telangana-police-constable-expansion-preview-02.json`: 24 additional Constable preview questions across arithmetic, reasoning, science, history, geography, polity, economy, Telangana and English.
 - `schema.json`: question-set data contract.
 - `scripts/validate-question-bank.mjs`: Node.js structural and publishing-rule validator.
 
@@ -37,3 +39,7 @@ The SI and PC syllabi differ, so the site serves different sets. The SI set cove
 ## Current published pilot set
 
 The 24-question Police set is marked `published` and loaded by the Police SI and Police Constable cards. It contains original practice questions, not official previous-year questions. Owner-approved pilot publication and AI-assisted checks are recorded in its metadata; independent subject-expert certification is not claimed. A qualified subject reviewer and Telugu reviewer should still inspect it.
+
+## Syllabus expansion preview — Set 02
+
+Two additional 24-question bilingual collections are available as preview sets on the Police SI and Police Constable cards. They are separate from Foundation Set 01, use the same +1 / −0.20 / 0 scoring metadata, and retain a one-minute-per-question practice timer. The new material broadens static-topic coverage; it is not a 200-question mock and it does not yet cover current affairs. The collections remain in `preview` status because independent subject-expert and Telugu-language review has not been completed. Do not relabel them as published or official previous-year papers until that review is recorded.
