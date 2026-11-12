@@ -5,9 +5,9 @@ Bodhuno is a mobile-first, bilingual (English/Telugu), guest-first exam-practice
 ## Current pilot
 
 - Police SI and Police Constable cards load the published 24-question Telangana Police foundation set.
-- The set is original bilingual practice content. It is not an official previous-year paper or a full-length mock.
+- The SI and Constable cards now load separate, exam-aligned 24-question foundation sets. Both are original bilingual practice content, not official previous-year papers or full-length mocks.
 - The set follows the TGPRB 2026 PWT marking rule: +1 for correct, −0.20 for incorrect, 0 for unanswered.
-- The official SI and PC PWT notifications specify 200 questions, 200 marks and three hours. This is a shorter 24-question practice module with a one-minute-per-question practice timer.
+- The official SI and PC PWT notifications specify 200 questions, 200 marks and three hours. Each Bodhuno Police module is a shorter 24-question practice set with a one-minute-per-question practice timer.
 - TGPSC, TET/DSC, aptitude and placement cards still use the five-question demonstration set, not complete exam collections.
 - Guest attempt history is stored only in the current browser's local storage (last 30 attempts). Clearing browser data clears that history.
 - No registration, payment, database or live advertising integration is required for this phase.
