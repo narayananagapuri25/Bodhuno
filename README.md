@@ -15,7 +15,7 @@ Bodhuno is a mobile-first, bilingual (English/Telugu), guest-first exam-practice
 
 ## Question updates
 
-Question content lives in `question-bank/sets/`. Ordinary question additions do not require editing the website HTML. Read [the question-bank workflow](question-bank/README.md).
+Question content lives in `question-bank/sets/`, and `question-bank/catalog.json` controls which Police sets appear on the home screen. To add a new set, add its JSON file and one catalogue entry; the app discovers the card and opens the matching set without editing `index.html`. No separate admin app or database is required for this static pilot. Read [the question-bank workflow](question-bank/README.md).
 
 Validate the question sets locally with Node.js:
 
@@ -23,7 +23,9 @@ Validate the question sets locally with Node.js:
 find question-bank/sets -type f -name '*.json' -print0 | xargs -0 -n 1 node scripts/validate-question-bank.mjs
 ```
 
-GitHub Actions runs the question-bank validator and the live guest Playwright test suite on relevant commits.
+GitHub Actions validates every question set, checks catalogue-to-file references and runs the live guest Playwright suite on relevant commits. New content is deployed by the existing Cloudflare Pages main-branch deployment after its change is reviewed and merged.
+
+For regular updates, I can prepare bilingual draft batches using current official sources and the exam syllabus. A qualified subject reviewer must verify facts and answer keys, and a Telugu-language reviewer must verify translations before a set is marked `published`. AI drafting is assistance, not the final academic approval.
 
 ## Run locally
 
