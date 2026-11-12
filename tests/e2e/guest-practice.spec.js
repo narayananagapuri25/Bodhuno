@@ -305,3 +305,41 @@ test("SI and Constable November 2026 current-affairs Set 02 loads the new biling
   await expect(page.locator("#q")).toContainText("పోషక ఆధారిత సబ్సిడీ");
 });
 
+test("Completed attempts build a local subject progress dashboard", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  await expect(page.locator("#q")).toHaveText("What is 15% of 800?");
+  await page.getByRole("button", { name: "A ₹80" }).click();
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await page.getByRole("button", { name: "Back to home" }).click();
+
+  await expect(page.locator("#progressDashboard")).toContainText("Completed attempts");
+  await expect(page.locator("#progressDashboard")).toContainText("Questions answered");
+  await expect(page.locator("#progressDashboard")).toContainText("Arithmetic");
+  await expect(page.locator("#progressDashboard")).toContainText("Topics to revisit");
+
+  const history = await page.evaluate(() => JSON.parse(localStorage.getItem("bodhuno_guest_attempts") || "[]"));
+  expect(history).toHaveLength(1);
+  expect(history[0].byTopic).toEqual([
+    { subject: "Arithmetic", topic: "Percentage", correct: 0, wrong: 1, attempted: 1 }
+  ]);
+});
+
+test("Learners can launch focused topic practice from the question bank", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator("#topicTrack")).toBeEnabled();
+  await page.selectOption("#topicTrack", "Police SI");
+  await expect(page.locator("#topicSubject")).toBeEnabled();
+  await page.selectOption("#topicSubject", "Arithmetic");
+  await expect(page.locator("#topicName")).toBeEnabled();
+  await page.selectOption("#topicName", "Percentage");
+  await expect(page.locator("#startTopicBtn")).toBeEnabled();
+  await page.locator("#startTopicBtn").click();
+
+  await expect(page.locator("#mockTitle")).toHaveText("Police SI · Arithmetic · Percentage · Quick practice");
+  await expect(page.locator("#counter")).toContainText("Question 1 of");
+  await expect(page.locator("#q")).toContainText("What is 15% of 800?");
+  await expect(page.locator("#mockView .notice")).toContainText("Focused practice");
+});
+
