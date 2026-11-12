@@ -174,3 +174,33 @@ test("SI and Constable Set 04 preview collections load and retain bilingual rend
   await page.locator("#lang").click();
   await expect(page.locator("#q")).toContainText("Neither of the boys");
 });
+
+
+test("SI and Constable November 2026 current-affairs previews load bilingual questions and TGPRB scoring", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI · Current Affairs");
+  await expect(page.getByRole("heading", { name: "Police SI · Current Affairs Nov 2026 · Quick practice" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 16");
+  await expect(page.locator("#palette button")).toHaveCount(16);
+  await expect(page.locator("#q")).toContainText("Stand-Up India Scheme");
+  await expect(page.locator("#mockDescription")).toContainText("−0.2 for incorrect");
+  await page.locator("#lang").click();
+  await expect(page.locator("#q")).toContainText("స్టాండ్-అప్ ఇండియా పథకం");
+  await page.getByRole("button", { name: /మహిళలు/ }).click();
+  await expect(page.locator("#answered")).toHaveText("1 answered");
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await expect(page.locator("#score")).toHaveText("1.00 / 16");
+  await expect(page.locator("#review")).toContainText("31 మార్చి 2031");
+
+  await page.getByRole("button", { name: "Back to home" }).click();
+  await openExam(page, "Police Constable · Current Affairs");
+  await expect(page.getByRole("heading", { name: "Police Constable · Current Affairs Nov 2026 · Quick practice" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 16");
+  await expect(page.locator("#palette button")).toHaveCount(16);
+  await expect(page.locator("#q")).toContainText("Stand-Up India Scheme");
+  await page.locator("#palette button").nth(15).click();
+  await expect(page.locator("#q")).toContainText("Bharat-VISTAAR");
+  await page.locator("#lang").click();
+  await expect(page.locator("#q")).toContainText("భారత్-విస్తార్");
+});
