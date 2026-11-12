@@ -16,9 +16,13 @@ The question bank is the source of truth for static content during the database-
 - `sets/telangana-police-si-current-affairs-november-2026-preview-01.json`: 16 bilingual SI current-affairs questions based on official PIB releases through 12 November 2026.
 - `sets/telangana-police-constable-current-affairs-november-2026-preview-01.json`: 16 bilingual Constable current-affairs questions based on official PIB releases through 12 November 2026.
 - `schema.json`: question-set data contract.
+- `catalog.json`: home-screen registry for the Police SI and Constable sets. The app creates these cards from the catalogue, so new sets do not require editing `index.html`.
 - `scripts/validate-question-bank.mjs`: Node.js structural and publishing-rule validator.
 
 ## Draft, review and publish
+
+The public app remains one app: it reads static question-set JSON files and a small catalogue file. No database or separate admin app is needed for the current pilot. To add a set, add its JSON file under `sets/` and register its display name, exam name, file path, question count, status and card description in `catalog.json`. The home screen and practice launcher then pick it up automatically. GitHub Actions checks that every catalogue entry points to a real set with the expected count and status.
+
 
 1. Prepare English and Telugu stems, four options in each language, a zero-based correct option index (A=0 to D=3), explanations in both languages, subject, topic, difficulty, exam tags and provenance.
 2. Independently solve every item. Verify facts, calculations, answer key, syllabus relevance, ambiguity and Telugu meaning.
@@ -26,6 +30,7 @@ The question bank is the source of truth for static content during the database-
 4. Keep new questions at `draft` or `review`. A human subject reviewer and Telugu reviewer should inspect them.
 5. Publish only after approval. Set every question and the set to `published`, fill review metadata, increment the version and validate.
 6. Commit, wait for GitHub Actions, confirm the matching Cloudflare Pages deployment and smoke-test both languages.
+7. The question content is prepared as a draft batch, independently reviewed for subject accuracy and Telugu quality, then added to the catalogue. Only owner-approved, reviewer-checked sets should be changed to `published`; preview sets remain clearly labelled.
 
 ## Official 2026 Police scoring and scope
 
