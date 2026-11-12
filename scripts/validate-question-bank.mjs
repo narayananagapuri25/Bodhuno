@@ -30,6 +30,17 @@ if (!allowedSources.includes(set.sourceType)) errors.push("sourceType is invalid
 if (!Array.isArray(set.languages) || !set.languages.includes("en") || !set.languages.includes("te")) errors.push("Both en and te must be declared in languages");
 if (!Array.isArray(set.examTags) || set.examTags.length === 0) errors.push("At least one examTag is required");
 if (!Array.isArray(set.questions) || set.questions.length === 0) errors.push("At least one question is required");
+if (set.scoring !== undefined) {
+  const scoring = set.scoring;
+  for (const key of ["correctPoints", "incorrectPenalty", "unansweredPoints"]) {
+    if (typeof scoring[key] !== "number" || !Number.isFinite(scoring[key]) || scoring[key] < 0) errors.push(`scoring.${key} must be a finite non-negative number`);
+  }
+  if (!scoring.ruleLabel?.trim()) errors.push("scoring.ruleLabel is required");
+  if (!scoring.officialExamFormat?.trim()) errors.push("scoring.officialExamFormat is required");
+  if (!Number.isInteger(scoring.practiceTimerSecondsPerQuestion) || scoring.practiceTimerSecondsPerQuestion < 1) errors.push("scoring.practiceTimerSecondsPerQuestion must be a positive integer");
+  if (!Array.isArray(scoring.sourceReferences) || scoring.sourceReferences.length === 0 || scoring.sourceReferences.some(x => typeof x !== "string" || !x.trim())) errors.push("scoring.sourceReferences must contain at least one non-empty source");
+  if (!scoring.practiceNote?.trim()) errors.push("scoring.practiceNote is required");
+}
 
 const ids = new Set();
 for (const [index, q] of (Array.isArray(set.questions) ? set.questions : []).entries()) {
