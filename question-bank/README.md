@@ -44,3 +44,9 @@ The current five items intentionally remain marked `preview`. They are original 
 - **GitHub + Cloudflare Pages:** store the reviewed source and serve the static update.
 
 Nothing is published automatically just because a question was drafted. Ask for a defined set (for example, "draft 30 SI arithmetic questions") and review the result before asking to publish it.
+
+## First Telangana Police review collection
+
+`sets/telangana-police-foundation-01.json` contains 24 original bilingual practice questions for selected overlapping Telangana Police SI/Constable preliminary topics. It is intentionally marked `workflowStatus: review`, and each question is `status: review`; the live practice loader will not serve it. This is not a previous-year paper and is not a complete mock or a complete syllabus coverage. It requires a human subject-matter review and Telugu language review before publication.
+
+Syllabus alignment checked against TGPRB 2026 SI Notification Rc No. 225/Rect./Rect-1/2026, Annexure II, and PC Notification Rc No. 189/Rect./Rect-2/2026, Annexure II. The official portal is https://www.tgprb.in/. Question-level source references identify primary references used for stable factual items. Arithmetic and reasoning are original items with worked solutions.
