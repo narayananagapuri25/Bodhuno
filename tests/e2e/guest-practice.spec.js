@@ -21,6 +21,8 @@ test("Police SI guest attempt: 24 questions, navigation, scoring and bilingual r
   await page.getByRole("button", { name: "C ₹120" }).click();
   await expect(page.locator("#answered")).toHaveText("1 answered");
   await expect(page.locator("#palette button").nth(0)).toHaveClass(/answered/);
+  await page.getByRole("button", { name: "Mark for review" }).click();
+  await expect(page.locator("#palette button").nth(0)).toHaveClass(/marked/);
 
   await page.locator("#palette button").nth(1).click();
   await page.getByRole("button", { name: "A 20", exact: true }).click();
@@ -33,6 +35,7 @@ test("Police SI guest attempt: 24 questions, navigation, scoring and bilingual r
   await page.locator("#palette button").first().click();
   await expect(page.locator("#counter")).toHaveText("Question 1 of 24");
   await expect(page.getByRole("button", { name: "C ₹120" })).toHaveClass(/selected/);
+  await expect(page.getByRole("button", { name: "Remove review mark" })).toHaveAttribute("aria-pressed", "true");
 
   page.once("dialog", dialog => dialog.accept());
   await page.getByRole("button", { name: "Submit practice" }).click();
@@ -61,4 +64,39 @@ test("Police Constable uses the published 24-question set; TGPSC retains its dem
   await openExam(page, "TGPSC Groups");
   await expect(page.locator("#counter")).toHaveText("Question 1 of 5");
   await expect(page.locator("#palette button")).toHaveCount(5);
+});
+
+
+test("Guest attempt resumes after refresh with answers, position and review flags", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  await page.getByRole("button", { name: "C ₹120" }).click();
+  await page.getByRole("button", { name: "Mark for review" }).click();
+  await page.locator("#palette button").nth(1).click();
+  await expect(page.locator("#counter")).toHaveText("Question 2 of 24");
+
+  await page.reload();
+  page.once("dialog", dialog => dialog.accept());
+  await openExam(page, "Police SI");
+
+  await expect(page.locator("#counter")).toHaveText("Question 2 of 24");
+  await expect(page.locator("#answered")).toHaveText("1 answered");
+  await expect(page.locator("#palette button").first()).toHaveClass(/answered/);
+  await expect(page.locator("#palette button").first()).toHaveClass(/marked/);
+  await page.locator("#palette button").first().click();
+  await expect(page.getByRole("button", { name: "C ₹120" })).toHaveClass(/selected/);
+  await expect(page.getByRole("button", { name: "Remove review mark" })).toHaveAttribute("aria-pressed", "true");
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await expect(page.locator("#score")).toHaveText("1.00 / 24");
+});
+
+test("Submitting a blank Police practice attempt awards zero and no penalty", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await expect(page.locator("#score")).toHaveText("0.00 / 24");
+  await expect(page.locator("#summary")).toContainText("0 correct · 0 wrong · 24 unanswered");
+  await expect(page.locator("#review")).toContainText("Not attempted");
 });
