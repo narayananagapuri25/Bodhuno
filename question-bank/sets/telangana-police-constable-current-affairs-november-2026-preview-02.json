@@ -140,24 +140,24 @@
       "correctOptionIndex": 2,
       "languages": {
         "en": {
-          "question": "Which edition of the Pan-India Coastal Defence Exercise Sea Vigil was held in November 2026?",
+          "question": "Which edition of the Pan-India Coastal Defence Exercise Sea Vigil is being conducted in November 2026?",
           "options": [
             "Third",
             "Fourth",
             "Fifth",
             "Sixth"
           ],
-          "explanation": "The 2026 exercise was the fifth edition of Sea Vigil."
+          "explanation": "Sea Vigil-26 is the fifth edition of the exercise, being conducted from 11 to 19 November 2026."
         },
         "te": {
-          "question": "2026 నవంబర్‌లో నిర్వహించిన పాన్-ఇండియా తీర రక్షణ విన్యాసం 'సీ విజిల్' ఏ ఎడిషన్?",
+          "question": "2026 నవంబర్‌లో నిర్వహిస్తున్న పాన్-ఇండియా తీర రక్షణ విన్యాసం 'సీ విజిల్' ఏ ఎడిషన్?",
           "options": [
             "మూడవది",
             "నాల్గవది",
             "ఐదవది",
             "ఆరవది"
           ],
-          "explanation": "2026లో నిర్వహించిన సీ విజిల్ విన్యాసం ఐదవ ఎడిషన్."
+          "explanation": "సీ విజిల్-26 ఈ విన్యాసం యొక్క ఐదవ ఎడిషన్. ఇది 2026 నవంబర్ 11 నుంచి 19 వరకు నిర్వహిస్తున్నారు."
         }
       }
     },
@@ -488,7 +488,7 @@
       "difficulty": "easy",
       "status": "preview",
       "sourceType": "original_practice",
-      "sourceReference": "Original Bodhuno bilingual practice question. Verified against official PIB release: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334972&lang=1&reg=3 Published 10–12 November 2026; preview pending human review.",
+      "sourceReference": "Original Bodhuno bilingual practice question. Verified against official PIB release: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334974&lang=1&reg=48 Published 10–12 November 2026; preview pending human review.",
       "correctOptionIndex": 1,
       "languages": {
         "en": {
