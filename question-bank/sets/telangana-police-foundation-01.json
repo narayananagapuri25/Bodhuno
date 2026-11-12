@@ -715,10 +715,10 @@
         "te": {
           "question": "తెలంగాణ గుండా ప్రవహించే రెండు ప్రధాన నదులు ఏవి?",
           "options": [
-            "Godavari and Krishna",
-            "Ganga and Yamuna",
-            "Narmada and Tapti",
-            "పెరియార్"
+            "గోదావరి, కృష్ణా",
+            "గంగా, యమునా",
+            "నర్మదా, తపతి",
+            "కావేరి, పెరియార్"
           ],
           "explanation": "The Godavari and Krishna are the two major rivers flowing through Telangana."
         }
