@@ -343,3 +343,73 @@ test("Learners can launch focused topic practice from the question bank", async 
   await expect(page.locator("#mockView .notice")).toContainText("Focused practice");
 });
 
+
+
+test("Learners can revise only questions they answered incorrectly", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+
+  // Q1 is correct; Q2 is deliberately answered incorrectly; the remaining questions are unanswered.
+  await page.getByRole("button", { name: "C ₹120" }).click();
+  await page.locator("#palette button").nth(1).click();
+  await expect(page.locator("#q")).toHaveText("When 64 is divided in the ratio 3:5, what is the smaller part?");
+  await page.getByRole("button", { name: "A 20", exact: true }).click();
+
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await expect(page.locator("#summary")).toContainText("1 correct · 1 wrong · 22 unanswered");
+  await expect(page.locator("#reviseWrongBtn")).toBeVisible();
+  await page.locator("#reviseWrongBtn").click();
+
+  await expect(page.locator("#mockTitle")).toHaveText("Police SI · Wrong answers revision · Quick practice");
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 1");
+  await expect(page.locator("#palette button")).toHaveCount(1);
+  await expect(page.locator("#q")).toHaveText("When 64 is divided in the ratio 3:5, what is the smaller part?");
+  await expect(page.locator("#options")).toContainText("24");
+  await expect(page.locator("#answered")).toHaveText("0 answered");
+
+  await page.getByRole("button", { name: "B 24", exact: true }).click();
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await expect(page.locator("#score")).toHaveText("1.00 / 1");
+  await expect(page.locator("#review")).toContainText("Correct · Your answer: 24 · Correct answer: 24");
+
+  const history = await page.evaluate(() => JSON.parse(localStorage.getItem("bodhuno_guest_attempts") || "[]"));
+  expect(history).toHaveLength(2);
+  expect(history[1].byTopic).toEqual([
+    { subject: "Arithmetic", topic: "Ratio and proportion", correct: 1, wrong: 0, attempted: 1 }
+  ]);
+});
+
+test("The wrong-answer revision action stays hidden when there are no incorrect answers", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  await page.getByRole("button", { name: "C ₹120" }).click();
+
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await expect(page.locator("#summary")).toContainText("1 correct · 0 wrong");
+  await expect(page.locator("#reviseWrongBtn")).toBeHidden();
+});
+
+test("Wrong-answer revision keeps Telugu questions, options and explanations", async ({ page }) => {
+  await page.goto("/");
+  await openExam(page, "Police SI");
+  await page.locator("#palette button").nth(1).click();
+  await page.getByRole("button", { name: "A 20", exact: true }).click();
+
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await page.locator("#reviseWrongBtn").click();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 1");
+
+  await page.locator("#lang").click();
+  await expect(page.locator("#q")).toHaveText("64ను 3:5 నిష్పత్తిలో విభజిస్తే చిన్న భాగం ఎంత?");
+  await expect(page.locator("#options")).toContainText("24");
+  await page.locator("#options .option").nth(1).click();
+
+  page.once("dialog", dialog => dialog.accept());
+  await page.getByRole("button", { name: "Submit practice" }).click();
+  await expect(page.locator("#review")).toContainText("సరైన సమాధానం");
+  await expect(page.locator("#review")).toContainText("మొత్తం భాగాలు 3 + 5 = 8");
+});
