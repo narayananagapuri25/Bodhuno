@@ -5,7 +5,8 @@ The question bank is the source of truth for static content during the database-
 ## Where questions live
 
 - `sets/telangana-foundation-demo.json`: five original demonstration questions used by the non-Police preview cards.
-- `sets/telangana-police-foundation-01.json`: 24 original English/Telugu Police foundation questions.
+- `sets/telangana-police-foundation-01.json`: 24 original English/Telugu SI foundation questions covering selected SI PWT subjects.
+- `sets/telangana-police-constable-foundation-01.json`: 24 original English/Telugu Constable foundation questions, including English practice.
 - `schema.json`: question-set data contract.
 - `scripts/validate-question-bank.mjs`: Node.js structural and publishing-rule validator.
 
@@ -24,14 +25,14 @@ The 2026 TGPRB SI and PC Preliminary Written Test notifications specify:
 - 200 questions, 200 marks and three hours.
 - Full marks for a correct response, zero for an unanswered response, and a penalty equal to 20% of the question's marks for an incorrect response.
 
-The Bodhuno Police foundation collection applies +1, −0.20 and 0 scoring respectively. It is a 24-question practice module, not a full examination simulation. The practice timer is one minute per question, not the official three-hour timer.
+Both Bodhuno Police foundation collections apply +1, −0.20 and 0 scoring respectively. Each is a 24-question practice module, not a full examination simulation. The practice timer is one minute per question, not the official three-hour timer.
 
 Official documents:
 - [SI notification](https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf), PWT pages 19–20; syllabus Annexure I, page 40.
 - [PC notification](https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf), PWT pages 25–26; syllabus Annexure II, page 44.
 - [TGPRB official portal](https://www.tgprb.in/).
 
-The SI and PC syllabus lists differ. The PC syllabus lists English, Arithmetic, General Science, Indian History/Culture/National Movement, Geography/Polity/Economy, current events, reasoning and Telangana content. The SI syllabus has its own Annexure I. This collection covers selected foundation topics only; it is not complete coverage of either syllabus.
+The SI and PC syllabi differ, so the site serves different sets. The SI set covers selected SI PWT topics, including Arithmetic, Reasoning/Mental Ability and General Studies with the Telangana Movement. The Constable set includes English practice and selected PC topics such as Arithmetic, General Science, Indian History, Geography/Polity/Economy, Reasoning and Telangana awareness. Neither set is complete syllabus coverage.
 
 ## Current published pilot set
 
