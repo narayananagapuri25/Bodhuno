@@ -84,3 +84,12 @@ Both simulations use a 180-minute timer (54 seconds per question) and +1 / −0.
 Two additional 15-question bilingual previews have been prepared for SI and Constable. This dated batch uses official PIB releases published 10–12 November 2026 and covers IMNEX-26, Sea Vigil-26, lithium-ion battery black mass export policy, Swachh Survekshan Awards, CGFMU/PMJDY, India's 100th Chess Grandmaster, and Nutrient Based Subsidy rates for Rabi 2026–27. Each question records its official source URL. These sets are preview-only and must receive independent subject-matter and Telugu-language review before any publication decision. They are not official previous-year questions and do not constitute a comprehensive current-affairs digest.
 
 Official source releases: [IMNEX-26](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335191&lang=1&reg=1); [Sea Vigil-26](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335093&lang=1&reg=3); [black mass export policy](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335019&lang=1&reg=3); [Swachh Survekshan Awards](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335207&lang=1&reg=1); [CGFMU continuation](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334977&lang=1&reg=3); [India's 100th Chess Grandmaster](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334594&lang=1&reg=48); [NBS rates for Rabi 2026–27](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334974&lang=1&reg=48).
+
+## Topic-wise practice and progress insights
+
+The home page can combine questions from the selected Police SI or Constable track by subject and topic. It loads the relevant static question sets on demand, removes duplicate English question stems and opens a focused practice attempt. Existing question files and answer keys are not modified by this feature.
+
+Completed attempts save a compact subject/topic breakdown to the guest browser's local storage. The progress dashboard uses the last 30 attempts on that device to show overall accuracy, subject accuracy and suggested focus areas. A subject is flagged only after at least five answered questions with accuracy below 60%; a topic is flagged only after at least three answered questions with accuracy below 60%. Older attempt records remain readable for totals, but only attempts completed after this feature was introduced contribute to the subject/topic breakdown.
+
+No account, backend API or database is used. Progress is device/browser-local and is lost when the learner clears browser storage.
+
