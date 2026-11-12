@@ -104,3 +104,24 @@ test("Submitting a blank Police practice attempt awards zero and no penalty", as
   await expect(page.locator("#summary")).toContainText("0 correct · 0 wrong · 24 unanswered");
   await expect(page.locator("#review")).toContainText("Not attempted");
 });
+
+
+test("SI and Constable syllabus expansion preview sets load separately", async ({ page }) => {
+  await page.goto("/");
+
+  await openExam(page, "Police SI · Set 02");
+  await expect(page.getByRole("heading", { name: "Police SI · Set 02 · Quick practice" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 24");
+  await expect(page.locator("#palette button")).toHaveCount(24);
+  await expect(page.locator("#q")).toHaveText("A can complete a job in 10 days and B in 15 days. How many days will they take working together?");
+  await page.locator("#palette button").nth(19).click();
+  await expect(page.locator("#q")).toContainText("Godavari");
+  await page.getByRole("button", { name: "← Exit practice" }).click();
+
+  await openExam(page, "Police Constable · Set 02");
+  await expect(page.getByRole("heading", { name: "Police Constable · Set 02 · Quick practice" })).toBeVisible();
+  await expect(page.locator("#counter")).toHaveText("Question 1 of 24");
+  await expect(page.locator("#palette button")).toHaveCount(24);
+  await page.locator("#palette button").last().click();
+  await expect(page.locator("#q")).toContainText("ancient");
+});
