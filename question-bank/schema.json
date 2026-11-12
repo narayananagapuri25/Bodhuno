@@ -167,6 +167,58 @@
           }
         }
       }
+    },
+    "scoring": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "correctPoints",
+        "incorrectPenalty",
+        "unansweredPoints",
+        "ruleLabel",
+        "officialExamFormat",
+        "practiceTimerSecondsPerQuestion",
+        "sourceReferences",
+        "practiceNote"
+      ],
+      "properties": {
+        "correctPoints": {
+          "type": "number",
+          "minimum": 0
+        },
+        "incorrectPenalty": {
+          "type": "number",
+          "minimum": 0
+        },
+        "unansweredPoints": {
+          "type": "number",
+          "minimum": 0
+        },
+        "ruleLabel": {
+          "type": "string",
+          "minLength": 1
+        },
+        "officialExamFormat": {
+          "type": "string",
+          "minLength": 1
+        },
+        "practiceTimerSecondsPerQuestion": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sourceReferences": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "practiceNote": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   },
   "$defs": {
