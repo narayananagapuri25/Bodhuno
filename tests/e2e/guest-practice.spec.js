@@ -160,7 +160,7 @@ test("SI and Constable Set 04 preview collections load and retain bilingual rend
   await expect(page.getByRole("heading", { name: "Police SI · Set 04 · Quick practice" })).toBeVisible();
   await expect(page.locator("#counter")).toHaveText("Question 1 of 24");
   await expect(page.locator("#q")).toContainText("father is 40 years old");
-  await page.locator("#palette button").nth(22).click();
+  await page.locator("#palette button").nth(21).click();
   await expect(page.locator("#q")).toContainText("Pochampally");
   await page.getByRole("button", { name: "← Exit practice" }).click();
 
