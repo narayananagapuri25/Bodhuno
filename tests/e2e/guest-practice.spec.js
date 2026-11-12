@@ -178,6 +178,10 @@ test("SI and Constable Set 04 preview collections load and retain bilingual rend
 
 test("SI and Constable November 2026 current-affairs previews load bilingual questions and TGPRB scoring", async ({ page }) => {
   await page.goto("/");
+  // Normalize the shared language control so this test is independent of saved guest state.
+  if ((await page.locator("#lang").innerText()).trim() === "English") {
+    await page.locator("#lang").click();
+  }
   await openExam(page, "Police SI · Current Affairs");
   await expect(page.getByRole("heading", { name: "Police SI · Current Affairs Nov 2026 · Quick practice" })).toBeVisible();
   await expect(page.locator("#counter")).toHaveText("Question 1 of 16");
@@ -194,6 +198,9 @@ test("SI and Constable November 2026 current-affairs previews load bilingual que
   await expect(page.locator("#review")).toContainText("31 మార్చి 2031");
 
   await page.getByRole("button", { name: "Back to home" }).click();
+  if ((await page.locator("#lang").innerText()).trim() === "English") {
+    await page.locator("#lang").click();
+  }
   await openExam(page, "Police Constable · Current Affairs");
   await expect(page.getByRole("heading", { name: "Police Constable · Current Affairs Nov 2026 · Quick practice" })).toBeVisible();
   await expect(page.locator("#counter")).toHaveText("Question 1 of 16");
