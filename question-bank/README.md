@@ -64,3 +64,11 @@ Set 04 adds 24 additional bilingual questions to each Police track. Both continu
 The SI and Constable tracks now include separate 16-question bilingual current-affairs previews, based on official Government of India Press Information Bureau releases published in 2026 and available through 12 November 2026. Topics include the continuation of Stand-Up India and the Credit Guarantee Fund for Micro Units, the VISTAR statistical transformation scheme, grid-scale energy storage support, the Union Budget 2026–27 and Bharat-VISTAAR. Each question records its source URL. These are dated snapshots, not comprehensive current-affairs digests, and they can become stale; refresh the content against authoritative updates before an examination. Both sets remain in `preview` pending independent subject-expert and Telugu-language review.
 
 Key official sources include [Stand-Up India continuation](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334979&lang=1&reg=1), [Credit Guarantee Fund for Micro Units](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334976&lang=1&reg=1), [VISTAR](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2332480&lang=1&reg=3), [grid-scale energy storage](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2332486&lang=1&reg=48), [Union Budget 2026–27 highlights](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221455&lang=3&reg=3), and [Bharat-VISTAAR budget document](https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc202621776101.pdf).
+
+
+## Full-length mock preview collections
+
+- `sets/telangana-police-si-full-mock-01-preview.json`: 200 bilingual SI practice questions, with SI English-subject exclusion preserved.
+- `sets/telangana-police-constable-full-mock-01-preview.json`: 200 bilingual Constable practice questions, including English practice.
+
+Both simulations use a 180-minute timer (54 seconds per question) and +1 / −0.20 / 0 marking. They are original Bodhuno practice simulations, not official TGPRB papers. Both remain `preview` pending independent subject-expert and Telugu-language review. See [FULL-MOCKS.md](FULL-MOCKS.md) for the validation checklist.
