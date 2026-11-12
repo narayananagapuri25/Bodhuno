@@ -368,7 +368,7 @@ function readStudyActivity(){
     if(!Array.isArray(raw))return [];
     const days=new Map();
     for(const item of raw){
-      if(!item||typeof item.date!=="string"||!/^\\d{4}-\\d{2}-\\d{2}$/.test(item.date))continue;
+      if(!item||typeof item.date!=="string"||!/^\d{4}-\d{2}-\d{2}$/.test(item.date))continue;
       const date=new Date(item.date+"T12:00:00");
       if(Number.isNaN(date.getTime())||localStudyDateKey(date)!==item.date)continue;
       const attempts=Math.max(0,Math.min(10000,Math.floor(Number(item.attempts)||0)));
