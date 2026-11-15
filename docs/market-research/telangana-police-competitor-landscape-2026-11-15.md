@@ -60,12 +60,63 @@ Do not copy a competitor's feature checklist. Build a narrower promise and execu
 - **Week 3:** Review the 200-question mock structure and scoring against the current official notification; publish only after independent review.
 - **Week 4:** Run mobile usability and learner feedback checks; measure practice starts, completion, return visits and wrong-answer revision usage without collecting unnecessary personal data.
 
+## How the competitors are built — public technical inspection
+
+This section comes from inspecting publicly served HTML and JavaScript bundles, app routes and developer/company pages. It does not claim access to either company's private source repository, cloud account, database schema or production infrastructure.
+
+### TS Police Hub: React/Vite web app with native-platform integration
+
+**Directly observed in public assets**
+
+- The website loads a React runtime and a Vite-built bundle: `react-DNT_fRy2.js`, `jsx-runtime-BpRO-UL9.js`, and `index-B99zVYPg.js`. Its route-specific modules are split into separate chunks such as `LiveAttemptPage`, `StudentDashboard`, `StudentAnalyticsPage`, `StudyPlanPage`, `CurrentAffairsPage`, `NotesPage` and `DailyQuizPage`.
+- The main bundle has a backend base URL of `https://tspolicehub.com/api`; browser code resolves API calls to the same site's `/api` path and uses `fetch` for requests. This is evidence of a same-origin API boundary, not evidence of which server framework or database they use.
+- The bundle includes a Capacitor runtime/native-platform check and native bridge detection. This is consistent with a shared React application packaged for Android using Capacitor, but the APK itself was not reverse-engineered, so the exact Android packaging method is not conclusively verified.
+- Public code shows Google Identity Services, mobile-start/mobile-verify authentication methods and the Razorpay Checkout integration.
+- Public scripts include a first-party `/u/script.js` analytics endpoint with a website ID, Facebook Pixel and Cloudflare Insights beacon.
+
+**Likely shape, based on evidence:** React/Vite front end → same-domain REST-style `/api` → backend services for accounts, tests, performance and purchases; web and Android probably share substantial UI code. Exact backend language, database, cloud provider, CI/CD and Android build configuration are not publicly established.
+
+### Brolly Exam Prep: split web applications
+
+**Directly observed in public assets and routes**
+
+- `brollyexamprep.com` is a React application built into Vite-style hashed asset bundles (for example `index-Wr9HOtHn.js`, `MockTests-DT_NgP7m.js`, `TelanganaPolice-DEibLjdY.js`).
+- Its dedicated Police practice app runs on a separate origin, `mocktest.brollyexamprep.com`. The public page loads Next.js assets from `/_next/static/` and contains the Next.js React server-component stream. This is a separate Next.js application, not just another route on the Vite site.
+- The marketing/preparation application links Police mock practice into that subdomain. The company describes a shared browser/Android account, test answers, timings and scores saved to the learner's account, and offline answering after a paper has loaded.
+- The public free diagnostic-test module on the main Vite site also has client-side timer, answer state and score calculation in its JavaScript; do not assume this is the implementation used by every full Police test on the separate app.
+- The main website's public lead form calls a Google Apps Script endpoint. That is a lead-capture integration only; it is not evidence that their test engine uses Google Apps Script.
+- Brolly Software Solutions publishes a broad company technology toolbox including React/Next.js/TypeScript, FastAPI/Django REST, PostgreSQL/Redis, Docker/Kubernetes/Terraform and major cloud providers. The company says its loans/real-estate case study is the production example of that stack. **No public evidence establishes that this exact stack is used by the Telangana Police Exam Prep backend.** Do not treat the general company stack as the product's confirmed stack.
+
+### What this means for Bodhuno
+
+1. **Do not split Bodhuno into multiple applications yet.** It is a smaller guest-first static PWA. The current JSON catalogue and browser-local progress fit the pilot, avoid database/hosting operations and are already implemented.
+2. **Improve the content system before adding a backend.** Keep question sets versioned as JSON, with syllabus/topic identifiers, English/Telugu review status, source URL, source date, answer rationale and correction history.
+3. **Use a build-time content pipeline.** Validate schema, duplicate stems, answer keys, metadata and catalogue references in GitHub Actions. Generate a review report so new batches can be checked before publication.
+4. **Keep test execution offline-capable.** Load a complete test set before the attempt, then keep the timer, answers, marked questions and scoring local until submission. Never lose an in-progress paper because of a transient connection.
+5. **Keep guest mode as the default.** Only introduce optional accounts and cross-device sync when there is clear learner demand. If added, use a small API and a managed database; do not copy a large enterprise stack prematurely.
+6. **Do not add paid AI to the student runtime.** Research/drafting may use tools offline during content production, with mandatory human subject and Telugu review; serving tests should be deterministic and inexpensive.
+7. **Avoid copying the competitor's feature count.** Bodhuno should differentiate on reviewed answers, traceable sources, honest coverage labels, quick loading and an excellent daily study habit.
+
+### Technical inspection links
+
+- TS Police Hub page: https://tspolicehub.com/
+- TS Police Hub main bundle: https://tspolicehub.com/assets/index-B99zVYPg.js
+- TS Police Hub Capacitor runtime bundle: https://tspolicehub.com/assets/dist-COcOCb7M.js
+- TS Police Hub app integration/auth bundle: https://tspolicehub.com/assets/AuthModal-CA3-4Abu.js
+- TS Police Hub API base URL bundle: https://tspolicehub.com/assets/src-BCHaoSlU.js
+- Brolly main React/Vite bundle: https://brollyexamprep.com/assets/index-Wr9HOtHn.js
+- Brolly mock-test application: https://mocktest.brollyexamprep.com/
+- Brolly main-site mock module: https://brollyexamprep.com/assets/MockTest-BWvklt7K.js
+- Brolly engineering services/stack: https://brollysolutions.in/services
+- Brolly product page and its stated maker/account/offline behaviour: https://brollysolutions.in/telangana-police-mock-tests
+
 ## Sources checked
 
 - TS Police Hub website: https://tspolicehub.com/
 - TS Police Hub Google Play listing: https://play.google.com/store/apps/details?id=com.anviledtech.tspolicehub
 - Anvil Edtech TS Police Hub product/pricing page: https://anviledtech.com/products/ts-police-hub.html
 - Brolly Telangana Police mock-test page: https://brollysolutions.in/telangana-police-mock-tests
+- Brolly software engineering stack: https://brollysolutions.in/services
 - Brolly Telangana Police exam page: https://brollyexamprep.com/government-exams/state/telangana/telangana-police/
 - Testbook Telangana SI study material: https://testbook.com/prep/study-material/telangana-police-si/
 - Adda247 Telangana SI mock tests: https://www.adda247.com/telangana-police-si/mock-test
@@ -74,4 +125,4 @@ Do not copy a competitor's feature checklist. Build a narrower promise and execu
 - Bodhuno current product baseline: https://github.com/narayananagapuri25/Bodhuno/blob/main/README.md
 
 ---
-Prepared 15 November 2026 from publicly accessible product pages and listings. Claims are competitor-published descriptions, not independently audited product functionality or market-share data.
+Prepared 15 November 2026 from publicly accessible product pages and listings. Feature claims are competitor-published descriptions, not independently audited product functionality or market-share data. Technical findings are limited to public HTML, JavaScript assets, app routes and product/company pages; private backend and APK implementation details remain unverified.
