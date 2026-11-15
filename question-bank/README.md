@@ -93,3 +93,17 @@ Completed attempts save a compact subject/topic breakdown to the guest browser's
 
 No account, backend API or database is used. Progress is device/browser-local and is lost when the learner clears browser storage.
 
+
+
+## Automated question-bank quality audit
+
+Run the quality checks before adding or publishing a batch:
+
+```bash
+npm run test:quality
+npm run audit:question-bank
+```
+
+The audit reports per-set question count, subject/topic coverage and question-level source coverage. It blocks exact duplicate English stems within one set, duplicate option text, current-affairs items without an HTTP(S) source URL, and full mocks that do not match their 200-question, 180-minute and +1 / −0.20 / 0 configuration. It also reports exact English stems reused across different sets as an editorial review signal; those are not automatically blocked because full mocks can intentionally reuse items from shorter practice sets.
+
+The audit does not judge factual correctness or certify Telugu translation quality. A human subject reviewer and Telugu-language reviewer are still required before publication. The report is added to the GitHub Actions run summary for every question-bank change.
