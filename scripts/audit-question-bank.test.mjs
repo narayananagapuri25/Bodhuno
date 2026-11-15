@@ -38,13 +38,13 @@ test("quality audit blocks duplicate English stems within one set", () => {
 });
 
 test("quality audit blocks repeated option text in either language", () => {
+  const item = question("q-1", "What is 15% of 800?", "తెలుగు ప్రశ్న", ["A", "B", "A", "D"]);
+  item.languages.te.options = ["ఎ", "బి", "సి", "డి"];
   const report = inspectQuestionSet({
     setId: "sample-set",
     workflowStatus: "preview",
     examTags: [],
-    questions: [
-      question("q-1", "What is 15% of 800?", "తెలుగు ప్రశ్న", ["A", "B", "A", "D"])
-    ]
+    questions: [item]
   }, "sample.json");
 
   assert.equal(report.errors.length, 1);
