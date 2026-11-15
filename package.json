@@ -4,7 +4,9 @@
   "version": "0.1.0",
   "description": "Free-first bilingual exam preparation platform",
   "scripts": {
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:quality": "node --test scripts/audit-question-bank.test.mjs",
+    "audit:question-bank": "node scripts/audit-question-bank.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.65.0"
