@@ -8,6 +8,10 @@ on:
       - "scripts/validate-question-catalog.mjs"
       - "question-bank/schema.json"
       - "scripts/validate-question-bank.mjs"
+      - "scripts/audit-question-bank.mjs"
+      - "scripts/audit-question-bank.test.mjs"
+      - "scripts/audit-question-bank.mjs"
+      - "scripts/audit-question-bank.test.mjs"
       - ".github/workflows/question-bank-validation.yml"
   pull_request:
     paths:
@@ -16,6 +20,8 @@ on:
       - "scripts/validate-question-catalog.mjs"
       - "question-bank/schema.json"
       - "scripts/validate-question-bank.mjs"
+      - "scripts/audit-question-bank.mjs"
+      - "scripts/audit-question-bank.test.mjs"
       - ".github/workflows/question-bank-validation.yml"
 
 permissions:
@@ -40,3 +46,7 @@ jobs:
             xargs -0 -r -n 1 node scripts/validate-question-bank.mjs
       - name: Validate home-screen question catalogue
         run: node scripts/validate-question-catalog.mjs
+      - name: Test question-bank quality audit
+        run: npm run test:quality
+      - name: Publish question-bank quality report
+        run: npm run audit:question-bank >> "$GITHUB_STEP_SUMMARY"
