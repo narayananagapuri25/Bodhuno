@@ -10,6 +10,8 @@ on:
       - "scripts/validate-question-bank.mjs"
       - "scripts/audit-question-bank.mjs"
       - "scripts/audit-question-bank.test.mjs"
+      - "scripts/audit-question-bank.mjs"
+      - "scripts/audit-question-bank.test.mjs"
       - ".github/workflows/question-bank-validation.yml"
   pull_request:
     paths:
@@ -18,6 +20,8 @@ on:
       - "scripts/validate-question-catalog.mjs"
       - "question-bank/schema.json"
       - "scripts/validate-question-bank.mjs"
+      - "scripts/audit-question-bank.mjs"
+      - "scripts/audit-question-bank.test.mjs"
       - ".github/workflows/question-bank-validation.yml"
 
 permissions:
