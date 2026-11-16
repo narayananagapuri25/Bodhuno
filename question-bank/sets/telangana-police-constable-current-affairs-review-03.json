@@ -5,7 +5,7 @@
   "version": 1,
   "workflowStatus": "review",
   "sourceType": "original_practice",
-  "sourceReference": "12 original bilingual Constable practice questions covering English, sound, the new evidence law and Ramsar-related current affairs. Syllabus alignment uses the TGPRB PC 2026 notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Current-affairs snapshot includes official material dated 15 and 25 October 2026. This is not an official previous-year paper or a complete mock. All items remain in review pending independent subject-matter and Telugu-language approval.",
+  "sourceReference": "12 original bilingual Constable practice questions covering English, sound, the new evidence law and Ramsar-related current affairs. Syllabus alignment uses the TGPRB PC 2026 notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Current-affairs snapshot includes official material dated 13–15 November 2026 and 15 October 2026. This is not an official previous-year paper or a complete mock. All items remain in review pending independent subject-matter and Telugu-language approval.",
   "reviewedBy": null,
   "reviewedAt": null,
   "languages": [
@@ -36,7 +36,8 @@
       "Bharatiya Sakshya Adhiniyam, 2023, India Code: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20063/1/aa202347.pdf",
       "Ministry of Home Affairs advisory, 30 April 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf",
       "Convention on Wetlands announcement, 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list",
-      "Press Information Bureau note, 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48"
+      "Press Information Bureau note, 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+      "PIB releases on Janjatiya Gaurav Diwas, 15 November 2026: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336477&lang=1&reg=1; https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336495&lang=1&reg=1"
     ],
     "practiceNote": "12 original bilingual practice questions. Review-only; check English grammar level, science terminology and Telugu translation before any publication. Not a full-length mock."
   },
@@ -394,34 +395,34 @@
       }
     },
     {
-      "id": "pc5-ca-first-ramsar-sites-012",
+      "id": "pc5-ca-janjatiya-gaurav-diwas-012",
       "subject": "General Studies",
-      "topic": "Current affairs — India's first Ramsar Sites",
-      "difficulty": "medium",
+      "topic": "Current affairs — Janjatiya Gaurav Diwas (November 2026)",
+      "difficulty": "easy",
       "status": "review",
       "sourceType": "original_practice",
-      "sourceReference": "Original Bodhuno practice item. Fact verified against PIB press note posted 25 October 2026, “Ramsar Sites in India”: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48. Recheck the source before publication if the dated current-affairs framing is changed.",
-      "correctOptionIndex": 0,
+      "sourceReference": "Time-sensitive current-affairs item. Verified against PIB releases dated 15 November 2026: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336477&lang=1&reg=1 and https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336495&lang=1&reg=1. Recheck the annual observance wording before publication.",
+      "correctOptionIndex": 1,
       "languages": {
         "en": {
-          "question": "Which pair became India's first Ramsar Sites on 1 October 1981?",
+          "question": "On which date is Janjatiya Gaurav Diwas observed in India to mark the birth anniversary of Bhagwan Birsa Munda?",
           "options": [
-            "Chilika Lake and Keoladeo National Park",
-            "Sukhna Wetland and Sauj Jheel",
-            "Loktak Lake and Wular Lake",
-            "Nalsarovar and Deepor Beel"
+            "2 October",
+            "15 November",
+            "26 January",
+            "9 August"
           ],
-          "explanation": "Chilika Lake in Odisha and Keoladeo National Park in Rajasthan were India's first Ramsar Sites, designated on 1 October 1981."
+          "explanation": "Janjatiya Gaurav Diwas is observed on 15 November, the birth anniversary of Bhagwan Birsa Munda. PIB marked his 151st birth anniversary on 15 November 2026."
         },
         "te": {
-          "question": "1981 అక్టోబర్ 1న భారతదేశపు తొలి రామ్‌సర్ ప్రదేశాలుగా గుర్తింపు పొందిన జంట ఏది?",
+          "question": "భగవాన్ బిర్సా ముండా జయంతిని పురస్కరించుకుని భారతదేశంలో జనజాతీయ గౌరవ్ దివస్ ఏ తేదీన జరుపుకుంటారు?",
           "options": [
-            "చిలికా సరస్సు మరియు కియోలాడియో జాతీయ ఉద్యానవనం",
-            "సుఖ్నా వెట్‌ల్యాండ్ మరియు సౌజ్ జీల్",
-            "లోక్తక్ సరస్సు మరియు వులర్ సరస్సు",
-            "నల్సరోవర్ మరియు దీపోర్ బీల్"
+            "అక్టోబర్ 2",
+            "నవంబర్ 15",
+            "జనవరి 26",
+            "ఆగస్టు 9"
           ],
-          "explanation": "ఒడిశాలోని చిలికా సరస్సు, రాజస్థాన్‌లోని కియోలాడియో జాతీయ ఉద్యానవనం 1981 అక్టోబర్ 1న భారతదేశపు తొలి రామ్‌సర్ ప్రదేశాలుగా గుర్తించబడ్డాయి."
+          "explanation": "భగవాన్ బిర్సా ముండా జయంతి సందర్భంగా ప్రతి సంవత్సరం నవంబర్ 15న జనజాతీయ గౌరవ్ దివస్ జరుపుకుంటారు. 2026 నవంబర్ 15న ఆయన 151వ జయంతిని నిర్వహించారు."
         }
       }
     }
