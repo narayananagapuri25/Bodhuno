@@ -5,7 +5,7 @@
   "version": 1,
   "workflowStatus": "review",
   "sourceType": "original_practice",
-  "sourceReference": "12 original bilingual SI practice questions covering constitutional provisions, the new criminal laws and Ramsar-related current affairs. Syllabus alignment uses the TGPRB SI 2026 notification, Annexure I, page 40: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Current-affairs snapshot includes official material dated 15 and 25 October 2026. This is not an official previous-year paper or a complete mock. All items remain in review pending independent subject-matter and Telugu-language approval.",
+  "sourceReference": "12 original bilingual SI practice questions covering constitutional provisions, the new criminal laws and Ramsar-related current affairs. Syllabus alignment uses the TGPRB SI 2026 notification, Annexure I, page 40: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Current-affairs snapshot includes official material dated 13–15 November 2026 and 15–25 October 2026. This is not an official previous-year paper or a complete mock. All items remain in review pending independent subject-matter and Telugu-language approval.",
   "reviewedBy": null,
   "reviewedAt": null,
   "languages": [
@@ -34,7 +34,8 @@
       "Bharatiya Nyaya Sanhita, 2023, India Code: https://www.indiacode.nic.in/bitstream/123456789/20062/1/a202345.pdf",
       "Ministry of Home Affairs advisory, 30 April 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf",
       "Convention on Wetlands announcement, 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list",
-      "Press Information Bureau note, 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48"
+      "Press Information Bureau note, 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+      "Ministry of Electronics and Information Technology / PIB release, 14 November 2026: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2336151&lang=2&reg=48"
     ],
     "practiceNote": "12 original bilingual practice questions. Review-only; verify statutory wording and dated Ramsar figures again before any publication. Not a full-length mock."
   },
@@ -392,34 +393,34 @@
       }
     },
     {
-      "id": "si5-ca-tamilnadu-ramsar-012",
+      "id": "si5-ca-consent-manager-framework-012",
       "subject": "General Studies",
-      "topic": "Current affairs — State-wise Ramsar Sites (October 2026)",
+      "topic": "Current affairs — Consent Manager Registration Framework (November 2026)",
       "difficulty": "medium",
       "status": "review",
       "sourceType": "original_practice",
-      "sourceReference": "Time-sensitive snapshot: PIB press note posted 25 October 2026. Verified against the Government of India's Press Information Bureau note: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48. Recheck the state-wise count before publication.",
-      "correctOptionIndex": 0,
+      "sourceReference": "Time-sensitive snapshot: framework effective 13 November 2026; PIB release posted 14 November 2026. Verified against Ministry of Electronics and Information Technology release carried by PIB: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2336151&lang=2&reg=48. Recheck implementation notifications before publication.",
+      "correctOptionIndex": 1,
       "languages": {
         "en": {
-          "question": "According to the Press Information Bureau on 25 October 2026, which state had the highest number of Ramsar Sites in India, with 20?",
+          "question": "According to the PIB release dated 14 November 2026, on which date did the Consent Manager Registration Framework under the Digital Personal Data Protection Act, 2023 come into effect?",
           "options": [
-            "Tamil Nadu",
-            "Uttar Pradesh",
-            "Odisha",
-            "Gujarat"
+            "1 November 2026",
+            "13 November 2026",
+            "14 November 2026",
+            "1 January 2027"
           ],
-          "explanation": "The PIB's 25 October 2026 note reported Tamil Nadu as having the highest number of Ramsar Sites, at 20, followed by Uttar Pradesh with 14."
+          "explanation": "The Ministry of Electronics and Information Technology reported that the Consent Manager Registration Framework came into effect on 13 November 2026. The online registration portal was launched on 14 November."
         },
         "te": {
-          "question": "2026 అక్టోబర్ 25న ప్రెస్ ఇన్ఫర్మేషన్ బ్యూరో వెల్లడించిన వివరాల ప్రకారం, భారతదేశంలో అత్యధికంగా 20 రామ్‌సర్ ప్రదేశాలు కలిగిన రాష్ట్రం ఏది?",
+          "question": "2026 నవంబర్ 14నాటి PIB ప్రకటన ప్రకారం, డిజిటల్ వ్యక్తిగత డేటా పరిరక్షణ చట్టం, 2023 కింద Consent Manager Registration Framework ఏ తేదీన అమల్లోకి వచ్చింది?",
           "options": [
-            "తమిళనాడు",
-            "ఉత్తరప్రదేశ్",
-            "ఒడిశా",
-            "గుజరాత్"
+            "2026 నవంబర్ 1",
+            "2026 నవంబర్ 13",
+            "2026 నవంబర్ 14",
+            "2027 జనవరి 1"
           ],
-          "explanation": "2026 అక్టోబర్ 25నాటి PIB వివరాల ప్రకారం తమిళనాడులో అత్యధికంగా 20 రామ్‌సర్ ప్రదేశాలు ఉన్నాయి. ఉత్తరప్రదేశ్‌లో 14 ఉన్నాయి."
+          "explanation": "ఎలక్ట్రానిక్స్ మరియు సమాచార సాంకేతిక మంత్రిత్వ శాఖ ప్రకారం Consent Manager Registration Framework 2026 నవంబర్ 13న అమల్లోకి వచ్చింది. ఆన్‌లైన్ నమోదు పోర్టల్‌ను నవంబర్ 14న ప్రారంభించారు."
         }
       }
     }
