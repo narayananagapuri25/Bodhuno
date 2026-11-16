@@ -101,7 +101,7 @@
             "The evidence is collecting by the patrol team.",
             "The patrol team was collected by the evidence."
           ],
-          "explanation": "కర్మణి ప్రయోగంలో object subjectగా మారుతుంది. Simple pastలో “was + past participle” వాడాలి: “The evidence was collected by the patrol team.”"
+          "explanation": "కర్మణి వాక్యంలో కర్మ (object) కర్త స్థానంలోకి వస్తుంది. Simple Pastలో “was + past participle” రూపం వాడాలి: “The evidence was collected by the patrol team.”"
         }
       }
     },
