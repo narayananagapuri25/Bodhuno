@@ -190,7 +190,7 @@
           "explanation": "A thermometer measures temperature; a barometer measures air pressure."
         },
         "te": {
-          "question": "సారూప్యతను పూర్తి చేయండి: Thermometer : Temperature :: Barometer : ?",
+          "question": "సారూప్యతను పూర్తి చేయండి: థర్మామీటర్ : ఉష్ణోగ్రత :: బారోమీటర్ : ?",
           "options": [
             "వర్షపాతం",
             "వాయు పీడనం",
@@ -222,12 +222,12 @@
           "explanation": "Mercury, Venus and Earth are planets. The Moon is Earth's natural satellite."
         },
         "te": {
-          "question": "వాటిలో భిన్నమైనదాన్ని ఎంచుకోండి: Mercury, Venus, Earth, Moon.",
+          "question": "భిన్నమైనదాన్ని గుర్తించండి: బుధుడు, శుక్రుడు, భూమి, చంద్రుడు.",
           "options": [
-            "మెర్క్యురీ",
-            "వీనస్",
-            "ఎర్త్",
-            "మూన్"
+            "బుధుడు",
+            "శుక్రుడు",
+            "భూమి",
+            "చంద్రుడు"
           ],
           "explanation": "మెర్క్యురీ, వీనస్, ఎర్త్ గ్రహాలు. చంద్రుడు భూమికి సహజ ఉపగ్రహం."
         }
