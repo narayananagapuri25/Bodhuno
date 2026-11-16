@@ -1,11 +1,11 @@
 {
   "format": "bodhuno-question-set/v1",
   "setId": "telangana-police-si-current-affairs-review-03",
-  "title": "Telangana Police SI — Syllabus & Current Affairs Review Set 03 (November 2026)",
+  "title": "Telangana Police SI — General Studies & Current Affairs Review Set 03 (November 2026)",
   "version": 1,
   "workflowStatus": "review",
   "sourceType": "original_practice",
-  "sourceReference": "12 original bilingual SI practice questions covering constitutional provisions, the new criminal laws and Ramsar-related current affairs. Syllabus alignment uses the TGPRB SI 2026 notification, Annexure II, page 42: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Current-affairs snapshot includes official material dated 13–15 November 2026 and 15–25 October 2026. This is not an official previous-year paper or a complete mock. All items remain in review pending independent subject-matter and Telugu-language approval.",
+  "sourceReference": "12 original bilingual Police SI Preliminary Written Test questions spanning General Studies and current affairs. Syllabus alignment is to the TGPRB SI 2026 Preliminary Written Test syllabus, Annexure II, page 42, which includes General Studies topics such as Indian polity, history, geography, science and Telangana Movement. This small review batch is not a complete syllabus paper. Time-sensitive items are dated 15 October 2026 and 13–14 November 2026. TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf All content remains in review pending independent subject-matter and Telugu-language approval.",
   "reviewedBy": null,
   "reviewedAt": null,
   "languages": [
@@ -28,16 +28,16 @@
     "officialExamFormat": "200 questions · 200 marks · 3 hours",
     "practiceTimerSecondsPerQuestion": 60,
     "sourceReferences": [
-      "TGPRB SI 2026 Notification, Annexure II, page 42: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
-      "Constitution of India, Legislative Department, official 20 May 2026 edition: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf",
-      "Bharatiya Nagarik Suraksha Sanhita, 2023, India Code: https://www.indiacode.nic.in/bitstream/123456789/21544/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf",
-      "Bharatiya Nyaya Sanhita, 2023, India Code: https://www.indiacode.nic.in/bitstream/123456789/20062/1/a202345.pdf",
-      "Ministry of Home Affairs advisory, 30 April 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf",
+      "TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+      "Constitution of India, Legislative Department: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf",
+      "NCERT, Our Environment, Chapter 4 — Structure of the Atmosphere (reprint 2024–25): https://ncert.nic.in/textbook/pdf/gess204.pdf",
+      "Indian National Congress, Synopsis of Plenary Sessions 1885–2018: https://inc.in/congress-sandesh/archives/synopsis-of-plenary-sessions-from-1885-to-2018",
+      "Kerala Tourism, Eravikulam National Park: https://www.keralatourism.org/munnar/eravikulam-national-park.php",
+      "Government of Telangana, Adilabad District, K. Chandrashekar Rao Profile: https://adilabad.telangana.gov.in/kcr-profile",
       "Convention on Wetlands announcement, 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list",
-      "Press Information Bureau note, 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
-      "Ministry of Electronics and Information Technology / PIB release, 14 November 2026: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2336151&lang=2&reg=48"
+      "PIB / MeitY release, 14 November 2026 (framework effective 13 November 2026): https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2336151&lang=2&reg=48"
     ],
-    "practiceNote": "12 original bilingual practice questions. Review-only; verify statutory wording and dated Ramsar figures again before any publication. Not a full-length mock."
+    "practiceNote": "12 original bilingual SI Preliminary Written Test General Studies/current-affairs practice questions. The four static replacements align to notified General Studies domains; this is not a full PWT or full-syllabus set. Review-only. Recheck dated current-affairs facts before publication."
   },
   "questions": [
     {
@@ -169,130 +169,130 @@
       }
     },
     {
-      "id": "si5-law-bnss-electronic-info-005",
+      "id": "si5-science-ozone-005",
       "subject": "General Studies",
-      "topic": "New criminal laws — BNSS Section 173 and electronic information",
+      "topic": "General science — Atmosphere and ozone",
       "difficulty": "medium",
       "status": "review",
       "sourceType": "original_practice",
-      "sourceReference": "Original Bodhuno practice item. Verified against BNSS, 2023, Section 173(1)(ii), India Code: https://www.indiacode.nic.in/bitstream/123456789/21544/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf. The Ministry of Home Affairs advisory dated 30 April 2024 confirms implementation of the new criminal laws from 1 July 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf. Syllabus alignment: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not legal advice or an official previous-year question.",
-      "correctOptionIndex": 2,
-      "languages": {
-        "en": {
-          "question": "Under Section 173 of the Bharatiya Nagarik Suraksha Sanhita, 2023, when information about a cognizable offence is given by electronic communication, within what period must the informant sign it?",
-          "options": [
-            "Within 24 hours",
-            "Within 48 hours",
-            "Within three days",
-            "Within seven days"
-          ],
-          "explanation": "Section 173(1)(ii) states that information given by electronic communication is taken on record when it is signed by the person giving it within three days."
-        },
-        "te": {
-          "question": "భారతీయ నాగరిక్ సురక్షా సంహిత, 2023లోని సెక్షన్ 173 ప్రకారం, గుర్తించదగిన నేరానికి సంబంధించిన సమాచారాన్ని ఎలక్ట్రానిక్ కమ్యూనికేషన్ ద్వారా ఇస్తే, సమాచారం ఇచ్చిన వ్యక్తి ఎన్ని రోజుల్లో సంతకం చేయాలి?",
-          "options": [
-            "24 గంటల్లో",
-            "48 గంటల్లో",
-            "మూడు రోజుల్లో",
-            "ఏడు రోజుల్లో"
-          ],
-          "explanation": "సెక్షన్ 173(1)(ii) ప్రకారం ఎలక్ట్రానిక్ కమ్యూనికేషన్ ద్వారా ఇచ్చిన సమాచారాన్ని, సమాచారం ఇచ్చిన వ్యక్తి మూడు రోజుల్లో సంతకం చేసిన తర్వాత నమోదు చేస్తారు."
-        }
-      }
-    },
-    {
-      "id": "si5-law-bnss-territorial-006",
-      "subject": "General Studies",
-      "topic": "New criminal laws — BNSS Section 173 and territorial jurisdiction",
-      "difficulty": "medium",
-      "status": "review",
-      "sourceType": "original_practice",
-      "sourceReference": "Original Bodhuno practice item. Verified against BNSS, 2023, Section 173(1), India Code: https://www.indiacode.nic.in/bitstream/123456789/21544/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf. The Ministry of Home Affairs advisory dated 30 April 2024 confirms implementation of the new criminal laws from 1 July 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf. Syllabus alignment: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not legal advice or an official previous-year question.",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against NCERT, Our Environment, Chapter 4 — Structure of the Atmosphere (reprint 2024–25): https://ncert.nic.in/textbook/pdf/gess204.pdf. Syllabus alignment: TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf Not an official previous-year question.",
       "correctOptionIndex": 1,
       "languages": {
         "en": {
-          "question": "Under Section 173 of the Bharatiya Nagarik Suraksha Sanhita, 2023, information relating to a cognizable offence may be given irrespective of which factor?",
+          "question": "In which layer of Earth's atmosphere is the protective ozone layer mainly concentrated?",
           "options": [
-            "The language used by the informant",
-            "The area in which the offence was committed",
-            "The rank of the investigating officer",
-            "The value of property involved"
+            "Troposphere",
+            "Stratosphere",
+            "Mesosphere",
+            "Thermosphere"
           ],
-          "explanation": "Section 173(1) permits information to be given to the officer in charge of a police station irrespective of the area where the offence was committed."
+          "explanation": "The ozone layer is located mainly in the stratosphere. Ozone there absorbs much of the Sun's harmful ultraviolet radiation."
         },
         "te": {
-          "question": "భారతీయ నాగరిక్ సురక్షా సంహిత, 2023లోని సెక్షన్ 173 ప్రకారం, గుర్తించదగిన నేరానికి సంబంధించిన సమాచారాన్ని ఏ అంశంతో సంబంధం లేకుండా పోలీస్ స్టేషన్ అధికారికి ఇవ్వవచ్చు?",
+          "question": "భూమి వాతావరణంలోని ఏ పొరలో రక్షణాత్మక ఓజోన్ పొర ప్రధానంగా ఉంటుంది?",
           "options": [
-            "సమాచారం ఇచ్చిన వ్యక్తి ఉపయోగించిన భాష",
-            "నేరం జరిగిన ప్రాంతం",
-            "దర్యాప్తు అధికారి హోదా",
-            "సంబంధిత ఆస్తి విలువ"
+            "ట్రోపోస్ఫియర్",
+            "స్ట్రాటోస్ఫియర్ (సమతాప మండలం)",
+            "మెసోస్ఫియర్",
+            "థర్మోస్ఫియర్"
           ],
-          "explanation": "సెక్షన్ 173(1) ప్రకారం నేరం ఏ ప్రాంతంలో జరిగినదనే అంశంతో సంబంధం లేకుండా పోలీస్ స్టేషన్ ఇన్‌చార్జ్ అధికారికి సమాచారం ఇవ్వవచ్చు."
+          "explanation": "ఓజోన్ పొర ప్రధానంగా స్ట్రాటోస్ఫియర్‌లో ఉంటుంది. అక్కడి ఓజోన్ సూర్యుని నుంచి వచ్చే హానికరమైన అతినీలలోహిత కిరణాలలో ఎక్కువ భాగాన్ని గ్రహిస్తుంది."
         }
       }
     },
     {
-      "id": "si5-law-bns-replacement-007",
+      "id": "si5-history-lahore-session-006",
       "subject": "General Studies",
-      "topic": "New criminal laws — Bharatiya Nyaya Sanhita",
-      "difficulty": "easy",
+      "topic": "Indian history — National Movement, Congress sessions",
+      "difficulty": "medium",
       "status": "review",
       "sourceType": "original_practice",
-      "sourceReference": "Original Bodhuno practice item. Verified against the Bharatiya Nyaya Sanhita, 2023, India Code: https://www.indiacode.nic.in/bitstream/123456789/20062/1/a202345.pdf; and Ministry of Home Affairs advisory dated 30 April 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf. Syllabus alignment: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Indian National Congress, Synopsis of Plenary Sessions 1885–2018, 44th Session (Lahore, 1929): https://inc.in/congress-sandesh/archives/synopsis-of-plenary-sessions-from-1885-to-2018. Syllabus alignment: TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf Not an official previous-year question.",
       "correctOptionIndex": 0,
       "languages": {
         "en": {
-          "question": "Which law replaced the Indian Penal Code, 1860, as India's principal substantive criminal law?",
+          "question": "Who presided over the Lahore Session of the Indian National Congress in 1929?",
           "options": [
-            "Bharatiya Nyaya Sanhita, 2023",
-            "Bharatiya Nagarik Suraksha Sanhita, 2023",
-            "Bharatiya Sakshya Adhiniyam, 2023",
-            "Indian Evidence Act, 1872"
+            "Jawaharlal Nehru",
+            "Motilal Nehru",
+            "Subhas Chandra Bose",
+            "Vallabhbhai Patel"
           ],
-          "explanation": "The Bharatiya Nyaya Sanhita, 2023 replaced the Indian Penal Code, 1860. It is the substantive criminal law dealing with offences and punishments."
+          "explanation": "Jawaharlal Nehru presided over the 44th Indian National Congress session held at Lahore in 1929."
         },
         "te": {
-          "question": "1860 నాటి భారతీయ శిక్షాస్మృతి (IPC) స్థానంలో ప్రధాన శిక్షా చట్టంగా వచ్చిన చట్టం ఏది?",
+          "question": "1929లో లాహోర్‌లో జరిగిన భారత జాతీయ కాంగ్రెస్ సమావేశానికి అధ్యక్షత వహించినది ఎవరు?",
           "options": [
-            "భారతీయ న్యాయ సంహిత, 2023",
-            "భారతీయ నాగరిక్ సురక్షా సంహిత, 2023",
-            "భారతీయ సాక్ష్య అధినియమం, 2023",
-            "ఇండియన్ ఎవిడెన్స్ యాక్ట్, 1872"
+            "జవహర్‌లాల్ నెహ్రూ",
+            "మోతీలాల్ నెహ్రూ",
+            "సుభాష్ చంద్రబోస్",
+            "వల్లభభాయ్ పటేల్"
           ],
-          "explanation": "భారతీయ న్యాయ సంహిత, 2023 అనేది 1860 నాటి భారతీయ శిక్షాస్మృతికి బదులుగా వచ్చిన నేరాలు, శిక్షలకు సంబంధించిన ప్రధాన చట్టం."
+          "explanation": "1929లో లాహోర్‌లో జరిగిన భారత జాతీయ కాంగ్రెస్ 44వ సమావేశానికి జవహర్‌లాల్ నెహ్రూ అధ్యక్షత వహించారు."
         }
       }
     },
     {
-      "id": "si5-law-bnss-replacement-008",
+      "id": "si5-geography-anamudi-007",
       "subject": "General Studies",
-      "topic": "New criminal laws — Bharatiya Nagarik Suraksha Sanhita",
+      "topic": "Indian geography — Physical features and highest peaks",
       "difficulty": "easy",
       "status": "review",
       "sourceType": "original_practice",
-      "sourceReference": "Original Bodhuno practice item. Verified against BNSS, 2023, India Code: https://www.indiacode.nic.in/bitstream/123456789/21544/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf; and Ministry of Home Affairs advisory dated 30 April 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf. Syllabus alignment: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
-      "correctOptionIndex": 1,
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Kerala Tourism, Eravikulam National Park: https://www.keralatourism.org/munnar/eravikulam-national-park.php. Syllabus alignment: TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 0,
       "languages": {
         "en": {
-          "question": "Which law replaced the Code of Criminal Procedure, 1973?",
+          "question": "Which is the highest peak in South India?",
           "options": [
-            "Bharatiya Nyaya Sanhita, 2023",
-            "Bharatiya Nagarik Suraksha Sanhita, 2023",
-            "Bharatiya Sakshya Adhiniyam, 2023",
-            "Police Act, 1861"
+            "Anamudi",
+            "Doddabetta",
+            "Agasthyamalai",
+            "Mullayanagiri"
           ],
-          "explanation": "The Bharatiya Nagarik Suraksha Sanhita, 2023 replaced the Code of Criminal Procedure, 1973 and governs criminal procedure."
+          "explanation": "Anamudi, in Kerala's Eravikulam National Park, is the highest peak in South India."
         },
         "te": {
-          "question": "1973 నాటి క్రిమినల్ ప్రొసీజర్ కోడ్ (CrPC) స్థానంలో వచ్చిన చట్టం ఏది?",
+          "question": "దక్షిణ భారతదేశంలో అత్యంత ఎత్తైన శిఖరం ఏది?",
           "options": [
-            "భారతీయ న్యాయ సంహిత, 2023",
-            "భారతీయ నాగరిక్ సురక్షా సంహిత, 2023",
-            "భారతీయ సాక్ష్య అధినియమం, 2023",
-            "పోలీస్ యాక్ట్, 1861"
+            "ఆనముడి",
+            "దొడ్డబెట్ట",
+            "అగస్త్యమలై",
+            "ముల్లయనగిరి"
           ],
-          "explanation": "భారతీయ నాగరిక్ సురక్షా సంహిత, 2023 అనేది 1973 నాటి క్రిమినల్ ప్రొసీజర్ కోడ్‌కు బదులుగా వచ్చిన నేర ప్రక్రియకు సంబంధించిన చట్టం."
+          "explanation": "కేరళలోని ఎరవికుళం జాతీయ ఉద్యానవనంలో ఉన్న ఆనముడి దక్షిణ భారతదేశంలో అత్యంత ఎత్తైన శిఖరం."
+        }
+      }
+    },
+    {
+      "id": "si5-telangana-trs-008",
+      "subject": "General Studies",
+      "topic": "Telangana Movement — Political mobilisation",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Government of Telangana, Adilabad District, K. Chandrashekar Rao Profile: https://adilabad.telangana.gov.in/kcr-profile. Syllabus alignment: TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which political party did K. Chandrashekar Rao float in 2001 to campaign for a separate Telangana State?",
+          "options": [
+            "Telangana Rashtra Samithi",
+            "Telugu Desam Party",
+            "Telangana Jana Samithi",
+            "Praja Rajyam Party"
+          ],
+          "explanation": "K. Chandrashekar Rao floated the Telangana Rashtra Samithi in 2001 to campaign for the creation of a separate Telangana State. The party was later renamed Bharat Rashtra Samithi."
+        },
+        "te": {
+          "question": "ప్రత్యేక తెలంగాణ రాష్ట్ర సాధన కోసం 2001లో కె. చంద్రశేఖర రావు ఏ రాజకీయ పార్టీని స్థాపించారు?",
+          "options": [
+            "తెలంగాణ రాష్ట్ర సమితి",
+            "తెలుగుదేశం పార్టీ",
+            "తెలంగాణ జన సమితి",
+            "ప్రజారాజ్యం పార్టీ"
+          ],
+          "explanation": "ప్రత్యేక తెలంగాణ రాష్ట్ర సాధన కోసం కె. చంద్రశేఖర రావు 2001లో తెలంగాణ రాష్ట్ర సమితిని స్థాపించారు. ఆ పార్టీకి తర్వాత భారత రాష్ట్ర సమితి అని పేరు మార్చారు."
         }
       }
     },
