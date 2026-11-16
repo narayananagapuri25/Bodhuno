@@ -1,0 +1,427 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-si-current-affairs-review-03",
+  "title": "Telangana Police SI — Syllabus & Current Affairs Review Set 03 (November 2026)",
+  "version": 1,
+  "workflowStatus": "review",
+  "sourceType": "original_practice",
+  "sourceReference": "12 original bilingual SI practice questions covering constitutional provisions, the new criminal laws and Ramsar-related current affairs. Syllabus alignment uses the TGPRB SI 2026 notification, Annexure I, page 40: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Current-affairs snapshot includes official material dated 15 and 25 October 2026. This is not an official previous-year paper or a complete mock. All items remain in review pending independent subject-matter and Telugu-language approval.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-si",
+    "telangana-police-2026",
+    "preliminary-written-test",
+    "syllabus-expansion",
+    "current-affairs",
+    "review"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB SI 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "TGPRB SI 2026 Notification, Annexure I, page 40: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+      "Constitution of India, Legislative Department, official 20 May 2026 edition: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf",
+      "Bharatiya Nagarik Suraksha Sanhita, 2023, India Code: https://www.indiacode.nic.in/bitstream/123456789/21544/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf",
+      "Bharatiya Nyaya Sanhita, 2023, India Code: https://www.indiacode.nic.in/bitstream/123456789/20062/1/a202345.pdf",
+      "Ministry of Home Affairs advisory, 30 April 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf",
+      "Convention on Wetlands announcement, 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list",
+      "Press Information Bureau note, 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48"
+    ],
+    "practiceNote": "12 original bilingual practice questions. Review-only; verify statutory wording and dated Ramsar figures again before any publication. Not a full-length mock."
+  },
+  "questions": [
+    {
+      "id": "si5-polity-finance-commission-001",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 280 and Finance Commission",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against the Constitution of India, Legislative Department, official 20 May 2026 edition: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf. Syllabus alignment: TGPRB SI 2026 Notification, Annexure I, page 40: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Under Article 280 of the Constitution, at what interval does the President normally constitute the Finance Commission?",
+          "options": [
+            "Every year",
+            "Every three years",
+            "Every five years",
+            "Every ten years"
+          ],
+          "explanation": "Article 280 provides for the President to constitute a Finance Commission every five years, or earlier if considered necessary."
+        },
+        "te": {
+          "question": "భారత రాజ్యాంగంలోని ఆర్టికల్ 280 ప్రకారం రాష్ట్రపతి సాధారణంగా ఏ వ్యవధికి ఒకసారి ఆర్థిక సంఘాన్ని ఏర్పాటు చేస్తారు?",
+          "options": [
+            "ప్రతి సంవత్సరం",
+            "ప్రతి మూడు సంవత్సరాలకు",
+            "ప్రతి ఐదు సంవత్సరాలకు",
+            "ప్రతి పది సంవత్సరాలకు"
+          ],
+          "explanation": "ఆర్టికల్ 280 ప్రకారం రాష్ట్రపతి ప్రతి ఐదేళ్లకు ఒకసారి లేదా అవసరమైతే అంతకంటే ముందే ఆర్థిక సంఘాన్ని ఏర్పాటు చేస్తారు."
+        }
+      }
+    },
+    {
+      "id": "si5-polity-election-commission-002",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 324 and Election Commission",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Article 324 of the Constitution of India, Legislative Department, official 20 May 2026 edition: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf. Syllabus alignment: TGPRB SI 2026 Notification, Annexure I, page 40: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which body has superintendence, direction and control over elections to Parliament and State Legislatures and elections to the offices of President and Vice-President?",
+          "options": [
+            "State Election Commission",
+            "Election Commission of India",
+            "Union Public Service Commission",
+            "Finance Commission"
+          ],
+          "explanation": "Article 324 vests this responsibility in the Election Commission for the specified national and state elections."
+        },
+        "te": {
+          "question": "పార్లమెంట్, రాష్ట్ర శాసనసభలతో పాటు రాష్ట్రపతి, ఉపరాష్ట్రపతి ఎన్నికలపై పర్యవేక్షణ, దిశానిర్దేశం, నియంత్రణ ఏ సంస్థకు ఉంటుంది?",
+          "options": [
+            "రాష్ట్ర ఎన్నికల సంఘం",
+            "భారత ఎన్నికల సంఘం",
+            "యూనియన్ పబ్లిక్ సర్వీస్ కమిషన్",
+            "ఆర్థిక సంఘం"
+          ],
+          "explanation": "ఆర్టికల్ 324 ప్రకారం పేర్కొన్న పార్లమెంట్, రాష్ట్ర శాసనసభలు, రాష్ట్రపతి, ఉపరాష్ట్రపతి ఎన్నికల పర్యవేక్షణ బాధ్యత భారత ఎన్నికల సంఘానికి ఉంటుంది."
+        }
+      }
+    },
+    {
+      "id": "si5-polity-panchayats-003",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 243G and Panchayati Raj",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Article 243G of the Constitution of India, Legislative Department, official 20 May 2026 edition: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf. Syllabus alignment: TGPRB SI 2026 Notification, Annexure I, page 40: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which constitutional provision enables State Legislatures to endow Panchayats with powers and authority needed to function as institutions of self-government?",
+          "options": [
+            "Article 243D",
+            "Article 243G",
+            "Article 280",
+            "Article 324"
+          ],
+          "explanation": "Article 243G allows a State Legislature, by law, to endow Panchayats with powers and authority as institutions of self-government."
+        },
+        "te": {
+          "question": "పంచాయతీలను స్వపరిపాలనా సంస్థలుగా పనిచేయడానికి అవసరమైన అధికారాలు, బాధ్యతలు కల్పించేందుకు రాష్ట్ర శాసనసభకు అధికారం ఇచ్చే రాజ్యాంగ అధికరణం ఏది?",
+          "options": [
+            "ఆర్టికల్ 243D",
+            "ఆర్టికల్ 243G",
+            "ఆర్టికల్ 280",
+            "ఆర్టికల్ 324"
+          ],
+          "explanation": "ఆర్టికల్ 243G ప్రకారం రాష్ట్ర శాసనసభ చట్టం ద్వారా పంచాయతీలకు స్వపరిపాలనా సంస్థలుగా అవసరమైన అధికారాలు, బాధ్యతలు కల్పించవచ్చు."
+        }
+      }
+    },
+    {
+      "id": "si5-polity-amendment-004",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 368 and constitutional amendment",
+      "difficulty": "hard",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Article 368(2) of the Constitution of India, Legislative Department, official 20 May 2026 edition: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf. Syllabus alignment: TGPRB SI 2026 Notification, Annexure I, page 40: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "A constitutional amendment affecting certain federal provisions must also be ratified by at least what proportion of State Legislatures?",
+          "options": [
+            "One-third",
+            "One-half",
+            "Two-thirds",
+            "All States"
+          ],
+          "explanation": "For the provisions listed in the proviso to Article 368(2), ratification is required from the Legislatures of not less than one-half of the States."
+        },
+        "te": {
+          "question": "సంఘీయ వ్యవస్థకు సంబంధించిన కొన్ని రాజ్యాంగ నిబంధనలను సవరించడానికి పార్లమెంటు ఆమోదంతో పాటు కనీసం ఎన్ని రాష్ట్ర శాసనసభల ఆమోదం అవసరం?",
+          "options": [
+            "మూడింట ఒక వంతు",
+            "సగం రాష్ట్రాలు",
+            "మూడింట రెండు వంతులు",
+            "అన్ని రాష్ట్రాలు"
+          ],
+          "explanation": "ఆర్టికల్ 368(2) నిబంధనలో పేర్కొన్న కొన్ని అంశాల సవరణలకు కనీసం సగం రాష్ట్రాల శాసనసభల ఆమోదం కూడా అవసరం."
+        }
+      }
+    },
+    {
+      "id": "si5-law-bnss-electronic-info-005",
+      "subject": "General Studies",
+      "topic": "New criminal laws — BNSS Section 173 and electronic information",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Verified against BNSS, 2023, Section 173(1)(ii), India Code: https://www.indiacode.nic.in/bitstream/123456789/21544/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf. The Ministry of Home Affairs advisory dated 30 April 2024 confirms implementation of the new criminal laws from 1 July 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf. Syllabus alignment: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not legal advice or an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Under Section 173 of the Bharatiya Nagarik Suraksha Sanhita, 2023, when information about a cognizable offence is given by electronic communication, within what period must the informant sign it?",
+          "options": [
+            "Within 24 hours",
+            "Within 48 hours",
+            "Within three days",
+            "Within seven days"
+          ],
+          "explanation": "Section 173(1)(ii) states that information given by electronic communication is taken on record when it is signed by the person giving it within three days."
+        },
+        "te": {
+          "question": "భారతీయ నాగరిక్ సురక్షా సంహిత, 2023లోని సెక్షన్ 173 ప్రకారం, గుర్తించదగిన నేరానికి సంబంధించిన సమాచారాన్ని ఎలక్ట్రానిక్ కమ్యూనికేషన్ ద్వారా ఇస్తే, సమాచారం ఇచ్చిన వ్యక్తి ఎన్ని రోజుల్లో సంతకం చేయాలి?",
+          "options": [
+            "24 గంటల్లో",
+            "48 గంటల్లో",
+            "మూడు రోజుల్లో",
+            "ఏడు రోజుల్లో"
+          ],
+          "explanation": "సెక్షన్ 173(1)(ii) ప్రకారం ఎలక్ట్రానిక్ కమ్యూనికేషన్ ద్వారా ఇచ్చిన సమాచారాన్ని, సమాచారం ఇచ్చిన వ్యక్తి మూడు రోజుల్లో సంతకం చేసిన తర్వాత నమోదు చేస్తారు."
+        }
+      }
+    },
+    {
+      "id": "si5-law-bnss-territorial-006",
+      "subject": "General Studies",
+      "topic": "New criminal laws — BNSS Section 173 and territorial jurisdiction",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Verified against BNSS, 2023, Section 173(1), India Code: https://www.indiacode.nic.in/bitstream/123456789/21544/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf. The Ministry of Home Affairs advisory dated 30 April 2024 confirms implementation of the new criminal laws from 1 July 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf. Syllabus alignment: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not legal advice or an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Under Section 173 of the Bharatiya Nagarik Suraksha Sanhita, 2023, information relating to a cognizable offence may be given irrespective of which factor?",
+          "options": [
+            "The language used by the informant",
+            "The area in which the offence was committed",
+            "The rank of the investigating officer",
+            "The value of property involved"
+          ],
+          "explanation": "Section 173(1) permits information to be given to the officer in charge of a police station irrespective of the area where the offence was committed."
+        },
+        "te": {
+          "question": "భారతీయ నాగరిక్ సురక్షా సంహిత, 2023లోని సెక్షన్ 173 ప్రకారం, గుర్తించదగిన నేరానికి సంబంధించిన సమాచారాన్ని ఏ అంశంతో సంబంధం లేకుండా పోలీస్ స్టేషన్ అధికారికి ఇవ్వవచ్చు?",
+          "options": [
+            "సమాచారం ఇచ్చిన వ్యక్తి ఉపయోగించిన భాష",
+            "నేరం జరిగిన ప్రాంతం",
+            "దర్యాప్తు అధికారి హోదా",
+            "సంబంధిత ఆస్తి విలువ"
+          ],
+          "explanation": "సెక్షన్ 173(1) ప్రకారం నేరం ఏ ప్రాంతంలో జరిగినదనే అంశంతో సంబంధం లేకుండా పోలీస్ స్టేషన్ ఇన్‌చార్జ్ అధికారికి సమాచారం ఇవ్వవచ్చు."
+        }
+      }
+    },
+    {
+      "id": "si5-law-bns-replacement-007",
+      "subject": "General Studies",
+      "topic": "New criminal laws — Bharatiya Nyaya Sanhita",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Verified against the Bharatiya Nyaya Sanhita, 2023, India Code: https://www.indiacode.nic.in/bitstream/123456789/20062/1/a202345.pdf; and Ministry of Home Affairs advisory dated 30 April 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf. Syllabus alignment: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which law replaced the Indian Penal Code, 1860, as India's principal substantive criminal law?",
+          "options": [
+            "Bharatiya Nyaya Sanhita, 2023",
+            "Bharatiya Nagarik Suraksha Sanhita, 2023",
+            "Bharatiya Sakshya Adhiniyam, 2023",
+            "Indian Evidence Act, 1872"
+          ],
+          "explanation": "The Bharatiya Nyaya Sanhita, 2023 replaced the Indian Penal Code, 1860. It is the substantive criminal law dealing with offences and punishments."
+        },
+        "te": {
+          "question": "1860 నాటి భారతీయ శిక్షాస్మృతి (IPC) స్థానంలో ప్రధాన శిక్షా చట్టంగా వచ్చిన చట్టం ఏది?",
+          "options": [
+            "భారతీయ న్యాయ సంహిత, 2023",
+            "భారతీయ నాగరిక్ సురక్షా సంహిత, 2023",
+            "భారతీయ సాక్ష్య అధినియమం, 2023",
+            "ఇండియన్ ఎవిడెన్స్ యాక్ట్, 1872"
+          ],
+          "explanation": "భారతీయ న్యాయ సంహిత, 2023 అనేది 1860 నాటి భారతీయ శిక్షాస్మృతికి బదులుగా వచ్చిన నేరాలు, శిక్షలకు సంబంధించిన ప్రధాన చట్టం."
+        }
+      }
+    },
+    {
+      "id": "si5-law-bnss-replacement-008",
+      "subject": "General Studies",
+      "topic": "New criminal laws — Bharatiya Nagarik Suraksha Sanhita",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Verified against BNSS, 2023, India Code: https://www.indiacode.nic.in/bitstream/123456789/21544/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf; and Ministry of Home Affairs advisory dated 30 April 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf. Syllabus alignment: https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which law replaced the Code of Criminal Procedure, 1973?",
+          "options": [
+            "Bharatiya Nyaya Sanhita, 2023",
+            "Bharatiya Nagarik Suraksha Sanhita, 2023",
+            "Bharatiya Sakshya Adhiniyam, 2023",
+            "Police Act, 1861"
+          ],
+          "explanation": "The Bharatiya Nagarik Suraksha Sanhita, 2023 replaced the Code of Criminal Procedure, 1973 and governs criminal procedure."
+        },
+        "te": {
+          "question": "1973 నాటి క్రిమినల్ ప్రొసీజర్ కోడ్ (CrPC) స్థానంలో వచ్చిన చట్టం ఏది?",
+          "options": [
+            "భారతీయ న్యాయ సంహిత, 2023",
+            "భారతీయ నాగరిక్ సురక్షా సంహిత, 2023",
+            "భారతీయ సాక్ష్య అధినియమం, 2023",
+            "పోలీస్ యాక్ట్, 1861"
+          ],
+          "explanation": "భారతీయ నాగరిక్ సురక్షా సంహిత, 2023 అనేది 1973 నాటి క్రిమినల్ ప్రొసీజర్ కోడ్‌కు బదులుగా వచ్చిన నేర ప్రక్రియకు సంబంధించిన చట్టం."
+        }
+      }
+    },
+    {
+      "id": "si5-ca-ramsar-total-009",
+      "subject": "General Studies",
+      "topic": "Current affairs — Ramsar Sites in India (October 2026)",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Time-sensitive snapshot: 15 October 2026. Verified against the Convention on Wetlands announcement dated 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list; corroborated by PIB press note posted 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48. Recheck the official list before publication.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "As of 15 October 2026, how many Ramsar Sites were designated in India?",
+          "options": [
+            "96",
+            "98",
+            "101",
+            "103"
+          ],
+          "explanation": "India's Ramsar network reached 103 sites on 15 October 2026, after Sukhna Wetland and Sauj Jheel were added."
+        },
+        "te": {
+          "question": "2026 అక్టోబర్ 15 నాటికి, భారతదేశంలో మొత్తం ఎన్ని రామ్‌సర్ ప్రదేశాలు ఉన్నాయి?",
+          "options": [
+            "96",
+            "98",
+            "101",
+            "103"
+          ],
+          "explanation": "సుఖ్నా వెట్‌ల్యాండ్, సౌజ్ జీల్ చేర్చబడిన తర్వాత 2026 అక్టోబర్ 15న భారతదేశంలోని రామ్‌సర్ ప్రదేశాల సంఖ్య 103కు చేరింది."
+        }
+      }
+    },
+    {
+      "id": "si5-ca-sukhna-location-010",
+      "subject": "General Studies",
+      "topic": "Current affairs — Sukhna Wetland designation (October 2026)",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Time-sensitive snapshot: designation announced 15 October 2026. Verified against the Convention on Wetlands announcement dated 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list; corroborated by PIB press note posted 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48. Recheck the official list before publication.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which Union Territory contains Sukhna Wetland, added to the Ramsar List on 15 October 2026?",
+          "options": [
+            "Chandigarh",
+            "Punjab",
+            "Haryana",
+            "Uttarakhand"
+          ],
+          "explanation": "Sukhna Wetland is in Chandigarh. It was one of the two Indian wetlands added to the Ramsar List on 15 October 2026."
+        },
+        "te": {
+          "question": "2026 అక్టోబర్ 15న రామ్‌సర్ జాబితాలో చేర్చబడిన సుఖ్నా వెట్‌ల్యాండ్ ఏ కేంద్రపాలిత ప్రాంతంలో ఉంది?",
+          "options": [
+            "చండీగఢ్",
+            "పంజాబ్",
+            "హర్యానా",
+            "ఉత్తరాఖండ్"
+          ],
+          "explanation": "సుఖ్నా వెట్‌ల్యాండ్ చండీగఢ్‌లో ఉంది. 2026 అక్టోబర్ 15న రామ్‌సర్ జాబితాలో చేర్చిన రెండు భారతీయ ప్రదేశాల్లో ఇది ఒకటి."
+        }
+      }
+    },
+    {
+      "id": "si5-ca-sauj-state-011",
+      "subject": "General Studies",
+      "topic": "Current affairs — Sauj Jheel designation (October 2026)",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Time-sensitive snapshot: designation announced 15 October 2026. Verified against the Convention on Wetlands announcement dated 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list; corroborated by PIB press note posted 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48. Recheck the official list before publication.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which state is home to Sauj Jheel, designated as a Ramsar Site on 15 October 2026?",
+          "options": [
+            "Bihar",
+            "Uttar Pradesh",
+            "Rajasthan",
+            "Madhya Pradesh"
+          ],
+          "explanation": "Sauj Jheel is in Uttar Pradesh. It was designated alongside Sukhna Wetland on 15 October 2026."
+        },
+        "te": {
+          "question": "2026 అక్టోబర్ 15న రామ్‌సర్ ప్రదేశంగా గుర్తింపు పొందిన సౌజ్ జీల్ ఏ రాష్ట్రంలో ఉంది?",
+          "options": [
+            "బీహార్",
+            "ఉత్తరప్రదేశ్",
+            "రాజస్థాన్",
+            "మధ్యప్రదేశ్"
+          ],
+          "explanation": "సౌజ్ జీల్ ఉత్తరప్రదేశ్ రాష్ట్రంలో ఉంది. 2026 అక్టోబర్ 15న సుఖ్నా వెట్‌ల్యాండ్‌తో పాటు దీనికి కూడా రామ్‌సర్ గుర్తింపు లభించింది."
+        }
+      }
+    },
+    {
+      "id": "si5-ca-tamilnadu-ramsar-012",
+      "subject": "General Studies",
+      "topic": "Current affairs — State-wise Ramsar Sites (October 2026)",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Time-sensitive snapshot: PIB press note posted 25 October 2026. Verified against the Government of India's Press Information Bureau note: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48. Recheck the state-wise count before publication.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "According to the Press Information Bureau on 25 October 2026, which state had the highest number of Ramsar Sites in India, with 20?",
+          "options": [
+            "Tamil Nadu",
+            "Uttar Pradesh",
+            "Odisha",
+            "Gujarat"
+          ],
+          "explanation": "The PIB's 25 October 2026 note reported Tamil Nadu as having the highest number of Ramsar Sites, at 20, followed by Uttar Pradesh with 14."
+        },
+        "te": {
+          "question": "2026 అక్టోబర్ 25న ప్రెస్ ఇన్ఫర్మేషన్ బ్యూరో వెల్లడించిన వివరాల ప్రకారం, భారతదేశంలో అత్యధికంగా 20 రామ్‌సర్ ప్రదేశాలు కలిగిన రాష్ట్రం ఏది?",
+          "options": [
+            "తమిళనాడు",
+            "ఉత్తరప్రదేశ్",
+            "ఒడిశా",
+            "గుజరాత్"
+          ],
+          "explanation": "2026 అక్టోబర్ 25నాటి PIB వివరాల ప్రకారం తమిళనాడులో అత్యధికంగా 20 రామ్‌సర్ ప్రదేశాలు ఉన్నాయి. ఉత్తరప్రదేశ్‌లో 14 ఉన్నాయి."
+        }
+      }
+    }
+  ]
+}
