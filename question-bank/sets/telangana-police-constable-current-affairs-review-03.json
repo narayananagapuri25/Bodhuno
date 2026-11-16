@@ -1,0 +1,429 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-constable-current-affairs-review-03",
+  "title": "Telangana Police Constable — PWT Balanced Practice Review Set 03 (November 2026)",
+  "version": 1,
+  "workflowStatus": "review",
+  "sourceType": "original_practice",
+  "sourceReference": "12 original Police Constable Preliminary Written Test practice questions sampled across English, Arithmetic, Reasoning, General Science, Indian History, Geography, Telangana awareness and a dated current-affairs item. Syllabus alignment is to the TGPRB PC 2026 Preliminary Written Test syllabus, Annexure II, page 44. The notification specifies that English-section questions are set in English only, so English-section stems and options are retained in English in both language versions; Telugu explanations remain as learning aids. This is a short sample, not a complete syllabus paper. TGPRB Police Constable 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf All content remains in review pending independent subject-matter and Telugu-language approval.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-constable",
+    "telangana-police-2026",
+    "preliminary-written-test",
+    "syllabus-expansion",
+    "current-affairs",
+    "review"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB PC 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "TGPRB Police Constable 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf",
+      "British Council LearnEnglish, Verbs and Prepositions: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/verbs-prepositions",
+      "British Council LearnEnglish, Active and Passive Voice: https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/active-passive-voice",
+      "NCERT, Our Environment, Chapter 4 — Structure of the Atmosphere: https://ncert.nic.in/textbook/pdf/gess204.pdf",
+      "UK Parliament, East India Company and Raj 1785–1858: https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/east-india-company-and-raj-1785-1858/",
+      "Government of Telangana, Nirmal District, About District: https://nirmal.telangana.gov.in/about-district/",
+      "Government of Rajasthan, Rajasthan at a Glance: https://environment.rajasthan.gov.in/content/environment/en/rsbb/about-rajasthan/rajasthan-at-a-glance.html",
+      "Bureau International des Poids et Mesures (BIPM), SI Brochure, 9th edition, revised June 2026: frequency is measured in hertz (Hz): https://www.bipm.org/en/si-brochure-9; NCERT Grade 9 Secondary Stage syllabus, Sound topic: https://ncert.nic.in/pdf/announcement/Syllabus_Secondary_Stage_Phase_I_Grade_9_Part_2.pdf",
+      "PIB / Ministry of Tribal Affairs, Janjatiya Gaurav Diwas 2026, 15 November 2026: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336477&lang=2&reg=48"
+    ],
+    "practiceNote": "12 original Police Constable PWT review questions sampled across notified subject areas; not a full paper. English-section stems and options remain English in both language versions, consistent with the notification. Review-only; have all Telugu learning explanations independently checked before publication."
+  },
+  "questions": [
+    {
+      "id": "pc5-english-preposition-001",
+      "subject": "English",
+      "topic": "English — Verbs and prepositions",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English practice item. Grammar usage checked against British Council LearnEnglish, “Verbs and prepositions”: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/verbs-prepositions. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Choose the correct preposition: The inquiry depends ___ reliable records.",
+          "options": [
+            "at",
+            "for",
+            "on",
+            "with"
+          ],
+          "explanation": "The verb phrase is “depend on”. The correct sentence is: “The inquiry depends on reliable records.”"
+        },
+        "te": {
+          "question": "Choose the correct preposition: The inquiry depends ___ reliable records.",
+          "options": [
+            "at",
+            "for",
+            "on",
+            "with"
+          ],
+          "explanation": "“Depend on” అనేది సరైన క్రియ–preposition కలయిక. కాబట్టి “on” సరైన సమాధానం."
+        }
+      }
+    },
+    {
+      "id": "pc5-english-passive-002",
+      "subject": "English",
+      "topic": "English — Active and passive voice",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English practice item. Grammar rule checked against British Council LearnEnglish, “Active and passive voice”: https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/active-passive-voice. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Choose the correct passive form of: “The patrol team collected the evidence.”",
+          "options": [
+            "The evidence collected the patrol team.",
+            "The evidence was collected by the patrol team.",
+            "The evidence is collecting by the patrol team.",
+            "The patrol team was collected by the evidence."
+          ],
+          "explanation": "In the passive form, the object becomes the subject and the verb takes “be + past participle”: “The evidence was collected by the patrol team.”"
+        },
+        "te": {
+          "question": "Choose the correct passive form of: “The patrol team collected the evidence.”",
+          "options": [
+            "The evidence collected the patrol team.",
+            "The evidence was collected by the patrol team.",
+            "The evidence is collecting by the patrol team.",
+            "The patrol team was collected by the evidence."
+          ],
+          "explanation": "కర్మణి వాక్యంలో కర్మ (object) కర్త స్థానంలోకి వస్తుంది. Simple Pastలో “was + past participle” రూపం వాడాలి: “The evidence was collected by the patrol team.”"
+        }
+      }
+    },
+    {
+      "id": "pc5-arithmetic-square-root-003",
+      "subject": "Arithmetic",
+      "topic": "Arithmetic — Square roots",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Original arithmetic calculation (45 × 45 = 2025), mapped to Arithmetic in the TGPRB PC PWT syllabus. Syllabus alignment: TGPRB Police Constable 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "What is the square root of 2025?",
+          "options": [
+            "35",
+            "40",
+            "45",
+            "50"
+          ],
+          "explanation": "45 × 45 = 2025, so the square root of 2025 is 45."
+        },
+        "te": {
+          "question": "2025 యొక్క వర్గమూలం ఎంత?",
+          "options": [
+            "35",
+            "40",
+            "45",
+            "50"
+          ],
+          "explanation": "45 × 45 = 2025. కాబట్టి 2025 యొక్క వర్గమూలం 45."
+        }
+      }
+    },
+    {
+      "id": "pc5-arithmetic-consecutive-product-004",
+      "subject": "Arithmetic",
+      "topic": "Arithmetic — Consecutive integers",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Original arithmetic calculation (11 × 12 = 132), mapped to Arithmetic in the TGPRB PC PWT syllabus. Syllabus alignment: TGPRB Police Constable 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "The product of two consecutive positive integers is 132. What is the larger integer?",
+          "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "explanation": "11 × 12 = 132. The consecutive positive integers are 11 and 12, so the larger is 12."
+        },
+        "te": {
+          "question": "వరుసగా వచ్చే రెండు ధన పూర్ణసంఖ్యల గుణఫలం 132. వాటిలో పెద్ద సంఖ్య ఏది?",
+          "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "explanation": "11 × 12 = 132. ఆ వరుస ధన పూర్ణసంఖ్యలు 11, 12. కాబట్టి పెద్ద సంఖ్య 12."
+        }
+      }
+    },
+    {
+      "id": "pc5-reasoning-instrument-analogy-005",
+      "subject": "Reasoning",
+      "topic": "Reasoning — Analogy",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Original reasoning item; standard instrument-to-measured-quantity relationship. Topic mapped to Reasoning/Mental Ability in the TGPRB PC PWT syllabus. Syllabus alignment: TGPRB Police Constable 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Complete the analogy: Thermometer : Temperature :: Barometer : ?",
+          "options": [
+            "Rainfall",
+            "Air pressure",
+            "Wind speed",
+            "Humidity"
+          ],
+          "explanation": "A thermometer measures temperature; a barometer measures air pressure."
+        },
+        "te": {
+          "question": "సారూప్యతను పూర్తి చేయండి: థర్మామీటర్ : ఉష్ణోగ్రత :: బారోమీటర్ : ?",
+          "options": [
+            "వర్షపాతం",
+            "వాయు పీడనం",
+            "గాలి వేగం",
+            "తేమ"
+          ],
+          "explanation": "థర్మామీటర్ ఉష్ణోగ్రతను కొలుస్తుంది; బారోమీటర్ వాయు పీడనాన్ని కొలుస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "pc5-reasoning-planets-odd-006",
+      "subject": "Reasoning",
+      "topic": "Reasoning — Classification",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Original classification item; basic planet-versus-satellite distinction, mapped to Reasoning/Mental Ability in the TGPRB PC PWT syllabus. Syllabus alignment: TGPRB Police Constable 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "Choose the odd one out: Mercury, Venus, Earth, Moon.",
+          "options": [
+            "Mercury",
+            "Venus",
+            "Earth",
+            "Moon"
+          ],
+          "explanation": "Mercury, Venus and Earth are planets. The Moon is Earth's natural satellite."
+        },
+        "te": {
+          "question": "భిన్నమైనదాన్ని గుర్తించండి: బుధుడు, శుక్రుడు, భూమి, చంద్రుడు.",
+          "options": [
+            "బుధుడు",
+            "శుక్రుడు",
+            "భూమి",
+            "చంద్రుడు"
+          ],
+          "explanation": "బుధుడు, శుక్రుడు, భూమి గ్రహాలు. చంద్రుడు భూమికి సహజ ఉపగ్రహం."
+        }
+      }
+    },
+    {
+      "id": "pc5-history-act1858-007",
+      "subject": "Indian History / Culture / National Movement",
+      "topic": "Modern Indian history — Government of India Act, 1858",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against UK Parliament, East India Company and Raj 1785–1858: https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/east-india-company-and-raj-1785-1858/. Syllabus alignment: TGPRB Police Constable 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which Act transferred the administration of India from the East India Company to the British Crown?",
+          "options": [
+            "Government of India Act, 1858",
+            "Indian Councils Act, 1861",
+            "Government of India Act, 1919",
+            "Indian Independence Act, 1947"
+          ],
+          "explanation": "The Government of India Act, 1858 ended the East India Company's administrative rule and transferred the administration of India to the British Crown."
+        },
+        "te": {
+          "question": "ఈస్ట్ ఇండియా కంపెనీ నుంచి భారత పరిపాలనను బ్రిటిష్ కిరీటానికి బదిలీ చేసిన చట్టం ఏది?",
+          "options": [
+            "భారత ప్రభుత్వ చట్టం, 1858",
+            "భారత మండలి చట్టం, 1861",
+            "భారత ప్రభుత్వ చట్టం, 1919",
+            "భారత స్వాతంత్ర్య చట్టం, 1947"
+          ],
+          "explanation": "భారత ప్రభుత్వ చట్టం, 1858 ద్వారా ఈస్ట్ ఇండియా కంపెనీ పరిపాలన ముగిసి, భారత పరిపాలన బ్రిటిష్ కిరీటానికి బదిలీ చేయబడింది."
+        }
+      }
+    },
+    {
+      "id": "pc5-science-sound-frequency-008",
+      "subject": "General Science",
+      "topic": "General Science — Sound and frequency",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original science practice item. Verified against the Bureau International des Poids et Mesures (BIPM), SI Brochure, 9th edition, revised June 2026, which lists hertz (Hz) as the SI unit for frequency: https://www.bipm.org/en/si-brochure-9; topic alignment: NCERT Grade 9 Secondary Stage syllabus, Sound topic: https://ncert.nic.in/pdf/announcement/Syllabus_Secondary_Stage_Phase_I_Grade_9_Part_2.pdf. Syllabus alignment: TGPRB Police Constable 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What is the SI unit used to measure the frequency of a sound wave?",
+          "options": [
+            "Decibel",
+            "Hertz",
+            "Metre",
+            "Watt"
+          ],
+          "explanation": "Frequency is measured in hertz (Hz). One hertz represents one cycle per second."
+        },
+        "te": {
+          "question": "ధ్వని తరంగాల ఆవృత్తిని కొలిచే SI ప్రమాణం ఏది?",
+          "options": [
+            "డెసిబెల్",
+            "హెర్ట్జ్",
+            "మీటర్",
+            "వాట్"
+          ],
+          "explanation": "ఆవృత్తి యొక్క SI ప్రమాణం హెర్ట్జ్ (Hz). ఒక హెర్ట్జ్ అంటే సెకనుకు ఒక చక్రం."
+        }
+      }
+    },
+    {
+      "id": "pc5-science-longitudinal-sound-009",
+      "subject": "General Science",
+      "topic": "General Science — Sound waves",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original science practice item. Fact checked against NCERT Grade 9 Science syllabus, “Sound” topic (2026 secondary-stage syllabus): https://ncert.nic.in/pdf/announcement/Syllabus_Secondary_Stage_Phase_I_Grade_9_Part_2.pdf. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What type of waves are sound waves in air?",
+          "options": [
+            "Transverse waves",
+            "Longitudinal waves",
+            "Electromagnetic waves",
+            "Stationary waves"
+          ],
+          "explanation": "Sound travels through air as a longitudinal wave: air particles vibrate parallel to the direction in which the wave travels."
+        },
+        "te": {
+          "question": "గాలిలో ధ్వని తరంగాలు సాధారణంగా ఏ రకమైన తరంగాలు?",
+          "options": [
+            "అడ్డ తరంగాలు",
+            "అనుదైర్ఘ్య తరంగాలు",
+            "విద్యుదయస్కాంత తరంగాలు",
+            "స్థిర తరంగాలు"
+          ],
+          "explanation": "గాలిలో ధ్వని అనుదైర్ఘ్య తరంగాల రూపంలో వ్యాపిస్తుంది. గాలి కణాలు తరంగం ప్రయాణించే దిశకు సమాంతరంగా కంపిస్తాయి."
+        }
+      }
+    },
+    {
+      "id": "pc5-telangana-nirmal-toys-010",
+      "subject": "Telangana Awareness",
+      "topic": "Telangana culture — Nirmal wooden toys",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Government of Telangana, Nirmal District, About District: https://nirmal.telangana.gov.in/about-district/. Syllabus alignment: TGPRB Police Constable 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Nirmal is especially known for which traditional craft product from Telangana?",
+          "options": [
+            "Wooden toys",
+            "Silk carpets",
+            "Stone sculptures",
+            "Metal mirrors"
+          ],
+          "explanation": "Nirmal is known for its distinctive wooden toys, which have received national and international recognition."
+        },
+        "te": {
+          "question": "తెలంగాణలోని నిర్మల్ ఏ సంప్రదాయ హస్తకళ ఉత్పత్తికి ప్రత్యేకంగా ప్రసిద్ధి చెందింది?",
+          "options": [
+            "చెక్క బొమ్మలు",
+            "పట్టు తివాచీలు",
+            "రాతి శిల్పాలు",
+            "లోహపు అద్దాలు"
+          ],
+          "explanation": "నిర్మల్ తన ప్రత్యేకమైన చెక్క బొమ్మలకు ప్రసిద్ధి చెందింది. వాటికి జాతీయ, అంతర్జాతీయ గుర్తింపు లభించింది."
+        }
+      }
+    },
+    {
+      "id": "pc5-geography-thar-011",
+      "subject": "Geography",
+      "topic": "Indian geography — Thar Desert",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Government of Rajasthan, Rajasthan at a Glance: https://environment.rajasthan.gov.in/content/environment/en/rsbb/about-rajasthan/rajasthan-at-a-glance.html. Syllabus alignment: TGPRB Police Constable 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "The Thar Desert is chiefly located in which Indian state?",
+          "options": [
+            "Rajasthan",
+            "Gujarat",
+            "Punjab",
+            "Haryana"
+          ],
+          "explanation": "Most of the Indian portion of the Thar Desert lies in northwestern Rajasthan, although the desert extends into adjoining areas and Pakistan."
+        },
+        "te": {
+          "question": "భారతదేశంలోని థార్ ఎడారి ప్రధానంగా ఏ రాష్ట్రంలో ఉంది?",
+          "options": [
+            "రాజస్థాన్",
+            "గుజరాత్",
+            "పంజాబ్",
+            "హర్యానా"
+          ],
+          "explanation": "థార్ ఎడారిలోని భారతీయ భాగం ఎక్కువగా వాయవ్య రాజస్థాన్‌లో ఉంది. అయితే ఈ ఎడారి పక్క ప్రాంతాలకు, పాకిస్తాన్‌లోని కొన్ని భాగాలకు కూడా విస్తరించింది."
+        }
+      }
+    },
+    {
+      "id": "pc5-ca-janjatiya-gaurav-diwas-012",
+      "subject": "General Studies",
+      "topic": "Current affairs — Janjatiya Gaurav Diwas (November 2026)",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Time-sensitive current-affairs item. The Ministry of Tribal Affairs announced nationwide observance of Janjatiya Gaurav Diwas on 15 November in its PIB release dated 27 October 2026: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2328976&lang=1&reg=48. The 151st birth anniversary was marked in PIB releases dated 15 November 2026: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336477&lang=2&reg=48 and https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336495&lang=1&reg=1. Recheck annual observance wording before publication.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "On which date is Janjatiya Gaurav Diwas observed in India to mark the birth anniversary of Bhagwan Birsa Munda?",
+          "options": [
+            "2 October",
+            "15 November",
+            "26 January",
+            "9 August"
+          ],
+          "explanation": "Janjatiya Gaurav Diwas is observed on 15 November, the birth anniversary of Bhagwan Birsa Munda. PIB marked his 151st birth anniversary on 15 November 2026."
+        },
+        "te": {
+          "question": "భగవాన్ బిర్సా ముండా జయంతిని పురస్కరించుకుని భారతదేశంలో జనజాతీయ గౌరవ్ దివస్ ఏ తేదీన జరుపుకుంటారు?",
+          "options": [
+            "అక్టోబర్ 2",
+            "నవంబర్ 15",
+            "జనవరి 26",
+            "ఆగస్టు 9"
+          ],
+          "explanation": "భగవాన్ బిర్సా ముండా జయంతి సందర్భంగా ప్రతి సంవత్సరం నవంబర్ 15న జనజాతీయ గౌరవ్ దివస్ జరుపుకుంటారు. 2026 నవంబర్ 15న ఆయన 151వ జయంతిని నిర్వహించారు."
+        }
+      }
+    }
+  ]
+}

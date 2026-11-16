@@ -1,0 +1,428 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-si-current-affairs-review-03",
+  "title": "Telangana Police SI — General Studies & Current Affairs Review Set 03 (November 2026)",
+  "version": 1,
+  "workflowStatus": "review",
+  "sourceType": "original_practice",
+  "sourceReference": "12 original bilingual Police SI Preliminary Written Test questions spanning General Studies and current affairs. Syllabus alignment is to the TGPRB SI 2026 Preliminary Written Test syllabus, Annexure II, page 42, which includes General Studies topics such as Indian polity, history, geography, science and Telangana Movement. This small review batch is not a complete syllabus paper. Time-sensitive items are dated 15 October 2026 and 13–14 November 2026. TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf All content remains in review pending independent subject-matter and Telugu-language approval.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-si",
+    "telangana-police-2026",
+    "preliminary-written-test",
+    "syllabus-expansion",
+    "current-affairs",
+    "review"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB SI 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf",
+      "Constitution of India, Legislative Department, sixth pocket-size diglot edition dated 10 September 2026: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf",
+      "NCERT, Our Environment, Chapter 4 — Structure of the Atmosphere (reprint 2024–25): https://ncert.nic.in/textbook/pdf/gess204.pdf",
+      "Indian National Congress, Synopsis of Plenary Sessions 1885–2018: https://inc.in/congress-sandesh/archives/synopsis-of-plenary-sessions-from-1885-to-2018",
+      "Kerala Tourism, Eravikulam National Park: https://www.keralatourism.org/munnar/eravikulam-national-park.php",
+      "Government of Telangana, Adilabad District, K. Chandrashekar Rao Profile: https://adilabad.telangana.gov.in/kcr-profile",
+      "Convention on Wetlands announcement, 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list",
+      "PIB / MeitY release, 14 November 2026 (framework effective 13 November 2026): https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2336151&lang=2&reg=48"
+    ],
+    "practiceNote": "12 original bilingual SI Preliminary Written Test General Studies/current-affairs practice questions. The four static replacements align to notified General Studies domains; this is not a full PWT or full-syllabus set. Review-only. Recheck dated current-affairs facts before publication."
+  },
+  "questions": [
+    {
+      "id": "si5-polity-finance-commission-001",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 280 and Finance Commission",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against the Constitution of India, Legislative Department, sixth pocket-size diglot edition dated 10 September 2026: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf. Syllabus alignment: TGPRB SI 2026 Notification, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Under Article 280 of the Constitution, at what interval does the President normally constitute the Finance Commission?",
+          "options": [
+            "Every year",
+            "Every three years",
+            "Every five years",
+            "Every ten years"
+          ],
+          "explanation": "Article 280 provides for the President to constitute a Finance Commission every five years, or earlier if considered necessary."
+        },
+        "te": {
+          "question": "భారత రాజ్యాంగంలోని ఆర్టికల్ 280 ప్రకారం రాష్ట్రపతి సాధారణంగా ఏ వ్యవధికి ఒకసారి ఆర్థిక సంఘాన్ని ఏర్పాటు చేస్తారు?",
+          "options": [
+            "ప్రతి సంవత్సరం",
+            "ప్రతి మూడు సంవత్సరాలకు",
+            "ప్రతి ఐదు సంవత్సరాలకు",
+            "ప్రతి పది సంవత్సరాలకు"
+          ],
+          "explanation": "ఆర్టికల్ 280 ప్రకారం రాష్ట్రపతి ప్రతి ఐదేళ్లకు ఒకసారి లేదా అవసరమైతే అంతకంటే ముందే ఆర్థిక సంఘాన్ని ఏర్పాటు చేస్తారు."
+        }
+      }
+    },
+    {
+      "id": "si5-polity-election-commission-002",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 324 and Election Commission",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Article 324 of the Constitution of India, Legislative Department, sixth pocket-size diglot edition dated 10 September 2026: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf. Syllabus alignment: TGPRB SI 2026 Notification, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which body has superintendence, direction and control over elections to Parliament and State Legislatures and elections to the offices of President and Vice-President?",
+          "options": [
+            "State Election Commission",
+            "Election Commission of India",
+            "Union Public Service Commission",
+            "Finance Commission"
+          ],
+          "explanation": "Article 324 vests this responsibility in the Election Commission for the specified national and state elections."
+        },
+        "te": {
+          "question": "పార్లమెంట్, రాష్ట్ర శాసనసభలతో పాటు రాష్ట్రపతి, ఉపరాష్ట్రపతి ఎన్నికలపై పర్యవేక్షణ, దిశానిర్దేశం, నియంత్రణ ఏ సంస్థకు ఉంటుంది?",
+          "options": [
+            "రాష్ట్ర ఎన్నికల సంఘం",
+            "భారత ఎన్నికల సంఘం",
+            "యూనియన్ పబ్లిక్ సర్వీస్ కమిషన్",
+            "ఆర్థిక సంఘం"
+          ],
+          "explanation": "ఆర్టికల్ 324 ప్రకారం పేర్కొన్న పార్లమెంట్, రాష్ట్ర శాసనసభలు, రాష్ట్రపతి, ఉపరాష్ట్రపతి ఎన్నికల పర్యవేక్షణ బాధ్యత భారత ఎన్నికల సంఘానికి ఉంటుంది."
+        }
+      }
+    },
+    {
+      "id": "si5-polity-panchayats-003",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 243G and Panchayati Raj",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Article 243G of the Constitution of India, Legislative Department, sixth pocket-size diglot edition dated 10 September 2026: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf. Syllabus alignment: TGPRB SI 2026 Notification, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which constitutional provision enables State Legislatures to endow Panchayats with powers and authority needed to function as institutions of self-government?",
+          "options": [
+            "Article 243D",
+            "Article 243G",
+            "Article 280",
+            "Article 324"
+          ],
+          "explanation": "Article 243G allows a State Legislature, by law, to endow Panchayats with powers and authority as institutions of self-government."
+        },
+        "te": {
+          "question": "పంచాయతీలు స్వపరిపాలనా సంస్థలుగా పనిచేయడానికి అవసరమైన అధికారాలు, నిర్ణయాధికారాన్ని కల్పించేలా రాష్ట్ర శాసనసభకు అధికారం ఇచ్చే రాజ్యాంగ అధికరణం ఏది?",
+          "options": [
+            "ఆర్టికల్ 243D",
+            "ఆర్టికల్ 243G",
+            "ఆర్టికల్ 280",
+            "ఆర్టికల్ 324"
+          ],
+          "explanation": "ఆర్టికల్ 243G ప్రకారం రాష్ట్ర శాసనసభ చట్టం ద్వారా పంచాయతీలకు స్వపరిపాలనా సంస్థలుగా పనిచేయడానికి అవసరమైన అధికారాలు, నిర్ణయాధికారాన్ని కల్పించవచ్చు."
+        }
+      }
+    },
+    {
+      "id": "si5-polity-amendment-004",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 368 and constitutional amendment",
+      "difficulty": "hard",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Article 368(2) of the Constitution of India, Legislative Department, sixth pocket-size diglot edition dated 10 September 2026: https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf. Syllabus alignment: TGPRB SI 2026 Notification, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Under the proviso to Article 368(2), an amendment to any of the provisions listed there requires ratification by at least what proportion of State Legislatures?",
+          "options": [
+            "One-third",
+            "One-half",
+            "Two-thirds",
+            "All States"
+          ],
+          "explanation": "For amendments to the provisions listed in the proviso to Article 368(2), ratification is required from the Legislatures of not less than one-half of the States."
+        },
+        "te": {
+          "question": "రాజ్యాంగంలోని ఆర్టికల్ 368(2) నిబంధనలో పేర్కొన్న అంశాల్లో దేనినైనా సవరించే రాజ్యాంగ సవరణకు కనీసం ఎన్ని రాష్ట్ర శాసనసభల ఆమోదం అవసరం?",
+          "options": [
+            "మూడింట ఒక వంతు",
+            "సగం రాష్ట్రాల శాసనసభలు",
+            "మూడింట రెండు వంతులు",
+            "అన్ని రాష్ట్రాలు"
+          ],
+          "explanation": "ఆర్టికల్ 368(2) నిబంధనలో పేర్కొన్న అంశాల సవరణలకు కనీసం సగం రాష్ట్రాల శాసనసభల ఆమోదం అవసరం."
+        }
+      }
+    },
+    {
+      "id": "si5-science-ozone-005",
+      "subject": "General Studies",
+      "topic": "General science — Atmosphere and ozone",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against NCERT, Our Environment, Chapter 4 — Structure of the Atmosphere (reprint 2024–25): https://ncert.nic.in/textbook/pdf/gess204.pdf. Syllabus alignment: TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "In which layer of Earth's atmosphere is the protective ozone layer mainly concentrated?",
+          "options": [
+            "Troposphere",
+            "Stratosphere",
+            "Mesosphere",
+            "Thermosphere"
+          ],
+          "explanation": "The ozone layer is located mainly in the stratosphere. Ozone there absorbs much of the Sun's harmful ultraviolet radiation."
+        },
+        "te": {
+          "question": "భూమి వాతావరణంలోని ఏ పొరలో రక్షణాత్మక ఓజోన్ పొర ప్రధానంగా ఉంటుంది?",
+          "options": [
+            "ట్రోపోస్ఫియర్",
+            "స్ట్రాటోస్ఫియర్ (సమతాప మండలం)",
+            "మెసోస్ఫియర్",
+            "థర్మోస్ఫియర్"
+          ],
+          "explanation": "ఓజోన్ పొర ప్రధానంగా స్ట్రాటోస్ఫియర్‌లో ఉంటుంది. అక్కడి ఓజోన్ సూర్యుని నుంచి వచ్చే హానికరమైన అతినీలలోహిత కిరణాలలో ఎక్కువ భాగాన్ని గ్రహిస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "si5-history-lahore-session-006",
+      "subject": "General Studies",
+      "topic": "Indian history — National Movement, Congress sessions",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Indian National Congress, Synopsis of Plenary Sessions 1885–2018, 44th Session (Lahore, 1929): https://inc.in/congress-sandesh/archives/synopsis-of-plenary-sessions-from-1885-to-2018. Syllabus alignment: TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Who presided over the Lahore Session of the Indian National Congress in 1929?",
+          "options": [
+            "Jawaharlal Nehru",
+            "Motilal Nehru",
+            "Subhas Chandra Bose",
+            "Vallabhbhai Patel"
+          ],
+          "explanation": "Jawaharlal Nehru presided over the 44th Indian National Congress session held at Lahore in 1929."
+        },
+        "te": {
+          "question": "1929లో లాహోర్‌లో జరిగిన భారత జాతీయ కాంగ్రెస్ సమావేశానికి అధ్యక్షత వహించినది ఎవరు?",
+          "options": [
+            "జవహర్‌లాల్ నెహ్రూ",
+            "మోతీలాల్ నెహ్రూ",
+            "సుభాష్ చంద్రబోస్",
+            "వల్లభభాయ్ పటేల్"
+          ],
+          "explanation": "1929లో లాహోర్‌లో జరిగిన భారత జాతీయ కాంగ్రెస్ 44వ సమావేశానికి జవహర్‌లాల్ నెహ్రూ అధ్యక్షత వహించారు."
+        }
+      }
+    },
+    {
+      "id": "si5-geography-anamudi-007",
+      "subject": "General Studies",
+      "topic": "Indian geography — Physical features and highest peaks",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Kerala Tourism, Eravikulam National Park: https://www.keralatourism.org/munnar/eravikulam-national-park.php. Syllabus alignment: TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which is the highest peak in South India?",
+          "options": [
+            "Anamudi",
+            "Doddabetta",
+            "Agasthyamalai",
+            "Mullayanagiri"
+          ],
+          "explanation": "Anamudi, in Kerala's Eravikulam National Park, is the highest peak in South India."
+        },
+        "te": {
+          "question": "దక్షిణ భారతదేశంలో అత్యంత ఎత్తైన శిఖరం ఏది?",
+          "options": [
+            "ఆనముడి",
+            "దొడ్డబెట్ట",
+            "అగస్త్యమలై",
+            "ముల్లయనగిరి"
+          ],
+          "explanation": "కేరళలోని ఎరవికుళం జాతీయ ఉద్యానవనంలో ఉన్న ఆనముడి దక్షిణ భారతదేశంలో అత్యంత ఎత్తైన శిఖరం."
+        }
+      }
+    },
+    {
+      "id": "si5-telangana-trs-008",
+      "subject": "General Studies",
+      "topic": "Telangana Movement — Political mobilisation",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact checked against Government of Telangana, Adilabad District, K. Chandrashekar Rao Profile: https://adilabad.telangana.gov.in/kcr-profile. Syllabus alignment: TGPRB SI 2026 Notification, Preliminary Written Test syllabus, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which political party did K. Chandrashekar Rao float in 2001 to campaign for a separate Telangana State?",
+          "options": [
+            "Telangana Rashtra Samithi",
+            "Telugu Desam Party",
+            "Telangana Jana Samithi",
+            "Praja Rajyam Party"
+          ],
+          "explanation": "K. Chandrashekar Rao floated the Telangana Rashtra Samithi in 2001 to campaign for the creation of a separate Telangana State."
+        },
+        "te": {
+          "question": "ప్రత్యేక తెలంగాణ రాష్ట్ర సాధన కోసం 2001లో కె. చంద్రశేఖర రావు ఏ రాజకీయ పార్టీని స్థాపించారు?",
+          "options": [
+            "తెలంగాణ రాష్ట్ర సమితి",
+            "తెలుగుదేశం పార్టీ",
+            "తెలంగాణ జన సమితి",
+            "ప్రజారాజ్యం పార్టీ"
+          ],
+          "explanation": "ప్రత్యేక తెలంగాణ రాష్ట్ర సాధన కోసం కె. చంద్రశేఖర రావు 2001లో తెలంగాణ రాష్ట్ర సమితిని స్థాపించారు."
+        }
+      }
+    },
+    {
+      "id": "si5-ca-ramsar-total-009",
+      "subject": "General Studies",
+      "topic": "Current affairs — Ramsar Sites in India (October 2026)",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Time-sensitive snapshot: 15 October 2026. Verified against the Convention on Wetlands announcement dated 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list; corroborated by PIB press note posted 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48. Recheck the official list before publication.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "As of 15 October 2026, how many designated Ramsar Sites were there in India?",
+          "options": [
+            "96",
+            "98",
+            "101",
+            "103"
+          ],
+          "explanation": "India's Ramsar network reached 103 sites on 15 October 2026, after Sukhna Wetland and Sauj Jheel were added."
+        },
+        "te": {
+          "question": "2026 అక్టోబర్ 15 నాటికి, భారతదేశంలో ఎన్ని గుర్తింపు పొందిన రామ్‌సర్ ప్రదేశాలు ఉన్నాయి?",
+          "options": [
+            "96",
+            "98",
+            "101",
+            "103"
+          ],
+          "explanation": "సుఖ్నా వెట్‌ల్యాండ్, సౌజ్ జీల్ చేర్చబడిన తర్వాత 2026 అక్టోబర్ 15న భారతదేశంలోని రామ్‌సర్ ప్రదేశాల సంఖ్య 103కు చేరింది."
+        }
+      }
+    },
+    {
+      "id": "si5-ca-sukhna-location-010",
+      "subject": "General Studies",
+      "topic": "Current affairs — Sukhna Wetland designation (October 2026)",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Time-sensitive snapshot: designation announced 15 October 2026. Verified against the Convention on Wetlands announcement dated 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list; corroborated by PIB press note posted 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48. Recheck the official list before publication.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which Union Territory contains Sukhna Wetland, added to the Ramsar List on 15 October 2026?",
+          "options": [
+            "Chandigarh",
+            "Punjab",
+            "Haryana",
+            "Uttarakhand"
+          ],
+          "explanation": "Sukhna Wetland is in Chandigarh. It was one of the two Indian wetlands added to the Ramsar List on 15 October 2026."
+        },
+        "te": {
+          "question": "2026 అక్టోబర్ 15న రామ్‌సర్ జాబితాలో చేర్చబడిన సుఖ్నా వెట్‌ల్యాండ్ ఏ కేంద్రపాలిత ప్రాంతంలో ఉంది?",
+          "options": [
+            "చండీగఢ్",
+            "పంజాబ్",
+            "హర్యానా",
+            "ఉత్తరాఖండ్"
+          ],
+          "explanation": "సుఖ్నా వెట్‌ల్యాండ్ చండీగఢ్‌లో ఉంది. 2026 అక్టోబర్ 15న రామ్‌సర్ జాబితాలో చేర్చిన రెండు భారతీయ ప్రదేశాల్లో ఇది ఒకటి."
+        }
+      }
+    },
+    {
+      "id": "si5-ca-sauj-state-011",
+      "subject": "General Studies",
+      "topic": "Current affairs — Sauj Jheel designation (October 2026)",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Time-sensitive snapshot: designation announced 15 October 2026. Verified against the Convention on Wetlands announcement dated 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list; corroborated by PIB press note posted 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48. Recheck the official list before publication.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Which state is home to Sauj Jheel, designated as a Ramsar Site on 15 October 2026?",
+          "options": [
+            "Bihar",
+            "Uttar Pradesh",
+            "Rajasthan",
+            "Madhya Pradesh"
+          ],
+          "explanation": "Sauj Jheel is in Uttar Pradesh. It was designated alongside Sukhna Wetland on 15 October 2026."
+        },
+        "te": {
+          "question": "2026 అక్టోబర్ 15న రామ్‌సర్ ప్రదేశంగా గుర్తింపు పొందిన సౌజ్ జీల్ ఏ రాష్ట్రంలో ఉంది?",
+          "options": [
+            "బీహార్",
+            "ఉత్తరప్రదేశ్",
+            "రాజస్థాన్",
+            "మధ్యప్రదేశ్"
+          ],
+          "explanation": "సౌజ్ జీల్ ఉత్తరప్రదేశ్ రాష్ట్రంలో ఉంది. 2026 అక్టోబర్ 15న సుఖ్నా వెట్‌ల్యాండ్‌తో పాటు దీనికి కూడా రామ్‌సర్ గుర్తింపు లభించింది."
+        }
+      }
+    },
+    {
+      "id": "si5-ca-consent-manager-framework-012",
+      "subject": "General Studies",
+      "topic": "Current affairs — Consent Manager Registration Framework (November 2026)",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Time-sensitive snapshot: framework effective 13 November 2026; PIB release posted 14 November 2026. Verified against Ministry of Electronics and Information Technology release carried by PIB: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2336151&lang=2&reg=48. Recheck implementation notifications before publication.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "According to the PIB release dated 14 November 2026, on which date did the Consent Manager Registration Framework under the Digital Personal Data Protection Act, 2023 come into effect?",
+          "options": [
+            "1 November 2026",
+            "13 November 2026",
+            "14 November 2026",
+            "1 January 2027"
+          ],
+          "explanation": "The Ministry of Electronics and Information Technology reported that the Consent Manager Registration Framework came into effect on 13 November 2026. The online registration portal was launched on 14 November."
+        },
+        "te": {
+          "question": "2026 నవంబర్ 14నాటి PIB ప్రకటన ప్రకారం, డిజిటల్ వ్యక్తిగత డేటా పరిరక్షణ చట్టం, 2023 కింద Consent Manager Registration Framework ఏ తేదీన అమల్లోకి వచ్చింది?",
+          "options": [
+            "2026 నవంబర్ 1",
+            "2026 నవంబర్ 13",
+            "2026 నవంబర్ 14",
+            "2027 జనవరి 1"
+          ],
+          "explanation": "ఎలక్ట్రానిక్స్ మరియు సమాచార సాంకేతిక మంత్రిత్వ శాఖ ప్రకారం Consent Manager Registration Framework 2026 నవంబర్ 13న అమల్లోకి వచ్చింది. ఆన్‌లైన్ నమోదు పోర్టల్‌ను నవంబర్ 14న ప్రారంభించారు."
+        }
+      }
+    }
+  ]
+}
