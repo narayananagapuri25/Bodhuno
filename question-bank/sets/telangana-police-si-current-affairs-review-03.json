@@ -147,24 +147,24 @@
       "correctOptionIndex": 1,
       "languages": {
         "en": {
-          "question": "A constitutional amendment affecting certain federal provisions must also be ratified by at least what proportion of State Legislatures?",
+          "question": "Under the proviso to Article 368(2), an amendment to any of the provisions listed there requires ratification by at least what proportion of State Legislatures?",
           "options": [
             "One-third",
             "One-half",
             "Two-thirds",
             "All States"
           ],
-          "explanation": "For the provisions listed in the proviso to Article 368(2), ratification is required from the Legislatures of not less than one-half of the States."
+          "explanation": "For amendments to the provisions listed in the proviso to Article 368(2), ratification is required from the Legislatures of not less than one-half of the States."
         },
         "te": {
-          "question": "సంఘీయ వ్యవస్థకు సంబంధించిన కొన్ని రాజ్యాంగ నిబంధనలను సవరించడానికి పార్లమెంటు ఆమోదంతో పాటు కనీసం ఎన్ని రాష్ట్ర శాసనసభల ఆమోదం అవసరం?",
+          "question": "రాజ్యాంగంలోని ఆర్టికల్ 368(2) నిబంధనలో పేర్కొన్న అంశాల్లో దేనినైనా సవరించే రాజ్యాంగ సవరణకు కనీసం ఎన్ని రాష్ట్ర శాసనసభల ఆమోదం అవసరం?",
           "options": [
             "మూడింట ఒక వంతు",
-            "సగం రాష్ట్రాలు",
+            "సగం రాష్ట్రాల శాసనసభలు",
             "మూడింట రెండు వంతులు",
             "అన్ని రాష్ట్రాలు"
           ],
-          "explanation": "ఆర్టికల్ 368(2) నిబంధనలో పేర్కొన్న కొన్ని అంశాల సవరణలకు కనీసం సగం రాష్ట్రాల శాసనసభల ఆమోదం కూడా అవసరం."
+          "explanation": "ఆర్టికల్ 368(2) నిబంధనలో పేర్కొన్న అంశాల సవరణలకు కనీసం సగం రాష్ట్రాల శాసనసభల ఆమోదం అవసరం."
         }
       }
     },
