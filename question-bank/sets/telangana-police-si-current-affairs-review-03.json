@@ -125,14 +125,14 @@
           "explanation": "Article 243G allows a State Legislature, by law, to endow Panchayats with powers and authority as institutions of self-government."
         },
         "te": {
-          "question": "పంచాయతీలు స్వపరిపాలనా సంస్థలుగా పనిచేయడానికి అవసరమైన అధికారాలు, అధికార పరిధిని కల్పించేందుకు రాష్ట్ర శాసనసభకు అధికారం ఇచ్చే రాజ్యాంగ అధికరణం ఏది?",
+          "question": "పంచాయతీలు స్వపరిపాలనా సంస్థలుగా పనిచేయడానికి అవసరమైన అధికారాలు, నిర్ణయాధికారాన్ని కల్పించేలా రాష్ట్ర శాసనసభకు అధికారం ఇచ్చే రాజ్యాంగ అధికరణం ఏది?",
           "options": [
             "ఆర్టికల్ 243D",
             "ఆర్టికల్ 243G",
             "ఆర్టికల్ 280",
             "ఆర్టికల్ 324"
           ],
-          "explanation": "ఆర్టికల్ 243G ప్రకారం రాష్ట్ర శాసనసభ చట్టం ద్వారా పంచాయతీలు స్వపరిపాలనా సంస్థలుగా పనిచేయడానికి అవసరమైన అధికారాలు, అధికార పరిధిని కల్పించవచ్చు."
+          "explanation": "ఆర్టికల్ 243G ప్రకారం రాష్ట్ర శాసనసభ చట్టం ద్వారా పంచాయతీలకు స్వపరిపాలనా సంస్థలుగా పనిచేయడానికి అవసరమైన అధికారాలు, నిర్ణయాధికారాన్ని కల్పించవచ్చు."
         }
       }
     },
@@ -282,7 +282,7 @@
             "Telangana Jana Samithi",
             "Praja Rajyam Party"
           ],
-          "explanation": "K. Chandrashekar Rao floated the Telangana Rashtra Samithi in 2001 to campaign for the creation of a separate Telangana State. The party was later renamed Bharat Rashtra Samithi."
+          "explanation": "K. Chandrashekar Rao floated the Telangana Rashtra Samithi in 2001 to campaign for the creation of a separate Telangana State."
         },
         "te": {
           "question": "ప్రత్యేక తెలంగాణ రాష్ట్ర సాధన కోసం 2001లో కె. చంద్రశేఖర రావు ఏ రాజకీయ పార్టీని స్థాపించారు?",
@@ -292,7 +292,7 @@
             "తెలంగాణ జన సమితి",
             "ప్రజారాజ్యం పార్టీ"
           ],
-          "explanation": "ప్రత్యేక తెలంగాణ రాష్ట్ర సాధన కోసం కె. చంద్రశేఖర రావు 2001లో తెలంగాణ రాష్ట్ర సమితిని స్థాపించారు. ఆ పార్టీకి తర్వాత భారత రాష్ట్ర సమితి అని పేరు మార్చారు."
+          "explanation": "ప్రత్యేక తెలంగాణ రాష్ట్ర సాధన కోసం కె. చంద్రశేఖర రావు 2001లో తెలంగాణ రాష్ట్ర సమితిని స్థాపించారు."
         }
       }
     },
@@ -307,7 +307,7 @@
       "correctOptionIndex": 3,
       "languages": {
         "en": {
-          "question": "As of 15 October 2026, how many Ramsar Sites were designated in India?",
+          "question": "As of 15 October 2026, how many designated Ramsar Sites were there in India?",
           "options": [
             "96",
             "98",
@@ -317,7 +317,7 @@
           "explanation": "India's Ramsar network reached 103 sites on 15 October 2026, after Sukhna Wetland and Sauj Jheel were added."
         },
         "te": {
-          "question": "2026 అక్టోబర్ 15 నాటికి, భారతదేశంలో మొత్తం ఎన్ని రామ్‌సర్ ప్రదేశాలు ఉన్నాయి?",
+          "question": "2026 అక్టోబర్ 15 నాటికి, భారతదేశంలో ఎన్ని గుర్తింపు పొందిన రామ్‌సర్ ప్రదేశాలు ఉన్నాయి?",
           "options": [
             "96",
             "98",
