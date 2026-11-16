@@ -1,0 +1,429 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-constable-current-affairs-review-03",
+  "title": "Telangana Police Constable — Syllabus & Current Affairs Review Set 03 (November 2026)",
+  "version": 1,
+  "workflowStatus": "review",
+  "sourceType": "original_practice",
+  "sourceReference": "12 original bilingual Constable practice questions covering English, sound, the new evidence law and Ramsar-related current affairs. Syllabus alignment uses the TGPRB PC 2026 notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Current-affairs snapshot includes official material dated 15 and 25 October 2026. This is not an official previous-year paper or a complete mock. All items remain in review pending independent subject-matter and Telugu-language approval.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-constable",
+    "telangana-police-2026",
+    "preliminary-written-test",
+    "syllabus-expansion",
+    "current-affairs",
+    "review"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB PC 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "TGPRB PC 2026 Notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+      "British Council LearnEnglish grammar resources: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/verbs-prepositions; https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/active-passive-voice; https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-statements; https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas; https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/how-we-make-adverbials",
+      "Cambridge English Dictionary: https://dictionary.cambridge.org/dictionary/english/in-the-nick-of-time; https://dictionary.cambridge.org/dictionary/english/ambidextrous",
+      "NCERT School Science, “Foundation of Acoustics” (September 2006): https://www.ncert.nic.in/pdf/publication/journalsandperiodicals/schoolscience/school_science_Sep06.pdf",
+      "NCERT Grade 9 Science syllabus, “Sound” topic (2026): https://ncert.nic.in/pdf/announcement/Syllabus_Secondary_Stage_Phase_I_Grade_9_Part_2.pdf",
+      "Bharatiya Sakshya Adhiniyam, 2023, India Code: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20063/1/aa202347.pdf",
+      "Ministry of Home Affairs advisory, 30 April 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf",
+      "Convention on Wetlands announcement, 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list",
+      "Press Information Bureau note, 25 October 2026: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48"
+    ],
+    "practiceNote": "12 original bilingual practice questions. Review-only; check English grammar level, science terminology and Telugu translation before any publication. Not a full-length mock."
+  },
+  "questions": [
+    {
+      "id": "pc5-english-preposition-001",
+      "subject": "English",
+      "topic": "English — Verbs and prepositions",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English practice item. Grammar usage checked against British Council LearnEnglish, “Verbs and prepositions”: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/verbs-prepositions. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Choose the correct preposition: The inquiry depends ___ reliable records.",
+          "options": [
+            "at",
+            "for",
+            "on",
+            "with"
+          ],
+          "explanation": "The verb phrase is “depend on”. The correct sentence is: “The inquiry depends on reliable records.”"
+        },
+        "te": {
+          "question": "సరైన prepositionను ఎంచుకోండి: The inquiry depends ___ reliable records.",
+          "options": [
+            "at",
+            "for",
+            "on",
+            "with"
+          ],
+          "explanation": "“Depend on” అనేది సరైన క్రియ–preposition కలయిక. కాబట్టి “on” సరైన సమాధానం."
+        }
+      }
+    },
+    {
+      "id": "pc5-english-passive-002",
+      "subject": "English",
+      "topic": "English — Active and passive voice",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English practice item. Grammar rule checked against British Council LearnEnglish, “Active and passive voice”: https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/active-passive-voice. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Choose the correct passive form of: “The patrol team collected the evidence.”",
+          "options": [
+            "The evidence collected the patrol team.",
+            "The evidence was collected by the patrol team.",
+            "The evidence is collecting by the patrol team.",
+            "The patrol team was collected by the evidence."
+          ],
+          "explanation": "In the passive form, the object becomes the subject and the verb takes “be + past participle”: “The evidence was collected by the patrol team.”"
+        },
+        "te": {
+          "question": "ఈ వాక్యానికి సరైన కర్మణి ప్రయోగ రూపాన్ని ఎంచుకోండి: “The patrol team collected the evidence.”",
+          "options": [
+            "The evidence collected the patrol team.",
+            "The evidence was collected by the patrol team.",
+            "The evidence is collecting by the patrol team.",
+            "The patrol team was collected by the evidence."
+          ],
+          "explanation": "కర్మణి ప్రయోగంలో కర్మ subjectగా మారుతుంది. Simple pastలో “was + past participle” వాడాలి: “The evidence was collected by the patrol team.”"
+        }
+      }
+    },
+    {
+      "id": "pc5-english-reported-speech-003",
+      "subject": "English",
+      "topic": "English — Reported speech",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English practice item. Grammar rule checked against British Council LearnEnglish, “Reported speech: statements”: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-statements. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Choose the correct reported form of: Maya said, “I am ready.”",
+          "options": [
+            "Maya said that I am ready.",
+            "Maya said that she is ready.",
+            "Maya said that she was ready.",
+            "Maya told that she was ready."
+          ],
+          "explanation": "With a past reporting verb, “am” normally shifts to “was” in reported speech, and “I” changes to “she” because Maya is speaking."
+        },
+        "te": {
+          "question": "ఈ ప్రత్యక్ష వాక్యానికి సరైన పరోక్ష వాక్య రూపాన్ని ఎంచుకోండి: Maya said, “I am ready.”",
+          "options": [
+            "Maya said that I am ready.",
+            "Maya said that she is ready.",
+            "Maya said that she was ready.",
+            "Maya told that she was ready."
+          ],
+          "explanation": "Reporting verb గతకాలంలో ఉంది కాబట్టి reported speechలో “am” సాధారణంగా “was”గా మారుతుంది. Maya తన గురించి చెప్పినందున “I” స్థానంలో “she” వస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "pc5-english-conjunction-004",
+      "subject": "English",
+      "topic": "English — Conjunctions expressing contrast",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English practice item. Usage checked against British Council LearnEnglish, “Contrasting ideas”: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Choose the conjunction that best completes the sentence: “___ the road was flooded, the patrol team reached the village.”",
+          "options": [
+            "Because",
+            "Although",
+            "Unless",
+            "Therefore"
+          ],
+          "explanation": "“Although” introduces a contrast: despite the flooded road, the patrol team reached the village."
+        },
+        "te": {
+          "question": "ఈ వాక్యాన్ని సరైన conjunctionతో పూర్తి చేయండి: “___ the road was flooded, the patrol team reached the village.”",
+          "options": [
+            "Because",
+            "Although",
+            "Unless",
+            "Therefore"
+          ],
+          "explanation": "“Although” విరుద్ధ భావాన్ని సూచిస్తుంది. రహదారి వరదలో ఉన్నప్పటికీ గస్తీ బృందం గ్రామానికి చేరుకుంది."
+        }
+      }
+    },
+    {
+      "id": "pc5-english-adverb-005",
+      "subject": "English",
+      "topic": "English — Adverbs of manner",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English practice item. Grammar usage checked against British Council LearnEnglish, “How we make adverbials”: https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/how-we-make-adverbials. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "In the sentence “The officer responded calmly to the complaint”, which word tells us how the officer responded?",
+          "options": [
+            "calm",
+            "calmly",
+            "calmness",
+            "calming"
+          ],
+          "explanation": "“Calmly” is an adverb of manner. It describes how the officer responded."
+        },
+        "te": {
+          "question": "“The officer responded calmly to the complaint” అనే వాక్యంలో అధికారి ఎలా స్పందించారో తెలిపే పదం ఏది?",
+          "options": [
+            "calm",
+            "calmly",
+            "calmness",
+            "calming"
+          ],
+          "explanation": "“Calmly” అనేది క్రియావిశేషణం. అధికారి ఎలా స్పందించారో ఇది తెలియజేస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "pc5-english-idiom-006",
+      "subject": "English",
+      "topic": "English — Idioms and phrases",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English practice item. Meaning checked against Cambridge English Dictionary, “in the nick of time”: https://dictionary.cambridge.org/dictionary/english/in-the-nick-of-time. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "The ambulance arrived “in the nick of time”. What does the phrase mean?",
+          "options": [
+            "At the last possible moment",
+            "Much earlier than planned",
+            "Without any warning",
+            "After a long delay"
+          ],
+          "explanation": "“In the nick of time” means at the last possible moment, just before it is too late."
+        },
+        "te": {
+          "question": "అంబులెన్స్ “in the nick of time” చేరుకుంది. ఈ పదబంధం అర్థం ఏమిటి?",
+          "options": [
+            "చివరి సాధ్యమైన క్షణంలో",
+            "అనుకున్నదానికంటే చాలా ముందుగా",
+            "ఎలాంటి హెచ్చరిక లేకుండా",
+            "చాలా ఆలస్యంగా"
+          ],
+          "explanation": "“In the nick of time” అంటే ఆలస్యం అయితే అవకాశం కోల్పోయే చివరి క్షణంలో లేదా సమయానికి చేరుకోవడం."
+        }
+      }
+    },
+    {
+      "id": "pc5-english-ambidextrous-007",
+      "subject": "English",
+      "topic": "English — Vocabulary",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English practice item. Meaning checked against Cambridge English Dictionary, “ambidextrous”: https://dictionary.cambridge.org/dictionary/english/ambidextrous. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What word describes a person who can use both hands equally well?",
+          "options": [
+            "Bilingual",
+            "Ambidextrous",
+            "Anonymous",
+            "Amphibious"
+          ],
+          "explanation": "“Ambidextrous” describes a person who can use both the right and left hands equally well."
+        },
+        "te": {
+          "question": "రెండు చేతులను సమాన నైపుణ్యంతో ఉపయోగించగల వ్యక్తిని ఏమని అంటారు?",
+          "options": [
+            "Bilingual",
+            "Ambidextrous",
+            "Anonymous",
+            "Amphibious"
+          ],
+          "explanation": "“Ambidextrous” అనే పదం కుడి, ఎడమ చేతులను సమాన నైపుణ్యంతో ఉపయోగించగల వ్యక్తిని సూచిస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "pc5-science-sound-frequency-008",
+      "subject": "General Science",
+      "topic": "General Science — Sound and frequency",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original science practice item. Fact checked against NCERT School Science, “Foundation of Acoustics” (September 2006): https://www.ncert.nic.in/pdf/publication/journalsandperiodicals/schoolscience/school_science_Sep06.pdf. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What is the SI unit used to measure the frequency of a sound wave?",
+          "options": [
+            "Decibel",
+            "Hertz",
+            "Metre",
+            "Watt"
+          ],
+          "explanation": "Frequency is measured in hertz (Hz). One hertz represents one cycle per second."
+        },
+        "te": {
+          "question": "ధ్వని తరంగాల ఆవృత్తిని కొలిచే SI ప్రమాణం ఏది?",
+          "options": [
+            "డెసిబెల్",
+            "హెర్ట్జ్",
+            "మీటర్",
+            "వాట్"
+          ],
+          "explanation": "ఆవృత్తి యొక్క SI ప్రమాణం హెర్ట్జ్ (Hz). ఒక హెర్ట్జ్ అంటే సెకనుకు ఒక చక్రం."
+        }
+      }
+    },
+    {
+      "id": "pc5-science-longitudinal-sound-009",
+      "subject": "General Science",
+      "topic": "General Science — Sound waves",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original science practice item. Fact checked against NCERT Grade 9 Science syllabus, “Sound” topic (2026 secondary-stage syllabus): https://ncert.nic.in/pdf/announcement/Syllabus_Secondary_Stage_Phase_I_Grade_9_Part_2.pdf. Syllabus alignment: TGPRB PC 2026 Notification, Annexure II, page 44: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What type of waves are sound waves in air?",
+          "options": [
+            "Transverse waves",
+            "Longitudinal waves",
+            "Electromagnetic waves",
+            "Stationary waves"
+          ],
+          "explanation": "Sound travels through air as a longitudinal wave: air particles vibrate parallel to the direction in which the wave travels."
+        },
+        "te": {
+          "question": "గాలిలో ధ్వని తరంగాలు సాధారణంగా ఏ రకమైన తరంగాలు?",
+          "options": [
+            "అడ్డ తరంగాలు",
+            "అనుదైర్ఘ్య తరంగాలు",
+            "విద్యుదయస్కాంత తరంగాలు",
+            "స్థిర తరంగాలు"
+          ],
+          "explanation": "గాలిలో ధ్వని అనుదైర్ఘ్య తరంగాల రూపంలో వ్యాపిస్తుంది. గాలి కణాలు తరంగం ప్రయాణించే దిశకు సమాంతరంగా కంపిస్తాయి."
+        }
+      }
+    },
+    {
+      "id": "pc5-law-bsa-replacement-010",
+      "subject": "General Studies",
+      "topic": "New criminal laws — Bharatiya Sakshya Adhiniyam",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Verified against the Bharatiya Sakshya Adhiniyam, 2023, India Code: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20063/1/aa202347.pdf; and Ministry of Home Affairs advisory dated 30 April 2024: https://www.mha.gov.in/sites/default/files/Advisory_01052024.pdf. Syllabus alignment: https://doc.tgprb.in/PC+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Which earlier law was replaced by the Bharatiya Sakshya Adhiniyam, 2023?",
+          "options": [
+            "Indian Penal Code, 1860",
+            "Code of Criminal Procedure, 1973",
+            "Indian Evidence Act, 1872",
+            "Police Act, 1861"
+          ],
+          "explanation": "The Bharatiya Sakshya Adhiniyam, 2023 replaced the Indian Evidence Act, 1872 and provides the general rules and principles of evidence."
+        },
+        "te": {
+          "question": "భారతీయ సాక్ష్య అధినియమం, 2023 ఏ పాత చట్టాన్ని భర్తీ చేసింది?",
+          "options": [
+            "భారతీయ శిక్షాస్మృతి, 1860",
+            "క్రిమినల్ ప్రొసీజర్ కోడ్, 1973",
+            "ఇండియన్ ఎవిడెన్స్ యాక్ట్, 1872",
+            "పోలీస్ యాక్ట్, 1861"
+          ],
+          "explanation": "భారతీయ సాక్ష్య అధినియమం, 2023 అనేది 1872 నాటి ఇండియన్ ఎవిడెన్స్ యాక్ట్‌కు బదులుగా వచ్చిన సాక్ష్య నియమాలకు సంబంధించిన చట్టం."
+        }
+      }
+    },
+    {
+      "id": "pc5-ca-sauj-river-011",
+      "subject": "General Studies",
+      "topic": "Current affairs — Sauj Jheel and Ganga floodplain (October 2026)",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Time-sensitive snapshot: designation announced 15 October 2026. Verified against the Convention on Wetlands announcement dated 15 October 2026: https://www.ramsar.org/news/india-adds-two-more-wetlands-international-importance-list. Recheck the official list before publication.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Sauj Jheel, added to the Ramsar List on 15 October 2026, lies in the floodplain of which river?",
+          "options": [
+            "Godavari",
+            "Ganga",
+            "Narmada",
+            "Brahmaputra"
+          ],
+          "explanation": "The Ramsar Secretariat describes Sauj Jheel in Uttar Pradesh as a shallow lake in the floodplain of the Ganga River."
+        },
+        "te": {
+          "question": "2026 అక్టోబర్ 15న రామ్‌సర్ జాబితాలో చేర్చబడిన సౌజ్ జీల్ ఏ నది వరద మైదానంలో ఉంది?",
+          "options": [
+            "గోదావరి",
+            "గంగా",
+            "నర్మదా",
+            "బ్రహ్మపుత్ర"
+          ],
+          "explanation": "రామ్‌సర్ కార్యదర్శిత్వం ప్రకారం ఉత్తరప్రదేశ్‌లోని సౌజ్ జీల్ గంగా నది వరద మైదానంలో ఉన్న ఒక లోతు తక్కువ సరస్సు."
+        }
+      }
+    },
+    {
+      "id": "pc5-ca-first-ramsar-sites-012",
+      "subject": "General Studies",
+      "topic": "Current affairs — India's first Ramsar Sites",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original Bodhuno practice item. Fact verified against PIB press note posted 25 October 2026, “Ramsar Sites in India”: https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48. Recheck the source before publication if the dated current-affairs framing is changed.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Which pair became India's first Ramsar Sites on 1 October 1981?",
+          "options": [
+            "Chilika Lake and Keoladeo National Park",
+            "Sukhna Wetland and Sauj Jheel",
+            "Loktak Lake and Wular Lake",
+            "Nalsarovar and Deepor Beel"
+          ],
+          "explanation": "Chilika Lake in Odisha and Keoladeo National Park in Rajasthan were India's first Ramsar Sites, designated on 1 October 1981."
+        },
+        "te": {
+          "question": "1981 అక్టోబర్ 1న భారతదేశపు తొలి రామ్‌సర్ ప్రదేశాలుగా గుర్తింపు పొందిన జంట ఏది?",
+          "options": [
+            "చిలికా సరస్సు మరియు కియోలాడియో జాతీయ ఉద్యానవనం",
+            "సుఖ్నా వెట్‌ల్యాండ్ మరియు సౌజ్ జీల్",
+            "లోక్తక్ సరస్సు మరియు వులర్ సరస్సు",
+            "నల్సరోవర్ మరియు దీపోర్ బీల్"
+          ],
+          "explanation": "ఒడిశాలోని చిలికా సరస్సు, రాజస్థాన్‌లోని కియోలాడియో జాతీయ ఉద్యానవనం 1981 అక్టోబర్ 1న భారతదేశపు తొలి రామ్‌సర్ ప్రదేశాలుగా గుర్తించబడ్డాయి."
+        }
+      }
+    }
+  ]
+}
