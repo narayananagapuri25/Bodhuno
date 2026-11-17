@@ -1,0 +1,364 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-si-review-04-2026-11-17",
+  "title": "Telangana Police SI — Balanced PWT Practice Review Set 04 (17 November 2026)",
+  "version": 1,
+  "workflowStatus": "review",
+  "sourceType": "original_practice",
+  "sourceReference": "10 original bilingual Police SI PWT practice questions sampling current affairs, Indian polity, Telangana history, Indian geography, arithmetic and spatial reasoning. Syllabus alignment: TGPRB SI 2026 PWT, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf Time-sensitive facts are dated 10, 12 and 16 November 2026, including the ICC meeting scheduled for 17–20 November. All questions remain review-only and are not registered in the catalogue.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-si",
+    "telangana-police-2026",
+    "preliminary-written-test",
+    "balanced-practice",
+    "current-affairs",
+    "review"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB SI 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf",
+      "https://www.isro.gov.in/ISRO_EN/Cryogenic_engine_test_GSLV.html",
+      "https://www.mospi.gov.in/uploads/release_calendar/1794480152014_Press_Release_of_CPI_for_October_2026_.pdf",
+      "https://www.rbi.org.in/scriptS/BS_PressReleaseDisplay.aspx?prid=63979",
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336892",
+      "https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf",
+      "https://yadadri.telangana.gov.in/about-district/",
+      "https://ncert.nic.in/textbook/pdf/iess101.pdf"
+    ]
+  },
+  "practiceNote": "10 original bilingual SI PWT practice questions. This is a short review sample, not a full mock or complete syllabus paper. Recheck dated current-affairs facts before publication. Review-only.",
+  "questions": [
+    {
+      "id": "si6-current-isro-cryogenic-test-001",
+      "subject": "General Studies",
+      "topic": "Current events — ISRO and space technology",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "ISRO release dated 10 November 2026; test conducted 5 November 2026: https://www.isro.gov.in/ISRO_EN/Cryogenic_engine_test_GSLV.html Syllabus alignment: TGPRB SI 2026 PWT, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "According to ISRO's release dated 10 November 2026, how long did the flight-acceptance test of the cryogenic engine for GSLV-F19 run?",
+          "options": [
+            "100 seconds",
+            "150 seconds",
+            "200 seconds",
+            "250 seconds"
+          ],
+          "explanation": "ISRO reported that the cryogenic engine test, conducted on 5 November 2026 at IPRC Mahendragiri, lasted 200 seconds. The engine is intended for the GSLV-F19 cryogenic stage."
+        },
+        "te": {
+          "question": "ISRO 2026 నవంబర్ 10న విడుదల చేసిన ప్రకటన ప్రకారం, GSLV-F19 కోసం క్రయోజెనిక్ ఇంజిన్‌కు నిర్వహించిన ఫ్లైట్ అంగీకార పరీక్ష ఎంతసేపు కొనసాగింది?",
+          "options": [
+            "100 సెకన్లు",
+            "150 సెకన్లు",
+            "200 సెకన్లు",
+            "250 సెకన్లు"
+          ],
+          "explanation": "ISRO ప్రకారం 2026 నవంబర్ 5న మహేంద్రగిరిలోని IPRC పరీక్షా కేంద్రంలో ఈ పరీక్ష 200 సెకన్లు కొనసాగింది. ఈ ఇంజిన్ GSLV-F19 క్రయోజెనిక్ దశలో ఉపయోగించబడుతుంది."
+        }
+      }
+    },
+    {
+      "id": "si6-current-cpi-oct-2026-002",
+      "subject": "General Studies",
+      "topic": "Indian economy — Consumer Price Index",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "MoSPI CPI release for October 2026, dated 12 November 2026, page 1: https://www.mospi.gov.in/uploads/release_calendar/1794480152014_Press_Release_of_CPI_for_October_2026_.pdf Syllabus alignment: TGPRB SI 2026 PWT, Annexure II, page 42 (Indian Economy / current events): https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "In MoSPI's provisional CPI release dated 12 November 2026, what was the all-India combined CPI inflation rate for October 2026 (base year 2024=100)?",
+          "options": [
+            "5.09%",
+            "5.54%",
+            "6.09%",
+            "8.94%"
+          ],
+          "explanation": "MoSPI reported provisional all-India combined CPI inflation of 6.09% for October 2026. The 8.94% figure in the same release was food inflation, not headline CPI inflation."
+        },
+        "te": {
+          "question": "MoSPI 2026 నవంబర్ 12న విడుదల చేసిన తాత్కాలిక CPI ప్రకటన ప్రకారం, 2024=100 ఆధార సంవత్సరంతో 2026 అక్టోబర్‌లో దేశవ్యాప్త సంయుక్త CPI ద్రవ్యోల్బణం ఎంత?",
+          "options": [
+            "5.09%",
+            "5.54%",
+            "6.09%",
+            "8.94%"
+          ],
+          "explanation": "MoSPI 2026 అక్టోబర్‌కు దేశవ్యాప్త సంయుక్త CPI ద్రవ్యోల్బణాన్ని తాత్కాలికంగా 6.09%గా ప్రకటించింది. అదే ప్రకటనలో 8.94% అనేది ఆహార ద్రవ్యోల్బణం; మొత్తం CPI ద్రవ్యోల్బణం కాదు."
+        }
+      }
+    },
+    {
+      "id": "si6-current-rbi-nbfc-cors-003",
+      "subject": "General Studies",
+      "topic": "Indian economy — RBI regulation of NBFCs",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "RBI Press Release dated 16 November 2026, “RBI cancels Certificate of Registration of 49 NBFCs”: https://www.rbi.org.in/scriptS/BS_PressReleaseDisplay.aspx?prid=63979 Syllabus alignment: TGPRB SI 2026 PWT, Annexure II, page 42 (Indian Polity and Economy / current events): https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "The RBI's announcement dated 16 November 2026 stated that it cancelled the Certificates of Registration of 49 NBFCs under which provision?",
+          "options": [
+            "Section 45-IA(6) of the Reserve Bank of India Act, 1934",
+            "Section 10 of the Banking Regulation Act, 1949",
+            "Article 280 of the Constitution",
+            "Section 3 of the Companies Act, 2013"
+          ],
+          "explanation": "The RBI stated that it exercised powers under Section 45-IA(6) of the Reserve Bank of India Act, 1934 to cancel the Certificates of Registration of 49 NBFCs."
+        },
+        "te": {
+          "question": "2026 నవంబర్ 16న RBI 49 NBFCల రిజిస్ట్రేషన్ సర్టిఫికెట్లను రద్దు చేసినట్లు ప్రకటించింది. ఈ చర్యకు ఏ నిబంధనను ఉపయోగించింది?",
+          "options": [
+            "రిజర్వ్ బ్యాంక్ ఆఫ్ ఇండియా చట్టం, 1934లోని సెక్షన్ 45-IA(6)",
+            "బ్యాంకింగ్ నియంత్రణ చట్టం, 1949లోని సెక్షన్ 10",
+            "రాజ్యాంగంలోని ఆర్టికల్ 280",
+            "కంపెనీల చట్టం, 2013లోని సెక్షన్ 3"
+          ],
+          "explanation": "49 NBFCల రిజిస్ట్రేషన్ సర్టిఫికెట్లను రద్దు చేయడానికి రిజర్వ్ బ్యాంక్ ఆఫ్ ఇండియా చట్టం, 1934లోని సెక్షన్ 45-IA(6) కింద తనకు ఉన్న అధికారాలను RBI వినియోగించినట్లు ప్రకటించింది."
+        }
+      }
+    },
+    {
+      "id": "si6-current-icc-kochi-004",
+      "subject": "General Studies",
+      "topic": "Current events — International Coconut Community",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "PIB / Ministry of Agriculture & Farmers Welfare release dated 16 November 2026: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336892 Syllabus alignment: TGPRB SI 2026 PWT, Annexure II, page 42 (current events): https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "India is hosting the 62nd Session and Ministerial Meeting of the International Coconut Community from 17 to 20 November 2026 in which city?",
+          "options": [
+            "Kochi",
+            "Panaji",
+            "Chennai",
+            "Visakhapatnam"
+          ],
+          "explanation": "The Ministry of Agriculture and Farmers Welfare announced on 16 November 2026 that the four-day International Coconut Community meeting would be held in Kochi, Kerala, from 17 to 20 November."
+        },
+        "te": {
+          "question": "2026 నవంబర్ 17 నుంచి 20 వరకు అంతర్జాతీయ కొబ్బరి సమాఖ్య (ICC) 62వ సమావేశం మరియు మంత్రుల స్థాయి సమావేశాన్ని భారత్ ఏ నగరంలో నిర్వహిస్తోంది?",
+          "options": [
+            "కొచ్చి",
+            "పనాజీ",
+            "చెన్నై",
+            "విశాఖపట్నం"
+          ],
+          "explanation": "వ్యవసాయ మరియు రైతు సంక్షేమ మంత్రిత్వ శాఖ 2026 నవంబర్ 16న విడుదల చేసిన ప్రకటన ప్రకారం, అంతర్జాతీయ కొబ్బరి సమాఖ్య సమావేశం నవంబర్ 17 నుంచి 20 వరకు కేరళలోని కొచ్చిలో జరుగుతుంది."
+        }
+      }
+    },
+    {
+      "id": "si6-polity-article-243k-005",
+      "subject": "General Studies",
+      "topic": "Indian polity — Article 243K and Panchayat elections",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Constitution of India, Legislative Department, Article 243K — Elections to the Panchayats: https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf Syllabus alignment: TGPRB SI 2026 PWT, Annexure II, page 42 (Indian Polity): https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Under Article 243K, which body has superintendence, direction and control over the preparation of electoral rolls for and conduct of Panchayat elections?",
+          "options": [
+            "State Election Commission",
+            "Election Commission of India",
+            "Union Public Service Commission",
+            "State Public Service Commission"
+          ],
+          "explanation": "Article 243K vests these functions in the State Election Commission. This provision concerns Panchayat elections; Article 324 covers elections to Parliament, State Legislatures, and the offices of President and Vice-President."
+        },
+        "te": {
+          "question": "ఆర్టికల్ 243K ప్రకారం పంచాయతీ ఎన్నికల ఓటరు జాబితాల తయారీ మరియు ఎన్నికల నిర్వహణపై పర్యవేక్షణ, దిశానిర్దేశం, నియంత్రణ ఏ సంస్థకు ఉంటుంది?",
+          "options": [
+            "రాష్ట్ర ఎన్నికల సంఘం",
+            "భారత ఎన్నికల సంఘం",
+            "కేంద్ర పబ్లిక్ సర్వీస్ కమిషన్",
+            "రాష్ట్ర పబ్లిక్ సర్వీస్ కమిషన్"
+          ],
+          "explanation": "ఆర్టికల్ 243K ఈ అధికారాలను రాష్ట్ర ఎన్నికల సంఘానికి అప్పగిస్తుంది. ఇది పంచాయతీ ఎన్నికలకు సంబంధించిన నిబంధన; ఆర్టికల్ 324 పార్లమెంట్, రాష్ట్ర శాసనసభలు మరియు రాష్ట్రపతి, ఉపరాష్ట్రపతి ఎన్నికలకు సంబంధించినది."
+        }
+      }
+    },
+    {
+      "id": "si6-telangana-bhoodan-pochampally-006",
+      "subject": "General Studies",
+      "topic": "Telangana history — Bhoodan Movement",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Government of Telangana, Yadadri Bhuvanagiri District, “About District” (last updated 15 October 2026): https://yadadri.telangana.gov.in/about-district/ Syllabus alignment: TGPRB SI 2026 PWT, Annexure II, page 42 (Telangana context and history): https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "At which Telangana village did Vinoba Bhave launch the Bhoodan (land-donation) Movement in 1951?",
+          "options": [
+            "Pochampally",
+            "Alampur",
+            "Warangal",
+            "Bhadrachalam"
+          ],
+          "explanation": "The Yadadri Bhuvanagiri District Administration identifies Bhoodan Pochampally as the birthplace of the 1951 Bhoodan Movement led by Vinoba Bhave."
+        },
+        "te": {
+          "question": "వినోబా భావే 1951లో భూదాన ఉద్యమాన్ని తెలంగాణలోని ఏ గ్రామంలో ప్రారంభించారు?",
+          "options": [
+            "పోచంపల్లి",
+            "ఆలంపూర్",
+            "వరంగల్",
+            "భద్రాచలం"
+          ],
+          "explanation": "యాదాద్రి భువనగిరి జిల్లా అధికారిక వెబ్‌సైట్ ప్రకారం, వినోబా భావే నాయకత్వంలో 1951లో ప్రారంభమైన భూదాన ఉద్యమానికి పోచంపల్లి పుట్టినిల్లు."
+        }
+      }
+    },
+    {
+      "id": "si6-geography-standard-meridian-007",
+      "subject": "General Studies",
+      "topic": "Indian geography — Standard Meridian of India",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "NCERT, Contemporary India-I, Chapter 1 “India — Size and Location”, reprint 2025–26: https://ncert.nic.in/textbook/pdf/iess101.pdf Syllabus alignment: TGPRB SI 2026 PWT, Annexure II, page 42 (Principles of Geography / Geography of India): https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Which longitude is used as the Standard Meridian of India for Indian Standard Time?",
+          "options": [
+            "68°7′ E",
+            "75° E",
+            "82°30′ E",
+            "97°25′ E"
+          ],
+          "explanation": "India uses 82°30′ east longitude as its Standard Meridian. NCERT notes that it passes through Mirzapur in Uttar Pradesh and is used to determine the standard time for the whole country."
+        },
+        "te": {
+          "question": "భారత ప్రామాణిక కాలం (IST) నిర్ణయించడానికి ఉపయోగించే ప్రామాణిక రేఖాంశం ఏది?",
+          "options": [
+            "68°7′ తూర్పు",
+            "75° తూర్పు",
+            "82°30′ తూర్పు",
+            "97°25′ తూర్పు"
+          ],
+          "explanation": "భారతదేశం 82°30′ తూర్పు రేఖాంశాన్ని ప్రామాణిక రేఖాంశంగా ఉపయోగిస్తుంది. ఇది ఉత్తరప్రదేశ్‌లోని మీర్జాపూర్ గుండా వెళ్తుందని NCERT పేర్కొంటుంది."
+        }
+      }
+    },
+    {
+      "id": "si6-arithmetic-partnership-008",
+      "subject": "Arithmetic",
+      "topic": "Arithmetic — Partnership",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original arithmetic practice problem. Partnership is listed in the TGPRB SI 2026 PWT Arithmetic syllabus, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "A and B invest ₹18,000 and ₹24,000 respectively in a business. A keeps the money invested for 8 months and B for 6 months. If the total profit is ₹9,000, what is A's share?",
+          "options": [
+            "₹3,000",
+            "₹4,000",
+            "₹4,500",
+            "₹5,000"
+          ],
+          "explanation": "Profit is divided in the ratio of capital multiplied by time: A:B = 18,000×8 : 24,000×6 = 144,000:144,000 = 1:1. A receives half of ₹9,000, which is ₹4,500."
+        },
+        "te": {
+          "question": "A మరియు B ఒక వ్యాపారంలో వరుసగా ₹18,000 మరియు ₹24,000 పెట్టుబడి పెట్టారు. A 8 నెలలు, B 6 నెలలు పెట్టుబడి ఉంచారు. మొత్తం లాభం ₹9,000 అయితే A వాటా ఎంత?",
+          "options": [
+            "₹3,000",
+            "₹4,000",
+            "₹4,500",
+            "₹5,000"
+          ],
+          "explanation": "లాభాన్ని పెట్టుబడి × కాలం నిష్పత్తిలో పంచాలి. A:B = 18,000×8 : 24,000×6 = 1:1. కాబట్టి ₹9,000లో సగం అయిన ₹4,500 Aకు వస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "si6-arithmetic-digit-reversal-009",
+      "subject": "Arithmetic",
+      "topic": "Arithmetic — Number system and digit problems",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original number-system practice problem. Number System is listed in the TGPRB SI 2026 PWT Arithmetic syllabus, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "A two-digit number has digits whose sum is 11. Reversing the digits increases the number by 27. What is the original number?",
+          "options": [
+            "38",
+            "47",
+            "56",
+            "74"
+          ],
+          "explanation": "Let the tens digit be x and the units digit be y. Then x+y=11 and 9(y−x)=27, so y−x=3. Solving gives x=4 and y=7; the original number is 47."
+        },
+        "te": {
+          "question": "రెండు అంకెల సంఖ్యలో అంకెల మొత్తం 11. అంకెల స్థానాలను మార్చినప్పుడు సంఖ్య 27 పెరుగుతుంది. అసలు సంఖ్య ఏది?",
+          "options": [
+            "38",
+            "47",
+            "56",
+            "74"
+          ],
+          "explanation": "పదుల అంకెను x, ఒకట్ల అంకెను y అనుకుందాం. x+y=11; స్థానాలు మార్చినప్పుడు వచ్చే తేడా 9(y−x)=27. కాబట్టి y−x=3. వీటిని పరిష్కరిస్తే x=4, y=7; అసలు సంఖ్య 47."
+        }
+      }
+    },
+    {
+      "id": "si6-reasoning-cube-opposite-faces-010",
+      "subject": "Test of Reasoning / Mental Ability",
+      "topic": "Reasoning — Spatial visualization and cube faces",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original spatial-visualization practice item. Spatial visualization is included in the TGPRB SI 2026 PWT Test of Reasoning syllabus, Annexure II, page 42: https://www.tgprb.in/SI_PC_2026/SI%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 3,
+      "languages": {
+        "en": {
+          "question": "A cube has opposite face pairs red/blue, green/yellow, and black/white. If the red face is on top, which colour is on the bottom?",
+          "options": [
+            "Green",
+            "Yellow",
+            "Black",
+            "Blue"
+          ],
+          "explanation": "Opposite faces of a cube remain opposite regardless of how the cube is turned. Since red and blue are an opposite pair, blue is on the bottom when red is on top."
+        },
+        "te": {
+          "question": "ఒక ఘనానికి ఎదురెదురుగా ఉన్న ముఖాల జతలు ఎరుపు/నీలం, ఆకుపచ్చ/పసుపు, నలుపు/తెలుపు. ఎరుపు ముఖం పైభాగంలో ఉంటే, కిందివైపు ఏ రంగు ఉంటుంది?",
+          "options": [
+            "ఆకుపచ్చ",
+            "పసుపు",
+            "నలుపు",
+            "నీలం"
+          ],
+          "explanation": "ఘనాన్ని ఎలా తిప్పినా ఎదురెదురు ముఖాలు ఒకదానికొకటి ఎదురుగానే ఉంటాయి. ఎరుపు–నీలం ఎదురెదురు జత కాబట్టి ఎరుపు పైభాగంలో ఉంటే నీలం కిందివైపు ఉంటుంది."
+        }
+      }
+    }
+  ]
+}
