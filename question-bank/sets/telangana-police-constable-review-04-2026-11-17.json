@@ -1,0 +1,364 @@
+{
+  "format": "bodhuno-question-set/v1",
+  "setId": "telangana-police-constable-review-04-2026-11-17",
+  "title": "Telangana Police Constable — Balanced PWT Practice Review Set 04 (17 November 2026)",
+  "version": 1,
+  "workflowStatus": "review",
+  "sourceType": "original_practice",
+  "sourceReference": "10 original Police Constable PWT practice questions sampled across English, Arithmetic, Reasoning, General Science, Indian History, Geography and current affairs. Syllabus alignment: TGPRB PC 2026 PWT, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf English-section stems/options remain in English in both language variants, as required by the notification; Telugu explanations are learning aids. All questions remain review-only and are not registered in the catalogue.",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "languages": [
+    "en",
+    "te"
+  ],
+  "examTags": [
+    "police-constable",
+    "telangana-police-2026",
+    "preliminary-written-test",
+    "balanced-practice",
+    "current-affairs",
+    "review"
+  ],
+  "scoring": {
+    "correctPoints": 1,
+    "incorrectPenalty": 0.2,
+    "unansweredPoints": 0,
+    "ruleLabel": "TGPRB PC 2026 Preliminary Written Test marking rule",
+    "officialExamFormat": "200 questions · 200 marks · 3 hours",
+    "practiceTimerSecondsPerQuestion": 60,
+    "sourceReferences": [
+      "https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf",
+      "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/indefinite-article",
+      "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-statements",
+      "https://www.ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep414.pdf",
+      "https://scert.telangana.gov.in/pdf/publication/ebooks2019/8th%20social%2022-23%20part2%202022-23.pdf",
+      "https://www.ncert.nic.in/textbook/pdf/iess102.pdf",
+      "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/nov/doc_10448_20261112_11530101.pdf"
+    ],
+    "practiceNote": "10 original Police Constable PWT review questions across notified subject areas; not a full mock. English-section stems/options remain English in both language versions. Review-only."
+  },
+  "practiceNote": "10 original Police Constable PWT review questions across notified subject areas; not a full mock. English-section stems/options remain English in both language versions. Review-only.",
+  "questions": [
+    {
+      "id": "pc6-english-article-honest-001",
+      "subject": "English",
+      "topic": "English — Articles and vowel sounds",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English-section practice item. British Council LearnEnglish, “The indefinite article: a and an”: https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/indefinite-article The TGPRB PC 2026 notification keeps English-section questions in English in Telugu/Urdu versions, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Choose the correct article: She is ___ honest officer.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "no article"
+          ],
+          "explanation": "Use “an” before a vowel sound. The h in “honest” is silent, so the word begins with a vowel sound."
+        },
+        "te": {
+          "question": "Choose the correct article: She is ___ honest officer.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "no article"
+          ],
+          "explanation": "“Honest” అనే పదంలో h ఉచ్చరించరు; అది అచ్చుధ్వనితో ప్రారంభమవుతుంది. అచ్చుధ్వని ముందు “an” ఉపయోగించాలి. కాబట్టి సరైన ఎంపిక “an”."
+        }
+      }
+    },
+    {
+      "id": "pc6-english-reported-speech-002",
+      "subject": "English",
+      "topic": "English — Reported speech and tense backshift",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original English-section practice item. British Council LearnEnglish, “Reported speech: statements”: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-statements The TGPRB PC 2026 notification keeps English-section questions in English in Telugu/Urdu versions, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Choose the correct reported form: Ravi said, “I have completed the task.”",
+          "options": [
+            "Ravi said that I have completed the task.",
+            "Ravi said that he had completed the task.",
+            "Ravi says he has completed the task.",
+            "Ravi said that he will complete the task."
+          ],
+          "explanation": "In reported speech after a past reporting verb, the present perfect commonly backshifts to the past perfect; the pronoun “I” changes to “he” because Ravi is the speaker."
+        },
+        "te": {
+          "question": "Choose the correct reported form: Ravi said, “I have completed the task.”",
+          "options": [
+            "Ravi said that I have completed the task.",
+            "Ravi said that he had completed the task.",
+            "Ravi says he has completed the task.",
+            "Ravi said that he will complete the task."
+          ],
+          "explanation": "Reported speechలో గతకాల reporting verb తర్వాత present perfect సాధారణంగా past perfectగా మారుతుంది. Ravi మాట్లాడినందున “I” అనే సర్వనామం “he”గా మారుతుంది. అందువల్ల రెండో వాక్యం సరైనది."
+        }
+      }
+    },
+    {
+      "id": "pc6-arithmetic-smallest-four-digit-divisible-18-003",
+      "subject": "Arithmetic",
+      "topic": "Arithmetic — Number system and divisibility",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original arithmetic practice problem. Syllabus alignment: TGPRB Police Constable 2026 PWT, Annexure II, page 44: https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "What is the smallest four-digit number that is exactly divisible by 18?",
+          "options": [
+            "1002",
+            "1008",
+            "1016",
+            "1026"
+          ],
+          "explanation": "The first multiple of 18 that is at least 1,000 is 18×56 = 1,008. Therefore, 1,008 is the smallest four-digit multiple of 18."
+        },
+        "te": {
+          "question": "18తో పూర్తిగా భాగించబడే అతి చిన్న నాలుగు అంకెల సంఖ్య ఏది?",
+          "options": [
+            "1002",
+            "1008",
+            "1016",
+            "1026"
+          ],
+          "explanation": "1,000 కంటే తక్కువ కాకుండా ఉండే 18 యొక్క మొదటి గుణితం 18×56 = 1,008. కాబట్టి 18తో భాగించబడే అతి చిన్న నాలుగు అంకెల సంఖ్య 1,008."
+        }
+      }
+    },
+    {
+      "id": "pc6-arithmetic-probability-blue-ball-004",
+      "subject": "Arithmetic",
+      "topic": "Arithmetic — Elementary probability",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original elementary-probability practice problem. Syllabus alignment: TGPRB Police Constable 2026 PWT, Annexure II, page 44 (Arithmetic): https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "A bag contains 3 red, 2 blue, and 5 green balls. If one ball is drawn at random, what is the probability that it is blue?",
+          "options": [
+            "1/10",
+            "1/5",
+            "1/4",
+            "1/2"
+          ],
+          "explanation": "There are 10 balls in total and 2 are blue. The probability of drawing a blue ball is 2/10 = 1/5."
+        },
+        "te": {
+          "question": "ఒక సంచిలో 3 ఎరుపు, 2 నీలం, 5 ఆకుపచ్చ బంతులు ఉన్నాయి. యాదృచ్ఛికంగా ఒక బంతిని తీసినప్పుడు అది నీలం రంగులో ఉండే సంభావ్యత ఎంత?",
+          "options": [
+            "1/10",
+            "1/5",
+            "1/4",
+            "1/2"
+          ],
+          "explanation": "మొత్తం బంతులు 10; వాటిలో నీలం బంతులు 2. కాబట్టి నీలం బంతి వచ్చే సంభావ్యత 2/10 = 1/5."
+        }
+      }
+    },
+    {
+      "id": "pc6-reasoning-row-arrangement-005",
+      "subject": "Test of Reasoning / Mental Ability",
+      "topic": "Reasoning — Linear seating arrangement",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original linear-arrangement practice item. Syllabus alignment: TGPRB Police Constable 2026 PWT, Annexure II, page 44 (Test of Reasoning / Mental Ability): https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Four candidates S, P, Q and R sit in a row. S is to the left of P, Q is immediately to the right of P, and R is immediately to the right of Q. Who sits second from the left?",
+          "options": [
+            "S",
+            "P",
+            "Q",
+            "R"
+          ],
+          "explanation": "Q and R must occupy the two seats immediately to the right of P. Since S is also to the left of P, the only possible order is S–P–Q–R. P is second from the left."
+        },
+        "te": {
+          "question": "S, P, Q, R అనే నలుగురు అభ్యర్థులు ఒక వరుసలో కూర్చున్నారు. S, Pకి ఎడమవైపు ఉన్నాడు; Q, Pకి వెంటనే కుడివైపు; R, Qకి వెంటనే కుడివైపు ఉన్నారు. ఎడమవైపు నుంచి రెండో స్థానంలో ఎవరు కూర్చున్నారు?",
+          "options": [
+            "S",
+            "P",
+            "Q",
+            "R"
+          ],
+          "explanation": "Q మరియు R, Pకి వెంటనే కుడివైపున వరుసగా కూర్చోవాలి. S కూడా Pకి ఎడమవైపు ఉండాలి. కాబట్టి ఏకైక క్రమం S–P–Q–R. ఎడమవైపు నుంచి రెండో స్థానంలో P ఉంటాడు."
+        }
+      }
+    },
+    {
+      "id": "pc6-reasoning-venn-two-languages-006",
+      "subject": "Test of Reasoning / Mental Ability",
+      "topic": "Reasoning — Set overlap and Venn diagrams",
+      "difficulty": "medium",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Original set-overlap / Venn-diagram practice problem. Syllabus alignment: TGPRB Police Constable 2026 PWT, Annexure II, page 44 (Test of Reasoning / Mental Ability): https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 1,
+      "languages": {
+        "en": {
+          "question": "Among 40 candidates, 24 know Telugu, 18 know Hindi, and 10 know both languages. How many know neither Telugu nor Hindi?",
+          "options": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "explanation": "The number who know at least one language is 24+18−10 = 32, because the 10 who know both were counted twice. Therefore, 40−32 = 8 know neither."
+        },
+        "te": {
+          "question": "40 మంది అభ్యర్థుల్లో 24 మందికి తెలుగు, 18 మందికి హిందీ తెలుసు. 10 మందికి రెండు భాషలూ తెలుసు. ఈ రెండు భాషల్లో ఏదీ తెలియని వారు ఎంతమంది?",
+          "options": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "explanation": "కనీసం ఒక భాష తెలిసినవారు 24+18−10 = 32. రెండు భాషలూ తెలిసిన 10 మందిని రెండుసార్లు లెక్కించినందున ఒకసారి తీసివేయాలి. కాబట్టి ఏ భాషా తెలియని వారు 40−32 = 8 మంది."
+        }
+      }
+    },
+    {
+      "id": "pc6-science-mitochondria-atp-007",
+      "subject": "General Science",
+      "topic": "General Science — Cell organelles and ATP",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "NCERT Biology Exemplar Problems, Class XI, question 6: https://www.ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep414.pdf Syllabus alignment: TGPRB Police Constable 2026 PWT, Annexure II, page 44 (General Science): https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "Which cell organelle is the main site of aerobic respiration and ATP synthesis?",
+          "options": [
+            "Nucleus",
+            "Ribosome",
+            "Mitochondrion",
+            "Golgi body"
+          ],
+          "explanation": "Mitochondria are the main site of aerobic cellular respiration and synthesise ATP, the cell's usable energy currency."
+        },
+        "te": {
+          "question": "ఏ కణాంగం ప్రధానంగా ఏరోబిక్ శ్వాసక్రియ మరియు ATP ఉత్పత్తి జరిగే ప్రదేశం?",
+          "options": [
+            "కేంద్రకం",
+            "రైబోసోమ్",
+            "మైటోకాండ్రియన్",
+            "గోల్జీ బాడీ"
+          ],
+          "explanation": "మైటోకాండ్రియాలో ప్రధానంగా ఏరోబిక్ కణ శ్వాసక్రియ జరుగుతుంది. ఇది కణానికి ఉపయోగపడే శక్తి రూపమైన ATPను ఉత్పత్తి చేస్తుంది."
+        }
+      }
+    },
+    {
+      "id": "pc6-history-brahma-samaj-founder-008",
+      "subject": "History of India",
+      "topic": "Indian history — Social and religious reform movements",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "Government of Telangana, SCERT Class VIII Social Studies Part 2, “Social and Religious Reform Movements”: https://scert.telangana.gov.in/pdf/publication/ebooks2019/8th%20social%2022-23%20part2%202022-23.pdf Syllabus alignment: TGPRB Police Constable 2026 PWT, Annexure II, page 44 (History of India / Indian culture): https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "Who founded the Brahma Samaj in 1828?",
+          "options": [
+            "Raja Rammohan Roy",
+            "Ishwar Chandra Vidyasagar",
+            "Swami Dayanand Saraswati",
+            "Keshab Chandra Sen"
+          ],
+          "explanation": "The Telangana SCERT Class VIII Social Studies textbook states that Rammohan Roy founded the Brahma Samaj in 1828; the movement later continued under other leaders."
+        },
+        "te": {
+          "question": "1828లో బ్రహ్మ సమాజాన్ని స్థాపించినవారు ఎవరు?",
+          "options": [
+            "రాజా రామమోహన్ రాయ్",
+            "ఈశ్వర్ చంద్ర విద్యాసాగర్",
+            "స్వామి దయానంద సరస్వతి",
+            "కేశవ చంద్ర సేన్"
+          ],
+          "explanation": "తెలంగాణ SCERT 8వ తరగతి సామాజిక శాస్త్ర పాఠ్యపుస్తకం ప్రకారం, 1828లో బ్రహ్మ సమాజాన్ని స్థాపించినవారు రాజా రామమోహన్ రాయ్. తరువాత ఈ ఉద్యమాన్ని ఇతర నాయకులు కొనసాగించారు."
+        }
+      }
+    },
+    {
+      "id": "pc6-geography-coromandel-coast-009",
+      "subject": "Geography",
+      "topic": "Indian geography — Eastern coastal plains",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "NCERT, Contemporary India-II, Chapter 2 “Physical Features of India”, “The Coastal Plains”: https://www.ncert.nic.in/textbook/pdf/iess102.pdf Syllabus alignment: TGPRB Police Constable 2026 PWT, Annexure II, page 44 (Geography): https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 0,
+      "languages": {
+        "en": {
+          "question": "The southern part of the plains along the Bay of Bengal is known by which name?",
+          "options": [
+            "Coromandel Coast",
+            "Konkan Coast",
+            "Malabar Coast",
+            "Kannad Plain"
+          ],
+          "explanation": "NCERT describes the plains along the Bay of Bengal as the eastern coastal plains; their southern part is called the Coromandel Coast."
+        },
+        "te": {
+          "question": "బంగాళాఖాతం వెంట ఉన్న తీర మైదానాల దక్షిణ భాగాన్ని ఏ పేరుతో పిలుస్తారు?",
+          "options": [
+            "కోరమండల్ తీరం",
+            "కొంకణ్ తీరం",
+            "మలబార్ తీరం",
+            "కన్నడ మైదానం"
+          ],
+          "explanation": "బంగాళాఖాతం వెంట ఉన్న మైదానాలు తూర్పు తీర మైదానాలు. వాటి దక్షిణ భాగాన్ని కోరమండల్ తీరం అని NCERT పేర్కొంటుంది."
+        }
+      }
+    },
+    {
+      "id": "pc6-current-onorc-36-states-010",
+      "subject": "General Studies",
+      "topic": "Current events — One Nation One Ration Card",
+      "difficulty": "easy",
+      "status": "review",
+      "sourceType": "original_practice",
+      "sourceReference": "PIB Government of India backgrounder dated 12 November 2026, “From Portability to Access: One Nation One Ration Card”: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/nov/doc_10448_20261112_11530101.pdf Syllabus alignment: TGPRB Police Constable 2026 PWT, Annexure II, page 44 (Current events / Indian Polity and Economy): https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf. Not an official previous-year question.",
+      "correctOptionIndex": 2,
+      "languages": {
+        "en": {
+          "question": "According to the PIB backgrounder dated 12 November 2026, One Nation One Ration Card (ONORC) had been implemented across how many States and Union Territories?",
+          "options": [
+            "28",
+            "32",
+            "36",
+            "38"
+          ],
+          "explanation": "The PIB backgrounder dated 12 November 2026 states that ONORC had been implemented across all 36 States/UTs, covering 100% of PMGKAY beneficiaries."
+        },
+        "te": {
+          "question": "2026 నవంబర్ 12న విడుదలైన PIB నేపథ్య పత్రం ప్రకారం, వన్ నేషన్ వన్ రేషన్ కార్డ్ (ONORC) ఎన్ని రాష్ట్రాలు మరియు కేంద్రపాలిత ప్రాంతాల్లో అమలులో ఉంది?",
+          "options": [
+            "28",
+            "32",
+            "36",
+            "38"
+          ],
+          "explanation": "2026 నవంబర్ 12న విడుదలైన PIB నేపథ్య పత్రం ప్రకారం, ONORC మొత్తం 36 రాష్ట్రాలు/కేంద్రపాలిత ప్రాంతాల్లో అమలులో ఉంది. దీని పరిధిలో PMGKAY లబ్ధిదారులందరూ ఉన్నారు."
+        }
+      }
+    }
+  ]
+}
